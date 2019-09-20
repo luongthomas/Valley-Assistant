@@ -15,12 +15,13 @@ struct RKCell: View {
     
     var body: some View {
         Text(rkDate.getText())
-            .fontWeight(rkDate.getFontWeight())
-            .foregroundColor(rkDate.getTextColor())
-            .frame(width: cellWidth, height: cellWidth)
-            .font(.system(size: 20))
-            .background(rkDate.getBackgroundColor())
-//            .cornerRadius(cellWidth/2)
+        .fontWeight(rkDate.getFontWeight())
+        .foregroundColor(rkDate.getTextColor())
+        .frame(width: cellWidth, height: cellWidth, alignment: .topLeading)
+        .font(.system(size: 15))
+        .background(rkDate.getBackgroundColor())
+//        .padding(.top, 5)
+//        .padding(.leading, 5)
     }
 }
 

@@ -22,6 +22,7 @@
 		714043C62334962500C070D3 /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C52334962500C070D3 /* RKViewController.swift */; };
 		714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C72334964500C070D3 /* RKWeekdayHeader.swift */; };
 		714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C923349CAC00C070D3 /* ColorSettings.swift */; };
+		714043CC23359A3300C070D3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043CB23359A3300C070D3 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		714043C52334962500C070D3 /* RKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
 		714043C72334964500C070D3 /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
 		714043C923349CAC00C070D3 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
+		714043CB23359A3300C070D3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				714043A523348BEE00C070D3 /* SceneDelegate.swift */,
 				714043AA23348BEE00C070D3 /* ContentView.swift */,
 				714043BA233490FE00C070D3 /* HomeView.swift */,
+				714043CB23359A3300C070D3 /* CalendarView.swift */,
 				714043AC23348BEF00C070D3 /* Assets.xcassets */,
 				714043B123348BEF00C070D3 /* LaunchScreen.storyboard */,
 				714043B423348BEF00C070D3 /* Info.plist */,
@@ -187,6 +190,7 @@
 				714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
+				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,

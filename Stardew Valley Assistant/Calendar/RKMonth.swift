@@ -25,7 +25,8 @@ struct RKMonth: View {
     
     var body: some View {
         VStack {
-            Text(getMonthHeader()).foregroundColor(self.rkManager.colors.monthHeaderColor)
+            RKWeekdayHeader(rkManager: self.rkManager).frame(width: cellWidth * 8)
+//            Text(getMonthHeader()).foregroundColor(self.rkManager.colors.monthHeaderColor)
             VStack {
                 ForEach(monthsArray, id: \.self) { row in
                     HStack() {
@@ -40,10 +41,12 @@ struct RKMonth: View {
                                     isSelected: self.isSpecialDate(date: column),
                                     isBetweenStartAndEnd: self.isBetweenStartAndEnd(date: column)),
                                     cellWidth: self.cellWidth)
+                                    .border(Color.gray, width: 1)
                                     .onTapGesture {
                                         self.dateTapped(date: column)
                                         print("\(column)")
                                     })
+                                    
                                 :
                                 AnyView(Text("").frame(width: self.cellWidth, height: self.cellWidth))
                         }
