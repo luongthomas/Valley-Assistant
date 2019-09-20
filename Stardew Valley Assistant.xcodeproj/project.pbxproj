@@ -14,6 +14,14 @@
 		714043AD23348BEF00C070D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714043AC23348BEF00C070D3 /* Assets.xcassets */; };
 		714043B023348BEF00C070D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714043AF23348BEF00C070D3 /* Preview Assets.xcassets */; };
 		714043B323348BEF00C070D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714043B123348BEF00C070D3 /* LaunchScreen.storyboard */; };
+		714043BB233490FE00C070D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043BA233490FE00C070D3 /* HomeView.swift */; };
+		714043BE2334955C00C070D3 /* RKCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043BD2334955C00C070D3 /* RKCell.swift */; };
+		714043C02334958B00C070D3 /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043BF2334958B00C070D3 /* RKDate.swift */; };
+		714043C2233495E400C070D3 /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C1233495E400C070D3 /* RKManager.swift */; };
+		714043C42334960400C070D3 /* RKMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C32334960400C070D3 /* RKMonth.swift */; };
+		714043C62334962500C070D3 /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C52334962500C070D3 /* RKViewController.swift */; };
+		714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C72334964500C070D3 /* RKWeekdayHeader.swift */; };
+		714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C923349CAC00C070D3 /* ColorSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,14 @@
 		714043AF23348BEF00C070D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		714043B223348BEF00C070D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		714043B423348BEF00C070D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714043BA233490FE00C070D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		714043BD2334955C00C070D3 /* RKCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKCell.swift; sourceTree = "<group>"; };
+		714043BF2334958B00C070D3 /* RKDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKDate.swift; sourceTree = "<group>"; };
+		714043C1233495E400C070D3 /* RKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
+		714043C32334960400C070D3 /* RKMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKMonth.swift; sourceTree = "<group>"; };
+		714043C52334962500C070D3 /* RKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
+		714043C72334964500C070D3 /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
+		714043C923349CAC00C070D3 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +74,11 @@
 		714043A223348BEE00C070D3 /* Stardew Valley Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				714043BC2334954C00C070D3 /* Calendar */,
 				714043A323348BEE00C070D3 /* AppDelegate.swift */,
 				714043A523348BEE00C070D3 /* SceneDelegate.swift */,
 				714043AA23348BEE00C070D3 /* ContentView.swift */,
+				714043BA233490FE00C070D3 /* HomeView.swift */,
 				714043AC23348BEF00C070D3 /* Assets.xcassets */,
 				714043B123348BEF00C070D3 /* LaunchScreen.storyboard */,
 				714043B423348BEF00C070D3 /* Info.plist */,
@@ -76,6 +94,20 @@
 				714043AF23348BEF00C070D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		714043BC2334954C00C070D3 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				714043BD2334955C00C070D3 /* RKCell.swift */,
+				714043C923349CAC00C070D3 /* ColorSettings.swift */,
+				714043BF2334958B00C070D3 /* RKDate.swift */,
+				714043C1233495E400C070D3 /* RKManager.swift */,
+				714043C32334960400C070D3 /* RKMonth.swift */,
+				714043C52334962500C070D3 /* RKViewController.swift */,
+				714043C72334964500C070D3 /* RKWeekdayHeader.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +182,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
+				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
+				714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */,
 				714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */,
+				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
+				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
+				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
+				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
+				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
+				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
