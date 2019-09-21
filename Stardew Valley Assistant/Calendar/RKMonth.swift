@@ -21,7 +21,7 @@ struct RKMonth: View {
     var monthsArray: [[Date]] {
         monthArray()
     }
-    let cellWidth = CGFloat(UIScreen.main.bounds.width/8)
+    let cellWidth = CGFloat(UIScreen.main.bounds.width/9)
     
     var body: some View {
         VStack {
@@ -240,7 +240,7 @@ struct RKMonth: View {
 #if DEBUG
 struct RKMonth_Previews : PreviewProvider {
     static var previews: some View {
-        RKMonth(isPresented: .constant(false),rkManager: RKManager(calendar: Calendar.current, minimumDate: Date(), maximumDate: Date().addingTimeInterval(60*60*24*365), mode: 0), monthOffset: 0)
+        RKMonth(isPresented: .constant(false),rkManager: RKManager(calendar: Calendar.current, minimumDate: Date(timeIntervalSince1970: 1801468800) , maximumDate: .distantFuture, mode: 0), monthOffset: 0)
     }
 }
 #endif
