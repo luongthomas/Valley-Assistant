@@ -21,15 +21,15 @@ struct RKMonth: View {
     var monthsArray: [[Date]] {
         monthArray()
     }
-    let cellWidth = CGFloat(UIScreen.main.bounds.width/9)
+    let cellWidth = CGFloat(UIScreen.main.bounds.width/8)
     
     var body: some View {
         VStack {
-            RKWeekdayHeader(rkManager: self.rkManager).frame(width: cellWidth * 8)
+            RKWeekdayHeader(rkManager: self.rkManager)
 //            Text(getMonthHeader()).foregroundColor(self.rkManager.colors.monthHeaderColor)
             VStack {
                 ForEach(monthsArray, id: \.self) { row in
-                    HStack() {
+                    HStack(spacing: 0) {
                         ForEach(row, id: \.self) { column in
                             self.isThisMonth(date: column)
                                 ?
