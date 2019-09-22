@@ -9,7 +9,11 @@
 import SwiftUI
 
 struct CalendarView: View {
+    @State private var selectedSeason = 0
+    
     let rkManager: RKManager
+    
+    var seasons = ["Spring", "Summer", "Fall", "Winter"]
     
     init(rkManager: RKManager) {
         self.rkManager = rkManager
@@ -19,6 +23,11 @@ struct CalendarView: View {
         VStack {
             Text("Spring 1").font(.largeTitle)
             
+            Picker(selection: $selectedSeason, label: EmptyView()) {
+                ForEach(0..<seasons.count) { index in
+                    Text(self.seasons[index]).tag(index)
+                }
+            }.pickerStyle(SegmentedPickerStyle())
             RKMonth(isPresented: .constant(false),rkManager: self.rkManager, monthOffset: 0)
             Spacer()
         }

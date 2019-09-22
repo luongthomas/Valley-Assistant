@@ -23,6 +23,7 @@
 		714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C72334964500C070D3 /* RKWeekdayHeader.swift */; };
 		714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C923349CAC00C070D3 /* ColorSettings.swift */; };
 		714043CC23359A3300C070D3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043CB23359A3300C070D3 /* CalendarView.swift */; };
+		714043D0233748F900C070D3 /* VillagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043CF233748F900C070D3 /* VillagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		714043C72334964500C070D3 /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
 		714043C923349CAC00C070D3 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
 		714043CB23359A3300C070D3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		714043CF233748F900C070D3 /* VillagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,8 @@
 				714043BC2334954C00C070D3 /* Calendar */,
 				714043A323348BEE00C070D3 /* AppDelegate.swift */,
 				714043A523348BEE00C070D3 /* SceneDelegate.swift */,
-				714043AA23348BEE00C070D3 /* ContentView.swift */,
-				714043BA233490FE00C070D3 /* HomeView.swift */,
-				714043CB23359A3300C070D3 /* CalendarView.swift */,
+				714043CE2335A56700C070D3 /* Models */,
+				714043CD2335A49B00C070D3 /* Views */,
 				714043AC23348BEF00C070D3 /* Assets.xcassets */,
 				714043B123348BEF00C070D3 /* LaunchScreen.storyboard */,
 				714043B423348BEF00C070D3 /* Info.plist */,
@@ -111,6 +112,24 @@
 				714043C72334964500C070D3 /* RKWeekdayHeader.swift */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		714043CD2335A49B00C070D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				714043AA23348BEE00C070D3 /* ContentView.swift */,
+				714043BA233490FE00C070D3 /* HomeView.swift */,
+				714043CB23359A3300C070D3 /* CalendarView.swift */,
+				714043CF233748F900C070D3 /* VillagerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		714043CE2335A56700C070D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +211,7 @@
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
+				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
