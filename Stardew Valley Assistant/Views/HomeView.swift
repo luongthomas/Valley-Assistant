@@ -10,7 +10,7 @@ import SwiftUI
 
 struct HomeView: View {
     @State var isPresented = false
-    
+    @State var selectedDay = 1
     let rkManager: RKManager
     
     init() {
@@ -77,7 +77,7 @@ private extension HomeView {
             .resizable()
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
-        }).popover(isPresented: $isPresented) {
+        }).sheet(isPresented: $isPresented) {
             CalendarView(rkManager: self.rkManager)
         }
     }

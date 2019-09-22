@@ -133,12 +133,6 @@ struct RKMonth: View {
         return (rangeOfWeeks?.count)! * daysPerWeek
     }
     
-//    func firstOfWeekForOffset() -> Date {
-//        var offset = DateComponents()
-//        offset.day = 1
-//        return rkManager.calendar.date(byAdding: offset, to: RKFirstDateMonth())!
-//    }
-    
     func firstOfMonthForOffset() -> Date {
         var offset = DateComponents()
         offset.day = monthOffset

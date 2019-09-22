@@ -17,11 +17,16 @@ struct CalendarView: View {
     
     init(rkManager: RKManager) {
         self.rkManager = rkManager
+        
+        let calendar = Calendar.current
+        let components = calendar.dateComponents([.day], from: rkManager.selectedDate)
+        let day = components.day
     }
     
+
     var body: some View {
         VStack {
-            Text("Spring 1").font(.largeTitle)
+            Text("\(seasons[selectedSeason])").font(.largeTitle)
             
             Picker(selection: $selectedSeason, label: EmptyView()) {
                 ForEach(0..<seasons.count) { index in
@@ -30,6 +35,6 @@ struct CalendarView: View {
             }.pickerStyle(SegmentedPickerStyle())
             RKMonth(isPresented: .constant(false),rkManager: self.rkManager, monthOffset: 0)
             Spacer()
-        }
+        }.padding()
     }
 }
