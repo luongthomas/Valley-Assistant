@@ -18,7 +18,7 @@ struct ContentView: View {
                 Text("Home")
                 
             }.tag(1)
-            Text("Villagers").tabItem {
+            VillagerView().tabItem {
                 Image(systemName: "person")
                 Text("Villagers")
             }.tag(2)
