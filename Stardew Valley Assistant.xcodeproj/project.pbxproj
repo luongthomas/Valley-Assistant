@@ -34,6 +34,13 @@
 		714043E3233945F600C070D3 /* BundleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E2233945F600C070D3 /* BundleMenu.swift */; };
 		714043E52339609D00C070D3 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E42339609D00C070D3 /* ItemsView.swift */; };
 		714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E6233960AB00C070D3 /* BuildingsView.swift */; };
+		714043E92339675F00C070D3 /* AllItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E82339675F00C070D3 /* AllItemsView.swift */; };
+		714043EB23398C5A00C070D3 /* CraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EA23398C5A00C070D3 /* CraftingView.swift */; };
+		714043ED23398C6200C070D3 /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EC23398C6200C070D3 /* FishView.swift */; };
+		714043EF23398C6800C070D3 /* CropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EE23398C6800C070D3 /* CropsView.swift */; };
+		714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F023398C6F00C070D3 /* WeaponsView.swift */; };
+		714043F323398C7400C070D3 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F223398C7400C070D3 /* RecipesView.swift */; };
+		714043F523398C7D00C070D3 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F423398C7D00C070D3 /* ToolsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +73,13 @@
 		714043E2233945F600C070D3 /* BundleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleMenu.swift; sourceTree = "<group>"; };
 		714043E42339609D00C070D3 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
 		714043E6233960AB00C070D3 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
+		714043E82339675F00C070D3 /* AllItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllItemsView.swift; sourceTree = "<group>"; };
+		714043EA23398C5A00C070D3 /* CraftingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftingView.swift; sourceTree = "<group>"; };
+		714043EC23398C6200C070D3 /* FishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
+		714043EE23398C6800C070D3 /* CropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsView.swift; sourceTree = "<group>"; };
+		714043F023398C6F00C070D3 /* WeaponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsView.swift; sourceTree = "<group>"; };
+		714043F223398C7400C070D3 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		714043F423398C7D00C070D3 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +161,14 @@
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
 				714043E42339609D00C070D3 /* ItemsView.swift */,
+				714043F423398C7D00C070D3 /* ToolsView.swift */,
+				714043F023398C6F00C070D3 /* WeaponsView.swift */,
+				714043F223398C7400C070D3 /* RecipesView.swift */,
+				714043EC23398C6200C070D3 /* FishView.swift */,
+				714043EE23398C6800C070D3 /* CropsView.swift */,
+				714043EA23398C5A00C070D3 /* CraftingView.swift */,
 				714043E6233960AB00C070D3 /* BuildingsView.swift */,
+				714043E82339675F00C070D3 /* AllItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714043ED23398C6200C070D3 /* FishView.swift in Sources */,
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
 				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
 				714043D52338437000C070D3 /* Villager.swift in Sources */,
@@ -250,9 +272,11 @@
 				714043D72338457E00C070D3 /* Item.swift in Sources */,
 				714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */,
 				714043E12339430600C070D3 /* collapse.swift in Sources */,
+				714043EF23398C6800C070D3 /* CropsView.swift in Sources */,
 				714043E3233945F600C070D3 /* BundleMenu.swift in Sources */,
 				714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
+				714043F323398C7400C070D3 /* RecipesView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
@@ -260,9 +284,13 @@
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
+				714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
+				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,
+				714043F523398C7D00C070D3 /* ToolsView.swift in Sources */,
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
+				714043EB23398C5A00C070D3 /* CraftingView.swift in Sources */,
 				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
 			);
