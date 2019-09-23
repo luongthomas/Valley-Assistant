@@ -22,7 +22,7 @@ struct ContentView: View {
                 Image(systemName: "person")
                 Text("Villagers")
             }.tag(2)
-            Text("Bundles").tabItem {
+            BundleView().tabItem {
                 Image(systemName: "square.on.square")
                 Text("Bundles")
             }.tag(3)

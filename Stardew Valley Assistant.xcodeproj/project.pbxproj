@@ -29,6 +29,7 @@
 		714043D72338457E00C070D3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043D62338457E00C070D3 /* Item.swift */; };
 		714043D92338567400C070D3 /* VillagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043D82338567400C070D3 /* VillagerData.swift */; };
 		714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043DA2339344600C070D3 /* VillagerDetail.swift */; };
+		714043DD23393A7A00C070D3 /* BundleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043DC23393A7A00C070D3 /* BundleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		714043D62338457E00C070D3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		714043D82338567400C070D3 /* VillagerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerData.swift; sourceTree = "<group>"; };
 		714043DA2339344600C070D3 /* VillagerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetail.swift; sourceTree = "<group>"; };
+		714043DC23393A7A00C070D3 /* BundleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				714043CB23359A3300C070D3 /* CalendarView.swift */,
 				714043CF233748F900C070D3 /* VillagerView.swift */,
 				714043DA2339344600C070D3 /* VillagerDetail.swift */,
+				714043DC23393A7A00C070D3 /* BundleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
+				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
 				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
