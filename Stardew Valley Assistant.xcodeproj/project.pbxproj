@@ -41,6 +41,11 @@
 		714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F023398C6F00C070D3 /* WeaponsView.swift */; };
 		714043F323398C7400C070D3 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F223398C7400C070D3 /* RecipesView.swift */; };
 		714043F523398C7D00C070D3 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F423398C7D00C070D3 /* ToolsView.swift */; };
+		714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F82339910A00C070D3 /* AllBuildingsView.swift */; };
+		714043FB2339911600C070D3 /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FA2339911600C070D3 /* ShopsView.swift */; };
+		714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FC2339912600C070D3 /* FarmUpgradesView.swift */; };
+		714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FE2339913700C070D3 /* HouseUpgradesView.swift */; };
+		714044032339915900C070D3 /* CommunityCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714044022339915900C070D3 /* CommunityCenterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +85,11 @@
 		714043F023398C6F00C070D3 /* WeaponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsView.swift; sourceTree = "<group>"; };
 		714043F223398C7400C070D3 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		714043F423398C7D00C070D3 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		714043F82339910A00C070D3 /* AllBuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBuildingsView.swift; sourceTree = "<group>"; };
+		714043FA2339911600C070D3 /* ShopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
+		714043FC2339912600C070D3 /* FarmUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmUpgradesView.swift; sourceTree = "<group>"; };
+		714043FE2339913700C070D3 /* HouseUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseUpgradesView.swift; sourceTree = "<group>"; };
+		714044022339915900C070D3 /* CommunityCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCenterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +171,7 @@
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
 				714043F62339901000C070D3 /* ItemsPage */,
-				714043E6233960AB00C070D3 /* BuildingsView.swift */,
+				714043F7233990C400C070D3 /* BuildingsPage */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,9 +197,9 @@
 		714043F62339901000C070D3 /* ItemsPage */ = {
 			isa = PBXGroup;
 			children = (
+				714043E42339609D00C070D3 /* ItemsView.swift */,
 				714043E82339675F00C070D3 /* AllItemsView.swift */,
 				714043EA23398C5A00C070D3 /* CraftingView.swift */,
-				714043E42339609D00C070D3 /* ItemsView.swift */,
 				714043EC23398C6200C070D3 /* FishView.swift */,
 				714043F423398C7D00C070D3 /* ToolsView.swift */,
 				714043EE23398C6800C070D3 /* CropsView.swift */,
@@ -197,6 +207,19 @@
 				714043F023398C6F00C070D3 /* WeaponsView.swift */,
 			);
 			path = ItemsPage;
+			sourceTree = "<group>";
+		};
+		714043F7233990C400C070D3 /* BuildingsPage */ = {
+			isa = PBXGroup;
+			children = (
+				714043E6233960AB00C070D3 /* BuildingsView.swift */,
+				714043F82339910A00C070D3 /* AllBuildingsView.swift */,
+				714043FA2339911600C070D3 /* ShopsView.swift */,
+				714043FC2339912600C070D3 /* FarmUpgradesView.swift */,
+				714043FE2339913700C070D3 /* HouseUpgradesView.swift */,
+				714044022339915900C070D3 /* CommunityCenterView.swift */,
+			);
+			path = BuildingsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */,
 				714043ED23398C6200C070D3 /* FishView.swift in Sources */,
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
 				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
@@ -286,12 +310,16 @@
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				714043F323398C7400C070D3 /* RecipesView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
+				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
+				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
+				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
+				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
 				714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
 				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,

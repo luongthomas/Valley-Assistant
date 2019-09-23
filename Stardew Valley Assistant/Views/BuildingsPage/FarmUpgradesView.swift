@@ -1,5 +1,5 @@
 //
-//  BuildingsView.swift
+//  FarmUpgradesView.swift
 //  Stardew Valley Assistant
 //
 //  Created by Thomas Luong on 9/23/19.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct BuildingsView: View {
+struct FarmUpgradesView: View {
     var body: some View {
-        Text("Buildings View")
+        Text("Farm Upgrades")
     }
 }
 
-struct BuildingsView_Previews: PreviewProvider {
+struct FarmUpgradesView_Previews: PreviewProvider {
     static var previews: some View {
-        BuildingsView()
+        FarmUpgradesView()
     }
 }
