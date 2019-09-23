@@ -22,7 +22,7 @@ struct BuildingsView: View {
                     }
                 }
             }
-            .navigationBarTitle("Items")
+            .navigationBarTitle("Buildings")
         }.padding()
     }
     
