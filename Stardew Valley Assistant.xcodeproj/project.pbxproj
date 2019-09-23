@@ -160,15 +160,8 @@
 				714043DC23393A7A00C070D3 /* BundleView.swift */,
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
-				714043E42339609D00C070D3 /* ItemsView.swift */,
-				714043F423398C7D00C070D3 /* ToolsView.swift */,
-				714043F023398C6F00C070D3 /* WeaponsView.swift */,
-				714043F223398C7400C070D3 /* RecipesView.swift */,
-				714043EC23398C6200C070D3 /* FishView.swift */,
-				714043EE23398C6800C070D3 /* CropsView.swift */,
-				714043EA23398C5A00C070D3 /* CraftingView.swift */,
+				714043F62339901000C070D3 /* ItemsPage */,
 				714043E6233960AB00C070D3 /* BuildingsView.swift */,
-				714043E82339675F00C070D3 /* AllItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +182,21 @@
 				714043D22338432000C070D3 /* villagers.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		714043F62339901000C070D3 /* ItemsPage */ = {
+			isa = PBXGroup;
+			children = (
+				714043E82339675F00C070D3 /* AllItemsView.swift */,
+				714043EA23398C5A00C070D3 /* CraftingView.swift */,
+				714043E42339609D00C070D3 /* ItemsView.swift */,
+				714043EC23398C6200C070D3 /* FishView.swift */,
+				714043F423398C7D00C070D3 /* ToolsView.swift */,
+				714043EE23398C6800C070D3 /* CropsView.swift */,
+				714043F223398C7400C070D3 /* RecipesView.swift */,
+				714043F023398C6F00C070D3 /* WeaponsView.swift */,
+			);
+			path = ItemsPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
