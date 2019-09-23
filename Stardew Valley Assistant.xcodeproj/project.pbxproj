@@ -30,6 +30,10 @@
 		714043D92338567400C070D3 /* VillagerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043D82338567400C070D3 /* VillagerData.swift */; };
 		714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043DA2339344600C070D3 /* VillagerDetail.swift */; };
 		714043DD23393A7A00C070D3 /* BundleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043DC23393A7A00C070D3 /* BundleView.swift */; };
+		714043E12339430600C070D3 /* collapse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E02339430600C070D3 /* collapse.swift */; };
+		714043E3233945F600C070D3 /* BundleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E2233945F600C070D3 /* BundleMenu.swift */; };
+		714043E52339609D00C070D3 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E42339609D00C070D3 /* ItemsView.swift */; };
+		714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E6233960AB00C070D3 /* BuildingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +62,10 @@
 		714043D82338567400C070D3 /* VillagerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerData.swift; sourceTree = "<group>"; };
 		714043DA2339344600C070D3 /* VillagerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetail.swift; sourceTree = "<group>"; };
 		714043DC23393A7A00C070D3 /* BundleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleView.swift; sourceTree = "<group>"; };
+		714043E02339430600C070D3 /* collapse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collapse.swift; sourceTree = "<group>"; };
+		714043E2233945F600C070D3 /* BundleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleMenu.swift; sourceTree = "<group>"; };
+		714043E42339609D00C070D3 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		714043E6233960AB00C070D3 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,10 @@
 				714043CF233748F900C070D3 /* VillagerView.swift */,
 				714043DA2339344600C070D3 /* VillagerDetail.swift */,
 				714043DC23393A7A00C070D3 /* BundleView.swift */,
+				714043E02339430600C070D3 /* collapse.swift */,
+				714043E2233945F600C070D3 /* BundleMenu.swift */,
+				714043E42339609D00C070D3 /* ItemsView.swift */,
+				714043E6233960AB00C070D3 /* BuildingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,13 +245,17 @@
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
 				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
 				714043D52338437000C070D3 /* Villager.swift in Sources */,
+				714043E52339609D00C070D3 /* ItemsView.swift in Sources */,
 				714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */,
 				714043D72338457E00C070D3 /* Item.swift in Sources */,
 				714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */,
+				714043E12339430600C070D3 /* collapse.swift in Sources */,
+				714043E3233945F600C070D3 /* BundleMenu.swift in Sources */,
 				714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
+				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,

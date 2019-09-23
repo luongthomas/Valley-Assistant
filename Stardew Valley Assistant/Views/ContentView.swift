@@ -14,21 +14,21 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $selection) {
             HomeView().tabItem {
-                Image(systemName: "house")
-                Text("Home")
+                Image(systemName: "calendar")
+                Text("Calendar")
                 
             }.tag(1)
             VillagerView().tabItem {
                 Image(systemName: "person")
                 Text("Villagers")
             }.tag(2)
-            BundleView().tabItem {
+            ItemsView().tabItem {
                 Image(systemName: "square.on.square")
-                Text("Bundles")
+                Text("Items")
             }.tag(3)
-            Text("Museum").tabItem {
-                Image(systemName: "book")
-                Text("Museum")
+            BuildingsView().tabItem {
+                Image(systemName: "house")
+                Text("Buildings")
             }.tag(4)
         }
     }
