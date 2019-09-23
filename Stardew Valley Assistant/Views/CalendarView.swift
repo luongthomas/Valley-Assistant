@@ -18,9 +18,9 @@ struct CalendarView: View {
     init(rkManager: RKManager) {
         self.rkManager = rkManager
         
-        let calendar = Calendar.current
-        let components = calendar.dateComponents([.day], from: rkManager.selectedDate)
-        let day = components.day
+//        let calendar = Calendar.current
+//        let components = calendar.dateComponents([.day], from: rkManager.selectedDate)
+//        let day = components.day
     }
     
 
