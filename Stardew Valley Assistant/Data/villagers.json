@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Emily",
+    "id": 3,
+    "birthday": {
+      "season": "Spring",
+      "day": 1
+    },
+    "address": "WillowLane",
+    "loves": [
+      "Emerald",
+      "Aquamarine"
+    ],
+    "likes": [
+      "Daffodil"
+    ],
+    "dislikes": [
+      "Poppy"
+    ]
+  },
+  {
+    "name": "Josh",
+    "id": 1,
+    "birthday": {
+      "season": "Spring",
+      "day": 1
+    },
+    "address": "WillowLane",
+    "loves": [
+      "Emerald",
+      "Aquamarine"
+    ],
+    "likes": [
+      "Daffodil"
+    ],
+    "dislikes": [
+      "Poppy"
+    ]
+  },
+  {
+    "name": "Jake",
+    "id": 2,
+    "birthday": {
+      "season": "Spring",
+      "day": 1
+    },
+    "address": "WillowLane",
+    "loves": [
+      "Emerald",
+      "Aquamarine"
+    ],
+    "likes": [
+      "Daffodil"
+    ],
+    "dislikes": [
+      "Poppy"
+    ]
+  }
+]
