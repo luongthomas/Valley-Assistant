@@ -38,24 +38,10 @@ class Item: Codable {
     }
 }
 
-class Crop {
-    
-}
-
 enum ItemName: String, Codable {
     case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette
 }
 
 enum ItemType: String, Codable {
     case all, tools, food, minerals, fish, crops, weapons, crafting
-}
-
-extension KeyedDecodingContainer {
-    public func decode<T: Decodable>(_ key: Key, as type: T.Type = T.self) throws -> T {
-        return try self.decode(T.self, forKey: key)
-    }
-
-    public func decodeIfPresent<T: Decodable>(_ key: KeyedDecodingContainer.Key) throws -> T? {
-        return try decodeIfPresent(T.self, forKey: key)
-    }
 }

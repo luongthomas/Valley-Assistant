@@ -46,6 +46,7 @@
 		715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407FC233AB07F0019FB8E /* String+CamelCaps.swift */; };
 		71540800233AB93C0019FB8E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407FF233AB93C0019FB8E /* SearchBar.swift */; };
 		71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540801233ACC990019FB8E /* ItemTypeList.swift */; };
+		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		715407FC233AB07F0019FB8E /* String+CamelCaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CamelCaps.swift"; sourceTree = "<group>"; };
 		715407FF233AB93C0019FB8E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		71540801233ACC990019FB8E /* ItemTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypeList.swift; sourceTree = "<group>"; };
+		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				715407FC233AB07F0019FB8E /* String+CamelCaps.swift */,
+				71540803233AD0180019FB8E /* Decoder.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				71404407233A941B00C070D3 /* ItemData.swift in Sources */,
+				71540804233AD0180019FB8E /* Decoder.swift in Sources */,
 				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
 				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,
