@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct ItemDetailView: View {
-    var item: BasicItem
+    var item: Item
     var villagersThatLike: [String]
     
-    init(item: BasicItem) {
+    init(item: Item) {
         self.item = item
         self.villagersThatLike = villagers.compactMap({ villager in
-            if villager.likes.contains(Item(rawValue: item.name)!) {    // Convert to enum and check if "likes" contains it
+            if villager.likes.contains(ItemName(rawValue: item.name)!) {    // Convert to enum and check if "likes" contains it
                 return villager.name
             } else {
                 return nil
@@ -39,13 +39,5 @@ struct ItemDetailView: View {
             
             .navigationBarTitle("\(item.name)")
         }
-    }
-}
-
-struct ItemDetailView_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        
-        ItemDetailView(item: BasicItem(id: 0, name: "Rock", type: .mineral, value: 100, source: "Store", description: "A hard mineral."))
     }
 }

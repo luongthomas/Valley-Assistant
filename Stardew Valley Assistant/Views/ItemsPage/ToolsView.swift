@@ -27,7 +27,7 @@ struct ToolsView: View {
         }
     }
     
-    private func validElement(item: BasicItem) -> Bool {
+    private func validElement(item: Item) -> Bool {
         let containsSubString = self.searchTerm.isEmpty ? true : item.name.localizedCaseInsensitiveContains(self.searchTerm)
         
         if containsSubString && item.type == .tool {

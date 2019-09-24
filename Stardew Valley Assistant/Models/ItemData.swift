@@ -9,13 +9,13 @@
 import Foundation
 
 struct ItemData {
-    var items = [BasicItem]()
+    var items = [Item]()
     
     init() {
         let url = Bundle.main.url(forResource: "items", withExtension: ".json")!
         do {
             let json = try Data(contentsOf: url)
-            self.items = try JSONDecoder().decode([BasicItem].self, from: json)
+            self.items = try JSONDecoder().decode([Item].self, from: json)
         } catch {
             print(error)
         }

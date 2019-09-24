@@ -13,15 +13,15 @@ struct Villager: Codable {
     var id: Int
     var birthday: Day
     var address: Location
-    var loves: [Item]
-    var likes: [Item]
-    var dislikes: [Item]
+    var loves: [ItemName]
+    var likes: [ItemName]
+    var dislikes: [ItemName]
     
     enum CodingKeys: CodingKey {
         case name, id, birthday, address, loves, likes, dislikes
     }
     
-    init(name: String, id: Int, birthday: Day, address: Location, loves: [Item], likes: [Item], dislikes: [Item]) {
+    init(name: String, id: Int, birthday: Day, address: Location, loves: [ItemName], likes: [ItemName], dislikes: [ItemName]) {
         self.name = name
         self.id = id
         self.birthday = birthday
