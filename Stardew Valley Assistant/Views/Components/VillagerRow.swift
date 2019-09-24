@@ -13,7 +13,7 @@ struct VillagerRow: View {
 
     var body: some View {
         HStack {
-            NavigationLink(destination: VillagerDetail(villager: villager)) {
+            NavigationLink(destination: VillagerDetailView(villager: villager)) {
                 Text(villager.name)
             }
         }

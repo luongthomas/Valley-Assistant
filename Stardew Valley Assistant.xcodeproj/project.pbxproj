@@ -173,11 +173,10 @@
 				714043AA23348BEE00C070D3 /* ContentView.swift */,
 				714043BA233490FE00C070D3 /* HomeView.swift */,
 				714043CB23359A3300C070D3 /* CalendarView.swift */,
-				714043CF233748F900C070D3 /* VillagerView.swift */,
-				714043DA2339344600C070D3 /* VillagerDetail.swift */,
 				714043DC23393A7A00C070D3 /* BundleView.swift */,
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
+				71540809233AE3260019FB8E /* VillagersPage */,
 				714043F62339901000C070D3 /* ItemsPage */,
 				714043F7233990C400C070D3 /* BuildingsPage */,
 			);
@@ -245,6 +244,15 @@
 				71540807233ADFA90019FB8E /* ItemRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		71540809233AE3260019FB8E /* VillagersPage */ = {
+			isa = PBXGroup;
+			children = (
+				714043CF233748F900C070D3 /* VillagerView.swift */,
+				714043DA2339344600C070D3 /* VillagerDetail.swift */,
+			);
+			path = VillagersPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

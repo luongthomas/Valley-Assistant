@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct VillagerDetail: View {
+struct VillagerDetailView: View {
     var villager: Villager
 
     let affinities = ["Loves", "Likes", "Dislikes"]

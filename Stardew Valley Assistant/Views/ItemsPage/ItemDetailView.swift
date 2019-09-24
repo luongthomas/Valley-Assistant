@@ -15,11 +15,12 @@ struct ItemDetailView: View {
     @State var selectedAffinity = 0
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text("Value: \(item.value)")
             Text("Description: \(item.description)")
             Text("Source: \(item.source)")
             
+            Spacer()
             // Segmented Control between Loves and Likes
             Picker(selection: $selectedAffinity, label: EmptyView()) {
                 ForEach(0..<affinities.count) { index in
@@ -35,7 +36,7 @@ struct ItemDetailView: View {
             }
             
             .navigationBarTitle("\(item.name)")
-        }
+        }.padding()
     }
     
     private func getVillagersThat(affinity: String, item: Item) -> [String] {
