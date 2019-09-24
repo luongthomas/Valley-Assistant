@@ -9,8 +9,32 @@
 import SwiftUI
 
 struct ToolsView: View {
+    @State private var searchTerm = ""
+    
     var body: some View {
-        Text("Tools")
+        VStack {
+            List {
+                SearchBar(text: $searchTerm)
+                
+                ForEach(items.filter {
+                    validElement(item: $0)
+                }, id: \.id) { item in
+                    NavigationLink(destination: ItemDetailView(item: item)) {
+                        Text(item.name)
+                    }
+                }
+            }.navigationBarTitle("Tools")
+        }
+    }
+    
+    private func validElement(item: BasicItem) -> Bool {
+        let containsSubString = self.searchTerm.isEmpty ? true : item.name.localizedCaseInsensitiveContains(self.searchTerm)
+        
+        if containsSubString && item.type == .tool {
+            return true
+        } else {
+            return false
+        }
     }
 }
 

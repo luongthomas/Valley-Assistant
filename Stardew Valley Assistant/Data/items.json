@@ -1,6 +1,7 @@
 [
   {
     "name": "ruby",
+    "type": "mineral",
     "id": 0,
     "value": 100,
     "source": "Cave",
@@ -8,6 +9,7 @@
   },
   {
     "name": "axe",
+    "type": "tool",
     "id": 1,
     "value": 50,
     "source": "Obtained from the start of the game.",
@@ -15,6 +17,7 @@
   },
   {
     "name": "sapphire",
+    "type": "mineral",
     "id": 2,
     "value": 150,
     "source": "Cave",
@@ -22,6 +25,7 @@
   },
   {
     "name": "omelette",
+    "type": "food",
     "id": 3,
     "value": 250,
     "source": "Cooking",

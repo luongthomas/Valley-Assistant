@@ -15,7 +15,7 @@ struct ItemDetailView: View {
     init(item: BasicItem) {
         self.item = item
         self.villagersThatLike = villagers.compactMap({ villager in
-            if villager.likes.contains(Item(rawValue: item.name)!) {
+            if villager.likes.contains(Item(rawValue: item.name)!) {    // Convert to enum and check if "likes" contains it
                 return villager.name
             } else {
                 return nil
@@ -37,22 +37,15 @@ struct ItemDetailView: View {
                 }
             }
             
-//            ForEach(items.filter {
-//                self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm)
-//            }, id: \.id) { item in
-//                NavigationLink(destination: ItemDetailView(item: item)) {
-//                    Text(item.name)
-//                }
-//            }
-            
             .navigationBarTitle("\(item.name)")
         }
     }
 }
 
 struct ItemDetailView_Previews: PreviewProvider {
+    
     static var previews: some View {
         
-        ItemDetailView(item: BasicItem(id: 0, name: "Rock", value: 100, source: "Store", description: "A hard mineral."))
+        ItemDetailView(item: BasicItem(id: 0, name: "Rock", type: .mineral, value: 100, source: "Store", description: "A hard mineral."))
     }
 }
