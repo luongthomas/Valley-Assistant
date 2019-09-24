@@ -10,7 +10,13 @@ import SwiftUI
 
 struct AllItemsView: View {
     var body: some View {
-        Text("All Items")
+        VStack {
+            List(items, id: \.id) { item in
+                NavigationLink(destination: ItemDetailView(item: item)) {
+                    Text(item.name)
+                }
+            }
+        }.navigationBarTitle("All Items")
     }
 }
 

@@ -47,6 +47,8 @@
 		714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FE2339913700C070D3 /* HouseUpgradesView.swift */; };
 		714044032339915900C070D3 /* CommunityCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714044022339915900C070D3 /* CommunityCenterView.swift */; };
 		71404405233991EE00C070D3 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 71404404233991EE00C070D3 /* items.json */; };
+		71404407233A941B00C070D3 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71404406233A941B00C070D3 /* ItemData.swift */; };
+		715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407F9233A98580019FB8E /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +94,8 @@
 		714043FE2339913700C070D3 /* HouseUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseUpgradesView.swift; sourceTree = "<group>"; };
 		714044022339915900C070D3 /* CommunityCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCenterView.swift; sourceTree = "<group>"; };
 		71404404233991EE00C070D3 /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		71404406233A941B00C070D3 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		715407F9233A98580019FB8E /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +188,7 @@
 				714043D42338437000C070D3 /* Villager.swift */,
 				714043D62338457E00C070D3 /* Item.swift */,
 				714043D82338567400C070D3 /* VillagerData.swift */,
+				71404406233A941B00C070D3 /* ItemData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			children = (
 				714043E42339609D00C070D3 /* ItemsView.swift */,
 				714043E82339675F00C070D3 /* AllItemsView.swift */,
+				715407F9233A98580019FB8E /* ItemDetailView.swift */,
 				714043EA23398C5A00C070D3 /* CraftingView.swift */,
 				714043EC23398C6200C070D3 /* FishView.swift */,
 				714043F423398C7D00C070D3 /* ToolsView.swift */,
@@ -313,9 +319,11 @@
 				714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				714043F323398C7400C070D3 /* RecipesView.swift in Sources */,
+				715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
+				71404407233A941B00C070D3 /* ItemData.swift in Sources */,
 				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
 				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,

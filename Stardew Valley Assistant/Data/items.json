@@ -1,59 +1,36 @@
 [
   {
-    "name": "Emily",
-    "id": 3,
-    "birthday": {
-      "season": "Spring",
-      "day": 1
-    },
-    "address": "WillowLane",
-    "loves": [
-      "Emerald",
-      "Aquamarine"
-    ],
-    "likes": [
-      "Daffodil"
-    ],
-    "dislikes": [
-      "Poppy"
-    ]
+    "name": "Ruby",
+    "id": 0,
+    "value": 100,
+    "obtainMethod": "Cave",
+    "description": "A valuable and red stone"
   },
   {
-    "name": "Josh",
+    "name": "Axe",
     "id": 1,
-    "birthday": {
-      "season": "Spring",
-      "day": 1
-    },
-    "address": "WillowLane",
-    "loves": [
-      "Emerald",
-      "Aquamarine"
-    ],
-    "likes": [
-      "Daffodil"
-    ],
-    "dislikes": [
-      "Poppy"
-    ]
+    "value": 50,
+    "obtainMethod": "Obtained from the start of the game.",
+    "description": "A handy tool to chop down trees"
   },
   {
-    "name": "Jake",
-    "id": 2,
-    "birthday": {
-      "season": "Spring",
-      "day": 1
-    },
-    "address": "WillowLane",
-    "loves": [
-      "Emerald",
-      "Aquamarine"
+    "name": "Ruby",
+    "id": 0,
+    "value": 100,
+    "obtainMethod": "Cave",
+    "description": "A valuable and red stone"
+  },
+  {
+    "name": "Omelette",
+    "id": 3,
+    "value": 250,
+    "obtainMethod": "Cooking",
+    "description": "Eggs that have been cooked together with other various ingredients. ",
+    "recipe": [
+        "Egg",
+        "Cheese"
     ],
-    "likes": [
-      "Daffodil"
-    ],
-    "dislikes": [
-      "Poppy"
-    ]
+    "heal": 50,
+    "stamina": 25
   }
 ]

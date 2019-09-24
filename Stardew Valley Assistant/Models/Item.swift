@@ -9,12 +9,14 @@
 import Foundation
 
 class BasicItem: Codable {
+    var id: Int = 0
     var name: String = ""
     var value: Int = 0
     var obtainMethod: String = ""
     var description: String = ""
     
-    init(name: String, value: Int, obtainMethod: String, description: String) {
+    init(id: Int, name: String, value: Int, obtainMethod: String, description: String) {
+        self.id = id
         self.name = name
         self.value = value
         self.obtainMethod = obtainMethod
@@ -22,21 +24,21 @@ class BasicItem: Codable {
     }
     
     enum CodingKeys: CodingKey {
-        case name, value, obtainMethod, description
+        case id, name, value, obtainMethod, description
     }
 }
 
 
 class Food: BasicItem {
-    var recipe: [Item]?
+    var recipe: [BasicItem]?
     var heal: Int
     var stamina: Int
     
-    init(name: String, value: Int, obtainMethod: String, description: String, recipe: [Item]?, heal: Int, stamina: Int) {
+    init(id: Int, name: String, value: Int, obtainMethod: String, description: String, recipe: [BasicItem]?, heal: Int, stamina: Int) {
         self.recipe = recipe
         self.heal = heal
         self.stamina = stamina
-        super.init(name: name, value: value, obtainMethod: obtainMethod, description: description)
+        super.init(id: id, name: name, value: value, obtainMethod: obtainMethod, description: description)
     }
     
     required init(from decoder: Decoder) throws {

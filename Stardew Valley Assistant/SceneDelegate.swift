@@ -10,6 +10,7 @@ import UIKit
 import SwiftUI
 
 let villagers = VillagerData().villagers
+let items = ItemData().items
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
