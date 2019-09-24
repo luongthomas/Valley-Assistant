@@ -12,19 +12,19 @@ class BasicItem: Codable {
     var id: Int = 0
     var name: String = ""
     var value: Int = 0
-    var obtainMethod: String = ""
+    var source: String = ""
     var description: String = ""
     
-    init(id: Int, name: String, value: Int, obtainMethod: String, description: String) {
+    init(id: Int, name: String, value: Int, source: String, description: String) {
         self.id = id
         self.name = name
         self.value = value
-        self.obtainMethod = obtainMethod
+        self.source = source
         self.description = description
     }
     
     enum CodingKeys: CodingKey {
-        case id, name, value, obtainMethod, description
+        case id, name, value, source, description
     }
 }
 
@@ -34,11 +34,11 @@ class Food: BasicItem {
     var heal: Int
     var stamina: Int
     
-    init(id: Int, name: String, value: Int, obtainMethod: String, description: String, recipe: [BasicItem]?, heal: Int, stamina: Int) {
+    init(id: Int, name: String, value: Int, source: String, description: String, recipe: [BasicItem]?, heal: Int, stamina: Int) {
         self.recipe = recipe
         self.heal = heal
         self.stamina = stamina
-        super.init(id: id, name: name, value: value, obtainMethod: obtainMethod, description: description)
+        super.init(id: id, name: name, value: value, source: source, description: description)
     }
     
     required init(from decoder: Decoder) throws {
@@ -51,6 +51,5 @@ class Crop {
 }
 
 enum Item: String, Codable {
-    case Daffodil, Emerald, Aquamarine, Poppy
-    
+    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette
 }

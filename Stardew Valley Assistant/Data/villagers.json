@@ -8,14 +8,17 @@
     },
     "address": "WillowLane",
     "loves": [
-      "Emerald",
-      "Aquamarine"
+      "emerald",
+      "aquamarine"
     ],
     "likes": [
-      "Daffodil"
+      "daffodil",
+      "omelette",
+      "sapphire",
+      "axe"
     ],
     "dislikes": [
-      "Poppy"
+      "poppy"
     ]
   },
   {
@@ -27,14 +30,20 @@
     },
     "address": "WillowLane",
     "loves": [
-      "Emerald",
-      "Aquamarine"
+      "emerald",
+      "aquamarine",
+      "sapphire",
+      "omelette"
     ],
     "likes": [
-      "Daffodil"
+      "daffodil",
+      "ruby",
+      "axe",
+      "sapphire",
+      "omelette"
     ],
     "dislikes": [
-      "Poppy"
+      "poppy"
     ]
   },
   {
@@ -46,14 +55,16 @@
     },
     "address": "WillowLane",
     "loves": [
-      "Emerald",
-      "Aquamarine"
+      "emerald",
+      "aquamarine"
     ],
     "likes": [
-      "Daffodil"
+      "daffodil",
+      "sapphire",
+      "omelette"
     ],
     "dislikes": [
-      "Poppy"
+      "poppy"
     ]
   }
 ]

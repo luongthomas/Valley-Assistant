@@ -49,6 +49,7 @@
 		71404405233991EE00C070D3 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 71404404233991EE00C070D3 /* items.json */; };
 		71404407233A941B00C070D3 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71404406233A941B00C070D3 /* ItemData.swift */; };
 		715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407F9233A98580019FB8E /* ItemDetailView.swift */; };
+		715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407FC233AB07F0019FB8E /* String+CamelCaps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		71404404233991EE00C070D3 /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
 		71404406233A941B00C070D3 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		715407F9233A98580019FB8E /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		715407FC233AB07F0019FB8E /* String+CamelCaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CamelCaps.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		714043A223348BEE00C070D3 /* Stardew Valley Assistant */ = {
 			isa = PBXGroup;
 			children = (
+				715407FB233AB0680019FB8E /* Utilities */,
 				714043D1233842CA00C070D3 /* Data */,
 				714043BC2334954C00C070D3 /* Calendar */,
 				714043A323348BEE00C070D3 /* AppDelegate.swift */,
@@ -231,6 +234,14 @@
 			path = BuildingsPage;
 			sourceTree = "<group>";
 		};
+		715407FB233AB0680019FB8E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				715407FC233AB07F0019FB8E /* String+CamelCaps.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -330,6 +341,7 @@
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
+				715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
 				714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */,
