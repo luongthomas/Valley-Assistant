@@ -11,29 +11,47 @@ import SwiftUI
 struct VillagerDetail: View {
     var villager: Villager
 
+    let affinities = ["Loves", "Likes", "Dislikes"]
+    
+    @State var selectedAffinity = 0
+    
     var body: some View {
-        VStack {
-            VStack(alignment: .leading) {
-                Text(villager.name)
-                    .font(.title)
+        VStack(alignment: .leading) {
+            Text(villager.name)
+                .font(.title)
 
-                HStack(alignment: .top) {
-                    Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("Address: \(villager.address.description)")
-                        .font(.subheadline)
-                }
+            HStack(alignment: .top) {
+                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
+                    .font(.subheadline)
+                Spacer()
+                Text("Address: \(villager.address.description)")
+                    .font(.subheadline)
             }
-            .padding()
 
             Spacer()
+            
+            Picker(selection: $selectedAffinity, label: EmptyView()) {
+                ForEach(0..<affinities.count) { index in
+                    Text(self.affinities[index]).tag(index)
+                }
+            }.pickerStyle(SegmentedPickerStyle())
+            List {
+                ForEach(getItemsForAffinityOfVillager(affinity: affinities[selectedAffinity], villager: villager), id: \.self) { name in
+                    ItemRow(item: items.first(where: {
+                        $0.name == name
+                    })!)
+                }
+            }
+        }.padding()
+    }
+    
+    private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [String] {
+        if affinity == "Loves" {
+            return villager.loves.map({$0.rawValue})
+        } else if affinity == "Likes" {
+            return villager.likes.map({$0.rawValue})
+        } else {
+            return villager.dislikes.map({$0.rawValue})
         }
     }
 }
-
-//struct VillagerDetail_Previews: PreviewProvider {
-//    static var previews: some View {
-//        VillagerDetail()
-//    }
-//}

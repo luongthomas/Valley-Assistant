@@ -48,6 +48,7 @@
 		71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540801233ACC990019FB8E /* ItemTypeList.swift */; };
 		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 		71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540805233AD0C10019FB8E /* VillagerRow.swift */; };
+		71540808233ADFA90019FB8E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540807233ADFA90019FB8E /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		71540801233ACC990019FB8E /* ItemTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypeList.swift; sourceTree = "<group>"; };
 		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		71540805233AD0C10019FB8E /* VillagerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRow.swift; sourceTree = "<group>"; };
+		71540807233ADFA90019FB8E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				715407FF233AB93C0019FB8E /* SearchBar.swift */,
 				71540801233ACC990019FB8E /* ItemTypeList.swift */,
 				71540805233AD0C10019FB8E /* VillagerRow.swift */,
+				71540807233ADFA90019FB8E /* ItemRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
+				71540808233ADFA90019FB8E /* ItemRow.swift in Sources */,
 				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,

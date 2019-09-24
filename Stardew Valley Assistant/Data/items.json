@@ -36,5 +36,37 @@
     ],
     "heal": 50,
     "stamina": 25
+  },
+  {
+    "name": "emerald",
+    "type": "minerals",
+    "id": 4,
+    "value": 1000,
+    "source": "Mines",
+    "description": "Beautiful green rock "
+  },
+  {
+    "name": "aquamarine",
+    "type": "minerals",
+    "id": 5,
+    "value": 1200,
+    "source": "Mines",
+    "description": "Beautiful light blue rock "
+  },
+  {
+    "name": "daffodil",
+    "type": "crops",
+    "id": 6,
+    "value": 25,
+    "source": "Fields",
+    "description": "Pretty flower"
+  },
+  {
+    "name": "poppy",
+    "type": "crops",
+    "id": 7,
+    "value": 30,
+    "source": "Fields",
+    "description": "Nice flower "
   }
 ]
