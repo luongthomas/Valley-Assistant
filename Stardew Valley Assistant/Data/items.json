@@ -14,11 +14,11 @@
     "description": "A handy tool to chop down trees"
   },
   {
-    "name": "Ruby",
-    "id": 0,
-    "value": 100,
+    "name": "Sapphire",
+    "id": 2,
+    "value": 150,
     "obtainMethod": "Cave",
-    "description": "A valuable and red stone"
+    "description": "A valuable and blue stone"
   },
   {
     "name": "Omelette",
