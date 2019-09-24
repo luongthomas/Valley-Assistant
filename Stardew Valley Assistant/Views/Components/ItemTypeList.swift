@@ -1,15 +1,16 @@
 //
-//  ToolsView.swift
+//  ItemTypeList.swift
 //  Stardew Valley Assistant
 //
-//  Created by Thomas Luong on 9/23/19.
+//  Created by Thomas Luong on 9/24/19.
 //  Copyright © 2019 Lithogen. All rights reserved.
 //
 
 import SwiftUI
 
-struct ToolsView: View {
+struct ItemTypeList: View {
     @State private var searchTerm = ""
+    var itemType: ItemType
     
     var body: some View {
         VStack {
@@ -23,23 +24,17 @@ struct ToolsView: View {
                         Text(item.name)
                     }
                 }
-            }.navigationBarTitle("Tools")
+            }.navigationBarTitle("\(itemType.rawValue.capitalized)")
         }
     }
     
     private func validElement(item: Item) -> Bool {
         let containsSubString = self.searchTerm.isEmpty ? true : item.name.localizedCaseInsensitiveContains(self.searchTerm)
         
-        if containsSubString && item.type == .tool {
+        if containsSubString && (item.type == self.itemType || self.itemType == .all) {
             return true
         } else {
             return false
         }
-    }
-}
-
-struct ToolsView_Previews: PreviewProvider {
-    static var previews: some View {
-        ToolsView()
     }
 }

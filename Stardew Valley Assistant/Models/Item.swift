@@ -47,7 +47,7 @@ enum ItemName: String, Codable {
 }
 
 enum ItemType: String, Codable {
-    case tool, food, mineral, unknown
+    case all, tools, food, minerals, fish, crops, weapons, crafting
 }
 
 extension KeyedDecodingContainer {

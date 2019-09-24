@@ -1,7 +1,7 @@
 [
   {
     "name": "ruby",
-    "type": "mineral",
+    "type": "minerals",
     "id": 0,
     "value": 100,
     "source": "Cave",
@@ -9,7 +9,7 @@
   },
   {
     "name": "axe",
-    "type": "tool",
+    "type": "tools",
     "id": 1,
     "value": 50,
     "source": "Obtained from the start of the game.",
@@ -17,7 +17,7 @@
   },
   {
     "name": "sapphire",
-    "type": "mineral",
+    "type": "minerals",
     "id": 2,
     "value": 150,
     "source": "Cave",

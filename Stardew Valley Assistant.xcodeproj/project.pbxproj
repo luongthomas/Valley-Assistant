@@ -35,12 +35,6 @@
 		714043E52339609D00C070D3 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E42339609D00C070D3 /* ItemsView.swift */; };
 		714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E6233960AB00C070D3 /* BuildingsView.swift */; };
 		714043E92339675F00C070D3 /* AllItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E82339675F00C070D3 /* AllItemsView.swift */; };
-		714043EB23398C5A00C070D3 /* CraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EA23398C5A00C070D3 /* CraftingView.swift */; };
-		714043ED23398C6200C070D3 /* FishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EC23398C6200C070D3 /* FishView.swift */; };
-		714043EF23398C6800C070D3 /* CropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043EE23398C6800C070D3 /* CropsView.swift */; };
-		714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F023398C6F00C070D3 /* WeaponsView.swift */; };
-		714043F323398C7400C070D3 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F223398C7400C070D3 /* RecipesView.swift */; };
-		714043F523398C7D00C070D3 /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F423398C7D00C070D3 /* ToolsView.swift */; };
 		714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F82339910A00C070D3 /* AllBuildingsView.swift */; };
 		714043FB2339911600C070D3 /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FA2339911600C070D3 /* ShopsView.swift */; };
 		714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FC2339912600C070D3 /* FarmUpgradesView.swift */; };
@@ -51,6 +45,7 @@
 		715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407F9233A98580019FB8E /* ItemDetailView.swift */; };
 		715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407FC233AB07F0019FB8E /* String+CamelCaps.swift */; };
 		71540800233AB93C0019FB8E /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407FF233AB93C0019FB8E /* SearchBar.swift */; };
+		71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540801233ACC990019FB8E /* ItemTypeList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,12 +79,6 @@
 		714043E42339609D00C070D3 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
 		714043E6233960AB00C070D3 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		714043E82339675F00C070D3 /* AllItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllItemsView.swift; sourceTree = "<group>"; };
-		714043EA23398C5A00C070D3 /* CraftingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftingView.swift; sourceTree = "<group>"; };
-		714043EC23398C6200C070D3 /* FishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishView.swift; sourceTree = "<group>"; };
-		714043EE23398C6800C070D3 /* CropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsView.swift; sourceTree = "<group>"; };
-		714043F023398C6F00C070D3 /* WeaponsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsView.swift; sourceTree = "<group>"; };
-		714043F223398C7400C070D3 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
-		714043F423398C7D00C070D3 /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 		714043F82339910A00C070D3 /* AllBuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBuildingsView.swift; sourceTree = "<group>"; };
 		714043FA2339911600C070D3 /* ShopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
 		714043FC2339912600C070D3 /* FarmUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmUpgradesView.swift; sourceTree = "<group>"; };
@@ -100,6 +89,7 @@
 		715407F9233A98580019FB8E /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		715407FC233AB07F0019FB8E /* String+CamelCaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+CamelCaps.swift"; sourceTree = "<group>"; };
 		715407FF233AB93C0019FB8E /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		71540801233ACC990019FB8E /* ItemTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTypeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,12 +204,6 @@
 				714043E42339609D00C070D3 /* ItemsView.swift */,
 				714043E82339675F00C070D3 /* AllItemsView.swift */,
 				715407F9233A98580019FB8E /* ItemDetailView.swift */,
-				714043EA23398C5A00C070D3 /* CraftingView.swift */,
-				714043EC23398C6200C070D3 /* FishView.swift */,
-				714043F423398C7D00C070D3 /* ToolsView.swift */,
-				714043EE23398C6800C070D3 /* CropsView.swift */,
-				714043F223398C7400C070D3 /* RecipesView.swift */,
-				714043F023398C6F00C070D3 /* WeaponsView.swift */,
 			);
 			path = ItemsPage;
 			sourceTree = "<group>";
@@ -249,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				715407FF233AB93C0019FB8E /* SearchBar.swift */,
+				71540801233ACC990019FB8E /* ItemTypeList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -327,7 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */,
-				714043ED23398C6200C070D3 /* FishView.swift in Sources */,
+				71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */,
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
 				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
 				714043D52338437000C070D3 /* Villager.swift in Sources */,
@@ -336,11 +321,9 @@
 				714043D72338457E00C070D3 /* Item.swift in Sources */,
 				714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */,
 				714043E12339430600C070D3 /* collapse.swift in Sources */,
-				714043EF23398C6800C070D3 /* CropsView.swift in Sources */,
 				714043E3233945F600C070D3 /* BundleMenu.swift in Sources */,
 				714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
-				714043F323398C7400C070D3 /* RecipesView.swift in Sources */,
 				715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
@@ -356,13 +339,10 @@
 				715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
-				714043F123398C6F00C070D3 /* WeaponsView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
 				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,
-				714043F523398C7D00C070D3 /* ToolsView.swift in Sources */,
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
-				714043EB23398C5A00C070D3 /* CraftingView.swift in Sources */,
 				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
 			);
