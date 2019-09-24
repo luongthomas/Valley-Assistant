@@ -33,7 +33,9 @@ struct ItemDetailView: View {
             
             List {
                 ForEach(villagersThatLike, id: \.self) { name in
-                    Text(name)
+                    VillagerRow(villager: villagers.first(where: {
+                        $0.name == name
+                    })!)
                 }
             }
             
