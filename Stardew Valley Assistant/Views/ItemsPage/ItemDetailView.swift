@@ -10,18 +10,9 @@ import SwiftUI
 
 struct ItemDetailView: View {
     var item: Item
-    var villagersThatLike: [String]
+    let affinities = ["Loves", "Likes", "Dislikes"]
     
-    init(item: Item) {
-        self.item = item
-        self.villagersThatLike = villagers.compactMap({ villager in
-            if villager.likes.contains(ItemName(rawValue: item.name)!) {    // Convert to enum and check if "likes" contains it
-                return villager.name
-            } else {
-                return nil
-            }
-        })
-    }
+    @State var selectedAffinity = 0
     
     var body: some View {
         VStack {
@@ -30,9 +21,13 @@ struct ItemDetailView: View {
             Text("Source: \(item.source)")
             
             // Segmented Control between Loves and Likes
-            
+            Picker(selection: $selectedAffinity, label: EmptyView()) {
+                ForEach(0..<affinities.count) { index in
+                    Text(self.affinities[index]).tag(index)
+                }
+            }.pickerStyle(SegmentedPickerStyle())
             List {
-                ForEach(villagersThatLike, id: \.self) { name in
+                ForEach(getVillagersThat(affinity: affinities[selectedAffinity], item: item), id: \.self) { name in
                     VillagerRow(villager: villagers.first(where: {
                         $0.name == name
                     })!)
@@ -41,5 +36,28 @@ struct ItemDetailView: View {
             
             .navigationBarTitle("\(item.name)")
         }
+    }
+    
+    private func getVillagersThat(affinity: String, item: Item) -> [String] {
+        var villagersForAffinity = [String]()
+        if affinity == "Loves" {
+            villagersForAffinity = villagers.compactMap({ villager in
+                // Convert to enum and check if "loves" contains it
+                if villager.loves.contains(ItemName(rawValue: item.name)!) {
+                    return villager.name
+                } else {
+                    return nil
+                }
+            })
+        } else if affinity == "Likes" {
+            villagersForAffinity = villagers.compactMap({ villager in
+                if villager.likes.contains(ItemName(rawValue: item.name)!) {
+                    return villager.name
+                } else {
+                    return nil
+                }
+            })
+        }
+        return villagersForAffinity
     }
 }
