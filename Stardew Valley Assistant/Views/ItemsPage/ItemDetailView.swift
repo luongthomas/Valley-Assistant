@@ -76,12 +76,17 @@ struct RecipeView: View {
     var recipe: [ItemName]
     
     var body: some View {
-        VStack {
-            List {
-                ForEach(recipe, id: \.self) { ingredient in
-                    ItemRow(item: items.first(where:{ $0.name == ingredient.rawValue })!)
+        HStack {
+            ScrollView(.horizontal, showsIndicators: false) {
+                Text("Recipe: ").font(.caption)
+                Spacer()
+                HStack {
+                    ForEach(recipe, id: \.self) { ingredient in
+                        ItemRow(item: items.first(where:{ $0.name == ingredient.rawValue })!)
+                    }
                 }
             }
+            Spacer()
         }
     }
 }
