@@ -15,7 +15,7 @@ class Item: Codable {
     var value: Int
     var source: String
     var description: String
-    var recipe: [Item]?
+    var recipe: [ItemName]?
     var heal: Int?
     var stamina: Int?
     
@@ -39,7 +39,7 @@ class Item: Codable {
 }
 
 enum ItemName: String, Codable {
-    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette
+    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk
 }
 
 enum ItemType: String, Codable {

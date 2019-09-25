@@ -31,8 +31,8 @@
     "source": "Cooking",
     "description": "Eggs that have been cooked together with other various ingredients. ",
     "recipe": [
-        "Egg",
-        "Cheese"
+        "egg",
+        "milk"
     ],
     "heal": 50,
     "stamina": 25
@@ -68,5 +68,25 @@
     "value": 30,
     "source": "Fields",
     "description": "Nice flower "
+  },
+  {
+    "name": "egg",
+    "type": "food",
+    "id": 8,
+    "value": 75,
+    "source": "Chicken",
+    "description": "Nutritious snack",
+    "heal": 40,
+    "stamina": 10
+  },
+  {
+    "name": "milk",
+    "type": "food",
+    "id": 9,
+    "value": 95,
+    "source": "Cow",
+    "description": "Healthy Beverage",
+    "heal": 70,
+    "stamina": 30
   }
 ]
