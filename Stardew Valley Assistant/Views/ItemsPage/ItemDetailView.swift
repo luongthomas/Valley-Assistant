@@ -24,13 +24,11 @@ struct ItemDetailView: View {
                 Text("Health: \(item.heal!)")
                 Text("Stamina: \(item.stamina!)")
             }
-            Spacer()
             
             // Requirements
             if item.recipe != nil {
                 RecipeView(recipe: item.recipe!)
             }
-            
             
             // Segmented Control between Loves and Likes
             Picker(selection: $selectedAffinity, label: EmptyView()) {
@@ -79,13 +77,20 @@ struct RecipeView: View {
     
     var body: some View {
         VStack {
-            Text("Recipe").font(.footnote)
             List {
                 ForEach(recipe, id: \.self) { ingredient in
                     ItemRow(item: items.first(where:{ $0.name == ingredient.rawValue })!)
                 }
-                Spacer()
             }
         }
+    }
+}
+
+struct ItemDetailView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        ItemDetailView(item: items.first(where: {
+            $0.name == "omelette"
+        })!)
     }
 }
