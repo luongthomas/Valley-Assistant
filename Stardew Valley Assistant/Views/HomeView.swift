@@ -21,7 +21,8 @@ struct HomeView: View {
             VStack (alignment: .leading) {
                 HStack {
                     VStack (alignment: .leading) {
-                        Text("\(rkManager.selectedDate.season.rawValue.capitalized) \(rkManager.selectedDate.day)").font(.largeTitle)
+                        Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
+                        Text(rkManager.getWeekday()).font(.subheadline)
                     }
                     Spacer()
                     calendarButton

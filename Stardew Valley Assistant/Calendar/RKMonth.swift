@@ -24,7 +24,7 @@ struct RKMonth: View {
     var body: some View {
         VStack {
             
-            Text("\(rkManager.selectedDate.season.rawValue.capitalized) \(rkManager.selectedDate.day)").font(.largeTitle)
+            Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
             
             Picker(selection: $rkManager.selectedDate.season, label: EmptyView()) {
                 ForEach(Season.allCases, id: \.self) { season in
