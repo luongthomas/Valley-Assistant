@@ -48,6 +48,9 @@
 		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 		71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540805233AD0C10019FB8E /* VillagerRow.swift */; };
 		71540808233ADFA90019FB8E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540807233ADFA90019FB8E /* ItemRow.swift */; };
+		71D4AE6C233C610C00E7E068 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D4AE6B233C610C00E7E068 /* events.json */; };
+		71D4AE6E233C61C200E7E068 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6D233C61C200E7E068 /* Event.swift */; };
+		71D4AE70233C648A00E7E068 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6F233C648A00E7E068 /* EventData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +97,9 @@
 		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		71540805233AD0C10019FB8E /* VillagerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRow.swift; sourceTree = "<group>"; };
 		71540807233ADFA90019FB8E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		71D4AE6B233C610C00E7E068 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
+		71D4AE6D233C61C200E7E068 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		71D4AE6F233C648A00E7E068 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,8 +191,10 @@
 			children = (
 				714043D42338437000C070D3 /* Villager.swift */,
 				714043D62338457E00C070D3 /* Item.swift */,
+				71D4AE6D233C61C200E7E068 /* Event.swift */,
 				714043D82338567400C070D3 /* VillagerData.swift */,
 				71404406233A941B00C070D3 /* ItemData.swift */,
+				71D4AE6F233C648A00E7E068 /* EventData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			children = (
 				714043D22338432000C070D3 /* villagers.json */,
 				71404404233991EE00C070D3 /* items.json */,
+				71D4AE6B233C610C00E7E068 /* events.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -312,6 +321,7 @@
 			files = (
 				714043B323348BEF00C070D3 /* LaunchScreen.storyboard in Resources */,
 				714043B023348BEF00C070D3 /* Preview Assets.xcassets in Resources */,
+				71D4AE6C233C610C00E7E068 /* events.json in Resources */,
 				71404405233991EE00C070D3 /* items.json in Resources */,
 				714043AD23348BEF00C070D3 /* Assets.xcassets in Resources */,
 				714043D32338432000C070D3 /* villagers.json in Resources */,
@@ -341,11 +351,13 @@
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
+				71D4AE6E233C61C200E7E068 /* Event.swift in Sources */,
 				71404407233A941B00C070D3 /* ItemData.swift in Sources */,
 				71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */,
 				71540804233AD0180019FB8E /* Decoder.swift in Sources */,
 				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
+				71D4AE70233C648A00E7E068 /* EventData.swift in Sources */,
 				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,

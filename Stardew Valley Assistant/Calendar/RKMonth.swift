@@ -61,7 +61,6 @@ struct RKMonth: View {
         let selected = Day(season: self.rkManager.selectedDate.season, day: selectedDay.day)
         self.rkManager.selectedDate = selected
         self.isPresented = false
-        print("\(self.rkManager.selectedDate)")
     }
      
     func monthArray() -> [[Day]] {

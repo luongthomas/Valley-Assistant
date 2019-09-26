@@ -11,6 +11,7 @@ import SwiftUI
 
 let villagers = VillagerData().villagers
 let items = ItemData().items
+let events = EventData().events
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
