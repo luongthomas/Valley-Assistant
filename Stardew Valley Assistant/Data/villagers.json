@@ -3,7 +3,7 @@
     "name": "Emily",
     "id": 3,
     "birthday": {
-      "season": "Spring",
+      "season": "spring",
       "day": 1
     },
     "address": "WillowLane",
@@ -25,7 +25,7 @@
     "name": "Josh",
     "id": 1,
     "birthday": {
-      "season": "Spring",
+      "season": "spring",
       "day": 1
     },
     "address": "WillowLane",
@@ -48,7 +48,7 @@
     "name": "Jake",
     "id": 2,
     "birthday": {
-      "season": "Spring",
+      "season": "spring",
       "day": 1
     },
     "address": "WillowLane",
