@@ -19,42 +19,49 @@ struct RKMonth: View {
     var monthsArray: [[Day]] {
         monthArray()
     }
-    let cellWidth = CGFloat(UIScreen.main.bounds.width/8)
+//    let cellWidth = CGFloat(UIScreen.main.bounds.width/7)
     
     var body: some View {
-        VStack {
-            
-            Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
-            
-            Picker(selection: $rkManager.selectedDate.season, label: EmptyView()) {
-                ForEach(Season.allCases, id: \.self) { season in
-                    Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season)).onTapGesture {
-                        self.rkManager.selectedDate.season = season
-                    }
-                }
-            }.pickerStyle(SegmentedPickerStyle())
-            
-            RKWeekdayHeader(rkManager: self.rkManager)
+        GeometryReader { geometry in
             VStack {
-                ForEach(monthsArray, id: \.self) { row in
-                    HStack(spacing: 0) {
-                        ForEach(row, id: \.self) { column in
-                            AnyView(
-                                // TODO: Fix this so it actually recreates the cells depending on the month
-                                RKCell(
-                                    rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
-                                    cellWidth: self.cellWidth
-                                )
-                                .border(Color.gray, width: 1)
-                                .onTapGesture {
-                                    self.dateTapped(selectedDay: column)
-                                }
-                            )
+                Text(self.rkManager.getPrintableCurrentDate()).font(.largeTitle).padding(.top)
+                
+                Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
+                    ForEach(Season.allCases, id: \.self) { season in
+                        Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season)).onTapGesture {
+                            self.rkManager.selectedDate.season = season
                         }
                     }
-                }
-            }.frame(minWidth: 0, maxWidth: .infinity)
-        }.background(rkManager.colors.monthBackColor)
+                }.pickerStyle(SegmentedPickerStyle())
+                
+                VStack {
+                    RKWeekdayHeader(rkManager: self.rkManager)
+                    ForEach(self.monthsArray, id: \.self) { row in
+                        HStack(spacing: 0) {
+                            ForEach(row, id: \.self) { column in
+                                AnyView(
+                                    // TODO: Fix this so it actually recreates the cells depending on the month
+                                    RKCell(
+                                        rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
+                                        cellWidth: CGFloat(UIScreen.main.bounds.width/7.5)
+                                    )
+                                    .border(Color.gray, width: 1)
+                                    .onTapGesture {
+                                        self.dateTapped(selectedDay: column)
+                                    }
+                                )
+                            }
+                        }
+                    }
+                }.frame(minWidth: 0, maxWidth: .infinity, maxHeight: CGFloat(UIScreen.main.bounds.height/2.5))
+                .padding(.leading)
+                .padding(.trailing)
+                
+                Spacer()
+                
+            }.background(self.rkManager.colors.monthBackColor)
+            .frame(width: geometry.size.width)
+        }
     }
     
     func dateTapped(selectedDay: Day) {

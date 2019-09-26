@@ -18,7 +18,7 @@ struct RKWeekdayHeader : View {
             ForEach(self.getWeekdayHeaders(), id: \.self) { weekday in
                 Text(weekday)
                     .font(.system(size: 12))
-                    .frame(minWidth: 0, maxWidth: CGFloat(UIScreen.main.bounds.width/8))
+                    .frame(minWidth: 0, maxWidth: CGFloat(UIScreen.main.bounds.width/7.5))
                     .foregroundColor(self.rkManager.colors.weekdayHeaderColor)
                     .border(Color.gray, width: 1)
             }

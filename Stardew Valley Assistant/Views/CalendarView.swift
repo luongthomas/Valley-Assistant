@@ -20,7 +20,7 @@ struct CalendarView: View {
         VStack {
             RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
             Spacer()
-        }.padding()
+        }
     }
 }
 

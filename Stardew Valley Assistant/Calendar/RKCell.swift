@@ -17,7 +17,8 @@ struct RKCell: View {
         Text("\(rkDate.date.day)")
         .fontWeight(rkDate.getFontWeight())
         .foregroundColor(rkDate.getTextColor())
-        .frame(width: cellWidth, height: cellWidth, alignment: .topLeading)
+        .frame(minWidth: cellWidth, idealWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/7), minHeight: 0,
+               idealHeight: cellWidth, maxHeight: CGFloat(UIScreen.main.bounds.width/3), alignment: .topLeading)
         .font(.system(size: 15))
         .background(rkDate.getBackgroundColor())
 //        .padding(.top, 5)
