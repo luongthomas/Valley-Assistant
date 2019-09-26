@@ -7,6 +7,10 @@
 //
 import SwiftUI
 
+// Solution to have tapable Spacer areas
+// https://stackoverflow.com/questions/57191013/swiftui-cant-tap-in-spacer-of-hstack
+
+
 struct RKCell: View {
     
     var rkDate: RKDate
