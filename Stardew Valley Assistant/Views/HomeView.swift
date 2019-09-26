@@ -10,12 +10,10 @@ import SwiftUI
 
 struct HomeView: View {
     @State var isPresented = false
-    @State var selectedDay = 1
     let rkManager: RKManager
     
     init() {
-        let startDate = Date(timeIntervalSince1970: 1801468800) // February 2027
-        self.rkManager = RKManager(calendar: Calendar.current, minimumDate: startDate, maximumDate: .distantFuture, mode: 0)
+        self.rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
     }
     
     var body: some View {
@@ -23,8 +21,7 @@ struct HomeView: View {
             VStack (alignment: .leading) {
                 HStack {
                     VStack (alignment: .leading) {
-                        Text("Spring 1").font(.largeTitle)
-                        Text("Sunday")
+                        Text("\(rkManager.selectedDate.season.rawValue.capitalized) \(rkManager.selectedDate.day)").font(.largeTitle)
                     }
                     Spacer()
                     calendarButton
@@ -88,7 +85,6 @@ private extension HomeView {
     
     var addTaskButton: some View {
         Button(action: {
-//            self.items.append(Item(value: "Item"))
             print("h")
         }, label: {
             Text("+")

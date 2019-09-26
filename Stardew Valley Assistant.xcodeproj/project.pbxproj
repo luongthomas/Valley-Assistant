@@ -19,7 +19,6 @@
 		714043C02334958B00C070D3 /* RKDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043BF2334958B00C070D3 /* RKDate.swift */; };
 		714043C2233495E400C070D3 /* RKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C1233495E400C070D3 /* RKManager.swift */; };
 		714043C42334960400C070D3 /* RKMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C32334960400C070D3 /* RKMonth.swift */; };
-		714043C62334962500C070D3 /* RKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C52334962500C070D3 /* RKViewController.swift */; };
 		714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C72334964500C070D3 /* RKWeekdayHeader.swift */; };
 		714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043C923349CAC00C070D3 /* ColorSettings.swift */; };
 		714043CC23359A3300C070D3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043CB23359A3300C070D3 /* CalendarView.swift */; };
@@ -66,7 +65,6 @@
 		714043BF2334958B00C070D3 /* RKDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKDate.swift; sourceTree = "<group>"; };
 		714043C1233495E400C070D3 /* RKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKManager.swift; sourceTree = "<group>"; };
 		714043C32334960400C070D3 /* RKMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKMonth.swift; sourceTree = "<group>"; };
-		714043C52334962500C070D3 /* RKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKViewController.swift; sourceTree = "<group>"; };
 		714043C72334964500C070D3 /* RKWeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKWeekdayHeader.swift; sourceTree = "<group>"; };
 		714043C923349CAC00C070D3 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
 		714043CB23359A3300C070D3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				714043BF2334958B00C070D3 /* RKDate.swift */,
 				714043C1233495E400C070D3 /* RKManager.swift */,
 				714043C32334960400C070D3 /* RKMonth.swift */,
-				714043C52334962500C070D3 /* RKViewController.swift */,
 				714043C72334964500C070D3 /* RKWeekdayHeader.swift */,
 			);
 			path = Calendar;
@@ -331,7 +328,6 @@
 				714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */,
 				71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */,
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
-				714043C62334962500C070D3 /* RKViewController.swift in Sources */,
 				714043D52338437000C070D3 /* Villager.swift in Sources */,
 				714043E52339609D00C070D3 /* ItemsView.swift in Sources */,
 				714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */,

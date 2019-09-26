@@ -32,7 +32,7 @@ struct Villager: Codable {
     }
 }
 
-struct Day: Codable {
+struct Day: Codable, Equatable, Hashable {
     var season: Season
     var day: Int
     
@@ -41,8 +41,8 @@ struct Day: Codable {
     }
 }
 
-enum Season: String, Codable, CustomStringConvertible {
-    case Spring, Summer, Fall, Winter
+enum Season: String, Codable, CustomStringConvertible, CaseIterable, Hashable {
+    case spring, summer, fall, winter
     
     var description: String {
         return self.rawValue

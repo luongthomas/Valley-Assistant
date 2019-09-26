@@ -9,32 +9,23 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @State private var selectedSeason = 0
-    
+    @State private var selectedSeason : Season = .spring
     let rkManager: RKManager
-    
-    var seasons = ["Spring", "Summer", "Fall", "Winter"]
     
     init(rkManager: RKManager) {
         self.rkManager = rkManager
-        
-//        let calendar = Calendar.current
-//        let components = calendar.dateComponents([.day], from: rkManager.selectedDate)
-//        let day = components.day
     }
-    
 
     var body: some View {
         VStack {
-            Text("\(seasons[selectedSeason])").font(.largeTitle)
-            
-            Picker(selection: $selectedSeason, label: EmptyView()) {
-                ForEach(0..<seasons.count) { index in
-                    Text(self.seasons[index]).tag(index)
-                }
-            }.pickerStyle(SegmentedPickerStyle())
-            RKMonth(isPresented: .constant(false),rkManager: self.rkManager, monthOffset: 0)
+            RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
             Spacer()
         }.padding()
+    }
+}
+
+public extension CaseIterable where Self: Equatable {
+    func ordinal() -> Self.AllCases.Index {
+        return Self.allCases.firstIndex(of: self)!
     }
 }
