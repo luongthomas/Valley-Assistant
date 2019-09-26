@@ -46,10 +46,10 @@ struct RKMonth: View {
                                         cellWidth: CGFloat(UIScreen.main.bounds.width/7.5)
                                     )
                                     .border(Color.gray, width: 1)
-                                    .onTapGesture {
-                                        self.dateTapped(selectedDay: column)
-                                    }
                                 )
+                                .onTapGesture {
+                                    self.dateTapped(selectedDay: column)
+                                }
                             }
                         }
                     }

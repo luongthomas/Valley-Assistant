@@ -14,14 +14,18 @@ struct RKCell: View {
     var cellWidth: CGFloat
     
     var body: some View {
-        Text("\(rkDate.date.day)")
-        .fontWeight(rkDate.getFontWeight())
-        .foregroundColor(rkDate.getTextColor())
-        .frame(minWidth: cellWidth, idealWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/7), minHeight: 0,
-               idealHeight: cellWidth, maxHeight: CGFloat(UIScreen.main.bounds.width/3), alignment: .topLeading)
-        .font(.system(size: 15))
+        Group {
+            HStack(alignment: .top) {
+                VStack(alignment: .leading) {
+                    Text("\(rkDate.date.day)")
+                    .fontWeight(rkDate.getFontWeight())
+                    .foregroundColor(rkDate.getTextColor())
+                    .font(.system(size: 15))
+                    
+                }
+            }
+        }.frame(minWidth: cellWidth, idealWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/7), minHeight: 0,
+        idealHeight: cellWidth, maxHeight: CGFloat(UIScreen.main.bounds.width/3))
         .background(rkDate.getBackgroundColor())
-//        .padding(.top, 5)
-//        .padding(.leading, 5)
     }
 }
