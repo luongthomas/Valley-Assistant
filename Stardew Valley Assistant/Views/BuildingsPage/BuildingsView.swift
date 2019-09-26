@@ -23,7 +23,7 @@ struct BuildingsView: View {
                 }
             }
             .navigationBarTitle("Buildings")
-        }.padding()
+        }
     }
     
     func containedView(category: String) -> AnyView {
