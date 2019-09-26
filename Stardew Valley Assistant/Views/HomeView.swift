@@ -28,24 +28,8 @@ struct HomeView: View {
                     calendarButton
                 }.padding(.bottom, 50)
                 
-                List {
-                    Section(header: listHeader(headerText: "Birthdays")) {
-                        Text("Birthday 1")
-                    }
-                    Spacer(minLength: 1)
-                    Section(header: listHeader(headerText: "Festivals")) {
-                        Text("Festival 1")
-                    }
-                    Spacer(minLength: 1)
-                    Section(header: listHeader(headerText: "Tasks")) {
-                        Text("Task 1")
-                        Text("Task 2")
-                        Text("Task 3")
-                        Text("Task 4")
-                        Text("Task 5")
-                    }
-                    Spacer(minLength: 1)
-                }.border(Color.gray, width: 0.0)
+                getTodayList(dateManager: rkManager)
+                .border(Color.gray, width: 0.0)
                 
             }.padding()
             VStack {
@@ -101,5 +85,45 @@ private extension HomeView {
                 radius: 3,
                 x: 3,
                 y: 3)
+    }
+    
+    func getTodayList(dateManager: RKManager) -> some View {
+        var todayBirthdays = [Event]()
+        var todayFestivals = [Event]()
+        var todayTasks = [Event]()
+
+        if let birthdayOnDate = birthdays.first(where:({$0.date == dateManager.selectedDate})) {
+            todayBirthdays.append(birthdayOnDate)
+        }
+        
+        if let festivalOnDate = festivals.first(where:({$0.date == dateManager.selectedDate})) {
+            todayFestivals.append(festivalOnDate)
+        }
+        
+        let tasksOnDate = tasks.filter(({$0.date == dateManager.selectedDate}))
+        todayTasks += tasksOnDate
+        
+        return List {
+            if !todayBirthdays.isEmpty {
+                Section(header: listHeader(headerText: "Birthdays")) {
+                    Text("\(todayBirthdays.first!.name)")
+                }
+            }
+            if !todayFestivals.isEmpty {
+                Section(header: listHeader(headerText: "Festivals")) {
+                    Text("\(todayFestivals.first!.name)")
+                }
+            }
+            
+            if !todayTasks.isEmpty {
+                Section(header: listHeader(headerText: "Tasks")) {
+                    ForEach(todayTasks, id: \.id) { task in
+                        Text("\(task.name)")
+                    }
+                }
+            }
+            EmptyView()
+        }
+        
     }
 }

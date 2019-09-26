@@ -1,45 +1,52 @@
-[
-  {
-    "id": 0,
-    "name": "Penny's Birthday",
-    "date": {
-      "season": "summer",
-      "day": 16
+{
+  "birthdays": [
+    {
+      "id": 0,
+      "name": "Penny's Birthday",
+      "date": {
+        "season": "summer",
+        "day": 16
+      },
+      "type": "birthday",
+      "associatedVillager": "penny",
+      "description": "Give a gift to Penny"
+    }
+  ],
+  "festivals": [
+    {
+      "id": 1,
+      "name": "Egg Festival",
+      "date": {
+        "season": "spring",
+        "day": 13
+      },
+      "type": "birthday",
+      "eventStart": 9,
+      "eventEnd": 2,
+      "description": "Give a gift to Penny"
+    }
+  ],
+  "tasks": [
+      {
+      "id": 2,
+      "name": "Go find a sapphire",
+      "date": {
+        "season": "spring",
+        "day": 13
+      },
+      "type": "task",
+      "description": "Visit the mines of floor 60-70"
     },
-    "type": "birthday",
-    "associatedVillager": "penny",
-    "description": "Give a gift to Penny"
-  },
-  {
-    "id": 1,
-    "name": "Egg Festival",
-    "date": {
-      "season": "spring",
-      "day": 13
-    },
-    "type": "birthday",
-    "eventStart": 9,
-    "eventEnd": 2,
-    "description": "Give a gift to Penny"
-  },
-  {
-    "id": 2,
-    "name": "Go find a sapphire",
-    "date": {
-      "season": "spring",
-      "day": 13
-    },
-    "type": "task",
-    "description": "Visit the mines of floor 60-70"
-  },
-  {
-    "id": 3,
-    "name": "Plant potato crops",
-    "date": {
-      "season": "summer",
-      "day": 1
-    },
-    "type": "task",
-    "description": "Use Quality fertilizer to plant 50 crops"
-  }
-]
+    {
+      "id": 3,
+      "name": "Plant potato crops",
+      "date": {
+        "season": "summer",
+        "day": 1
+      },
+      "type": "task",
+      "description": "Use Quality fertilizer to plant 50 crops"
+    }
+  ]
+}
+

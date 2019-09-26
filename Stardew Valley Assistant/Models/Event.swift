@@ -8,6 +8,23 @@
 
 import Foundation
 
+class AllEvents: Codable {
+    var birthdays = [Event]()
+    var festivals = [Event]()
+    var tasks = [Event]()
+    
+    required init(from decoder: Decoder) throws {
+        let map = try decoder.container(keyedBy: CodingKeys.self)
+        self.birthdays = try map.decode(.birthdays)
+        self.festivals = try map.decode(.festivals)
+        self.tasks = try map.decode(.tasks)
+    }
+    
+    private enum CodingKeys: CodingKey {
+        case birthdays, festivals, tasks
+    }
+}
+
 class Event: Codable {
     var id: Int
     var name: String
@@ -39,4 +56,10 @@ class Event: Codable {
 
 enum EventType: String, Codable {
     case birthday, task, festival
+}
+
+// MARK: - DateClass
+struct DateClass: Codable {
+    let season: String
+    let day: Int
 }
