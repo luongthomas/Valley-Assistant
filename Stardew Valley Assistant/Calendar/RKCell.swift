@@ -21,7 +21,14 @@ struct RKCell: View {
                     .fontWeight(rkDate.getFontWeight())
                     .foregroundColor(rkDate.getTextColor())
                     .font(.system(size: 15))
-                    
+                    ZStack {
+                        Spacer()
+                        Color.black.opacity(0.001)
+                    }
+                }
+                ZStack {
+                    Spacer()
+                    Color.black.opacity(0.001)
                 }
             }
         }.frame(minWidth: cellWidth, idealWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/7), minHeight: 0,

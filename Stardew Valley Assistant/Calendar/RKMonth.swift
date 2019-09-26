@@ -19,7 +19,6 @@ struct RKMonth: View {
     var monthsArray: [[Day]] {
         monthArray()
     }
-//    let cellWidth = CGFloat(UIScreen.main.bounds.width/7)
     
     var body: some View {
         GeometryReader { geometry in
@@ -33,8 +32,9 @@ struct RKMonth: View {
                         }
                     }
                 }.pickerStyle(SegmentedPickerStyle())
+                .padding(.bottom)
                 
-                VStack {
+                VStack(spacing: 0) {
                     RKWeekdayHeader(rkManager: self.rkManager)
                     ForEach(self.monthsArray, id: \.self) { row in
                         HStack(spacing: 0) {
