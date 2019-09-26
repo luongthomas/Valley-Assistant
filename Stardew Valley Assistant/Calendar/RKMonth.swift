@@ -86,11 +86,3 @@ struct RKMonth: View {
         return (date.day == self.rkManager.selectedDate.day)
     }
 }
-
-//#if DEBUG
-//struct RKMonth_Previews : PreviewProvider {
-//    static var previews: some View {
-//        RKMonth(isPresented: .constant(false), rkManager: RKManager(selectedDate: Day(season: .summer, day: 1)))
-//    }
-//}
-//#endif

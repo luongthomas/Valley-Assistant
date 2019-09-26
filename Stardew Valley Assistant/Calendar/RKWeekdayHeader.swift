@@ -30,11 +30,3 @@ struct RKWeekdayHeader : View {
         return ["Mon", "Tues", "Wed", "Thu", "Fri", "Sat", "Sun"]
     }
 }
-
-//#if DEBUG
-//struct RKWeekdayHeader_Previews : PreviewProvider {
-//    static var previews: some View {
-//        RKWeekdayHeader(rkManager: RKManager(selectedDate: Day(season: .fall, day: 15)))
-//    }
-//}
-//#endif
