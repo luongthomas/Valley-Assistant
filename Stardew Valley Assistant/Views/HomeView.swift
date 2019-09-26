@@ -122,7 +122,12 @@ private extension HomeView {
                     }
                 }
             }
-            EmptyView()
+            
+            if todayTasks.isEmpty && todayBirthdays.isEmpty && todayFestivals.isEmpty {
+                Section(header: listHeader(headerText: "Tasks")) {
+                    Text("Nothing planned today")
+                }
+            }
         }
         
     }
