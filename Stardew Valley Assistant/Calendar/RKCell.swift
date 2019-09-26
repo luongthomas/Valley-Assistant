@@ -35,7 +35,7 @@ struct RKCell: View {
                     Color.black.opacity(0.001)
                 }
             }
-        }.frame(minWidth: cellWidth, idealWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/7), minHeight: 0,
+        }.frame(minWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/8), minHeight: 0,
         idealHeight: cellWidth, maxHeight: CGFloat(UIScreen.main.bounds.width/3))
         .background(rkDate.getBackgroundColor())
     }
