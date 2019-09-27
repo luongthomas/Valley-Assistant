@@ -11,8 +11,15 @@ import SwiftUI
 
 class RKManager : ObservableObject {
     
-    @Published var selectedDate: Day
+    @Published var selectedDate: Day {
+        willSet {
+            updatePublisher.send()
+        }
+    }
     @Published var isVertical = true
+    
+    // Can be consumed by other classes / objects.
+    let updatePublisher = PassthroughSubject<Void, Never>()
     
     // color settings
     var colors = ColorSettings()
@@ -45,5 +52,61 @@ class RKManager : ObservableObject {
             default:
                 return "Dayday"
         }
+    }
+    
+    
+}
+
+class EventHolder {
+    @ObservedObject var rkManager: RKManager
+    @Published var seasonBirthdays = [Event]()
+    @Published var seasonFestivals = [Event]()
+    @Published var seasonTasks = [Event]()
+    
+    private var previousSeason: Season
+    
+    // More on AnyCancellable on: apple-reference-documentation://hs-NDfw7su
+    var cancellable: AnyCancellable?
+    
+    init(rkManager: RKManager) {
+        self.rkManager = rkManager
+        self.previousSeason = rkManager.selectedDate.season
+            
+        // `sink`: Attaches a subscriber with closure-based behavior.
+       cancellable = rkManager.updatePublisher.sink(receiveValue: { [weak self] _ in
+           guard let self = self else { return }
+        self.updateEventsWhenDateChanges()
+       })
+    }
+    
+    func updateEventsWhenDateChanges() {
+        print("rkManager change detected")
+        if previousSeason != rkManager.selectedDate.season {
+            print("Found new season, updating events")
+            var events = [Event]()
+            
+            events = birthdays.filter(({$0.date.season == rkManager.selectedDate.season}))
+            seasonBirthdays.append(contentsOf: events)
+            
+            events = festivals.filter(({$0.date.season == rkManager.selectedDate.season}))
+            seasonFestivals.append(contentsOf: events)
+            
+            events = tasks.filter(({$0.date.season == rkManager.selectedDate.season}))
+            seasonTasks.append(contentsOf: events)
+            
+            
+            print("\(seasonBirthdays.map { "\($0.name)" })")
+            print("\(seasonFestivals.map { "\($0.name)" })")
+            print("\(seasonTasks.map { "\($0.name)" })")
+            previousSeason = rkManager.selectedDate.season
+            self.clearPreviousEvents()
+        }
+        print("")
+    }
+    
+    func clearPreviousEvents() {
+        seasonBirthdays.removeAll()
+        seasonFestivals.removeAll()
+        seasonTasks.removeAll()
     }
 }

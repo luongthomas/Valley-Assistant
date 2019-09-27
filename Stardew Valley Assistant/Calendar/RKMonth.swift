@@ -27,9 +27,7 @@ struct RKMonth: View {
                 
                 Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
                     ForEach(Season.allCases, id: \.self) { season in
-                        Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season)).onTapGesture {
-                            self.rkManager.selectedDate.season = season
-                        }
+                        Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season))
                     }
                 }.pickerStyle(SegmentedPickerStyle())
                 .padding(.bottom)

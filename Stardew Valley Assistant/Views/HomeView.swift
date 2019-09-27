@@ -11,9 +11,11 @@ import SwiftUI
 struct HomeView: View {
     @State var isPresented = false
     let rkManager: RKManager
+    let eventHolder: EventHolder
     
     init() {
         self.rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
+        eventHolder = EventHolder(rkManager: self.rkManager)
     }
     
     var body: some View {
@@ -129,6 +131,5 @@ private extension HomeView {
                 }
             }
         }
-        
     }
 }
