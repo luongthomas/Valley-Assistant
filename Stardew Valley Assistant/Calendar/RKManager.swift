@@ -16,7 +16,6 @@ class RKManager : ObservableObject {
             updatePublisher.send()
         }
     }
-    @Published var isVertical = true
     
     // Can be consumed by other classes / objects.
     let updatePublisher = PassthroughSubject<Void, Never>()

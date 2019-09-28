@@ -50,7 +50,7 @@ struct RKMonth: View {
                             }
                         }
                     }
-                }.frame(minWidth: 0, maxWidth: .infinity, maxHeight: CGFloat(UIScreen.main.bounds.height/2.5))
+                }
                 .padding(.leading)
                 .padding(.trailing)
                 

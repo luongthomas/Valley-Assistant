@@ -19,10 +19,18 @@ struct CalendarView: View {
     }
 
     var body: some View {
-        VStack {
-            RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
-            Spacer()
-            CalendarEventList(eventHolder: eventHolder)
+        GeometryReader { geometry in
+            if geometry.size.height > geometry.size.width {
+                VStack {
+                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
+                    CalendarEventList(eventHolder: self.eventHolder)
+                }
+            } else {
+                HStack {
+                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
+                    CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: geometry.size.width / 4)
+                }
+            }
         }
     }
 }
@@ -37,30 +45,33 @@ struct CalendarEventList: View {
     @ObservedObject var eventHolder: EventHolder
     
     var body: some View {
-        List {
-            if !eventHolder.seasonBirthdays.isEmpty {
-                EventRows(events: eventHolder.seasonBirthdays, title: "Birthdays")
+        GeometryReader { geometry in
+            VStack(alignment: .center) {    
+                Text("Events").fontWeight(.heavy).font(.headline).underline()
+                
+                List {
+                    if !self.eventHolder.seasonBirthdays.isEmpty {
+                        EventRows(events: self.eventHolder.seasonBirthdays, title: "Birthdays")
+                    }
+                    if !self.eventHolder.seasonFestivals.isEmpty {
+                        EventRows(events: self.eventHolder.seasonFestivals, title: "Festivals")
+                    }
+                    if !self.eventHolder.seasonTasks.isEmpty {
+                        EventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
+                    }
+                }.frame(minHeight: geometry.size.height/4, maxHeight: geometry.size.height/2)
             }
-            if !eventHolder.seasonFestivals.isEmpty {
-                EventRows(events: eventHolder.seasonFestivals, title: "Festivals")
-            }
-            if !eventHolder.seasonTasks.isEmpty {
-                EventRows(events: eventHolder.seasonTasks, title: "Tasks")
-            }
-            
-            
         }
     }
 }
 
 struct EventRows: View {
-//    @ObservedObject var eventHolder: EventHolder
     var events: [Event]
     var title: String
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title).fontWeight(.heavy)
+            Text(title).fontWeight(.light).font(.subheadline)
             ForEach(events, id: \.id) { event in
                 Text("\(event.name)").padding(.leading, 15)
             }

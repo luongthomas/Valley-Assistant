@@ -18,15 +18,15 @@ struct RKWeekdayHeader : View {
             HStack(alignment: .center, spacing: 0) {
                 ForEach(self.getWeekdayHeaders(), id: \.self) { weekday in
                     Text(weekday)
-                        .font(.system(size: 12))
-                        .frame(minWidth: CGFloat(UIScreen.main.bounds.width/8))
-                        .foregroundColor(self.rkManager.colors.weekdayHeaderColor)
-                        .border(Color.gray, width: 1)
+                    .font(.system(size: 12))
+                    .frame(maxWidth: .infinity)
+                    .foregroundColor(self.rkManager.colors.weekdayHeaderColor)
+                    .border(Color.gray, width: 1)
                 }
-            }.background(self.rkManager.colors.weekdayHeaderBackColor)
+            }
+            .background(self.rkManager.colors.weekdayHeaderBackColor)
             .border(Color.gray, width: 1)
-            .frame(minWidth: geometry.size.width, maxWidth: .infinity)
-        }.fixedSize(horizontal: false, vertical: true)
+        }
     }
     
     func getWeekdayHeaders() -> [String] {

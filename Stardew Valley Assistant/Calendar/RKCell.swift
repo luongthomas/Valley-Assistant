@@ -18,12 +18,12 @@ struct RKCell: View {
     var cellWidth: CGFloat
     
     var body: some View {
-        Group {
+        GeometryReader { geometry in
             HStack(alignment: .top) {
                 VStack(alignment: .leading) {
-                    Text("\(rkDate.date.day)")
-                    .fontWeight(rkDate.getFontWeight())
-                    .foregroundColor(rkDate.getTextColor())
+                    Text("\(self.rkDate.date.day)")
+                        .fontWeight(self.rkDate.getFontWeight())
+                        .foregroundColor(self.rkDate.getTextColor())
                     .font(.system(size: 15))
                     ZStack {
                         Spacer()
@@ -35,8 +35,25 @@ struct RKCell: View {
                     Color.black.opacity(0.001)
                 }
             }
-        }.frame(minWidth: cellWidth, maxWidth: CGFloat(UIScreen.main.bounds.width/8), minHeight: 0,
-        idealHeight: cellWidth, maxHeight: CGFloat(UIScreen.main.bounds.width/3))
-        .background(rkDate.getBackgroundColor())
+            .background(self.rkDate.getBackgroundColor())
+        }
+    }
+    
+    func getSizeBasedOnRotation(geometry: GeometryProxy, idealCellWidth: CGFloat) -> CellSize {
+        if geometry.size.height > geometry.size.width {
+            return CellSize(minWidth: idealCellWidth, maxWidth: geometry.size.width/3, minHeight: idealCellWidth/3, maxHeight: geometry.size.width/3, idealHeight: idealCellWidth)
+        } else {
+            return CellSize(minWidth: idealCellWidth, maxWidth: geometry.size.width/3, minHeight: idealCellWidth/3, maxHeight: geometry.size.width/3, idealHeight: idealCellWidth)
+        }
+    }
+    
+    struct CellSize {
+        var minWidth: CGFloat? = nil
+        var maxWidth: CGFloat? = nil
+        var idealWidth: CGFloat? = nil
+        
+        var minHeight: CGFloat? = nil
+        var maxHeight: CGFloat? = nil
+        var idealHeight: CGFloat? = nil
     }
 }
