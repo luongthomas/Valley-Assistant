@@ -63,3 +63,13 @@ struct DateClass: Codable {
     let season: String
     let day: Int
 }
+
+extension Event: Hashable {
+    static func == (lhs: Event, rhs: Event) -> Bool {
+        return lhs.id == rhs.id && lhs.name == rhs.name && lhs.date == rhs.date
+    }
+    
+  var hashValue: Int {
+    return name.hashValue ^ id.hashValue ^ date.hashValue ^ type.hashValue
+  }
+}

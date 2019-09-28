@@ -11,7 +11,7 @@ import SwiftUI
 struct HomeView: View {
     @State var isPresented = false
     let rkManager: RKManager
-    let eventHolder: EventHolder
+    @ObservedObject var eventHolder: EventHolder
     
     init() {
         self.rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
@@ -62,7 +62,7 @@ private extension HomeView {
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
         }).sheet(isPresented: $isPresented) {
-            CalendarView(rkManager: self.rkManager)
+            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder)
         }
     }
     

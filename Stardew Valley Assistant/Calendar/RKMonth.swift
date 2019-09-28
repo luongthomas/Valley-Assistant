@@ -13,7 +13,6 @@ struct RKMonth: View {
     @Binding var isPresented: Bool
     
     @ObservedObject var rkManager: RKManager
-    @State private var selectedSeason : Season = .spring
     
     let daysPerWeek = 7
     var monthsArray: [[Day]] {

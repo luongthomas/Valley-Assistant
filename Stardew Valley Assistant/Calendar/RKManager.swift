@@ -12,7 +12,7 @@ import SwiftUI
 class RKManager : ObservableObject {
     
     @Published var selectedDate: Day {
-        willSet {
+        didSet {
             updatePublisher.send()
         }
     }
@@ -57,13 +57,15 @@ class RKManager : ObservableObject {
     
 }
 
-class EventHolder {
+class EventHolder: ObservableObject {
     @ObservedObject var rkManager: RKManager
     @Published var seasonBirthdays = [Event]()
     @Published var seasonFestivals = [Event]()
     @Published var seasonTasks = [Event]()
     
     private var previousSeason: Season
+    
+    let updatePublisher = PassthroughSubject<Void, Never>()
     
     // More on AnyCancellable on: apple-reference-documentation://hs-NDfw7su
     var cancellable: AnyCancellable?
@@ -80,10 +82,9 @@ class EventHolder {
     }
     
     func updateEventsWhenDateChanges() {
-        print("rkManager change detected")
         if previousSeason != rkManager.selectedDate.season {
-            print("Found new season, updating events")
             var events = [Event]()
+            self.clearPreviousEvents()
             
             events = birthdays.filter(({$0.date.season == rkManager.selectedDate.season}))
             seasonBirthdays.append(contentsOf: events)
@@ -94,14 +95,9 @@ class EventHolder {
             events = tasks.filter(({$0.date.season == rkManager.selectedDate.season}))
             seasonTasks.append(contentsOf: events)
             
-            
-            print("\(seasonBirthdays.map { "\($0.name)" })")
-            print("\(seasonFestivals.map { "\($0.name)" })")
-            print("\(seasonTasks.map { "\($0.name)" })")
             previousSeason = rkManager.selectedDate.season
-            self.clearPreviousEvents()
+            updatePublisher.send()
         }
-        print("")
     }
     
     func clearPreviousEvents() {
