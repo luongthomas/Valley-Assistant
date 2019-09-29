@@ -12,9 +12,14 @@ import SwiftUI
 class RKManager : ObservableObject {
     
     @Published var selectedDate: Day {
+        willSet {
+            previousSeason = self.selectedDate.season
+        }
         didSet {
-            self.monthArray = self.updateMonthArray(season: self.selectedDate.season)
-            // Hold on to previous season
+            if self.selectedDate.season != previousSeason {
+                self.monthArray = self.updateMonthArray(season: self.selectedDate.season)
+            }
+            
             updatePublisher.send()
         }
     }
@@ -27,9 +32,12 @@ class RKManager : ObservableObject {
     
     // color settings
     var colors = ColorSettings()
+    
+    var previousSeason: Season
   
     init(selectedDate: Day) {
         self.selectedDate = selectedDate
+        self.previousSeason = selectedDate.season
     }
     
     func getPrintableCurrentDate() -> String {
@@ -59,6 +67,7 @@ class RKManager : ObservableObject {
     }
     
     func updateMonthArray(season: Season) -> [[Day]] {
+        print("Updating month array")
         let weeksInMonth = 4
         let daysInWeek = 7
         var dayCount = 1
