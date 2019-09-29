@@ -22,12 +22,12 @@ struct CalendarView: View {
         GeometryReader { geometry in
             if geometry.size.height > geometry.size.width {
                 VStack {
-                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
+                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
                     CalendarEventList(eventHolder: self.eventHolder)
                 }
             } else {
                 HStack {
-                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager)
+                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
                     CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: geometry.size.width / 4)
                 }
             }

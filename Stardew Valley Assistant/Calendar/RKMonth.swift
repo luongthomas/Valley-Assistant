@@ -14,10 +14,9 @@ struct RKMonth: View {
     
     @ObservedObject var rkManager: RKManager
     
+    @ObservedObject var eventHolder: EventHolder
+    
     let daysPerWeek = 7
-    var monthsArray: [[Day]] {
-        monthArray()
-    }
     
     var body: some View {
         GeometryReader { geometry in
@@ -33,14 +32,15 @@ struct RKMonth: View {
                 
                 VStack(spacing: 0) {
                     RKWeekdayHeader(rkManager: self.rkManager)
-                    ForEach(self.monthsArray, id: \.self) { row in
+                    ForEach(self.rkManager.monthArray, id: \.self) { row in
                         HStack(spacing: 0) {
                             ForEach(row, id: \.self) { column in
                                 AnyView(
                                     // TODO: Fix this so it actually recreates the cells depending on the month
                                     RKCell(
                                         rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
-                                        cellWidth: CGFloat(UIScreen.main.bounds.width/8)                     
+                                        cellWidth: CGFloat(UIScreen.main.bounds.width/8),
+                                        rkManager: self.rkManager
                                     )
                                     .border(Color.gray, width: 1)
                                 )
@@ -65,24 +65,6 @@ struct RKMonth: View {
         let selected = Day(season: self.rkManager.selectedDate.season, day: selectedDay.day)
         self.rkManager.selectedDate = selected
         self.isPresented = false
-    }
-     
-    func monthArray() -> [[Day]] {
-        let weeksInMonth = 4
-        let daysInWeek = 7
-        var dayCount = 1
-        
-        var weeks = [[Day]]()
-        for _ in 1 ... weeksInMonth {
-            var weekdays = [Day]()
-            for _ in 1 ... daysInWeek {
-                let day = Day(season: .spring, day: dayCount)
-                weekdays.append(day)
-                dayCount += 1
-            }
-            weeks.append(weekdays)
-        }
-        return weeks
     }
     
     func isSelectedDate(date: Day) -> Bool {

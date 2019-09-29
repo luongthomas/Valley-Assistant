@@ -14,9 +14,7 @@ import SwiftUI
 struct RKCell: View {
     var rkDate: RKDate
     var cellWidth: CGFloat
-    
-//    var birthdayPersonImage: Image? = nil
-    var festivalToday: Bool = false
+    @ObservedObject var rkManager: RKManager
     
     var body: some View {
         GeometryReader { geometry in

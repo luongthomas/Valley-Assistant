@@ -13,9 +13,14 @@ class RKManager : ObservableObject {
     
     @Published var selectedDate: Day {
         didSet {
+            self.monthArray = self.updateMonthArray(season: self.selectedDate.season)
+            // Hold on to previous season
             updatePublisher.send()
         }
     }
+    
+    // Somehow recreate this monthsArray when the season changes.
+    @Published var monthArray = [[Day]]()
     
     // Can be consumed by other classes / objects.
     let updatePublisher = PassthroughSubject<Void, Never>()
@@ -53,7 +58,23 @@ class RKManager : ObservableObject {
         }
     }
     
-    
+    func updateMonthArray(season: Season) -> [[Day]] {
+        let weeksInMonth = 4
+        let daysInWeek = 7
+        var dayCount = 1
+        
+        var weeks = [[Day]]()
+        for _ in 1 ... weeksInMonth {
+            var weekdays = [Day]()
+            for _ in 1 ... daysInWeek {
+                let day = Day(season: season, day: dayCount)
+                weekdays.append(day)
+                dayCount += 1
+            }
+            weeks.append(weekdays)
+        }
+        return weeks
+    }
 }
 
 class EventHolder: ObservableObject {

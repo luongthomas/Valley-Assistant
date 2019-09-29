@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712821632340624000C35711 /* RKCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712821622340624000C35711 /* RKCellViewModel.swift */; };
 		714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043A323348BEE00C070D3 /* AppDelegate.swift */; };
 		714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043A523348BEE00C070D3 /* SceneDelegate.swift */; };
 		714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714043A723348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld */; };
@@ -55,7 +54,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		712821622340624000C35711 /* RKCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKCellViewModel.swift; sourceTree = "<group>"; };
 		714043A023348BEE00C070D3 /* Stardew Valley Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stardew Valley Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714043A323348BEE00C070D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		714043A523348BEE00C070D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,7 +165,6 @@
 				714043C1233495E400C070D3 /* RKManager.swift */,
 				714043C32334960400C070D3 /* RKMonth.swift */,
 				714043C72334964500C070D3 /* RKWeekdayHeader.swift */,
-				712821622340624000C35711 /* RKCellViewModel.swift */,
 			);
 			path = Calendar;
 			sourceTree = "<group>";
@@ -370,7 +367,6 @@
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
-				712821632340624000C35711 /* RKCellViewModel.swift in Sources */,
 				71540808233ADFA90019FB8E /* ItemRow.swift in Sources */,
 				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
