@@ -12,48 +12,50 @@ import SwiftUI
 
 
 struct RKCell: View {
-    
     var rkDate: RKDate
-    
     var cellWidth: CGFloat
+    
+//    var birthdayPersonImage: Image? = nil
+    var festivalToday: Bool = false
     
     var body: some View {
         GeometryReader { geometry in
-            HStack(alignment: .top) {
-                VStack(alignment: .leading) {
-                    Text("\(self.rkDate.date.day)")
-                        .fontWeight(self.rkDate.getFontWeight())
-                        .foregroundColor(self.rkDate.getTextColor())
-                    .font(.system(size: 15))
+            ZStack {
+                HStack(alignment: .top) {
+                    VStack(alignment: .leading) {
+                        Text("\(self.rkDate.date.day)")
+                            .fontWeight(self.rkDate.getFontWeight())
+                            .foregroundColor(self.rkDate.getTextColor())
+                        .font(.system(size: 15))
+                        ZStack {
+                            Spacer()
+                            Color.black.opacity(0.001)
+                        }
+                    }
                     ZStack {
                         Spacer()
                         Color.black.opacity(0.001)
                     }
                 }
-                ZStack {
-                    Spacer()
-                    Color.black.opacity(0.001)
+                .background(self.rkDate.getBackgroundColor())
+                
+                // Symbols to appear in the cell representing events
+                HStack {
+                    self.getImageForDay(date: self.rkDate.date)
                 }
             }
-            .background(self.rkDate.getBackgroundColor())
         }
     }
     
-    func getSizeBasedOnRotation(geometry: GeometryProxy, idealCellWidth: CGFloat) -> CellSize {
-        if geometry.size.height > geometry.size.width {
-            return CellSize(minWidth: idealCellWidth, maxWidth: geometry.size.width/3, minHeight: idealCellWidth/3, maxHeight: geometry.size.width/3, idealHeight: idealCellWidth)
+    func getImageForDay(date: Day) -> some View {
+        if birthdays.first(where:({$0.date == date})) != nil {
+            return AnyView(Image(systemName: "heart.fill"))
+        } else if festivals.first(where:({$0.date == date})) != nil {
+            return AnyView(Image(systemName: "app.gift"))
+        } else if tasks.first(where:({$0.date == date})) != nil {
+            return AnyView(Image(systemName: "list.number"))
         } else {
-            return CellSize(minWidth: idealCellWidth, maxWidth: geometry.size.width/3, minHeight: idealCellWidth/3, maxHeight: geometry.size.width/3, idealHeight: idealCellWidth)
+            return AnyView((EmptyView()))
         }
-    }
-    
-    struct CellSize {
-        var minWidth: CGFloat? = nil
-        var maxWidth: CGFloat? = nil
-        var idealWidth: CGFloat? = nil
-        
-        var minHeight: CGFloat? = nil
-        var maxHeight: CGFloat? = nil
-        var idealHeight: CGFloat? = nil
     }
 }

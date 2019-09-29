@@ -40,7 +40,7 @@ struct RKMonth: View {
                                     // TODO: Fix this so it actually recreates the cells depending on the month
                                     RKCell(
                                         rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
-                                        cellWidth: CGFloat(UIScreen.main.bounds.width/8)
+                                        cellWidth: CGFloat(UIScreen.main.bounds.width/8)                     
                                     )
                                     .border(Color.gray, width: 1)
                                 )

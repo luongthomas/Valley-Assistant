@@ -46,7 +46,7 @@ struct CalendarEventList: View {
     
     var body: some View {
         GeometryReader { geometry in
-            VStack(alignment: .center) {    
+            VStack(alignment: .center) {
                 Text("Events").fontWeight(.heavy).font(.headline).underline()
                 
                 List {
