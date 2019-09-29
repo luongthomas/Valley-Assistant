@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712AFB74234164880023C79F /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712AFB73234164880023C79F /* EventDetailView.swift */; };
+		712AFB762341652E0023C79F /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712AFB752341652E0023C79F /* EventRow.swift */; };
 		714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043A323348BEE00C070D3 /* AppDelegate.swift */; };
 		714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043A523348BEE00C070D3 /* SceneDelegate.swift */; };
 		714043A923348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 714043A723348BEE00C070D3 /* Stardew_Valley_Assistant.xcdatamodeld */; };
@@ -54,6 +56,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		712AFB73234164880023C79F /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
+		712AFB752341652E0023C79F /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 		714043A023348BEE00C070D3 /* Stardew Valley Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stardew Valley Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		714043A323348BEE00C070D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		714043A523348BEE00C070D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +122,7 @@
 			children = (
 				714043BA233490FE00C070D3 /* HomeView.swift */,
 				714043CB23359A3300C070D3 /* CalendarView.swift */,
+				712AFB73234164880023C79F /* EventDetailView.swift */,
 			);
 			path = CalendarPage;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				71540801233ACC990019FB8E /* ItemTypeList.swift */,
 				71540805233AD0C10019FB8E /* VillagerRow.swift */,
 				71540807233ADFA90019FB8E /* ItemRow.swift */,
+				712AFB752341652E0023C79F /* EventRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
+				712AFB74234164880023C79F /* EventDetailView.swift in Sources */,
 				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				71D4AE6E233C61C200E7E068 /* Event.swift in Sources */,
@@ -369,6 +376,7 @@
 				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
+				712AFB762341652E0023C79F /* EventRow.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				71540800233AB93C0019FB8E /* SearchBar.swift in Sources */,
 				715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */,

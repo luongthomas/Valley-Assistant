@@ -51,13 +51,13 @@ struct CalendarEventList: View {
                 
                 List {
                     if !self.eventHolder.seasonBirthdays.isEmpty {
-                        EventRows(events: self.eventHolder.seasonBirthdays, title: "Birthdays")
+                        CalendarEventRows(events: self.eventHolder.seasonBirthdays, title: "Birthdays")
                     }
                     if !self.eventHolder.seasonFestivals.isEmpty {
-                        EventRows(events: self.eventHolder.seasonFestivals, title: "Festivals")
+                        CalendarEventRows(events: self.eventHolder.seasonFestivals, title: "Festivals")
                     }
                     if !self.eventHolder.seasonTasks.isEmpty {
-                        EventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
+                        CalendarEventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
                     }
                 }.frame(minHeight: geometry.size.height/4, maxHeight: geometry.size.height/2)
             }
@@ -65,7 +65,7 @@ struct CalendarEventList: View {
     }
 }
 
-struct EventRows: View {
+struct CalendarEventRows: View {
     var events: [Event]
     var title: String
     
@@ -74,13 +74,13 @@ struct EventRows: View {
             Text(title).fontWeight(.light)
                 .font(.headline)
             ForEach(events, id: \.self) { event in
-                EventListRow(eventText: event.name, date: event.date)
+                CalendarEventRow(eventText: event.name, date: event.date)
             }
         }
     }
 }
 
-struct EventListRow: View {
+struct CalendarEventRow: View {
     var eventText: String
     var date: Day
     

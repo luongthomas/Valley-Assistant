@@ -19,26 +19,27 @@ struct HomeView: View {
     }
     
     var body: some View {
-        ZStack {
-            VStack (alignment: .leading) {
-                HStack {
-                    VStack (alignment: .leading) {
-                        Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
-                        Text(rkManager.getWeekday()).font(.subheadline)
+        NavigationView {
+            ZStack {
+                VStack (alignment: .leading) {
+                    HStack {
+                        VStack (alignment: .leading) {
+                            Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
+                            Text(rkManager.getWeekday()).font(.subheadline)
+                        }
+                        Spacer()
+                        calendarButton
+                    }.padding(.bottom, 50)
+                    
+                    getTodayList(dateManager: rkManager)
+                    
+                }.padding()
+                VStack {
+                    Spacer()
+                    HStack {
+                        Spacer()
+                        addTaskButton
                     }
-                    Spacer()
-                    calendarButton
-                }.padding(.bottom, 50)
-                
-                getTodayList(dateManager: rkManager)
-                .border(Color.gray, width: 0.0)
-                
-            }.padding()
-            VStack {
-                Spacer()
-                HStack {
-                    Spacer()
-                    addTaskButton
                 }
             }
         }
@@ -108,19 +109,19 @@ private extension HomeView {
         return List {
             if !todayBirthdays.isEmpty {
                 Section(header: listHeader(headerText: "Birthdays")) {
-                    Text("\(todayBirthdays.first!.name)")
+                    EventRow(event: todayBirthdays.first!)
                 }
             }
             if !todayFestivals.isEmpty {
                 Section(header: listHeader(headerText: "Festivals")) {
-                    Text("\(todayFestivals.first!.name)")
+                    EventRow(event: todayFestivals.first!)
                 }
             }
             
             if !todayTasks.isEmpty {
                 Section(header: listHeader(headerText: "Tasks")) {
                     ForEach(todayTasks, id: \.id) { task in
-                        Text("\(task.name)")
+                        EventRow(event: task)
                     }
                 }
             }
