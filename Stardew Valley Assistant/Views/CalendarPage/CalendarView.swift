@@ -71,10 +71,26 @@ struct EventRows: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(title).fontWeight(.light).font(.subheadline)
-            ForEach(events, id: \.id) { event in
-                Text("\(event.name)").padding(.leading, 15)
+            Text(title).fontWeight(.light)
+                .font(.headline)
+            ForEach(events, id: \.self) { event in
+                EventListRow(eventText: event.name, date: event.date)
             }
         }
+    }
+}
+
+struct EventListRow: View {
+    var eventText: String
+    var date: Day
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("\(eventText)")
+                .font(.subheadline)
+            Text("\(date.season.rawValue.capitalized) \(date.day)")
+                .font(.footnote)
+                .fontWeight(.ultraLight)
+        }.padding(.leading, 15)
     }
 }

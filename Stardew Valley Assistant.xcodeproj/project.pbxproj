@@ -113,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7128216423415DA400C35711 /* CalendarPage */ = {
+			isa = PBXGroup;
+			children = (
+				714043BA233490FE00C070D3 /* HomeView.swift */,
+				714043CB23359A3300C070D3 /* CalendarView.swift */,
+			);
+			path = CalendarPage;
+			sourceTree = "<group>";
+		};
 		7140439723348BEE00C070D3 = {
 			isa = PBXGroup;
 			children = (
@@ -174,8 +183,7 @@
 			children = (
 				715407FE233AB92F0019FB8E /* Components */,
 				714043AA23348BEE00C070D3 /* ContentView.swift */,
-				714043BA233490FE00C070D3 /* HomeView.swift */,
-				714043CB23359A3300C070D3 /* CalendarView.swift */,
+				7128216423415DA400C35711 /* CalendarPage */,
 				714043DC23393A7A00C070D3 /* BundleView.swift */,
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
