@@ -38,6 +38,7 @@ class RKManager : ObservableObject {
     init(selectedDate: Day) {
         self.selectedDate = selectedDate
         self.previousSeason = selectedDate.season
+        self.monthArray = self.updateMonthArray(season: self.selectedDate.season)
     }
     
     func getPrintableCurrentDate() -> String {
