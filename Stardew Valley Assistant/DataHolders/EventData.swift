@@ -25,4 +25,23 @@ struct EventData {
             print(error)
         }
     }
+    
+    func generateBirthdayEvents() -> [Event] {
+        // Assuming villagers is already populated
+        
+        
+        var birthdayEvents = [Event]()
+        
+        for villager in villagers {
+            let birthday = Event(name: "\(villager.name.rawValue.capitalized)",
+                date: villager.birthday,
+                type: .birthday,
+                description: "Give \(villager.name.rawValue.capitalized) a gift",
+                associatedVillager: villager)
+            
+            birthdayEvents.append(birthday)
+        }
+        
+        return birthdayEvents
+    }
 }

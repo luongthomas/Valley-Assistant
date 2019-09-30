@@ -3,8 +3,8 @@
     "name": "emily",
     "id": 0,
     "birthday": {
-      "season": "spring",
-      "day": 1
+      "season": "winter",
+      "day": 4
     },
     "address": "WillowLane",
     "loves": [
@@ -25,7 +25,7 @@
     "name": "josh",
     "id": 1,
     "birthday": {
-      "season": "spring",
+      "season": "winter",
       "day": 1
     },
     "address": "WillowLane",
@@ -48,8 +48,8 @@
     "name": "jake",
     "id": 2,
     "birthday": {
-      "season": "spring",
-      "day": 1
+      "season": "winter",
+      "day": 2
     },
     "address": "WillowLane",
     "loves": [
@@ -69,8 +69,8 @@
     "name": "penny",
     "id": 3,
     "birthday": {
-      "season": "summer",
-      "day": 2
+      "season": "winter",
+      "day": 3
     },
     "address": "WillowLane",
     "loves": [

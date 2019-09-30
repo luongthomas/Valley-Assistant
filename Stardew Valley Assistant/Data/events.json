@@ -1,16 +1,5 @@
 {
   "birthdays": [
-    {
-      "id": 0,
-      "name": "Penny's Birthday",
-      "date": {
-        "season": "summer",
-        "day": 16
-      },
-      "type": "birthday",
-      "associatedVillager": "penny",
-      "description": "Give a gift to Penny"
-    }
   ],
   "festivals": [
     {

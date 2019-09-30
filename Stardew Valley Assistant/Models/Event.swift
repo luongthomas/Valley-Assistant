@@ -36,6 +36,24 @@ class Event: Codable {
     var eventStart: Int?
     var eventEnd: Int?
     
+    init(id: Int? = nil, name: String, date: Day, type: EventType, description: String, associatedVillager: Villager? = nil, eventStart: Int? = nil, eventEnd: Int? = nil) {
+        
+        self.name = name
+        self.date = date
+        self.type = type
+        self.description = description
+        self.associatedVillager = associatedVillager
+        self.eventStart = eventStart
+        self.eventEnd = eventEnd
+        if let id = id {
+            self.id = id
+        } else {
+            // Needs to be initialized before using a self function
+            self.id = 1
+            self.id = self.generateNextId()
+        }
+    }
+    
     required init(from decoder: Decoder) throws {
         let map = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try map.decode(.id)
@@ -51,6 +69,13 @@ class Event: Codable {
     
     private enum CodingKeys: CodingKey {
         case id, name, date, type, description, associatedVillager, eventStart, eventEnd
+    }
+    
+    func generateNextId() -> Int {
+        let birthdayCount = events.birthdays.count
+        let festivalCount = events.festivals.count
+        let taskCount = events.tasks.count
+        return birthdayCount + festivalCount + taskCount + 1
     }
 }
 
