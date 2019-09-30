@@ -39,9 +39,9 @@ class Item: Codable {
 }
 
 enum ItemName: String, Codable {
-    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk
+    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk, barn, bigBarn
 }
 
 enum ItemType: String, Codable {
-    case all, tools, food, minerals, fish, crops, weapons, crafting
+    case all, tools, food, minerals, fish, crops, weapons, crafting, building
 }

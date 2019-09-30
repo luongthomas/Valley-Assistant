@@ -64,5 +64,28 @@
     "dislikes": [
       "poppy"
     ]
+  },
+  {
+    "name": "Penny",
+    "id": 3,
+    "birthday": {
+      "season": "summer",
+      "day": 2
+    },
+    "address": "WillowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
   }
 ]

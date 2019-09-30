@@ -32,6 +32,10 @@ struct Villager: Codable {
     }
 }
 
+enum VillagerName: String, Codable {
+    case penny
+}
+
 struct Day: Codable, Equatable, Hashable {
     var season: Season
     var day: Int

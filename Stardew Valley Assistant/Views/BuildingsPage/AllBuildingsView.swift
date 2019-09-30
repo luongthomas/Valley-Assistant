@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct AllBuildingsView: View {
+    @State private var searchTerm = ""
+    
     var body: some View {
-        Text("All Buildings")
+        VStack {
+            List {
+                SearchBar(text: $searchTerm)
+                
+                ForEach(buildings.filter {
+                    self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm)
+                }, id: \.id) { building in
+                    NavigationLink(destination: BuildingDetailView(building: building)) {
+                        Text(building.name)
+                    }
+                }
+            }.navigationBarTitle("All Buildings")
+        }
     }
 }
 

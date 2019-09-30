@@ -15,6 +15,7 @@ let events = EventData()
 let festivals = events.festivals
 let birthdays = events.birthdays
 let tasks = events.tasks
+let buildings = BuildingData().buildings
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

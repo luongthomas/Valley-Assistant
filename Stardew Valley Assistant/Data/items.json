@@ -88,5 +88,28 @@
     "description": "Healthy Beverage",
     "heal": 70,
     "stamina": 30
-  }
+  },
+  {
+    "name": "barn",
+    "type": "building",
+    "id": 10,
+    "value": 500,
+    "source": "Carpenter's Shop",
+    "description": "Normal sized barn for animals",
+    "recipe": [
+        "egg",
+        "milk"
+    ],
+  },
+  {
+    "name": "bigBarn",
+    "type": "building",
+    "id": 11,
+    "value": 1000,
+    "source": "Carpenter's Shop",
+    "description": "Huge barn for animals",
+    "recipe": [
+        "barn",
+    ],
+  },
 ]
