@@ -30,7 +30,6 @@ class RKManager : ObservableObject {
     // Can be consumed by other classes / objects.
     let updatePublisher = PassthroughSubject<Void, Never>()
     
-    // color settings
     var colors = ColorSettings()
     
     var previousSeason: Season
@@ -68,7 +67,6 @@ class RKManager : ObservableObject {
     }
     
     func updateMonthArray(season: Season) -> [[Day]] {
-        print("Updating month array")
         let weeksInMonth = 4
         let daysInWeek = 7
         var dayCount = 1
