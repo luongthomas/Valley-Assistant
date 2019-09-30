@@ -22,18 +22,10 @@ struct HomeView: View {
         NavigationView {
             ZStack {
                 VStack (alignment: .leading) {
-                    HStack {
-                        VStack (alignment: .leading) {
-                            Text(rkManager.getPrintableCurrentDate()).font(.largeTitle)
-                            Text(rkManager.getWeekday()).font(.subheadline)
-                        }
-                        Spacer()
-                        calendarButton
-                    }.padding(.bottom, 50)
-                    
                     getTodayList(dateManager: rkManager)
-                    
-                }.padding()
+                }
+                
+                
                 VStack {
                     Spacer()
                     HStack {
@@ -41,7 +33,10 @@ struct HomeView: View {
                         addTaskButton
                     }
                 }
-            }
+            }.padding()
+            .navigationBarTitle(Text("\(rkManager.getWeekday()), \(rkManager.getPrintableCurrentDate())"))
+            .navigationBarItems(leading: menuButton, trailing: calendarButton)
+            
         }
     }
 }
@@ -59,6 +54,19 @@ private extension HomeView {
             self.isPresented = true
         }, label: {
             Image(systemName: "calendar")
+            .resizable()
+            .frame(width: 30, height: 30)
+            .aspectRatio(1, contentMode: .fit)
+        }).sheet(isPresented: $isPresented) {
+            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder)
+        }
+    }
+    
+    var menuButton: some View {
+        Button(action: {
+            self.isPresented = true
+        }, label: {
+            Image(systemName: "gear")
             .resizable()
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
