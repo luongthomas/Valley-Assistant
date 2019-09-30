@@ -156,6 +156,7 @@
 			children = (
 				715407FB233AB0680019FB8E /* Utilities */,
 				714043D1233842CA00C070D3 /* Data */,
+				71E7516D2342AFA0006D7397 /* DataHolders */,
 				714043BC2334954C00C070D3 /* Calendar */,
 				714043A323348BEE00C070D3 /* AppDelegate.swift */,
 				714043A523348BEE00C070D3 /* SceneDelegate.swift */,
@@ -214,10 +215,6 @@
 				714043D62338457E00C070D3 /* Item.swift */,
 				71D4AE6D233C61C200E7E068 /* Event.swift */,
 				71E7516523428D0E006D7397 /* Building.swift */,
-				714043D82338567400C070D3 /* VillagerData.swift */,
-				71404406233A941B00C070D3 /* ItemData.swift */,
-				71D4AE6F233C648A00E7E068 /* EventData.swift */,
-				71E751692342A329006D7397 /* BuildingData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -285,6 +282,17 @@
 				714043DA2339344600C070D3 /* VillagerDetail.swift */,
 			);
 			path = VillagersPage;
+			sourceTree = "<group>";
+		};
+		71E7516D2342AFA0006D7397 /* DataHolders */ = {
+			isa = PBXGroup;
+			children = (
+				714043D82338567400C070D3 /* VillagerData.swift */,
+				71404406233A941B00C070D3 /* ItemData.swift */,
+				71D4AE6F233C648A00E7E068 /* EventData.swift */,
+				71E751692342A329006D7397 /* BuildingData.swift */,
+			);
+			path = DataHolders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

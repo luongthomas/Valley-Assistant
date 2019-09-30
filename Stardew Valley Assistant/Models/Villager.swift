@@ -9,7 +9,7 @@
 import Foundation
 
 struct Villager: Codable {
-    var name: String
+    var name: VillagerName
     var id: Int
     var birthday: Day
     var address: Location
@@ -21,7 +21,7 @@ struct Villager: Codable {
         case name, id, birthday, address, loves, likes, dislikes
     }
     
-    init(name: String, id: Int, birthday: Day, address: Location, loves: [ItemName], likes: [ItemName], dislikes: [ItemName]) {
+    init(name: VillagerName, id: Int, birthday: Day, address: Location, loves: [ItemName], likes: [ItemName], dislikes: [ItemName]) {
         self.name = name
         self.id = id
         self.birthday = birthday
@@ -33,7 +33,7 @@ struct Villager: Codable {
 }
 
 enum VillagerName: String, Codable {
-    case penny
+    case penny, josh, jake, emily
 }
 
 struct Day: Codable, Equatable, Hashable {

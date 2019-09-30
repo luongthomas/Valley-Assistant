@@ -14,7 +14,7 @@ struct VillagerRow: View {
     var body: some View {
         HStack {
             NavigationLink(destination: VillagerDetailView(villager: villager)) {
-                Text(villager.name)
+                Text(villager.name.rawValue.capitalized)
             }
         }
     }

@@ -18,6 +18,25 @@
       "milk",
       "egg"
     ]
+  },
+  {
+    "id": 1,
+    "name": "Carpenter's Shop",
+    "type": "shop",
+    "occupants": ["josh"],
+    "description": "A place to buy goods for the house and upgrade the farm.",
+    "openTime": {
+      "hour": 10,
+      "ampm": "am"
+    },
+    "closeTime": {
+      "hour": 5,
+      "ampm": "pm"
+    },
+    "obtainables": [
+      "barn",
+      "bigBarn"
+    ]
   }
 ]
 

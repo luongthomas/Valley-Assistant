@@ -45,11 +45,11 @@ struct ItemDetailView: View {
             }
             
             .navigationBarTitle("\(item.name)")
-        }.padding()
+        }
     }
     
-    private func getVillagersThat(affinity: String, item: Item) -> [String] {
-        var villagersForAffinity = [String]()
+    private func getVillagersThat(affinity: String, item: Item) -> [VillagerName] {
+        var villagersForAffinity = [VillagerName]()
         if affinity == "Loves" {
             villagersForAffinity = villagers.compactMap({ villager in
                 // Convert to enum and check if "loves" contains it

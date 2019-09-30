@@ -10,34 +10,27 @@ import SwiftUI
 
 struct BuildingDetailView: View {
     var building: Building
-//    let affinities = ["Loves", "Likes", "Dislikes"]
-    
-//    @State var selectedAffinity = 0
     
     var body: some View {
-        VStack(alignment: .leading) {
-//            Text("Value: \(building.value)")
+        VStack() {
+            Text("Type: \(building.type.rawValue.capitalized)")
+            Text("Hours: \(building.openTime.hour) \(building.openTime.ampm.rawValue.capitalized) - \(building.closeTime.hour) \(building.closeTime.ampm.rawValue.capitalized)")
             Text("Description: \(building.description)")
-//            Text("Source: \(item.source)")
             
-//            if item.type == .food {
-//                Text("Health: \(item.heal!)")
-//                Text("Stamina: \(item.stamina!)")
-//            }
-            
-            // Requirements
-//            if item.recipe != nil {
-//                RecipeView(recipe: item.recipe!)
-//            }
-            
-            // Segmented Control between Loves and Likes
-//            Picker(selection: $selectedAffinity, label: EmptyView()) {
-//                ForEach(0..<affinities.count) { index in
-//                    Text(self.affinities[index]).tag(index)
-//                }
-//            }.pickerStyle(SegmentedPickerStyle())
+            Spacer()
+
+            Text("Occupants")
+            List {
+                ForEach(building.occupants, id: \.self) { name in
+                    VillagerRow(villager: villagers.first(where: {
+                        $0.name == name
+                    })!)
+                }
+            }
+
+
 //            List {
-//                ForEach(getVillagersThat(affinity: affinities[selectedAffinity], item: item), id: \.self) { name in
+//                ForEach(bui, id: \.self) { name in
 //                    VillagerRow(villager: villagers.first(where: {
 //                        $0.name == name
 //                    })!)
@@ -45,7 +38,7 @@ struct BuildingDetailView: View {
 //            }
             
             .navigationBarTitle("\(building.name)")
-        }.padding()
+        }
     }
     
 //    private func getVillagersThat(affinity: String, item: Item) -> [String] {

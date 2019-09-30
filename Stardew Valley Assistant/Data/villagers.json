@@ -1,7 +1,7 @@
 [
   {
-    "name": "Emily",
-    "id": 3,
+    "name": "emily",
+    "id": 0,
     "birthday": {
       "season": "spring",
       "day": 1
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "name": "Josh",
+    "name": "josh",
     "id": 1,
     "birthday": {
       "season": "spring",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "name": "Jake",
+    "name": "jake",
     "id": 2,
     "birthday": {
       "season": "spring",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "name": "Penny",
+    "name": "penny",
     "id": 3,
     "birthday": {
       "season": "summer",

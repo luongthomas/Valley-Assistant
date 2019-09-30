@@ -17,7 +17,7 @@ struct VillagerDetailView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(villager.name)
+            Text(villager.name.rawValue.capitalized)
                 .font(.title)
 
             HStack(alignment: .top) {
