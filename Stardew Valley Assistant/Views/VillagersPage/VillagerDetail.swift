@@ -21,8 +21,8 @@ struct VillagerDetailView: View {
                 .font(.title)
 
             HStack(alignment: .top) {
-                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
-                    .font(.subheadline)
+//                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
+//                .font(.subheadline)
                 Spacer()
                 Text("Address: \(villager.address.description)")
                     .font(.subheadline)
@@ -45,13 +45,13 @@ struct VillagerDetailView: View {
         }.padding()
     }
     
-    private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [String] {
+    private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [ItemName] {
         if affinity == "Loves" {
-            return villager.loves.map({$0.rawValue})
+            return villager.loves.map({$0})
         } else if affinity == "Likes" {
-            return villager.likes.map({$0.rawValue})
+            return villager.likes.map({$0})
         } else {
-            return villager.dislikes.map({$0.rawValue})
+            return villager.dislikes.map({$0})
         }
     }
 }

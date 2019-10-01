@@ -43,9 +43,8 @@ struct ItemDetailView: View {
                     })!)
                 }
             }
-            
-            .navigationBarTitle("\(item.name)")
-        }
+            .navigationBarTitle("\(item.name.rawValue.capitalized)")
+        }.padding()
     }
     
     private func getVillagersThat(affinity: String, item: Item) -> [VillagerName] {
@@ -53,7 +52,7 @@ struct ItemDetailView: View {
         if affinity == "Loves" {
             villagersForAffinity = villagers.compactMap({ villager in
                 // Convert to enum and check if "loves" contains it
-                if villager.loves.contains(ItemName(rawValue: item.name)!) {
+                if villager.loves.contains(item.name) {
                     return villager.name
                 } else {
                     return nil
@@ -61,7 +60,7 @@ struct ItemDetailView: View {
             })
         } else if affinity == "Likes" {
             villagersForAffinity = villagers.compactMap({ villager in
-                if villager.likes.contains(ItemName(rawValue: item.name)!) {
+                if villager.likes.contains(item.name) {
                     return villager.name
                 } else {
                     return nil
@@ -82,7 +81,7 @@ struct RecipeView: View {
                 Spacer()
                 HStack {
                     ForEach(recipe, id: \.self) { ingredient in
-                        ItemRow(item: items.first(where:{ $0.name == ingredient.rawValue })!)
+                        ItemRow(item: items.first(where:{ $0.name == ingredient })!)
                     }
                 }
             }
@@ -95,7 +94,7 @@ struct ItemDetailView_Previews: PreviewProvider {
     
     static var previews: some View {
         ItemDetailView(item: items.first(where: {
-            $0.name == "omelette"
+            $0.name.rawValue == "omelette"
         })!)
     }
 }

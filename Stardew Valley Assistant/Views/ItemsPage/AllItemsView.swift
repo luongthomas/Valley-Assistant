@@ -17,10 +17,10 @@ struct AllItemsView: View {
                 SearchBar(text: $searchTerm)
                 
                 ForEach(items.filter {
-                    self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm)
+                    self.searchTerm.isEmpty ? true : $0.name.rawValue.localizedCaseInsensitiveContains(self.searchTerm)
                 }, id: \.id) { item in
                     NavigationLink(destination: ItemDetailView(item: item)) {
-                        Text(item.name)
+                        Text(item.name.rawValue.capitalized)
                     }
                 }
             }.navigationBarTitle("All Items")

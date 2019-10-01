@@ -10,7 +10,7 @@ import Foundation
 
 class Item: Codable {
     var id: Int
-    var name: String
+    var name: ItemName
     var type: ItemType
     var value: Int
     var source: String

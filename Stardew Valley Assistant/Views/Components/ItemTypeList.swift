@@ -21,7 +21,7 @@ struct ItemTypeList: View {
                     validElement(item: $0)
                 }, id: \.id) { item in
                     NavigationLink(destination: ItemDetailView(item: item)) {
-                        Text(item.name)
+                        Text(item.name.rawValue.capitalized)
                     }
                 }
             }.navigationBarTitle("\(itemType.rawValue.capitalized)")
@@ -29,7 +29,7 @@ struct ItemTypeList: View {
     }
     
     private func validElement(item: Item) -> Bool {
-        let containsSubString = self.searchTerm.isEmpty ? true : item.name.localizedCaseInsensitiveContains(self.searchTerm)
+        let containsSubString = self.searchTerm.isEmpty ? true : item.name.rawValue.localizedCaseInsensitiveContains(self.searchTerm)
         
         if containsSubString && (item.type == self.itemType || self.itemType == .all) {
             return true
