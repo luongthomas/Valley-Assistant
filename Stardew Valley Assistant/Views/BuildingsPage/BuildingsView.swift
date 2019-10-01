@@ -23,7 +23,7 @@ struct BuildingsView: View {
                 }
             }
             .navigationBarTitle("Buildings")
-        }
+        }.environment(\.horizontalSizeClass, .compact)
     }
     
     func containedView(category: String) -> AnyView {

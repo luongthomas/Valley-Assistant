@@ -41,6 +41,7 @@ struct HomeView: View {
             let birthdayEvents = events.generateBirthdayEvents()
             birthdays.append(contentsOf: birthdayEvents)
         }
+        .environment(\.horizontalSizeClass, .compact)
     }
 }
 

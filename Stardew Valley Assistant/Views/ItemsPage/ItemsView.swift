@@ -23,7 +23,7 @@ struct ItemsView: View {
                 }
             }
             .navigationBarTitle("Items")
-        }
+        }.environment(\.horizontalSizeClass, .compact)
     }
 }
 
