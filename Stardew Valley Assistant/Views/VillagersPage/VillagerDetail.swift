@@ -17,12 +17,9 @@ struct VillagerDetailView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(villager.name.rawValue.capitalized)
-                .font(.title)
-
             HStack(alignment: .top) {
-//                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
-//                .font(.subheadline)
+                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
+                .font(.subheadline)
                 Spacer()
                 Text("Address: \(villager.address.description)")
                     .font(.subheadline)
@@ -42,7 +39,12 @@ struct VillagerDetailView: View {
                     })!)
                 }
             }
-        }.padding()
+        }
+        .padding()
+        .navigationBarTitle(
+            Text(villager.name.rawValue.capitalized)
+            .font(.title)
+        )
     }
     
     private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [ItemName] {
