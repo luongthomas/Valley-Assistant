@@ -9,38 +9,21 @@
 import SwiftUI
 
 struct BuildingsView: View {
-    let categories = ["All Buildings", "Shops", "Farm Upgrades", "House Upgrades", "Community Center"]
-
+    let categories: [BuildingType] = [.all, .shop , .house, .communityCenter, .farmUpgrades, .houseUpgrades]
+    
     var body: some View {
         NavigationView {
             VStack {
                 List {
                     ForEach(categories, id: \.self) { category in
-                        NavigationLink(destination: self.containedView(category: category)) {
-                            Text(category)
+                        NavigationLink(destination: BuildingTypeList(buildingType: category)) {
+                            Text(category.rawValue.capitalized)
                         }
                     }
                 }
             }
             .navigationBarTitle("Buildings")
         }.environment(\.horizontalSizeClass, .compact)
-    }
-    
-    func containedView(category: String) -> AnyView {
-        switch category {
-            case "All Buildings":
-                return AnyView(AllBuildingsView())
-            case "Shops":
-                return AnyView(ShopsView())
-            case "Farm Upgrades":
-                return AnyView(FarmUpgradesView())
-            case "House Upgrades":
-                return AnyView(HouseUpgradesView())
-            case "Community Center":
-                return AnyView(CommunityCenterView())
-            default:
-                return AnyView(AllBuildingsView())
-        }
     }
 }
 

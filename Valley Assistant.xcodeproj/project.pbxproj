@@ -60,6 +60,7 @@
 		71D4AE70233C648A00E7E068 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6F233C648A00E7E068 /* EventData.swift */; };
 		71E0C351234BF0170005485F /* ScheduleParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C350234BF0170005485F /* ScheduleParameters.swift */; };
 		71E0C353234BF9A40005485F /* TimeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C352234BF9A40005485F /* TimeLocation.swift */; };
+		71E0C355234C04870005485F /* BuildingTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C354234C04870005485F /* BuildingTypeList.swift */; };
 		71E7516623428D0E006D7397 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7516523428D0E006D7397 /* Building.swift */; };
 		71E75168234291AD006D7397 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = 71E75167234291AD006D7397 /* buildings.json */; };
 		71E7516A2342A329006D7397 /* BuildingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E751692342A329006D7397 /* BuildingData.swift */; };
@@ -122,6 +123,7 @@
 		71D4AE6F233C648A00E7E068 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		71E0C350234BF0170005485F /* ScheduleParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleParameters.swift; sourceTree = "<group>"; };
 		71E0C352234BF9A40005485F /* TimeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLocation.swift; sourceTree = "<group>"; };
+		71E0C354234C04870005485F /* BuildingTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTypeList.swift; sourceTree = "<group>"; };
 		71E7516523428D0E006D7397 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 		71E75167234291AD006D7397 /* buildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
 		71E751692342A329006D7397 /* BuildingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingData.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				714043FC2339912600C070D3 /* FarmUpgradesView.swift */,
 				714043FE2339913700C070D3 /* HouseUpgradesView.swift */,
 				714044022339915900C070D3 /* CommunityCenterView.swift */,
+				71E0C354234C04870005485F /* BuildingTypeList.swift */,
 			);
 			path = BuildingsPage;
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 				71540800233AB93C0019FB8E /* SearchBar.swift in Sources */,
 				71E0C351234BF0170005485F /* ScheduleParameters.swift in Sources */,
 				715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */,
+				71E0C355234C04870005485F /* BuildingTypeList.swift in Sources */,
 				71E7516C2342A65B006D7397 /* BuildingDetailView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
 				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,

@@ -38,5 +38,5 @@ class Building: Codable {
 }
 
 enum BuildingType: String, Codable {
-    case shop, house, communityCenter
+    case all, shop, house, communityCenter, farmUpgrades, houseUpgrades
 }
