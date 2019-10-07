@@ -9,7 +9,11 @@
 import SwiftUI
 
 struct ScheduleView: View {
-    @State var isRaining = false
+    @State var isRaining = false {
+        didSet {
+            scheduleParameters.isRaining = self.isRaining
+        }
+    }
     
     let villager: Villager
     var viewModel: ScheduleViewModel {

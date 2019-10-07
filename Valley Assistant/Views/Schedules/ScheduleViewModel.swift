@@ -11,18 +11,17 @@ import Foundation
 import SwiftUI
 import Combine
 
-struct ScheduleViewModel {
+class ScheduleViewModel: ObservableObject {
     let villager: Villager
     let selectedDate: Day
+    let scheduleData: ScheduleData
     
-    lazy var scheduleData: ScheduleData = {
-        return ScheduleData(villager: self.villager)
-    }()
+    @ObservedObject var params: ScheduleParameters = scheduleParameters
     
-    // https://stackoverflow.com/questions/57316270/cannot-use-mutating-getter-on-immutable-value-self-is-immutable-error
-    func getScheduleData() -> ScheduleData {
-        var mutableSelf = self
-        return mutableSelf.scheduleData
+    init(villager: Villager, selectedDate: Day) {
+        self.villager = villager
+        self.selectedDate = selectedDate
+        self.scheduleData = ScheduleData(villager: villager)
     }
     
     // https://stackoverflow.com/questions/34800765/how-to-assign-a-variable-in-a-swift-case-statement
@@ -40,7 +39,7 @@ struct ScheduleViewModel {
     }
     
     func getEmilySchedule() -> [TimeLocation] {
-        let possibleSchedules = getScheduleData().possibleSchedules
+        let possibleSchedules = scheduleData.possibleSchedules
 
         if selectedDate.season == .winter && selectedDate.day == 11 {
             return possibleSchedules["winter_11"]!
@@ -51,15 +50,15 @@ struct ScheduleViewModel {
         }
 
         // Regular schedule is the same as the raining one
-        //        if rkManager.isRaining {
-        //            return possibleSchedules["regular"]!
-        //        }
+        if params.isRaining {
+            return possibleSchedules["winter_11"]! // test change
+        }
 
         if selectedDate.getWeekday() == "tuesday" {
             return possibleSchedules["tuesday"]!
         }
 
-//     TODO: Add community center restored toggle
+        // TODO: Add community center restored toggle
         if selectedDate.getWeekday() == "friday" {
             return possibleSchedules["friday_community_center_restored"]!
         }

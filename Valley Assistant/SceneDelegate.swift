@@ -17,6 +17,7 @@ var birthdays = events.birthdays
 let tasks = events.tasks
 let buildings = BuildingData().buildings
 var rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
+var scheduleParameters = ScheduleParameters()
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?

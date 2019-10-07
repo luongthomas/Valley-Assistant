@@ -58,6 +58,7 @@
 		71D4AE6C233C610C00E7E068 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D4AE6B233C610C00E7E068 /* events.json */; };
 		71D4AE6E233C61C200E7E068 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6D233C61C200E7E068 /* Event.swift */; };
 		71D4AE70233C648A00E7E068 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6F233C648A00E7E068 /* EventData.swift */; };
+		71E0C351234BF0170005485F /* ScheduleParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C350234BF0170005485F /* ScheduleParameters.swift */; };
 		71E7516623428D0E006D7397 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7516523428D0E006D7397 /* Building.swift */; };
 		71E75168234291AD006D7397 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = 71E75167234291AD006D7397 /* buildings.json */; };
 		71E7516A2342A329006D7397 /* BuildingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E751692342A329006D7397 /* BuildingData.swift */; };
@@ -118,6 +119,7 @@
 		71D4AE6B233C610C00E7E068 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		71D4AE6D233C61C200E7E068 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		71D4AE6F233C648A00E7E068 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		71E0C350234BF0170005485F /* ScheduleParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleParameters.swift; sourceTree = "<group>"; };
 		71E7516523428D0E006D7397 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
 		71E75167234291AD006D7397 /* buildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
 		71E751692342A329006D7397 /* BuildingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingData.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				71D4AE6F233C648A00E7E068 /* EventData.swift */,
 				71E751692342A329006D7397 /* BuildingData.swift */,
 				71B75968234BE4F000A0CFFD /* ScheduleData.swift */,
+				71E0C350234BF0170005485F /* ScheduleParameters.swift */,
 			);
 			path = DataHolders;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				712AFB762341652E0023C79F /* EventRow.swift in Sources */,
 				714043D0233748F900C070D3 /* VillagerView.swift in Sources */,
 				71540800233AB93C0019FB8E /* SearchBar.swift in Sources */,
+				71E0C351234BF0170005485F /* ScheduleParameters.swift in Sources */,
 				715407FD233AB07F0019FB8E /* String+CamelCaps.swift in Sources */,
 				71E7516C2342A65B006D7397 /* BuildingDetailView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
