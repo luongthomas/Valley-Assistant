@@ -53,33 +53,27 @@ enum Season: String, Codable, CustomStringConvertible, CaseIterable, Hashable {
     }
 }
 
-enum Location: String, Codable, CustomStringConvertible {
-    case Home
-    case WillowLane
+struct Schedule: Codable, Hashable {
+    static func == (lhs: Schedule, rhs: Schedule) -> Bool {
+        return lhs.hashValue == rhs.hashValue
+    }
     
-    var description: String {
-        return self.rawValue
+    var locations: [TimeLocation]
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(locations)
     }
 }
 
-struct Schedule {
+struct TimeLocation: Codable, Equatable {
     
-    // Each villager hello = isitmethatulooking for
-    
-    // E
-    
-    // Season
-    
-    // Weekday
-    
-    // Weather
-    
-    // Location
-    
-    // Description
-    
-    // Time
-    
-    
-    
+    var time: Time
+    var location: Location
+    var description: String
+}
+
+extension TimeLocation: Hashable {
+  var hashValue: Int {
+  return time.hashValue ^ location.hashValue ^ description.hashValue
+  }
 }

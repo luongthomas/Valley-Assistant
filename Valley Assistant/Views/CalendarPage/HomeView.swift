@@ -10,13 +10,8 @@ import SwiftUI
 
 struct HomeView: View {
     @State var isPresented = false
-    let rkManager: RKManager
-    @ObservedObject var eventHolder: EventHolder
-    
-    init() {
-        self.rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
-        eventHolder = EventHolder(rkManager: self.rkManager)
-    }
+    @EnvironmentObject var rkManager: RKManager
+    @EnvironmentObject var eventHolder: EventHolder
     
     var body: some View {
         NavigationView {

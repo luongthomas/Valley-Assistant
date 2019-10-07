@@ -23,6 +23,10 @@ struct VillagerDetailView: View {
                 Spacer()
                 Text("Address: \(villager.address.description)")
                     .font(.subheadline)
+                
+                NavigationLink(destination: ScheduleView(villager: villager)) {
+                    Text("Schedule")
+                }
             }
 
             Spacer()

@@ -50,6 +50,11 @@
 		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 		71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540805233AD0C10019FB8E /* VillagerRow.swift */; };
 		71540808233ADFA90019FB8E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540807233ADFA90019FB8E /* ItemRow.swift */; };
+		71799AE62347D203001D8DED /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71799AE52347D203001D8DED /* ScheduleData.swift */; };
+		71799AE82347F293001D8DED /* emily.json in Resources */ = {isa = PBXBuildFile; fileRef = 71799AE72347F293001D8DED /* emily.json */; };
+		71799AEA234AFE5D001D8DED /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71799AE9234AFE5D001D8DED /* Location.swift */; };
+		71C267762347CD010018AC58 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267752347CD010018AC58 /* ScheduleView.swift */; };
+		71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267782347CD240018AC58 /* ScheduleViewModel.swift */; };
 		71D4AE6C233C610C00E7E068 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D4AE6B233C610C00E7E068 /* events.json */; };
 		71D4AE6E233C61C200E7E068 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6D233C61C200E7E068 /* Event.swift */; };
 		71D4AE70233C648A00E7E068 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6F233C648A00E7E068 /* EventData.swift */; };
@@ -105,6 +110,11 @@
 		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		71540805233AD0C10019FB8E /* VillagerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRow.swift; sourceTree = "<group>"; };
 		71540807233ADFA90019FB8E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		71799AE52347D203001D8DED /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		71799AE72347F293001D8DED /* emily.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emily.json; sourceTree = "<group>"; };
+		71799AE9234AFE5D001D8DED /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		71C267752347CD010018AC58 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		71C267782347CD240018AC58 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		71D4AE6B233C610C00E7E068 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
 		71D4AE6D233C61C200E7E068 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		71D4AE6F233C648A00E7E068 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
@@ -201,6 +211,7 @@
 				714043DC23393A7A00C070D3 /* BundleView.swift */,
 				714043E02339430600C070D3 /* collapse.swift */,
 				714043E2233945F600C070D3 /* BundleMenu.swift */,
+				71C267772347CD0B0018AC58 /* Schedules */,
 				71540809233AE3260019FB8E /* VillagersPage */,
 				714043F62339901000C070D3 /* ItemsPage */,
 				714043F7233990C400C070D3 /* BuildingsPage */,
@@ -215,6 +226,7 @@
 				714043D62338457E00C070D3 /* Item.swift */,
 				71D4AE6D233C61C200E7E068 /* Event.swift */,
 				71E7516523428D0E006D7397 /* Building.swift */,
+				71799AE9234AFE5D001D8DED /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +238,7 @@
 				71404404233991EE00C070D3 /* items.json */,
 				71D4AE6B233C610C00E7E068 /* events.json */,
 				71E75167234291AD006D7397 /* buildings.json */,
+				71C267742347CCC40018AC58 /* Schedules */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -284,6 +297,23 @@
 			path = VillagersPage;
 			sourceTree = "<group>";
 		};
+		71C267742347CCC40018AC58 /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				71799AE72347F293001D8DED /* emily.json */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
+		71C267772347CD0B0018AC58 /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				71C267752347CD010018AC58 /* ScheduleView.swift */,
+				71C267782347CD240018AC58 /* ScheduleViewModel.swift */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
 		71E7516D2342AFA0006D7397 /* DataHolders */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,6 +321,7 @@
 				71404406233A941B00C070D3 /* ItemData.swift */,
 				71D4AE6F233C648A00E7E068 /* EventData.swift */,
 				71E751692342A329006D7397 /* BuildingData.swift */,
+				71799AE52347D203001D8DED /* ScheduleData.swift */,
 			);
 			path = DataHolders;
 			sourceTree = "<group>";
@@ -355,6 +386,7 @@
 			files = (
 				71E75168234291AD006D7397 /* buildings.json in Resources */,
 				714043B323348BEF00C070D3 /* LaunchScreen.storyboard in Resources */,
+				71799AE82347F293001D8DED /* emily.json in Resources */,
 				714043B023348BEF00C070D3 /* Preview Assets.xcassets in Resources */,
 				71D4AE6C233C610C00E7E068 /* events.json in Resources */,
 				71404405233991EE00C070D3 /* items.json in Resources */,
@@ -379,9 +411,12 @@
 				714043D72338457E00C070D3 /* Item.swift in Sources */,
 				714043A923348BEE00C070D3 /* Valley_Assistant.xcdatamodeld in Sources */,
 				714043E12339430600C070D3 /* collapse.swift in Sources */,
+				71799AEA234AFE5D001D8DED /* Location.swift in Sources */,
+				71C267762347CD010018AC58 /* ScheduleView.swift in Sources */,
 				71E7516A2342A329006D7397 /* BuildingData.swift in Sources */,
 				714043E3233945F600C070D3 /* BundleMenu.swift in Sources */,
 				714043DB2339344600C070D3 /* VillagerDetail.swift in Sources */,
+				71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */,
 				714043C2233495E400C070D3 /* RKManager.swift in Sources */,
 				715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
@@ -412,6 +447,7 @@
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
 				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
+				71799AE62347D203001D8DED /* ScheduleData.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

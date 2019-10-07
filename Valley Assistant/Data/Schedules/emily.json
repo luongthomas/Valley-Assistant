@@ -1,0 +1,210 @@
+{
+  "regular": [
+    {
+      "time": {
+        "hour": 9,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "In her bedroom."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 0,
+        "ampm": "pm"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves bedroom to stand in the living room."
+    },
+    {
+      "time": {
+        "hour": 3,
+        "min": 30,
+        "ampm": "pm"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves home to work at The Stardrop Saloon."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "stardropSaloon",
+      "description": "Goes home for the night."
+    }
+  ],
+  "tuesday": [
+    {
+      "time": {
+        "hour": 9,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "In her bedroom."
+    },
+    {
+      "time": {
+        "hour": 10,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves home to attend aerobics class at Pierre's General Store."
+    },
+    {
+      "time": {
+        "hour": 1,
+        "min": 0,
+        "ampm": "pm"
+      },
+      "location": "pierresGeneralStore",
+      "description": "Aerobics class begins."
+    },
+    {
+      "time": {
+        "hour": 4,
+        "min": 0,
+        "ampm": "pm"
+      },
+      "location": "pierresGeneralStore",
+      "description": "Leaves Pierre's to work at The Stardrop Saloon"
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "stardropSaloon",
+      "description": "Goes home for the night."
+    }
+  ],
+  "friday_community_center_restored": [
+    {
+      "time": {
+        "hour": 9,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "In her bedroom."
+    },
+    {
+      "time": {
+        "hour": 10,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "Walks to the Community Center and stands in the Crafts Room"
+    },
+    {
+      "time": {
+        "hour": 3,
+        "min": 30,
+        "ampm": "pm"
+      },
+      "location": "communityCenter",
+      "description": "Leaves the Community Center to work at The Stardrop Saloon."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "stardropSaloon",
+      "description": "Goes home for the night."
+    }
+  ],
+  "winter_11": [
+    {
+      "time": {
+        "hour": 9,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "In her bedroom."
+    },
+    {
+      "time": {
+        "hour": 10,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves home for Harvey's Clinic, waits in waiting room."
+    },
+    {
+      "time": {
+        "hour": 1,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "harveysClinic",
+      "description": "Moves to the exam room."
+    },
+    {
+      "time": {
+        "hour": 4,
+        "min": 0,
+        "ampm": "pm"
+      },
+      "location": "harveysClinic",
+      "description": "Leaves clinic to work at The Stardrop Saloon."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "stardropSaloon",
+      "description": "Goes home for the night."
+    }
+  ],
+  "winter_15": [
+    {
+      "time": {
+        "hour": 9,
+        "min": 0,
+        "ampm": "am"
+      },
+      "location": "twoWillowLane",
+      "description": "In her bedroom."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 0,
+        "ampm": "pm"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves bedroom to stand in the living room."
+    },
+    {
+      "time": {
+        "hour": 2,
+        "min": 30,
+        "ampm": "pm"
+      },
+      "location": "twoWillowLane",
+      "description": "Leaves home to attend the Night Market."
+    },
+    {
+      "time": {
+        "hour": 12,
+        "min": 30,
+        "ampm": "am"
+      },
+      "location": "theBeach",
+      "description": "Goes home for the night."
+    }
+  ]
+}
