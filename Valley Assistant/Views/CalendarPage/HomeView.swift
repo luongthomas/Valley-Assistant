@@ -10,7 +10,6 @@ import SwiftUI
 
 struct HomeView: View {
     @State var isPresented = false
-    @EnvironmentObject var rkManager: RKManager
     @EnvironmentObject var eventHolder: EventHolder
     
     var body: some View {
@@ -29,7 +28,7 @@ struct HomeView: View {
                     }
                 }
             }.padding()
-            .navigationBarTitle(Text("\(rkManager.getWeekday()), \(rkManager.getPrintableCurrentDate())"))
+                .navigationBarTitle(Text("\(rkManager.selectedDate.getWeekday()), \(rkManager.getPrintableCurrentDate())"))
             .navigationBarItems(leading: menuButton, trailing: calendarButton)
         }.onAppear {
             // TODO: Bug where calendar view doesn't show birthdays in list right away
@@ -57,7 +56,7 @@ private extension HomeView {
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
         }).sheet(isPresented: $isPresented) {
-            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder)
+            CalendarView(rkManager: rkManager, eventHolder: self.eventHolder)
         }
     }
     
@@ -70,7 +69,7 @@ private extension HomeView {
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
         }).sheet(isPresented: $isPresented) {
-            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder)
+            CalendarView(rkManager: rkManager, eventHolder: self.eventHolder)
         }
     }
     

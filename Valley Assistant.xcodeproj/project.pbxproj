@@ -50,9 +50,9 @@
 		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 		71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540805233AD0C10019FB8E /* VillagerRow.swift */; };
 		71540808233ADFA90019FB8E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540807233ADFA90019FB8E /* ItemRow.swift */; };
-		71799AE62347D203001D8DED /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71799AE52347D203001D8DED /* ScheduleData.swift */; };
 		71799AE82347F293001D8DED /* emily.json in Resources */ = {isa = PBXBuildFile; fileRef = 71799AE72347F293001D8DED /* emily.json */; };
 		71799AEA234AFE5D001D8DED /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71799AE9234AFE5D001D8DED /* Location.swift */; };
+		71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B75968234BE4F000A0CFFD /* ScheduleData.swift */; };
 		71C267762347CD010018AC58 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267752347CD010018AC58 /* ScheduleView.swift */; };
 		71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267782347CD240018AC58 /* ScheduleViewModel.swift */; };
 		71D4AE6C233C610C00E7E068 /* events.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D4AE6B233C610C00E7E068 /* events.json */; };
@@ -110,9 +110,9 @@
 		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		71540805233AD0C10019FB8E /* VillagerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRow.swift; sourceTree = "<group>"; };
 		71540807233ADFA90019FB8E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
-		71799AE52347D203001D8DED /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		71799AE72347F293001D8DED /* emily.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emily.json; sourceTree = "<group>"; };
 		71799AE9234AFE5D001D8DED /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		71B75968234BE4F000A0CFFD /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		71C267752347CD010018AC58 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		71C267782347CD240018AC58 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		71D4AE6B233C610C00E7E068 /* events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events.json; sourceTree = "<group>"; };
@@ -321,7 +321,7 @@
 				71404406233A941B00C070D3 /* ItemData.swift */,
 				71D4AE6F233C648A00E7E068 /* EventData.swift */,
 				71E751692342A329006D7397 /* BuildingData.swift */,
-				71799AE52347D203001D8DED /* ScheduleData.swift */,
+				71B75968234BE4F000A0CFFD /* ScheduleData.swift */,
 			);
 			path = DataHolders;
 			sourceTree = "<group>";
@@ -406,6 +406,7 @@
 				71540802233ACC990019FB8E /* ItemTypeList.swift in Sources */,
 				714043A423348BEE00C070D3 /* AppDelegate.swift in Sources */,
 				714043D52338437000C070D3 /* Villager.swift in Sources */,
+				71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */,
 				714043E52339609D00C070D3 /* ItemsView.swift in Sources */,
 				714043CA23349CAD00C070D3 /* ColorSettings.swift in Sources */,
 				714043D72338457E00C070D3 /* Item.swift in Sources */,
@@ -447,7 +448,6 @@
 				714043DD23393A7A00C070D3 /* BundleView.swift in Sources */,
 				714043BE2334955C00C070D3 /* RKCell.swift in Sources */,
 				714043C02334958B00C070D3 /* RKDate.swift in Sources */,
-				71799AE62347D203001D8DED /* ScheduleData.swift in Sources */,
 				714043A623348BEE00C070D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

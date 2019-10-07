@@ -40,19 +40,3 @@ class Building: Codable {
 enum BuildingType: String, Codable {
     case shop, house, communityCenter
 }
-
-struct Time: Codable, Hashable {
-    let hour: Int
-    let min: Int = 00
-    let ampm: AMPM
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(hour)
-        hasher.combine(min)
-        hasher.combine(ampm)
-    }
-}
-
-enum AMPM: String, Codable {
-    case am, pm
-}

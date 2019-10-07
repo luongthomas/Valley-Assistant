@@ -16,11 +16,9 @@ let festivals = events.festivals
 var birthdays = events.birthdays
 let tasks = events.tasks
 let buildings = BuildingData().buildings
+var rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
-    var rkManager = RKManager(selectedDate: Day(season: .winter, day: 2))
-    
     var window: UIWindow?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -39,9 +37,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(rootView:
-                contentView.environmentObject(rkManager)
-                .environmentObject(EventHolder(rkManager: rkManager))
-            )
+                contentView.environmentObject(EventHolder(rkManager: rkManager)))
             
             self.window = window
             window.makeKeyAndVisible()

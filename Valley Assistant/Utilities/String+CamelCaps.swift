@@ -22,6 +22,6 @@ extension String {
             newString.append(character)
         }
 
-        return newString
+        return newString.capitalized
     }
 }

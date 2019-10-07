@@ -13,7 +13,7 @@ import Combine
 
 struct ScheduleViewModel {
     let villager: Villager
-    @EnvironmentObject var rkManager: RKManager
+    let selectedDate: Day
     
     lazy var scheduleData: ScheduleData = {
         return ScheduleData(villager: self.villager)
@@ -23,10 +23,6 @@ struct ScheduleViewModel {
     func getScheduleData() -> ScheduleData {
         var mutableSelf = self
         return mutableSelf.scheduleData
-    }
-    
-    init(villager: Villager, isRaining: Bool) {
-        self.villager = villager
     }
     
     // https://stackoverflow.com/questions/34800765/how-to-assign-a-variable-in-a-swift-case-statement
@@ -44,18 +40,33 @@ struct ScheduleViewModel {
     }
     
     func getEmilySchedule() -> [TimeLocation] {
-        
-        
-        // `A` is the regular schedule
-        let scheduleA = getScheduleData().possibleSchedules["regular"]!
-        
-        // The raining schedule is the same as `A`
-        
-        // `B` is Tuesdays
-        
-        
-        
-        return scheduleA
+        let possibleSchedules = getScheduleData().possibleSchedules
+
+        if selectedDate.season == .winter && selectedDate.day == 11 {
+            return possibleSchedules["winter_11"]!
+        }
+
+        if selectedDate.season == .winter && selectedDate.day == 15 {
+            return possibleSchedules["winter_15"]!
+        }
+
+        // Regular schedule is the same as the raining one
+        //        if rkManager.isRaining {
+        //            return possibleSchedules["regular"]!
+        //        }
+
+        if selectedDate.getWeekday() == "tuesday" {
+            return possibleSchedules["tuesday"]!
+        }
+
+//     TODO: Add community center restored toggle
+        if selectedDate.getWeekday() == "friday" {
+            return possibleSchedules["friday_community_center_restored"]!
+        }
+
+        // TODO: Add marriage
+
+        return possibleSchedules["regular"]!
     }
     
 }
