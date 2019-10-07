@@ -9,37 +9,33 @@
 import SwiftUI
 
 struct ScheduleView: View {
-    @State var isRaining = false {
-        didSet {
-            scheduleParameters.isRaining = self.isRaining
-        }
-    }
     
     let villager: Villager
-    var viewModel: ScheduleViewModel {
-        return _viewModel
-    }
-    private var _viewModel: ScheduleViewModel!
+    
+    @ObservedObject private var viewModel: ScheduleViewModel
+    @ObservedObject private var params: ScheduleParameters = scheduleParameters
     
     init(villager: Villager) {
         self.villager = villager
-        self._viewModel = ScheduleViewModel(villager: villager, selectedDate: rkManager.selectedDate)
+        self.viewModel = ScheduleViewModel(villager: villager, selectedDate: rkManager.selectedDate)
     }
     
     var body: some View {
         VStack(alignment: .leading) {
-            Toggle(isOn: $isRaining) {
+            Toggle(isOn: $params.isRaining) {
                 Text("Currently Raining")
             }.padding()
             
             Text("Schedule:")
-        
-            ForEach(viewModel.determineSchedule(), id: \.self) { timeLocation in
-                VStack(alignment: .leading) {
-                    Text(timeLocation.time.getPrintableTime())
-                    Text(timeLocation.location.rawValue.camelCaps)
-                    Text(timeLocation.description)
-                    Text("")
+            
+            List {
+                ForEach(viewModel.determineSchedule(), id: \.self) { timeLocation in
+                    VStack(alignment: .leading) {
+                        Text(timeLocation.time.getPrintableTime())
+                        Text(timeLocation.location.rawValue.camelCaps)
+                        Text(timeLocation.description)
+                        Text("")
+                    }
                 }
             }
             

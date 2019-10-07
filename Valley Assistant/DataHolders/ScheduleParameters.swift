@@ -9,10 +9,6 @@
 import Foundation
 
 class ScheduleParameters: ObservableObject {
-    
     @Published var isRaining: Bool = false
-    
-    
-    
 }
 
