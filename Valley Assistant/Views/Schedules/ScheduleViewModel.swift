@@ -51,7 +51,7 @@ class ScheduleViewModel: ObservableObject {
 
         // Regular schedule is the same as the raining one
         if params.isRaining {
-            return possibleSchedules["winter_11"]! // test change
+            return possibleSchedules["regular"]!
         }
 
         if selectedDate.getWeekday() == "tuesday" {
