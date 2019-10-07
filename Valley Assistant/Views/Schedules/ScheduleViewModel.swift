@@ -16,7 +16,7 @@ class ScheduleViewModel: ObservableObject {
     let selectedDate: Day
     let scheduleData: ScheduleData
     
-    @Published var params: ScheduleParameters = scheduleParameters
+    var params: ScheduleParameters = scheduleParameters
     
     init(villager: Villager, selectedDate: Day) {
         self.villager = villager
