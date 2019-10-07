@@ -72,6 +72,14 @@
          contextName = "RKCell.getImageForDay(date:):RKCell.swift">
       </ContextState>
       <ContextState
+         contextName = "Time.getPrintableTime():Villager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "min">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in closure #1 in VillagerView.body.getter:VillagerView.swift">
          <PersistentStrings>
             <PersistentString

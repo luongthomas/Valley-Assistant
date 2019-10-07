@@ -105,7 +105,7 @@ struct TimeLocation: Codable, Hashable {
 
 struct Time: Codable, Hashable {
     let hour: Int
-    let min: Int = 00
+    let min: Int
     let ampm: AMPM
     
     func hash(into hasher: inout Hasher) {
