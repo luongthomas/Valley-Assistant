@@ -8,10 +8,12 @@
     "description": "A place for fishing supplies",
     "openTime": {
       "hour": 10,
+      "min": 0,
       "ampm": "am"
     },
     "closeTime": {
       "hour": 5,
+      "min": 0,
       "ampm": "pm"
     },
     "obtainables": [
@@ -27,10 +29,12 @@
     "description": "A place to buy goods for the house and upgrade the farm.",
     "openTime": {
       "hour": 10,
+      "min": 0,
       "ampm": "am"
     },
     "closeTime": {
       "hour": 5,
+      "min": 0,
       "ampm": "pm"
     },
     "obtainables": [
