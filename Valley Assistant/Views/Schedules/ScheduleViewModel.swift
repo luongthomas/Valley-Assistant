@@ -54,12 +54,12 @@ class ScheduleViewModel: ObservableObject {
             return possibleSchedules["regular"]!
         }
 
-        if selectedDate.getWeekday() == "tuesday" {
+        if selectedDate.getWeekday() == "Tuesday" {
             return possibleSchedules["tuesday"]!
         }
 
         // TODO: Add community center restored toggle
-        if selectedDate.getWeekday() == "friday" {
+        if selectedDate.getWeekday() == "Friday" {
             return possibleSchedules["friday_community_center_restored"]!
         }
 

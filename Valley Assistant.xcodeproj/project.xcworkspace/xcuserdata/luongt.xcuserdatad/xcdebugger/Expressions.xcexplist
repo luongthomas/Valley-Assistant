@@ -3,7 +3,56 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "RKManager.selectedDate.willset:RKManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in BuildingDetailView.body.getter:BuildingDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "villagers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in EventRows.body.getter:CalendarView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in BuildingDetailView.body.getter:BuildingDetailView.swift">
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in closure #1 in closure #1 in closure #2 in closure #1 in closure #1 in RKMonth.body.getter:RKMonth.swift">
+      </ContextState>
+      <ContextState
+         contextName = "EventHolder.updateEventsWhenDateChanges():RKManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rkManager.selectedDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in HomeView.body.getter:HomeView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "events">
+            </PersistentString>
+            <PersistentString
+               value = "events.birthdays.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleViewModel.getEmilySchedule():ScheduleViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedDate.getWeekday()">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "RKManager.selectedDate.didset:RKManager.swift">
@@ -17,57 +66,16 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in closure #1 in closure #1 in BuildingDetailView.body.getter:BuildingDetailView.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "villagers">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "VillagerData.init():VillagerData.swift">
+      </ContextState>
+      <ContextState
+         contextName = "RKCell.getImageForDay(date:):RKCell.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in closure #1 in VillagerView.body.getter:VillagerView.swift">
          <PersistentStrings>
             <PersistentString
                value = "VillageData().villagers">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "VillagerData.init():VillagerData.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #2 in closure #1 in closure #1 in BuildingDetailView.body.getter:BuildingDetailView.swift">
-      </ContextState>
-      <ContextState
-         contextName = "EventHolder.updateEventsWhenDateChanges():RKManager.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "rkManager.selectedDate">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "RKManager.selectedDate.willset:RKManager.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "RKCell.getImageForDay(date:):RKCell.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in closure #1 in EventRows.body.getter:CalendarView.swift">
-      </ContextState>
-      <ContextState
-         contextName = "closure #2 in HomeView.body.getter:HomeView.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "events.birthdays.count">
-            </PersistentString>
-            <PersistentString
-               value = "events">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
