@@ -28,6 +28,101 @@
         "name": "sugar",
         "availableSeason": "all",
         "price": 100
+      },
+      {
+        "name": "wheatFlour",
+        "availableSeason": "all",
+        "price": 100
+      },
+      {
+        "name": "rice",
+        "availableSeason": "all",
+        "price": 200
+      },
+      {
+        "name": "oil",
+        "availableSeason": "all",
+        "price": 200
+      },
+      {
+        "name": "vinegar",
+        "availableSeason": "all",
+        "price": 200
+      },
+      {
+        "name": "basicFertilizer",
+        "availableSeason": "all",
+        "price": 100
+      },
+      {
+        "name": "qualityFertilizer",
+        "availableSeason": "all",
+        "price": 150
+      },
+      {
+        "name": "basicRetainingSoil",
+        "availableSeason": "all",
+        "price": 100
+      },
+      {
+        "name": "qualityRetainingSoil",
+        "availableSeason": "all",
+        "price": 150
+      },
+      {
+        "name": "speedGro",
+        "availableSeason": "all",
+        "price": 100
+      },
+      {
+        "name": "deluxeSpeedGro",
+        "availableSeason": "all",
+        "price": 150
+      },
+      {
+        "name": "flooring",
+        "availableSeason": "all",
+        "price": 100
+      },
+      {
+        "name": "cherrySapling",
+        "availableSeason": "all",
+        "price": 3400
+      },
+      {
+        "name": "apricotSapling",
+        "availableSeason": "all",
+        "price": 2000
+      },
+      {
+        "name": "orangeSapling",
+        "availableSeason": "all",
+        "price": 2000
+      },
+      {
+        "name": "peachSapling",
+        "availableSeason": "all",
+        "price": 6000
+      },
+      {
+        "name": "pomegranateSapling",
+        "availableSeason": "all",
+        "price": 6000
+      },
+      {
+        "name": "appleSapling",
+        "availableSeason": "all",
+        "price": 4000
+      },
+      {
+        "name": "catalogue",
+        "availableSeason": "all",
+        "price": 30000
+      },
+      {
+        "name": "bouquet",
+        "availableSeason": "all",
+        "price": 200
       }
     ]
   },
