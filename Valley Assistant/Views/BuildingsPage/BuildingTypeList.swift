@@ -24,7 +24,7 @@ struct BuildingTypeList: View {
                         Text(building.name.capitalized)
                     }
                 }
-            }.navigationBarTitle("\(buildingType.rawValue.capitalized)")
+            }.navigationBarTitle("\(buildingType.rawValue.camelCaps)")
         }
     }
     

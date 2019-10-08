@@ -17,7 +17,7 @@ struct BuildingsView: View {
                 List {
                     ForEach(categories, id: \.self) { category in
                         NavigationLink(destination: BuildingTypeList(buildingType: category)) {
-                            Text(category.rawValue.capitalized)
+                            Text(category.rawValue.camelCaps)
                         }
                     }
                 }
