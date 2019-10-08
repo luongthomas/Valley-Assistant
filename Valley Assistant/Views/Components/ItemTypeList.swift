@@ -21,7 +21,7 @@ struct ItemTypeList: View {
                     validElement(item: $0)
                 }, id: \.self) { item in
                     NavigationLink(destination: ItemDetailView(item: item)) {
-                        Text(item.name.rawValue.capitalized)
+                        Text(item.name.rawValue.camelCaps)
                     }
                 }
             }.navigationBarTitle("\(itemType.rawValue.capitalized)")
