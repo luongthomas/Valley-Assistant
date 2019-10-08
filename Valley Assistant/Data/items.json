@@ -4,28 +4,32 @@
     "type": "minerals",
     "value": 100,
     "source": "Cave",
-    "description": "A valuable and red stone"
+    "basicDescription": "A valuable and red stone",
+    "longDescription": ""
   },
   {
     "name": "axe",
     "type": "tools",
     "value": 50,
     "source": "Obtained from the start of the game.",
-    "description": "A handy tool to chop down trees"
+    "basicDescription": "A handy tool to chop down trees",
+    "longDescription": ""
   },
   {
     "name": "sapphire",
     "type": "minerals",
     "value": 150,
     "source": "Cave",
-    "description": "A valuable and blue stone"
+    "basicDescription": "A valuable and blue stone",
+    "longDescription": ""
   },
   {
     "name": "omelette",
     "type": "food",
     "value": 250,
     "source": "Cooking",
-    "description": "Eggs that have been cooked together with other various ingredients. ",
+    "basicDescription": "Eggs that have been cooked together with other various ingredients. ",
+    "longDescription": "",
     "recipe": [
         "egg",
         "milk"
@@ -38,35 +42,40 @@
     "type": "minerals",
     "value": 1000,
     "source": "Mines",
-    "description": "Beautiful green rock "
+    "basicDescription": "Beautiful green rock ",
+    "longDescription": ""
   },
   {
     "name": "aquamarine",
     "type": "minerals",
     "value": 1200,
     "source": "Mines",
-    "description": "Beautiful light blue rock "
+    "basicDescription": "Beautiful light blue rock ",
+    "longDescription": ""
   },
   {
     "name": "daffodil",
     "type": "crops",
     "value": 25,
     "source": "Fields",
-    "description": "Pretty flower"
+    "basicDescription": "Pretty flower",
+    "longDescription": ""
   },
   {
     "name": "poppy",
     "type": "crops",
     "value": 30,
     "source": "Fields",
-    "description": "Nice flower "
+    "basicDescription": "Nice flower ",
+    "longDescription": ""
   },
   {
     "name": "egg",
     "type": "food",
     "value": 75,
     "source": "Chicken",
-    "description": "Nutritious snack",
+    "basicDescription": "Nutritious snack",
+    "longDescription": "",
     "heal": 40,
     "stamina": 10
   },
@@ -75,7 +84,8 @@
     "type": "food",
     "value": 95,
     "source": "Cow",
-    "description": "Healthy Beverage",
+    "basicDescription": "Healthy Beverage",
+    "longDescription": "",
     "heal": 70,
     "stamina": 30
   },
@@ -84,30 +94,56 @@
     "type": "building",
     "value": 500,
     "source": "Carpenter's Shop",
-    "description": "Normal sized barn for animals",
+    "basicDescription": "Normal sized barn for animals",
+    "longDescription": "",
     "recipe": [
         "egg",
         "milk"
-    ],
+    ]
   },
   {
     "name": "bigBarn",
     "type": "building",
     "value": 1000,
     "source": "Carpenter's Shop",
-    "description": "Huge barn for animals",
+    "basicDescription": "Huge barn for animals",
+    "longDescription": "",
     "recipe": [
-        "barn",
-    ],
+        "barn"
+    ]
   },
   {
     "name": "bigBarn",
     "type": "building",
     "value": 1000,
     "source": "Carpenter's Shop",
-    "description": "Huge barn for animals",
+    "basicDescription": "Huge barn for animals",
+    "longDescription": "",
     "recipe": [
-        "barn",
-    ],
+        "barn"
+    ]
+  },
+  {
+    "name": "grassStarter",
+    "type": "crops",
+    "value": 50,
+    "source": "General Store, Joja Mart",
+    "basicDescription": "Place this on your farm to start a new patch of grass.",
+    "longDescription": "Instantly places a patch of Grass when used on the ground.  Over time, it'll grow and spread to surrounding tiles.  Grass can be harvested with the Sycthe to produce Hay once a Silo is built.  On Winter 1st, all grass on the farm will die.",
+    "seasonToGrow": [
+        "spring",
+        "summer",
+        "fall"
+    ]
+  },
+  {
+    "name": "sugar",
+    "type": "food",
+    "value": 50,
+    "source": "Mill, General Store, Joja Mart",
+    "basicDescription": "Adds sweetness to pastries and candies.  Too much can be unhealthy.",
+    "longDescription": "A cooking ingredient used in many recipes. Using a Mill, three Sugars can be crafted from one Beet.  Beets placed inside will appear as Sugar beside the Mill the next morning.  Sugar made this way is profitable when using regular or silver quality Beets at 150g for three Sugars.  However it is better to create Beet Pickles using the preserves jar to sell at 250g.",
+    "heal": 11,
+    "stamina": 25
   }
 ]

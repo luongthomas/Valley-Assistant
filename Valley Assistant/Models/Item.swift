@@ -10,19 +10,20 @@ import Foundation
 
 class Item: Codable, Hashable {
     static func == (lhs: Item, rhs: Item) -> Bool {
-        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.value == rhs.value && lhs.source == rhs.source && lhs.description == rhs.description && lhs.recipe == rhs.recipe && lhs.heal == rhs.heal && lhs.stamina == rhs.stamina
+        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.value == rhs.value && lhs.source == rhs.source && lhs.basicDescription == rhs.basicDescription && lhs.longDescription == rhs.longDescription && lhs.recipe == rhs.recipe && lhs.heal == rhs.heal && lhs.stamina == rhs.stamina
     }
     
     var name: ItemName
     var type: ItemType
     var value: Int
     var source: String
-    var description: String
+    var basicDescription: String
+    var longDescription: String
     var recipe: [ItemName]?
     var heal: Int?
     var stamina: Int?
     var growthTimeDays: Int?
-    var seasonToGrow: Season?
+    var seasonToGrow: [Season]?
     
     required init(from decoder: Decoder) throws {
         let map = try decoder.container(keyedBy: CodingKeys.self)
@@ -30,7 +31,8 @@ class Item: Codable, Hashable {
         self.type = try map.decode(.type)
         self.value = try map.decode(.value)
         self.source = try map.decode(.source)
-        self.description = try map.decode(.description)
+        self.basicDescription = try map.decode(.basicDescription)
+        self.longDescription = try map.decode(.longDescription)
         
         self.recipe = try? map.decode(.recipe)
         self.heal = try? map.decode(.heal)
@@ -40,7 +42,7 @@ class Item: Codable, Hashable {
     }
     
     private enum CodingKeys: CodingKey {
-        case name, type, value, source, description, recipe, heal, stamina, growthTimeDays, seasonToGrow
+        case name, type, value, source, basicDescription, longDescription, recipe, heal, stamina, growthTimeDays, seasonToGrow
     }
     
     func hash(into hasher: inout Hasher) {
@@ -48,7 +50,8 @@ class Item: Codable, Hashable {
         hasher.combine(type)
         hasher.combine(value)
         hasher.combine(source)
-        hasher.combine(description)
+        hasher.combine(basicDescription)
+        hasher.combine(longDescription)
         hasher.combine(recipe)
         hasher.combine(heal)
         hasher.combine(stamina)
@@ -58,7 +61,7 @@ class Item: Codable, Hashable {
 }
 
 enum ItemName: String, Codable {
-    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk, barn, bigBarn
+    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk, barn, bigBarn, grassStarter, sugar
 }
 
 enum ItemType: String, Codable {

@@ -17,7 +17,7 @@ struct ItemDetailView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Value: \(item.value)")
-            Text("Description: \(item.description)")
+            Text("Description: \(item.basicDescription)")
             Text("Source: \(item.source)")
             
             if item.type == .food {

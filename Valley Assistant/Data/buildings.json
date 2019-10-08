@@ -20,11 +20,13 @@
     },
     "purchasable": [
       {
-        "name": "milk",
-        "price": 200
+        "name": "grassStarter",
+        "availableSeason": "all",
+        "price": 100
       },
       {
-        "name": "egg",
+        "name": "sugar",
+        "availableSeason": "all",
         "price": 100
       }
     ]

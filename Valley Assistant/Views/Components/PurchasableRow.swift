@@ -17,7 +17,7 @@ struct PurchasableRow: View {
                 items.first(where: { $0.name == purchasable.name })!
             )) {
                 HStack() {
-                    Text(purchasable.name.rawValue.capitalized)
+                    Text(purchasable.name.rawValue.camelCaps)
                     Spacer()
                     Text("\(purchasable.price)")
                 }
