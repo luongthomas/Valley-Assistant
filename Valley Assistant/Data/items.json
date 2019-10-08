@@ -145,5 +145,244 @@
     "longDescription": "A cooking ingredient used in many recipes. Using a Mill, three Sugars can be crafted from one Beet.  Beets placed inside will appear as Sugar beside the Mill the next morning.  Sugar made this way is profitable when using regular or silver quality Beets at 150g for three Sugars.  However it is better to create Beet Pickles using the preserves jar to sell at 250g.",
     "heal": 11,
     "stamina": 25
+  },
+  {
+    "name": "wheatFlour",
+    "type": "food",
+    "value": 50,
+    "source": "Mill, General Store, Joja Mart",
+    "basicDescription": "A common cooking ingredient made from crushed wheat seeds.",
+    "longDescription": "A cooking ingredient that can be consumed by itself.  One Wheat Flour can be crafted from one Wheat using a Mill.  Wheat placed inside the Mill will appear in the box beside the Mill the next morning.  Doing this is profitable at 50g per item.  It can then be cooked into Bread for another 10g profit, but using the Wheat to create Beer is more profitable at 200g per item.",
+    "heal": 5,
+    "stamina": 13
+  },
+  {
+    "name": "rice",
+    "type": "food",
+    "value": 100,
+    "source": "General Store, Joja Mart",
+    "basicDescription": "A basic grain often served under vegetables.",
+    "longDescription": "A cooking ingredient that can be used in a variety of recipes.  I like to eat it everyday.",
+    "heal": 5,
+    "stamina": 13
+  },
+  {
+    "name": "oil",
+    "type": "food",
+    "value": 100,
+    "source": "General Store, Joja Mart",
+    "basicDescription": "All purpose cooking oil.",
+    "longDescription": "An Artison Good and common cooking ingredient made from the Oil Maker.  There is no quality rating so its sell price doesn't benefit from quality increeases.  Also it's sell price doesn't benefit from the Artisan Profession.  Oil made from base quality Sunflowers, cultivated sunflower seeds and all qualities of corn is profitable, though corn is more profitable in the Keg or Preserves Jar.  The processing times vary by ingredient.  1 Corn takes 16.66 hours, 1 Sunflower Seeds takes 53.33 hours and 1 Sunflower takes 1 hour.  ",
+    "heal": 5,
+    "stamina": 13
+  },
+  {
+    "name": "vinegar",
+    "type": "food",
+    "value": 100,
+    "source": "General Store",
+    "basicDescription": "An Aged fermented liquid used in many cooking recipes.",
+    "longDescription": "Used as a cooking ingredient that can be used in a variety of recipes. ",
+    "heal": 5,
+    "stamina": 13
+  },
+  {
+    "name": "basicFertilizer",
+    "type": "crafting",
+    "value": 2,
+    "source": "General Store, Crafting",
+    "basicDescription": "Improves soil quality a little, increasing your chance to grow quality crops. Mix into tilled soil.",
+    "longDescription": "A Fertilizer that helps by improving soil quality. It can be crafted with a recipe gained through Farming Level 1. It must be placed on tilled soil before planting a seed.  It affects only the basic harvest (Potatoes, Blueberries, Cranberries, etc.), meaning that extra crops gained at a single harvest will be regular quality.",
+    "recipe": [
+      "sap",
+      "sap"
+    ]
+  },
+  {
+    "name": "qualityFertilizer",
+    "type": "crafting",
+    "value": 10,
+    "source": "General Store after year 2, Crafting",
+    "basicDescription": "Improves soil quality, increasing your chance to grow quality crops. Mix into tilled soil.",
+    "longDescription": "A Fertilizer that improves the chance to grow a Quality Crop. It can be crafted with a recipe gained through Farming Level 9. It may occasionally be sold by the Travelling Card for 100-1000g. It must be placed on tilled soil before planting a seed.  It affects only the basic harvest (Potatoes, Blueberries, Cranberries, etc.), meaning that extra crops gained at a single harvest will be regular quality.",
+    "recipe": [
+      "sap",
+      "sap",
+      "anyFish"
+    ]
+  },
+  {
+    "name": "basicRetainingSoil",
+    "type": "crafting",
+    "value": 4,
+    "source": "General Store, Crafting",
+    "basicDescription": "This soil has a chance of staying watered overnight. Mix into tilled soil.",
+    "longDescription": "A fertilizer that helps by keeping soil watered.  Can be placed on tilled soil before or after planting a seed, or at any stage of crop growth.  The chance for retaining water is about 33%.  The recipe can be obtained at Farming Level 4.",
+    "recipe": [
+      "stone",
+      "stone"
+    ]
+  },
+  {
+    "name": "qualityRetainingSoil",
+    "type": "crafting",
+    "value": 5,
+    "source": "General Store, Crafting, Oasis",
+    "basicDescription": "This soil has a good chance of staying watered overnight. Mix into tilled soil.",
+    "longDescription": "A fertilizer that helps by keeping soil watered.  Can be placed on tilled soil before or after planting a seed, or at any stage of crop growth.  The chance for retaining water is about 66%.  The recipe can be obtained at Farming Level 7 and produces 2 items per craft.",
+    "recipe": [
+      "stone",
+      "stone",
+      "clay"
+    ]
+  },
+  {
+    "name": "speedGro",
+    "type": "crafting",
+    "value": 20,
+    "source": "General Store, Crafting, Oasis",
+    "basicDescription": "Stimulates leaf production. Guaranteed to increase growth rate by at least 10%. Mix into tilled soil.",
+    "longDescription": "A Fertilizer that helps by speeding crop growth.  Can be placed on tilled soil before or after planting a seed, or at any stage of crop growth (but as of v1.2, there's a bug that prevents any effect unless applied before planting a seed). The recipe can be obtained at Farming Level 3 and produces 5 items per craft. Crafting is always cheaper than purchasing it regardless of the Clam quality.",
+    "recipe": [
+      "pineTar",
+      "clam"
+    ]
+  },
+  {
+    "name": "deluxeSpeedGro",
+    "type": "crafting",
+    "value": 40,
+    "source": "General Store, Crafting, Oasis",
+    "basicDescription": "Stimulates leaf production. Guaranteed to increase growth rate by at least 25%. Mix into tilled soil.",
+    "longDescription": "A Fertilizer that helps by speeding crop growth.  Can be placed on tilled soil before or after planting a seed, or at any stage of crop growth (but as of v1.2, there's a bug that prevents any effect unless applied before planting a seed).  The chance for retaining water is about 66%.  The recipe can be obtained at Farming Level 8 and produces 5 items per craft. Crafting is always cheaper than purchasing it regardless of the Clam quality.  It is sold at the Pierre's General Store in year 2 onwards.",
+    "recipe": [
+      "oakResin",
+      "coral"
+    ]
+  },
+  {
+    "name": "wallpaper",
+    "type": "furniture",
+    "value": 0,
+    "source": "General Store, JojaMart",
+    "basicDescription": "Decorates the walls of one room.",
+    "longDescription": "A new wallpaper is available at the store each day.  The wallpaper sold at JojaMart will be sold the next day at Pierre's.  It can also be bought from a Catalogue. Wallpaper is a one time use and does not stack.  They cover the whole room they're placed in and can be also placed on hallway walls between rooms."
+  },
+  {
+    "name": "flooring",
+    "type": "furniture",
+    "value": 0,
+    "source": "General Store, JojaMart",
+    "basicDescription": "Decorates the floor of one room.",
+    "longDescription": "A new flooring is available at the store each day.  The flooring sold at JojaMart will be sold the next day at Pierre's.  It can also be bought from a Catalogue. Wallpaper is a one time use and does not stack.  They cover the whole room they're placed in and can be also placed on hallway walls between rooms."
+  },
+  {
+    "name": "cherrySapling",
+    "type": "crops",
+    "value": 850,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Cherry Tree. Bears fruit in the spring. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into a Cherry Tree, after which will produce one fruit each day during the Spring.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 3400g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "winter"
+  },
+  {
+    "name": "apricotSapling",
+    "type": "crops",
+    "value": 500,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Apricot Tree. Bears fruit in the spring. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into an Apricot Tree, after which will produce one fruit each day during the Spring.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 2000g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "winter"
+  },
+  {
+    "name": "orangeSapling",
+    "type": "crops",
+    "value": 1000,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Orange Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into an Orange Tree, after which will produce one fruit each day during the Summer.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 4000g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "peachSapling",
+    "type": "crops",
+    "value": 1500,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Peach Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into an Peach Tree, after which will produce one fruit each day during the Summer.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 6000g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "pomegranateSapling",
+    "type": "crops",
+    "value": 1500,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Pomegranate Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into an Pomegranate Tree, after which will produce one fruit each day during the Fall.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 6000g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "appleSapling",
+    "type": "crops",
+    "value": 1000,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Takes 28 days to produce a mature Apple Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
+    "longDescription": "A Fruit Tree that takes 28 days to grow into an Apple Tree, after which will produce one fruit each day during the Fall.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 4000g or less (which is the price at the General Store).",
+    "growthTimeDays": 28,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "catalogue",
+    "type": "furniture",
+    "value": 0,
+    "source": "General Store",
+    "basicDescription": "Provides unlimited access to all wallpapers and floors... from the convenience of your home!",
+    "longDescription": "A piece of Furniture that once placed, allows the player to purchase every Wallpaper and Flooring item for 0g in unlimited quantity.  This item is similar to the Furniture Catalogue sold at the Carpenter's Shop which gives access to Furniture items."
+  },
+  {
+    "name": "bouquet",
+    "type": "all",
+    "value": 100,
+    "source": "General Store",
+    "basicDescription": "A gift that shows your romantic interest.",
+    "longDescription": "A special gift that you can give to any or all marriage candidates whom you've gained an 8-heart friendship with. Giving this to a marriage candidate results in their status changing to boyfriend or girlfriend on the Social tab of the pause menu.  Giving this unfreezes the friendship level with each recipient allowing it to increase to 10 hearsts, and to decay (meaning friendship will go down if they are not talked to each day). "
+  },
+  {
+    "name": "largePack",
+    "type": "tools",
+    "value": 0,
+    "source": "General Store",
+    "basicDescription": "Unlocks the 2nd row of inventory (12 more slots, total 24).",
+    "longDescription": "Available at the start of the game, this will unlock 12 more slots upon purchase."
+  },
+  {
+    "name": "deluxePack",
+    "type": "tools",
+    "value": 0,
+    "source": "General Store",
+    "basicDescription": "Unlocks the 3rd row of inventory (12 more slots, total 36).",
+    "longDescription": "Available after purchasing the Large Pack, this will unlock 12 more slots upon purchase."
+  },
+  {
+    "name": "parsnipSeeds",
+    "type": "crops",
+    "value": 10,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 4 days to mature.",
+    "longDescription": "A type of seed which grows and produces Parsnips when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g.",
+    "growthTimeDays": 4,
+    "seasonToGrow": "spring"
   }
+  
 ]
+
+
+
+
+
+
