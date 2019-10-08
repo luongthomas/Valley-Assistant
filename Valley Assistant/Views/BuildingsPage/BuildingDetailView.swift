@@ -12,7 +12,7 @@ struct BuildingDetailView: View {
     var building: Building
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack() {
             Text("Type: \(building.type.rawValue.capitalized)")
             Text("Hours: \(building.openTime.hour) \(building.openTime.ampm.rawValue.capitalized) - \(building.closeTime.hour) \(building.closeTime.ampm.rawValue.capitalized)")
             Text("Description: \(building.description)")
@@ -30,12 +30,10 @@ struct BuildingDetailView: View {
             
             Divider()
             
-            Text("Obtainables:").font(.subheadline)
+            Text("Purchasable:").font(.subheadline)
             List {
-                ForEach(building.obtainables, id: \.self) { obtainable in
-                    ItemRow(item: items.first(where: {
-                        $0.name == obtainable
-                    })!)
+                ForEach(building.purchasable, id: \.self) { purchasable in
+                    PurchasableRow(purchasable: purchasable)
                 }
             }
 

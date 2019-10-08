@@ -17,7 +17,7 @@ class Building: Codable {
     var occupants: [VillagerName]
     var openTime: Time
     var closeTime: Time
-    var obtainables: [ItemName]
+    var purchasable: [Purchasable]
     
     required init(from decoder: Decoder) throws {
         let map = try decoder.container(keyedBy: CodingKeys.self)
@@ -29,11 +29,11 @@ class Building: Codable {
         self.occupants = try map.decode(.occupants)
         self.openTime = try map.decode(.openTime)
         self.closeTime = try map.decode(.closeTime)
-        self.obtainables = try map.decode(.obtainables)
+        self.purchasable = try map.decode(.purchasable)
     }
     
     private enum CodingKeys: CodingKey {
-        case id, name, type, description, occupants, openTime, closeTime, obtainables
+        case id, name, type, description, occupants, openTime, closeTime, purchasable
     }
 }
 

@@ -50,6 +50,7 @@
 		71540804233AD0180019FB8E /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540803233AD0180019FB8E /* Decoder.swift */; };
 		71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540805233AD0C10019FB8E /* VillagerRow.swift */; };
 		71540808233ADFA90019FB8E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71540807233ADFA90019FB8E /* ItemRow.swift */; };
+		7163A2B3234C12B100606977 /* PurchasableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7163A2B2234C12B100606977 /* PurchasableRow.swift */; };
 		71799AE82347F293001D8DED /* emily.json in Resources */ = {isa = PBXBuildFile; fileRef = 71799AE72347F293001D8DED /* emily.json */; };
 		71799AEA234AFE5D001D8DED /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71799AE9234AFE5D001D8DED /* Location.swift */; };
 		71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B75968234BE4F000A0CFFD /* ScheduleData.swift */; };
@@ -113,6 +114,7 @@
 		71540803233AD0180019FB8E /* Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
 		71540805233AD0C10019FB8E /* VillagerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRow.swift; sourceTree = "<group>"; };
 		71540807233ADFA90019FB8E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		7163A2B2234C12B100606977 /* PurchasableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasableRow.swift; sourceTree = "<group>"; };
 		71799AE72347F293001D8DED /* emily.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emily.json; sourceTree = "<group>"; };
 		71799AE9234AFE5D001D8DED /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		71B75968234BE4F000A0CFFD /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 				71540805233AD0C10019FB8E /* VillagerRow.swift */,
 				71540807233ADFA90019FB8E /* ItemRow.swift */,
 				712AFB752341652E0023C79F /* EventRow.swift */,
+				7163A2B2234C12B100606977 /* PurchasableRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */,
 				71540804233AD0180019FB8E /* Decoder.swift in Sources */,
 				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
+				7163A2B3234C12B100606977 /* PurchasableRow.swift in Sources */,
 				71E7516623428D0E006D7397 /* Building.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
 				71D4AE70233C648A00E7E068 /* EventData.swift in Sources */,

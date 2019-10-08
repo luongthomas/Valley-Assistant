@@ -1,10 +1,11 @@
-
 [
   {
     "id": 0,
     "name": "Fish Shop",
     "type": "shop",
-    "occupants": ["penny"],
+    "occupants": [
+      "penny"
+    ],
     "description": "A place for fishing supplies",
     "openTime": {
       "hour": 10,
@@ -16,16 +17,24 @@
       "min": 0,
       "ampm": "pm"
     },
-    "obtainables": [
-      "milk",
-      "egg"
+    "purchasable": [
+      {
+        "name": "milk",
+        "price": 200
+      },
+      {
+        "name": "egg",
+        "price": 100
+      }
     ]
   },
   {
     "id": 1,
     "name": "Carpenter's Shop",
     "type": "shop",
-    "occupants": ["josh"],
+    "occupants": [
+      "josh"
+    ],
     "description": "A place to buy goods for the house and upgrade the farm.",
     "openTime": {
       "hour": 10,
@@ -37,11 +46,15 @@
       "min": 0,
       "ampm": "pm"
     },
-    "obtainables": [
-      "barn",
-      "bigBarn"
+    "purchasable": [
+      {
+        "name": "barn",
+        "price": 5000
+      },
+      {
+        "name": "bigBarn",
+        "price": 10000
+      }
     ]
   }
 ]
-
-  

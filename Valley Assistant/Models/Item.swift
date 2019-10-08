@@ -45,3 +45,17 @@ enum ItemName: String, Codable {
 enum ItemType: String, Codable {
     case all, tools, food, minerals, fish, crops, weapons, crafting, building
 }
+
+struct Purchasable: Codable, Hashable {
+    var name: ItemName
+    var price: Int
+    
+    private enum CodingKeys: CodingKey {
+        case name, price
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(price)
+    }
+}
