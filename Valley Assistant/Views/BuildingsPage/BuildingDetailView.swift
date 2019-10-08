@@ -13,7 +13,7 @@ struct BuildingDetailView: View {
     
     var body: some View {
         VStack() {
-            Text("Type: \(building.type.rawValue.capitalized)")
+            Text("Type: \(building.type.rawValue.camelCaps)")
             Text("Hours: \(building.openTime.hour) \(building.openTime.ampm.rawValue.capitalized) - \(building.closeTime.hour) \(building.closeTime.ampm.rawValue.capitalized)")
             Text("Description: \(building.description)")
             
@@ -37,7 +37,7 @@ struct BuildingDetailView: View {
                 }
             }
 
-            .navigationBarTitle("\(building.name)")
+            .navigationBarTitle("\(building.name.rawValue.camelCaps)")
         }
     }
 }

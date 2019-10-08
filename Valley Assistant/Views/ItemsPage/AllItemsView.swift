@@ -18,7 +18,7 @@ struct AllItemsView: View {
                 
                 ForEach(items.filter {
                     self.searchTerm.isEmpty ? true : $0.name.rawValue.localizedCaseInsensitiveContains(self.searchTerm)
-                }, id: \.id) { item in
+                }, id: \.self) { item in
                     NavigationLink(destination: ItemDetailView(item: item)) {
                         Text(item.name.rawValue.capitalized)
                     }

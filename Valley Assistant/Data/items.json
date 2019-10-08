@@ -2,7 +2,6 @@
   {
     "name": "ruby",
     "type": "minerals",
-    "id": 0,
     "value": 100,
     "source": "Cave",
     "description": "A valuable and red stone"
@@ -10,7 +9,6 @@
   {
     "name": "axe",
     "type": "tools",
-    "id": 1,
     "value": 50,
     "source": "Obtained from the start of the game.",
     "description": "A handy tool to chop down trees"
@@ -18,7 +16,6 @@
   {
     "name": "sapphire",
     "type": "minerals",
-    "id": 2,
     "value": 150,
     "source": "Cave",
     "description": "A valuable and blue stone"
@@ -26,7 +23,6 @@
   {
     "name": "omelette",
     "type": "food",
-    "id": 3,
     "value": 250,
     "source": "Cooking",
     "description": "Eggs that have been cooked together with other various ingredients. ",
@@ -40,7 +36,6 @@
   {
     "name": "emerald",
     "type": "minerals",
-    "id": 4,
     "value": 1000,
     "source": "Mines",
     "description": "Beautiful green rock "
@@ -48,7 +43,6 @@
   {
     "name": "aquamarine",
     "type": "minerals",
-    "id": 5,
     "value": 1200,
     "source": "Mines",
     "description": "Beautiful light blue rock "
@@ -56,7 +50,6 @@
   {
     "name": "daffodil",
     "type": "crops",
-    "id": 6,
     "value": 25,
     "source": "Fields",
     "description": "Pretty flower"
@@ -64,7 +57,6 @@
   {
     "name": "poppy",
     "type": "crops",
-    "id": 7,
     "value": 30,
     "source": "Fields",
     "description": "Nice flower "
@@ -72,7 +64,6 @@
   {
     "name": "egg",
     "type": "food",
-    "id": 8,
     "value": 75,
     "source": "Chicken",
     "description": "Nutritious snack",
@@ -82,7 +73,6 @@
   {
     "name": "milk",
     "type": "food",
-    "id": 9,
     "value": 95,
     "source": "Cow",
     "description": "Healthy Beverage",
@@ -92,7 +82,6 @@
   {
     "name": "barn",
     "type": "building",
-    "id": 10,
     "value": 500,
     "source": "Carpenter's Shop",
     "description": "Normal sized barn for animals",
@@ -104,7 +93,6 @@
   {
     "name": "bigBarn",
     "type": "building",
-    "id": 11,
     "value": 1000,
     "source": "Carpenter's Shop",
     "description": "Huge barn for animals",
@@ -112,4 +100,14 @@
         "barn",
     ],
   },
+  {
+    "name": "bigBarn",
+    "type": "building",
+    "value": 1000,
+    "source": "Carpenter's Shop",
+    "description": "Huge barn for animals",
+    "recipe": [
+        "barn",
+    ],
+  }
 ]

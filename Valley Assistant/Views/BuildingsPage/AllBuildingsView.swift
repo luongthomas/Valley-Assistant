@@ -17,10 +17,10 @@ struct AllBuildingsView: View {
                 SearchBar(text: $searchTerm)
                 
                 ForEach(buildings.filter {
-                    self.searchTerm.isEmpty ? true : $0.name.localizedCaseInsensitiveContains(self.searchTerm)
-                }, id: \.id) { building in
+                    self.searchTerm.isEmpty ? true : $0.name.rawValue.localizedCaseInsensitiveContains(self.searchTerm)
+                }, id: \.self) { building in
                     NavigationLink(destination: BuildingDetailView(building: building)) {
-                        Text(building.name)
+                        Text(building.name.rawValue.camelCaps)
                     }
                 }
             }.navigationBarTitle("All Buildings")

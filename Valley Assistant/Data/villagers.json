@@ -87,5 +87,74 @@
       "emerald",
       "egg"
     ]
+  },
+  {
+    "name": "pierre",
+    "id": 4,
+    "birthday": {
+      "season": "winter",
+      "day": 3
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
+  },
+  {
+    "name": "caroline",
+    "id": 5,
+    "birthday": {
+      "season": "winter",
+      "day": 3
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
+  },
+  {
+    "name": "abigail",
+    "id": 6,
+    "birthday": {
+      "season": "winter",
+      "day": 3
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
   }
 ]

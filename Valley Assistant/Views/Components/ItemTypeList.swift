@@ -19,7 +19,7 @@ struct ItemTypeList: View {
                 
                 ForEach(items.filter {
                     validElement(item: $0)
-                }, id: \.id) { item in
+                }, id: \.self) { item in
                     NavigationLink(destination: ItemDetailView(item: item)) {
                         Text(item.name.rawValue.capitalized)
                     }

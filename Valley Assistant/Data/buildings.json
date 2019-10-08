@@ -1,14 +1,15 @@
 [
   {
-    "id": 0,
-    "name": "Fish Shop",
+    "name": "pierresGeneralStore",
     "type": "shop",
     "occupants": [
-      "penny"
+      "pierre",
+      "caroline",
+      "abigail"
     ],
-    "description": "A place for fishing supplies",
+    "description": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.  The building is open until 9pm but the store is open only until 5pm. The store is closed on Wednesdays.",
     "openTime": {
-      "hour": 10,
+      "hour": 9,
       "min": 0,
       "ampm": "am"
     },
@@ -29,8 +30,7 @@
     ]
   },
   {
-    "id": 1,
-    "name": "Carpenter's Shop",
+    "name": "carpentersShop",
     "type": "shop",
     "occupants": [
       "josh"

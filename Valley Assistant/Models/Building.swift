@@ -8,9 +8,8 @@
 
 import Foundation
 
-class Building: Codable {
-    var id: Int
-    var name: String
+class Building: Codable, Hashable {
+    var name: BuildingName
     var type: BuildingType
     var description: String
     
@@ -21,7 +20,6 @@ class Building: Codable {
     
     required init(from decoder: Decoder) throws {
         let map = try decoder.container(keyedBy: CodingKeys.self)
-        self.id = try map.decode(.id)
         self.name = try map.decode(.name)
         self.type = try map.decode(.type)
         self.description = try map.decode(.description)
@@ -33,8 +31,26 @@ class Building: Codable {
     }
     
     private enum CodingKeys: CodingKey {
-        case id, name, type, description, occupants, openTime, closeTime, purchasable
+        case name, type, description, occupants, openTime, closeTime, purchasable
     }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(type)
+        hasher.combine(description)
+        hasher.combine(occupants)
+        hasher.combine(openTime)
+        hasher.combine(closeTime)
+        hasher.combine(purchasable)
+    }
+    
+    static func == (lhs: Building, rhs: Building) -> Bool {
+        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.description == rhs.description && lhs.occupants == rhs.occupants && lhs.openTime == lhs.openTime && rhs.closeTime == rhs.closeTime && lhs.purchasable == rhs.purchasable
+    }
+}
+
+enum BuildingName: String, Codable {
+    case pierresGeneralStore, carpentersShop
 }
 
 enum BuildingType: String, Codable {

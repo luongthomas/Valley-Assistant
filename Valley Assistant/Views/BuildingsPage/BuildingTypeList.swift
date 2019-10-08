@@ -19,9 +19,9 @@ struct BuildingTypeList: View {
                 
                 ForEach(buildings.filter {
                     validElement(building: $0)
-                }, id: \.id) { building in
+                }, id: \.self) { building in
                     NavigationLink(destination: BuildingDetailView(building: building)) {
-                        Text(building.name.capitalized)
+                        Text(building.name.rawValue.camelCaps)
                     }
                 }
             }.navigationBarTitle("\(buildingType.rawValue.camelCaps)")
@@ -29,7 +29,7 @@ struct BuildingTypeList: View {
     }
     
     private func validElement(building: Building) -> Bool {
-        let containsSubString = self.searchTerm.isEmpty ? true : building.name.localizedCaseInsensitiveContains(self.searchTerm)
+        let containsSubString = self.searchTerm.isEmpty ? true : building.name.rawValue.camelCaps.localizedCaseInsensitiveContains(self.searchTerm)
         
         if containsSubString && (building.type == self.buildingType || self.buildingType == .all) {
             return true
