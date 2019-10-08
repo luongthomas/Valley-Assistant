@@ -284,7 +284,7 @@
     "basicDescription": "Takes 28 days to produce a mature Cherry Tree. Bears fruit in the spring. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into a Cherry Tree, after which will produce one fruit each day during the Spring.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 3400g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "winter"
+    "seasonToGrow": ["winter"]
   },
   {
     "name": "apricotSapling",
@@ -294,7 +294,7 @@
     "basicDescription": "Takes 28 days to produce a mature Apricot Tree. Bears fruit in the spring. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into an Apricot Tree, after which will produce one fruit each day during the Spring.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 2000g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "winter"
+    "seasonToGrow": ["winter"]
   },
   {
     "name": "orangeSapling",
@@ -304,7 +304,7 @@
     "basicDescription": "Takes 28 days to produce a mature Orange Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into an Orange Tree, after which will produce one fruit each day during the Summer.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 4000g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "peachSapling",
@@ -314,7 +314,7 @@
     "basicDescription": "Takes 28 days to produce a mature Peach Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into an Peach Tree, after which will produce one fruit each day during the Summer.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 6000g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "pomegranateSapling",
@@ -324,7 +324,7 @@
     "basicDescription": "Takes 28 days to produce a mature Pomegranate Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into an Pomegranate Tree, after which will produce one fruit each day during the Fall.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 6000g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "appleSapling",
@@ -334,7 +334,7 @@
     "basicDescription": "Takes 28 days to produce a mature Apple Tree. Bears fruit in the summer. Only grows if the 8 surrounding 'tiles' are empty.",
     "longDescription": "A Fruit Tree that takes 28 days to grow into an Apple Tree, after which will produce one fruit each day during the Fall.  Like all Fruit Trees, it will produce fruit all year round if planted in the Greenhouse. It is a good deal to buy it at the Traveling Cart if it is 4000g or less (which is the price at the General Store).",
     "growthTimeDays": 28,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "catalogue",
@@ -376,7 +376,7 @@
     "basicDescription": "Plant these in the spring. Takes 4 days to mature.",
     "longDescription": "A type of seed which grows and produces Parsnips when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g.",
     "growthTimeDays": 4,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "beanStarter",
@@ -386,7 +386,7 @@
     "basicDescription": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Yields multiple beans per harvest. Grows on a trellis.",
     "longDescription": "A type of seed which grows and produces Green Beans when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
     "growthTimeDays": 10,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "cauliflowerSeeds",
@@ -396,7 +396,7 @@
     "basicDescription": "Plant these in the spring. Takes 12 days to produce a large cauliflower.",
     "longDescription": "A type of seed which grows and produces Cauliflower when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 80g. Nine seeds can be obtained from Gunther at the Museum after donating 5 items.",
     "growthTimeDays": 12,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "potatoSeeds",
@@ -406,7 +406,7 @@
     "basicDescription": "Plant these in the spring. Takes 6 days to mature, and has a chance of yielding multiple potatoes at harvest.",
     "longDescription": "A type of seed which grows and produces Potatoes when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 50g.  Potato seeds have a random chance to produce extra potatoes partially based upon Daily Luck.",
     "growthTimeDays": 6,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "tulipBulb",
@@ -416,7 +416,7 @@
     "basicDescription": "Plant in spring. Takes 6 days to produce a colorful flower. Assorted colors.",
     "longDescription": "A type of seed which grows and produces Tulips when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 20g.",
     "growthTimeDays": 6,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "kaleSeeds",
@@ -426,7 +426,7 @@
     "basicDescription": "Plant these in the spring. Takes 6 days to mature. Harvest with the scythe.",
     "longDescription": "A type of seed which grows and produces Kale when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 70g.",
     "growthTimeDays": 6,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "jazzSeeds",
@@ -436,7 +436,7 @@
     "basicDescription": "Plant in spring. Takes 7 days to produce a blue puffball flower.",
     "longDescription": "A type of seed which grows and produces Blue Jazz flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 30g.",
     "growthTimeDays": 7,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "garlicSeeds",
@@ -446,7 +446,7 @@
     "basicDescription": "Plant these in the spring. Takes 4 days to mature.",
     "longDescription": "A type of seed which grows and produces Garlic when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 40g.  These are only available in the General Store starting from year 2.",
     "growthTimeDays": 4,
-    "seasonToGrow": "spring"
+    "seasonToGrow": ["spring"]
   },
   {
     "name": "melonSeeds",
@@ -456,7 +456,7 @@
     "basicDescription": "Plant these in the summer. Takes 12 days to mature.",
     "longDescription": "A type of seed which grows and produces Melons when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 80g.  Nine seeds can be obtained from Gunther at the Museum after donating 10 items.",
     "growthTimeDays": 12,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "tomatoSeeds",
@@ -466,7 +466,7 @@
     "basicDescription": "Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Tomatoes when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.  When harvested, each tomato plant gives 1 Tomato every 4 days, with a small random chance for more tomatoes.",
     "growthTimeDays": 11,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "blueberrySeeds",
@@ -476,7 +476,7 @@
     "basicDescription": "Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Blueberries when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 80g.  When harvested, each blueberry plant gives 3 Blueberries every 4 days with a small chance formore Blueberries.",
     "growthTimeDays": 13,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "pepperSeeds",
@@ -486,7 +486,7 @@
     "basicDescription": "Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Hot Peppers when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 40g.  When harvested each Hot Pepper plant gives 1 Hot Pepper every 3 days with a small chance for more Hot Peppers. ",
     "growthTimeDays": 5,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "wheatSeeds",
@@ -496,7 +496,7 @@
     "basicDescription": "Plant these in the summer or fall. Takes 4 days to mature. Harvest with the scythe.",
     "longDescription": "A type of seed which grows and produces Wheat when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 10g.",
     "growthTimeDays": 4,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "radishSeeds",
@@ -506,7 +506,7 @@
     "basicDescription": "Plant these in the summer. Takes 6 days to mature.",
     "longDescription": "A type of seed which grows and produces Radishes when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 40g.",
     "growthTimeDays": 6,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "poppySeeds",
@@ -516,7 +516,7 @@
     "basicDescription": "Plant in summer. Produces a bright red flower in 7 days.",
     "longDescription": "A type of seed which grows and produces Poppy flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 100g.",
     "growthTimeDays": 7,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "spangleSeeds",
@@ -526,7 +526,7 @@
     "basicDescription": "Plant in summer. Takes 8 days to produce a vibrant tropical flower. Assorted colors.",
     "longDescription": "A type of seed which grows and produces Summer Spangle flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
     "growthTimeDays": 8,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "hopsStarter",
@@ -536,7 +536,7 @@
     "basicDescription": "Plant these in the summer. Takes 11 days to grow, but keeps producing after that. Grows on a trellis.",
     "longDescription": "A type of seed which grows and produces Hops when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
     "growthTimeDays": 11,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "cornSeeds",
@@ -559,7 +559,7 @@
     "basicDescription": "Plant in summer or fall. Takes 8 days to produce a large sunflower. Yields more seeds at harvest.",
     "longDescription": "A type of seed which grows and produces Sunflowers and 0-3 Sunflower Seeds when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the JoJaMart for 125g or potentially 100g at the Travelling Cart. It's sell price is 100g if it was purchased instead of harvested.  It can be used to create oil via an Oil Maker.",
     "growthTimeDays": 8,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "redCabbageSeeds",
@@ -569,7 +569,7 @@
     "basicDescription": "Plant these in the summer. Takes 9 days to mature.",
     "longDescription": "A type of seed which grows and produces Red Cabbage when mature. These can be obtained via the Seed Maker. This is only available at the General Store and Night Market starting year 2. It is cheapest to buy at the General Store or Night Market for 100g.",
     "growthTimeDays": 9,
-    "seasonToGrow": "summer"
+    "seasonToGrow": ["summer"]
   },
   {
     "name": "eggplantSeeds",
@@ -579,7 +579,7 @@
     "basicDescription": "Plant these in the fall. Takes 5 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Eggplants when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g. When harvested, each Eggplant bush gives 1 Eggplant for every 5 days, with a very small random chance for more Eggplants",
     "growthTimeDays": 5,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "cornSeeds",
@@ -589,7 +589,7 @@
     "basicDescription": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Corn when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g. When harvested, each Corn plant gives 1 Corn for every 4 days.",
     "growthTimeDays": 14,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "pumpkinSeeds",
@@ -599,7 +599,7 @@
     "basicDescription": "Plant these in the fall. Takes 13 days to mature.",
     "longDescription": "A type of seed which grows and produces Pumpkins when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g.",
     "growthTimeDays": 13,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "bokChoySeeds",
@@ -609,7 +609,7 @@
     "basicDescription": "Plant these in the fall. Takes 4 days to mature.",
     "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
     "growthTimeDays": 4,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "yamSeeds",
@@ -619,7 +619,7 @@
     "basicDescription": "Plant these in the fall. Takes 10 days to mature.",
     "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
     "growthTimeDays": 10,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "bokChoySeeds",
@@ -629,7 +629,7 @@
     "basicDescription": "Plant these in the fall. Takes 4 days to mature.",
     "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
     "growthTimeDays": 4,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "cranberrySeeds",
@@ -639,7 +639,7 @@
     "basicDescription": "Plant these in the fall. Takes 7 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Cranberries when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 240 or possibly 180g at the Travelling Cart.  When harvested each plant gives 2 Cranberries every 5 days with a small chance for more Cranberries.",
     "growthTimeDays": 7,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "fairySeeds",
@@ -649,7 +649,7 @@
     "basicDescription": "Plant in fall. Takes 12 days to produce a mysterious flower. Assorted Colors.",
     "longDescription": "A type of seed which grows and produces Fairy Rose flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 200g.",
     "growthTimeDays": 12,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "amaranthSeeds",
@@ -659,7 +659,7 @@
     "basicDescription": "Plant these in the fall. Takes 7 days to grow. Harvest with the scythe.",
     "longDescription": "A type of seed which grows and produces Amaranth when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 70g.",
     "growthTimeDays": 7,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "grapeStarter",
@@ -669,7 +669,7 @@
     "basicDescription": "Plant these in the fall. Takes 10 days to grow, but keeps producing after that. Grows on a trellis.",
     "longDescription": "A type of seed which grows and produces Grapes when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g. Continues to produces grapes every 3 days",
     "growthTimeDays": 10,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   },
   {
     "name": "artichokeSeeds",
@@ -679,7 +679,7 @@
     "basicDescription": "Plant these in the fall. Takes 8 days to mature.",
     "longDescription": "A type of seed which grows and produces Grapes when mature. These can be obtained via the Seed Maker or potentially from Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 30g.  It is only available to buy at the General Store or Night Market starting year 2 but can be bought at the Travelling Cart from the start for 100g-1000g.",
     "growthTimeDays": 8,
-    "seasonToGrow": "fall"
+    "seasonToGrow": ["fall"]
   }
   
   
