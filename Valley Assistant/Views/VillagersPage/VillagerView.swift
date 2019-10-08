@@ -11,7 +11,7 @@ import SwiftUI
 struct VillagerView: View {
     var body: some View {
         NavigationView {
-            List(villagers, id: \.id) { villager in
+            List(villagers, id: \.self) { villager in
                 VillagerRow(villager: villager)
             }.navigationBarTitle("Villagers")
         }.environment(\.horizontalSizeClass, .compact)
