@@ -20,6 +20,7 @@ struct PurchasableRow: View {
                     Text(purchasable.name.rawValue.camelCaps)
                     Spacer()
                     Text("\(purchasable.price)")
+                   // TODO: write season here
                 }
             }
         }

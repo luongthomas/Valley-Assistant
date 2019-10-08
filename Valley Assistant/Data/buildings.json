@@ -21,257 +21,257 @@
     "purchasable": [
       {
         "name": "grassStarter",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "sugar",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "wheatFlour",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "rice",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 200
       },
       {
         "name": "oil",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 200
       },
       {
         "name": "vinegar",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 200
       },
       {
         "name": "basicFertilizer",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "qualityFertilizer",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 150
       },
       {
         "name": "basicRetainingSoil",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "qualityRetainingSoil",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 150
       },
       {
         "name": "speedGro",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "deluxeSpeedGro",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 150
       },
       {
         "name": "flooring",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 100
       },
       {
         "name": "cherrySapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 3400
       },
       {
         "name": "apricotSapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 2000
       },
       {
         "name": "orangeSapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 2000
       },
       {
         "name": "peachSapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 6000
       },
       {
         "name": "pomegranateSapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 6000
       },
       {
         "name": "appleSapling",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 4000
       },
       {
         "name": "catalogue",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 30000
       },
       {
         "name": "bouquet",
-        "availableSeason": "all",
+        "availableSeason": ["all"],
         "price": 200
       },
       {
         "name": "parsnipSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 20
       },
       {
         "name": "beanStarter",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 60
       },
       {
         "name": "cauliflowerSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 80
       },
       {
         "name": "potatoSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 50
       },
       {
         "name": "tulipBulb",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 20
       },
       {
         "name": "kaleSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 70
       },
       {
         "name": "jazzSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 30
       },
       {
         "name": "garlicSeeds",
-        "availableSeason": "spring",
+        "availableSeason": ["spring"],
         "price": 30
       },
       {
         "name": "melonSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 80
       },
       {
         "name": "tomatoSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 50
       },
       {
         "name": "blueberrySeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 80
       },
       {
         "name": "pepperSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 40
       },
       {
         "name": "wheatSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 10
       },
       {
         "name": "radishSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 40
       },
       {
         "name": "poppySeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 100
       },
       {
         "name": "spangleSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 50
       },
       {
         "name": "hopsStarter",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 60
       },
       {
         "name": "cornSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 150
       },
       {
         "name": "sunflowerSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 200
       },
       {
         "name": "redCabbageSeeds",
-        "availableSeason": "summer",
+        "availableSeason": ["summer"],
         "price": 100
       },
       {
         "name": "eggplantSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 20
       },
       {
         "name": "cornSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 150
       },
       {
         "name": "pumpkinSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 100
       },
       {
         "name": "bokChoySeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 50
       },
       {
         "name": "yamSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 60
       },
       {
         "name": "cranberrySeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 240
       },
       {
         "name": "fairySeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 200
       },
       {
         "name": "amaranthSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 70
       },
       {
         "name": "grapeStarter",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 60
       },
       {
         "name": "artichokeSeeds",
-        "availableSeason": "fall",
+        "availableSeason": ["fall"],
         "price": 30
       }
     ]

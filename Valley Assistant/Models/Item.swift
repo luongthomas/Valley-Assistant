@@ -81,7 +81,7 @@ class Purchasable: Codable, Hashable {
     
     var name: ItemName
     var price: Int
-    var availableSeason: Season?
+    var availableSeason: [Season]?
     
     private enum CodingKeys: CodingKey {
         case name, price, availableSeason
