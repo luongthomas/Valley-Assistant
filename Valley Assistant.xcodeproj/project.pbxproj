@@ -37,10 +37,6 @@
 		714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E6233960AB00C070D3 /* BuildingsView.swift */; };
 		714043E92339675F00C070D3 /* AllItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043E82339675F00C070D3 /* AllItemsView.swift */; };
 		714043F92339910A00C070D3 /* AllBuildingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043F82339910A00C070D3 /* AllBuildingsView.swift */; };
-		714043FB2339911600C070D3 /* ShopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FA2339911600C070D3 /* ShopsView.swift */; };
-		714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FC2339912600C070D3 /* FarmUpgradesView.swift */; };
-		714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714043FE2339913700C070D3 /* HouseUpgradesView.swift */; };
-		714044032339915900C070D3 /* CommunityCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714044022339915900C070D3 /* CommunityCenterView.swift */; };
 		71404405233991EE00C070D3 /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = 71404404233991EE00C070D3 /* items.json */; };
 		71404407233A941B00C070D3 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71404406233A941B00C070D3 /* ItemData.swift */; };
 		715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715407F9233A98580019FB8E /* ItemDetailView.swift */; };
@@ -101,10 +97,6 @@
 		714043E6233960AB00C070D3 /* BuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsView.swift; sourceTree = "<group>"; };
 		714043E82339675F00C070D3 /* AllItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllItemsView.swift; sourceTree = "<group>"; };
 		714043F82339910A00C070D3 /* AllBuildingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBuildingsView.swift; sourceTree = "<group>"; };
-		714043FA2339911600C070D3 /* ShopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsView.swift; sourceTree = "<group>"; };
-		714043FC2339912600C070D3 /* FarmUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmUpgradesView.swift; sourceTree = "<group>"; };
-		714043FE2339913700C070D3 /* HouseUpgradesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseUpgradesView.swift; sourceTree = "<group>"; };
-		714044022339915900C070D3 /* CommunityCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityCenterView.swift; sourceTree = "<group>"; };
 		71404404233991EE00C070D3 /* items.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
 		71404406233A941B00C070D3 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
 		715407F9233A98580019FB8E /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
@@ -268,10 +260,6 @@
 				714043E6233960AB00C070D3 /* BuildingsView.swift */,
 				714043F82339910A00C070D3 /* AllBuildingsView.swift */,
 				71E7516B2342A65B006D7397 /* BuildingDetailView.swift */,
-				714043FA2339911600C070D3 /* ShopsView.swift */,
-				714043FC2339912600C070D3 /* FarmUpgradesView.swift */,
-				714043FE2339913700C070D3 /* HouseUpgradesView.swift */,
-				714044022339915900C070D3 /* CommunityCenterView.swift */,
 				71E0C354234C04870005485F /* BuildingTypeList.swift */,
 			);
 			path = BuildingsPage;
@@ -435,18 +423,15 @@
 				715407FA233A98580019FB8E /* ItemDetailView.swift in Sources */,
 				714043AB23348BEE00C070D3 /* ContentView.swift in Sources */,
 				712AFB74234164880023C79F /* EventDetailView.swift in Sources */,
-				714044032339915900C070D3 /* CommunityCenterView.swift in Sources */,
 				714043CC23359A3300C070D3 /* CalendarView.swift in Sources */,
 				71D4AE6E233C61C200E7E068 /* Event.swift in Sources */,
 				71404407233A941B00C070D3 /* ItemData.swift in Sources */,
 				71540806233AD0C10019FB8E /* VillagerRow.swift in Sources */,
 				71540804233AD0180019FB8E /* Decoder.swift in Sources */,
-				714043FD2339912600C070D3 /* FarmUpgradesView.swift in Sources */,
 				7163A2B3234C12B100606977 /* PurchasableRow.swift in Sources */,
 				71E7516623428D0E006D7397 /* Building.swift in Sources */,
 				714043E7233960AC00C070D3 /* BuildingsView.swift in Sources */,
 				71D4AE70233C648A00E7E068 /* EventData.swift in Sources */,
-				714043FB2339911600C070D3 /* ShopsView.swift in Sources */,
 				714043BB233490FE00C070D3 /* HomeView.swift in Sources */,
 				714043D92338567400C070D3 /* VillagerData.swift in Sources */,
 				712AFB762341652E0023C79F /* EventRow.swift in Sources */,
@@ -457,7 +442,6 @@
 				71E0C355234C04870005485F /* BuildingTypeList.swift in Sources */,
 				71E7516C2342A65B006D7397 /* BuildingDetailView.swift in Sources */,
 				714043C82334964500C070D3 /* RKWeekdayHeader.swift in Sources */,
-				714043FF2339913700C070D3 /* HouseUpgradesView.swift in Sources */,
 				714043C42334960400C070D3 /* RKMonth.swift in Sources */,
 				71540808233ADFA90019FB8E /* ItemRow.swift in Sources */,
 				714043E92339675F00C070D3 /* AllItemsView.swift in Sources */,
