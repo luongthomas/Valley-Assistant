@@ -496,7 +496,7 @@
     "basicDescription": "Plant these in the summer or fall. Takes 4 days to mature. Harvest with the scythe.",
     "longDescription": "A type of seed which grows and produces Wheat when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 10g.",
     "growthTimeDays": 4,
-    "seasonToGrow": ["summer"]
+    "seasonToGrow": ["summer", "fall"]
   },
   {
     "name": "radishSeeds",
@@ -559,7 +559,7 @@
     "basicDescription": "Plant in summer or fall. Takes 8 days to produce a large sunflower. Yields more seeds at harvest.",
     "longDescription": "A type of seed which grows and produces Sunflowers and 0-3 Sunflower Seeds when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the JoJaMart for 125g or potentially 100g at the Travelling Cart. It's sell price is 100g if it was purchased instead of harvested.  It can be used to create oil via an Oil Maker.",
     "growthTimeDays": 8,
-    "seasonToGrow": ["summer"]
+    "seasonToGrow": ["summer", "fall"]
   },
   {
     "name": "redCabbageSeeds",
@@ -589,7 +589,7 @@
     "basicDescription": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
     "longDescription": "A type of seed which grows and produces Corn when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g. When harvested, each Corn plant gives 1 Corn for every 4 days.",
     "growthTimeDays": 14,
-    "seasonToGrow": ["fall"]
+    "seasonToGrow": ["fall", "summer"]
   },
   {
     "name": "pumpkinSeeds",
