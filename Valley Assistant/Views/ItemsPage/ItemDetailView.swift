@@ -43,7 +43,7 @@ struct ItemDetailView: View {
                     })!)
                 }
             }
-            .navigationBarTitle("\(item.name.rawValue.capitalized)")
+            .navigationBarTitle("\(item.name.rawValue.camelCaps)")
         }.padding()
     }
     
