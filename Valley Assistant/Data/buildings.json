@@ -123,6 +123,46 @@
         "name": "bouquet",
         "availableSeason": "all",
         "price": 200
+      },
+      {
+        "name": "parsnipSeeds",
+        "availableSeason": "spring",
+        "price": 20
+      },
+      {
+        "name": "beanStarter",
+        "availableSeason": "spring",
+        "price": 60
+      },
+      {
+        "name": "cauliflowerSeeds",
+        "availableSeason": "spring",
+        "price": 80
+      },
+      {
+        "name": "potatoSeeds",
+        "availableSeason": "spring",
+        "price": 50
+      },
+      {
+        "name": "tulipBulb",
+        "availableSeason": "spring",
+        "price": 20
+      },
+      {
+        "name": "kaleSeeds",
+        "availableSeason": "spring",
+        "price": 70
+      },
+      {
+        "name": "jazzSeeds",
+        "availableSeason": "spring",
+        "price": 30
+      },
+      {
+        "name": "garlicSeeds",
+        "availableSeason": "spring",
+        "price": 30
       }
     ]
   },

@@ -377,7 +377,78 @@
     "longDescription": "A type of seed which grows and produces Parsnips when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g.",
     "growthTimeDays": 4,
     "seasonToGrow": "spring"
+  },
+  {
+    "name": "beanStarter",
+    "type": "crops",
+    "value": 30,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Yields multiple beans per harvest. Grows on a trellis.",
+    "longDescription": "A type of seed which grows and produces Green Beans when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
+    "growthTimeDays": 10,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "cauliflowerSeeds",
+    "type": "crops",
+    "value": 40,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 12 days to produce a large cauliflower.",
+    "longDescription": "A type of seed which grows and produces Cauliflower when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 80g. Nine seeds can be obtained from Gunther at the Museum after donating 5 items.",
+    "growthTimeDays": 12,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "potatoSeeds",
+    "type": "crops",
+    "value": 25,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 6 days to mature, and has a chance of yielding multiple potatoes at harvest.",
+    "longDescription": "A type of seed which grows and produces Potatoes when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 50g.  Potato seeds have a random chance to produce extra potatoes partially based upon Daily Luck.",
+    "growthTimeDays": 6,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "tulipBulb",
+    "type": "crops",
+    "value": 10,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant in spring. Takes 6 days to produce a colorful flower. Assorted colors.",
+    "longDescription": "A type of seed which grows and produces Tulips when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 20g.",
+    "growthTimeDays": 6,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "kaleSeeds",
+    "type": "crops",
+    "value": 35,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 6 days to mature. Harvest with the scythe.",
+    "longDescription": "A type of seed which grows and produces Kale when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 70g.",
+    "growthTimeDays": 6,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "jazzSeeds",
+    "type": "crops",
+    "value": 15,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant in spring. Takes 7 days to produce a blue puffball flower.",
+    "longDescription": "A type of seed which grows and produces Blue Jazz flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 30g.",
+    "growthTimeDays": 7,
+    "seasonToGrow": "spring"
+  },
+  {
+    "name": "garlicSeeds",
+    "type": "crops",
+    "value": 20,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the spring. Takes 4 days to mature.",
+    "longDescription": "A type of seed which grows and produces Garlic when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 40g.  These are only available in the General Store starting from year 2.",
+    "growthTimeDays": 4,
+    "seasonToGrow": "spring"
   }
+  
   
 ]
 
