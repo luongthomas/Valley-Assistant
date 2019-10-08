@@ -223,6 +223,56 @@
         "name": "redCabbageSeeds",
         "availableSeason": "summer",
         "price": 100
+      },
+      {
+        "name": "eggplantSeeds",
+        "availableSeason": "fall",
+        "price": 20
+      },
+      {
+        "name": "cornSeeds",
+        "availableSeason": "fall",
+        "price": 150
+      },
+      {
+        "name": "pumpkinSeeds",
+        "availableSeason": "fall",
+        "price": 100
+      },
+      {
+        "name": "bokChoySeeds",
+        "availableSeason": "fall",
+        "price": 50
+      },
+      {
+        "name": "yamSeeds",
+        "availableSeason": "fall",
+        "price": 60
+      },
+      {
+        "name": "cranberrySeeds",
+        "availableSeason": "fall",
+        "price": 240
+      },
+      {
+        "name": "fairySeeds",
+        "availableSeason": "fall",
+        "price": 200
+      },
+      {
+        "name": "amaranthSeeds",
+        "availableSeason": "fall",
+        "price": 70
+      },
+      {
+        "name": "grapeStarter",
+        "availableSeason": "fall",
+        "price": 60
+      },
+      {
+        "name": "artichokeSeeds",
+        "availableSeason": "fall",
+        "price": 30
       }
     ]
   },

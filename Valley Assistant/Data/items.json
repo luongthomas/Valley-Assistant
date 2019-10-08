@@ -570,6 +570,116 @@
     "longDescription": "A type of seed which grows and produces Red Cabbage when mature. These can be obtained via the Seed Maker. This is only available at the General Store and Night Market starting year 2. It is cheapest to buy at the General Store or Night Market for 100g.",
     "growthTimeDays": 9,
     "seasonToGrow": "summer"
+  },
+  {
+    "name": "eggplantSeeds",
+    "type": "crops",
+    "value": 10,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 5 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Eggplants when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g. When harvested, each Eggplant bush gives 1 Eggplant for every 5 days, with a very small random chance for more Eggplants",
+    "growthTimeDays": 5,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "cornSeeds",
+    "type": "crops",
+    "value": 75,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Corn when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g. When harvested, each Corn plant gives 1 Corn for every 4 days.",
+    "growthTimeDays": 14,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "pumpkinSeeds",
+    "type": "crops",
+    "value": 50,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 13 days to mature.",
+    "longDescription": "A type of seed which grows and produces Pumpkins when mature. These can be obtained via the Seed Maker and has a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g.",
+    "growthTimeDays": 13,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "bokChoySeeds",
+    "type": "crops",
+    "value": 25,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 4 days to mature.",
+    "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
+    "growthTimeDays": 4,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "yamSeeds",
+    "type": "crops",
+    "value": 30,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 10 days to mature.",
+    "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
+    "growthTimeDays": 10,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "bokChoySeeds",
+    "type": "crops",
+    "value": 25,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 4 days to mature.",
+    "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
+    "growthTimeDays": 4,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "cranberrySeeds",
+    "type": "crops",
+    "value": 60,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 7 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Cranberries when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 240 or possibly 180g at the Travelling Cart.  When harvested each plant gives 2 Cranberries every 5 days with a small chance for more Cranberries.",
+    "growthTimeDays": 7,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "fairySeeds",
+    "type": "crops",
+    "value": 100,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant in fall. Takes 12 days to produce a mysterious flower. Assorted Colors.",
+    "longDescription": "A type of seed which grows and produces Fairy Rose flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 200g.",
+    "growthTimeDays": 12,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "amaranthSeeds",
+    "type": "crops",
+    "value": 35,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 7 days to grow. Harvest with the scythe.",
+    "longDescription": "A type of seed which grows and produces Amaranth when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 70g.",
+    "growthTimeDays": 7,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "grapeStarter",
+    "type": "crops",
+    "value": 30,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 10 days to grow, but keeps producing after that. Grows on a trellis.",
+    "longDescription": "A type of seed which grows and produces Grapes when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g. Continues to produces grapes every 3 days",
+    "growthTimeDays": 10,
+    "seasonToGrow": "fall"
+  },
+  {
+    "name": "artichokeSeeds",
+    "type": "crops",
+    "value": 15,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the fall. Takes 8 days to mature.",
+    "longDescription": "A type of seed which grows and produces Grapes when mature. These can be obtained via the Seed Maker or potentially from Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 30g.  It is only available to buy at the General Store or Night Market starting year 2 but can be bought at the Travelling Cart from the start for 100g-1000g.",
+    "growthTimeDays": 8,
+    "seasonToGrow": "fall"
   }
   
   
