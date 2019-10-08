@@ -163,6 +163,66 @@
         "name": "garlicSeeds",
         "availableSeason": "spring",
         "price": 30
+      },
+      {
+        "name": "melonSeeds",
+        "availableSeason": "summer",
+        "price": 80
+      },
+      {
+        "name": "tomatoSeeds",
+        "availableSeason": "summer",
+        "price": 50
+      },
+      {
+        "name": "blueberrySeeds",
+        "availableSeason": "summer",
+        "price": 80
+      },
+      {
+        "name": "pepperSeeds",
+        "availableSeason": "summer",
+        "price": 40
+      },
+      {
+        "name": "wheatSeeds",
+        "availableSeason": "summer",
+        "price": 10
+      },
+      {
+        "name": "radishSeeds",
+        "availableSeason": "summer",
+        "price": 40
+      },
+      {
+        "name": "poppySeeds",
+        "availableSeason": "summer",
+        "price": 100
+      },
+      {
+        "name": "spangleSeeds",
+        "availableSeason": "summer",
+        "price": 50
+      },
+      {
+        "name": "hopsStarter",
+        "availableSeason": "summer",
+        "price": 60
+      },
+      {
+        "name": "cornSeeds",
+        "availableSeason": "summer",
+        "price": 150
+      },
+      {
+        "name": "sunflowerSeeds",
+        "availableSeason": "summer",
+        "price": 200
+      },
+      {
+        "name": "redCabbageSeeds",
+        "availableSeason": "summer",
+        "price": 100
       }
     ]
   },

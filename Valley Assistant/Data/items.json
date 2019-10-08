@@ -447,6 +447,129 @@
     "longDescription": "A type of seed which grows and produces Garlic when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 40g.  These are only available in the General Store starting from year 2.",
     "growthTimeDays": 4,
     "seasonToGrow": "spring"
+  },
+  {
+    "name": "melonSeeds",
+    "type": "crops",
+    "value": 40,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 12 days to mature.",
+    "longDescription": "A type of seed which grows and produces Melons when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 80g.  Nine seeds can be obtained from Gunther at the Museum after donating 10 items.",
+    "growthTimeDays": 12,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "tomatoSeeds",
+    "type": "crops",
+    "value": 25,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 11 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Tomatoes when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.  When harvested, each tomato plant gives 1 Tomato every 4 days, with a small random chance for more tomatoes.",
+    "growthTimeDays": 11,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "blueberrySeeds",
+    "type": "crops",
+    "value": 40,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 13 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Blueberries when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 80g.  When harvested, each blueberry plant gives 3 Blueberries every 4 days with a small chance formore Blueberries.",
+    "growthTimeDays": 13,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "pepperSeeds",
+    "type": "crops",
+    "value": 20,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 5 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Hot Peppers when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 40g.  When harvested each Hot Pepper plant gives 1 Hot Pepper every 3 days with a small chance for more Hot Peppers. ",
+    "growthTimeDays": 5,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "wheatSeeds",
+    "type": "crops",
+    "value": 5,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer or fall. Takes 4 days to mature. Harvest with the scythe.",
+    "longDescription": "A type of seed which grows and produces Wheat when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 10g.",
+    "growthTimeDays": 4,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "radishSeeds",
+    "type": "crops",
+    "value": 20,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 6 days to mature.",
+    "longDescription": "A type of seed which grows and produces Radishes when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 40g.",
+    "growthTimeDays": 6,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "poppySeeds",
+    "type": "crops",
+    "value": 50,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant in summer. Produces a bright red flower in 7 days.",
+    "longDescription": "A type of seed which grows and produces Poppy flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 100g.",
+    "growthTimeDays": 7,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "spangleSeeds",
+    "type": "crops",
+    "value": 25,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant in summer. Takes 8 days to produce a vibrant tropical flower. Assorted colors.",
+    "longDescription": "A type of seed which grows and produces Summer Spangle flowers when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
+    "growthTimeDays": 8,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "hopsStarter",
+    "type": "crops",
+    "value": 30,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 11 days to grow, but keeps producing after that. Grows on a trellis.",
+    "longDescription": "A type of seed which grows and produces Hops when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
+    "growthTimeDays": 11,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "cornSeeds",
+    "type": "crops",
+    "value": 75,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant these in the summer or fall. Takes 14 days to mature, and continues to produce after first harvest.",
+    "longDescription": "A type of seed which grows and produces Corn when mature. These can be obtained via the Seed Maker as well as a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 150g. Corn plants continue to produces every 4 days.",
+    "growthTimeDays": 14,
+    "seasonToGrow": [
+        "summer",
+        "fall"
+      ]
+  },
+  {
+    "name": "sunflowerSeeds",
+    "type": "crops",
+    "value": 20,
+    "source": "General Store, JojaMart, Traveling Cart",
+    "basicDescription": "Plant in summer or fall. Takes 8 days to produce a large sunflower. Yields more seeds at harvest.",
+    "longDescription": "A type of seed which grows and produces Sunflowers and 0-3 Sunflower Seeds when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the JoJaMart for 125g or potentially 100g at the Travelling Cart. It's sell price is 100g if it was purchased instead of harvested.  It can be used to create oil via an Oil Maker.",
+    "growthTimeDays": 8,
+    "seasonToGrow": "summer"
+  },
+  {
+    "name": "redCabbageSeeds",
+    "type": "crops",
+    "value": 50,
+    "source": "General Store, Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 9 days to mature.",
+    "longDescription": "A type of seed which grows and produces Red Cabbage when mature. These can be obtained via the Seed Maker. This is only available at the General Store and Night Market starting year 2. It is cheapest to buy at the General Store or Night Market for 100g.",
+    "growthTimeDays": 9,
+    "seasonToGrow": "summer"
   }
   
   
