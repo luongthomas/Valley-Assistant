@@ -700,9 +700,167 @@
     "longDescription": "Use this when you're tired.  Helpful after a long day of work.",
     "heal": 22,
     "stamina": 50
+  },
+  {
+    "name": "copperOre",
+    "type": "minerals",
+    "value": 5,
+    "source": "Blacksmith, The Mines, Fishing, Artifact Spot, Geodes, Panning, Traveling Cart",
+    "basicDescription": "A common ore that can be smelted into bars",
+    "longDescription": "The Mines (Levels 31-39) have a high concentration of copper nodes. The surrounding regular rocks also have a high probability of dropping a single copper ore. Copper Ore is obtained from copper nodes with a pickaxe. Mining a copper node will yield between 1 and 3 copper ore. The Miner Profession can further increase this.  Copper ore can be smelted in a Furnace to create a Copper Bar. The smelting requires 5 copper ore and 1 coal to begin and takes 30 in-game minutes to complete. Can be bought at the Blacksmith for 75g each in year 1 and 150g each in year 2+."
+  },
+  {
+    "name": "ironOre",
+    "type": "minerals",
+    "value": 10,
+    "source": "Blacksmith, The Mines, Fishing, Artifact Spot, Geodes, Panning, Traveling Cart",
+    "basicDescription": "A fairly common ore that can be smelted into bars.",
+    "longDescription": "The Mines (Levels 41 - 79) have a high concentration of Iron Nodes with potential abundance at Levels 70 - 79. Iron Ore is obtained from Iron nodes with a pickaxe. Mining an Iron Node will yield between 1 and 3 Iron Ore. The Miner Profession can further increase this.  Iron ore can be smelted in a Furnace to create an Iron Bar. The smelting requires 5 iron ore and 1 coal to begin and takes 2 hours to complete. Can be bought at the Blacksmith for 150g each in year 1 and 250g each in year 2+."
+  },
+  {
+    "name": "coal",
+    "type": "minerals",
+    "value": 15,
+    "source": "Charcoal Kiln, Recycling Marchine, Blacksmith, The Mines, Fishing, Geodes, Panning, Traveling Cart",
+    "basicDescription": "A combustible rock that is useful for crafting and smelting.",
+    "longDescription": "Coal is a basic resource. It can be obtained in many different ways, primarily from rocks or Dust Sprites in The Mines, purchased from Clint at the Blacksmith shop, or using a Charcoal Kiln. It may also be produced by recycling trash or found in Fishing Treasure Chests. A random amount of coal may be found in addition to metal ores by Panning. Coal is used in some crafting recipes and is necessary for smelting ore or Quartz in a furnace. A Charcoal Kiln can be used to convert 10 wood into 1 coal. Coal purchased at the Blacksmith costs 150g during year 1, so it is cheaper in year 1 to buy 10 wood for 100g from Robin at the Carpenter's Shop and convert that wood into coal in the Charcoal Kiln. After year 1, wood pricing increases to 50g per piece but coal increases to only 250g, so it is cheaper to purchase coal directly."
+  },
+  {
+    "name": "goldOre",
+    "type": "minerals",
+    "value": 25,
+    "source": "Blacksmith, The Mines, Fishing, Frozen Geode, Magma Geode, Omni Geode, Panning, Traveling Cart",
+    "basicDescription": "A fairly common ore that can be smelted into bars.",
+    "longDescription": "Gold Ore is a resource that can be placed in a furnace, along with coal, to create a Gold Bar. Each bar requires 5 gold ore and one coal to create, taking about five in-game hours. Gold ore can be mined from gold nodes in the Mines at levels 80+, in the Skull Cavern rarely at levels 60+ and more commonly at levels 80+, and has a chance to spawn in the Quarry. Gold ore can also be found by breaking boxes and barrels in the mines. Other random sources of gold ore are fishing treasure chests and beachfront Artifact Spots. Gold ore may also be found inside Frozen Geodes, Magma Geodes, or Omni Geodes, or from Panning. The Traveling Cart may occasionally sell it for 100-1,000g. Gold ore can be sold for 25g each. It can be purchased for 400g each from the Blacksmith in year 1, totaling 2,000g per bar. In year 2+, it can be purchased from the Blacksmith for 750g each, totaling 3,750g per bar."
+  },
+  {
+    "name": "copperHoe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Hoe",
+    "basicDescription": " It is used primarily to till soil for Farming, and to dig up Artifact Spots.",
+    "longDescription": "Upgrading to a Copper Hoe will increase the maximum area of effect to 3 tiles, in a line in front of you via holding down the action button."
+  },
+  {
+    "name": "steelHoe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Copper Hoe",
+    "basicDescription": " It is used primarily to till soil for Farming, and to dig up Artifact Spots.",
+    "longDescription": "Upgrading to a Steel Hoe will increase the maximum area of effect to 5 tiles, in a line in front of you via holding down the action button."
+  },
+  {
+    "name": "goldHoe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Steel Hoe",
+    "basicDescription": " It is used primarily to till soil for Farming, and to dig up Artifact Spots.",
+    "longDescription": "Upgrading to a Gold Hoe will increase the maximum area of effect to 3x3 tiles, in a line in front of you via holding down the action button."
+  },
+  {
+    "name": "iridiumHoe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Gold Hoe",
+    "basicDescription": " It is used primarily to till soil for Farming, and to dig up Artifact Spots.",
+    "longDescription": "Upgrading to an Iridium Hoe will increase the maximum area of effect to 6x3 tiles, in a line in front of you via holding down the action button."
+  },
+  {
+    "name": "copperPickaxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Pickaxe",
+    "basicDescription": "It is used mainly for breaking stones and picking up placed equipment or furniture.",
+    "longDescription": "Upgrading to a Copper Pickaxe will allow you to break large rocks in the mine. These give 10 stone. It reduces the hits needed for other rocks."
+  },
+  {
+    "name": "steelPickaxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Copper Pickaxe",
+    "basicDescription": "It is used mainly for breaking stones and picking up placed equipment or furniture.",
+    "longDescription": "Upgrading to a Steel Pickaxe will allow you to break boulders on The Farm. Can mine the barrier inside the mine that blocks the player from talking with Dwarf. It further reduces the hits needed for other rocks."
+  },
+  {
+    "name": "goldPickaxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Steel Pickaxe",
+    "basicDescription": "It is used mainly for breaking stones and picking up placed equipment or furniture.",
+    "longDescription": "Upgrading to a Gold Pickaxe allows you to break any meteorites that land on your farm. It further reduces the hits needed for other rocks."
+  },
+  {
+    "name": "iridiumPickaxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Gold Pickaxe",
+    "basicDescription": "It is used mainly for breaking stones and picking up placed equipment or furniture.",
+    "longDescription": "Upgrading to an Iridium Pickaxe further reduces the hits needed for other rocks."
+  },
+  {
+    "name": "copperAxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Axe",
+    "basicDescription": "The Axe is a tool used to chop branches, trees and small stumps, as well as for removing or harvesting certain objects, especially important for obtaining Wood.",
+    "longDescription": "Upgrading to a Copper Axe will allow you to chop Large Stumps. 8 hits to chop a fully-grown tree, and 4 hits for a small stump.  "
+  },
+  {
+    "name": "steelAxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Copper Axe",
+    "basicDescription": "The Axe is a tool used to chop branches, trees and small stumps, as well as for removing or harvesting certain objects, especially important for obtaining Wood.",
+    "longDescription": "Upgrading to a Steel Axe will allow you to chop Large Logs. 6 hits to chop a fully-grown tree, and 3 hits for a small stump. The Steel Axe is required to remove the Large Log that blocks the entrance to the Secret Woods. "
+  },
+  {
+    "name": "goldAxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Steel Axe",
+    "basicDescription": "The Axe is a tool used to chop branches, trees and small stumps, as well as for removing or harvesting certain objects, especially important for obtaining Wood.",
+    "longDescription": "Upgrading to a Gold Axe allows you to only need 4 hits to chop a fully-grown tree, and 2 hits for a small stump. 2 hits for a stage 4 tree, and one hit for a stage 3 tree and below."
+  },
+  {
+    "name": "iridiumAxe",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Golden Axe",
+    "basicDescription": "The Axe is a tool used to chop branches, trees and small stumps, as well as for removing or harvesting certain objects, especially important for obtaining Wood.",
+    "longDescription": "Upgrading to an Iridium Axe allows you to only need 2 hits to chop a fully-grown tree, and 1 hit for a small stump. 1 hit for a stage 4 tree and below."
+  },
+  {
+    "name": "copperWateringCan",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Watering Can",
+    "basicDescription": "The Watering Can is a tool obtained at the beginning of the game that is used to water Crops.",
+    "longDescription": "Upgrading to a Copper Watering Can will have the capacity increased to 55 charges. Also increases maximum area of effect to 3 tiles in a straight line."
+  },
+  {
+    "name": "steelWateringCan",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Copper Watering Can",
+    "basicDescription": "The Watering Can is a tool obtained at the beginning of the game that is used to water Crops.",
+    "longDescription": "Upgrading to a Steel Watering Can will have the capacity increased to 70 charges. Also increases maximum area of effect to 5 tiles in a straight line."
+  },
+  {
+    "name": "goldWateringCan",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Steel Watering Can",
+    "basicDescription": "The Watering Can is a tool obtained at the beginning of the game that is used to water Crops.",
+    "longDescription": "Upgrading to a Gold Watering Can will have the capacity increased to 85 charges. Also increases maximum area of effect to a 3x3 area (9 corresponding tiles)."
+  },
+  {
+    "name": "iridiumWateringCan",
+    "type": "tools",
+    "value": 0,
+    "source": "Blacksmith by upgrading a Gold Watering Can",
+    "basicDescription": "The Watering Can is a tool obtained at the beginning of the game that is used to water Crops.",
+    "longDescription": "Upgrading to a Iridium Watering Can will have the capacity increased to 100 charges. Also increases maximum area of effect to a 6x3 area (18 corresponding tiles)"
   }
-  
-  
 ]
 
 

@@ -45,5 +45,5 @@ struct Villager: Codable, Hashable {
 
 enum VillagerName: String, Codable {
     case penny, josh, jake, emily,
-    pierre, caroline, abigail
+    pierre, caroline, abigail, harvey, clint, morris, gus
 }

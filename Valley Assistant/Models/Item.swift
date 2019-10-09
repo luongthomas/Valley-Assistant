@@ -68,6 +68,10 @@ enum ItemName: String, Codable {
     case eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds
     
     case energyTonic, muscleRemedy
+    
+    case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar
+    
+    case copperHoe, copperPickaxe, copperAxe, copperWateringCan, steelHoe, steelPickaxe, steelAxe, steelWateringCan, goldHoe, goldPickaxe, goldAxe, goldWateringCan, iridiumHoe, iridiumPickaxe, iridiumAxe, iridiumWateringCan
 }
 
 enum ItemType: String, Codable {
@@ -82,9 +86,10 @@ class Purchasable: Codable, Hashable {
     var name: ItemName
     var price: Int
     var availableSeason: [Season]?
+    var ingredients: [ItemName: Int]?
     
     private enum CodingKeys: CodingKey {
-        case name, price, availableSeason
+        case name, price, availableSeason, ingredients
     }
     
     required init(from decoder: Decoder) throws {
@@ -93,6 +98,7 @@ class Purchasable: Codable, Hashable {
         self.price = try map.decode(.price)
         
         self.availableSeason = try? map.decode(.availableSeason)
+        self.ingredients = try? map.decode(.ingredients)
     }
     
     func hash(into hasher: inout Hasher) {

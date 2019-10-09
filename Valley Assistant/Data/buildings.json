@@ -1,7 +1,7 @@
 [
   {
     "name": "pierresGeneralStore",
-    "type": "shop",
+    "type": "shopWithSeasonalStock",
     "occupants": [
       "pierre",
       "caroline",
@@ -276,7 +276,7 @@
     "name": "harveysClinic",
     "type": "shop",
     "occupants": [
-      "josh"
+      "harvey"
     ],
     "basicDescription": "Located in the center of Pelican Town next to Pierre's General Store, medical supplies can be purchased here.",
     "longDescription": "Harvey lives and works at the clinic.  Maru works there on Tuesdays and Thursdays.  Both of them often complain about the lack of patients.  Most villagers will visit the clinic for the annual checkup.  George and Evelyn visit the clinic once per season.  Although you can enter the Clinic most days between 9am and 3pm, you cannot purchase medical supplies unless Maru or Harvey is behind the supplies counter.",
@@ -298,6 +298,191 @@
       {
         "name": "muscleRemedy",
         "price": 1000
+      }
+    ]
+  },
+  {
+    "name": "blacksmith",
+    "type": "upgradables",
+    "occupants": [
+      "clint"
+    ],
+    "basicDescription": "The Blacksmith serves as a location for purchasing coal and ores (copper, iron, & gold), upgrading tools, and breaking open geodes. ",
+    "longDescription": "The purchase prices of ore and coal increase in year 2+. The player will receive a letter in the mail on Spring 1 of year 2 saying 'Notice: The price of raw materials at Robin's shop and Clint's shop has increased.' The gold obtained by selling items to Clint (or through the shipping bin) does not increase. Clint can upgrade your tools incrementally. The Pickaxe, Axe, Hoe, and Watering Can can all be upgraded 4 times. It takes 2 days to upgrade a tool. While Clint is upgrading a tool, Blacksmith services are unavailable. The Blacksmith is closed on festival days, except for the Dance of the Moonlight Jellies in the Summer, and the Spirit's Eve festival in the Fall. If you drop a tool off the day before a festival it will be ready the day after the festival. The copper axe allows you to break the large stumps on your farm. It reduces the hits needed to chop down trees. The copper pickaxe allows you to break large rocks in the mine. These give 10 stone. It reduces the hits needed for other rocks. The steel axe allows you to break the logs on your farm. The steel pickaxe allows you to break the large rocks on your farm. The gold pickaxe allows you to break any meteorites that land on your farm. Upgraded versions of the watering can and hoe allow the player to water and till multiple squares of land in a single use.",
+    "openTime": {
+      "hour": 9,
+      "min": 0,
+      "ampm": "am"
+    },
+    "closeTime": {
+      "hour": 4,
+      "min": 0,
+      "ampm": "pm"
+    },
+    "purchasable": [
+      {
+        "name": "copperOre",
+        "price": 75
+      },
+      {
+        "name": "ironOre",
+        "price": 150
+      },
+      {
+        "name": "coal",
+        "price": 150
+      },
+      {
+        "name": "goldOre",
+        "price": 400
+      },
+      {
+        "name": "ironOre",
+        "price": 150
+      },
+      {
+        "name": "copperHoe",
+        "price": 2000,
+        "ingredients": [
+            {
+                "copperBar": 5
+            }
+        ]
+      },
+      {
+        "name": "copperPickaxe",
+        "price": 2000,
+        "ingredients": [
+            {
+                "copperBar": 5
+            }
+        ]
+      },
+      {
+        "name": "copperAxe",
+        "price": 2000,
+        "ingredients": [
+            {
+                "copperBar": 5
+            }
+        ]
+      },
+      {
+        "name": "copperWateringCan",
+        "price": 2000,
+        "ingredients": [
+            {
+                "copperBar": 5
+            }
+        ]
+      },
+      {
+        "name": "steelHoe",
+        "price": 5000,
+        "ingredients": [
+            {
+                "ironBar": 5
+            }
+        ]
+      },
+      {
+        "name": "steelPickaxe",
+        "price": 5000,
+        "ingredients": [
+            {
+                "ironBar": 5
+            }
+        ]
+      },
+      {
+        "name": "steelAxe",
+        "price": 5000,
+        "ingredients": [
+            {
+                "ironBar": 5
+            }
+        ]
+      },
+      {
+        "name": "steelWateringCan",
+        "price": 5000,
+        "ingredients": [
+            {
+                "ironBar": 5
+            }
+        ]
+      },
+      {
+        "name": "goldHoe",
+        "price": 10000,
+        "ingredients": [
+            {
+                "goldBar": 5
+            }
+        ]
+      },
+      {
+        "name": "goldPickaxe",
+        "price": 10000,
+        "ingredients": [
+            {
+                "goldBar": 5
+            }
+        ]
+      },
+      {
+        "name": "goldAxe",
+        "price": 10000,
+        "ingredients": [
+            {
+                "goldBar": 5
+            }
+        ]
+      },
+      {
+        "name": "goldWateringCan",
+        "price": 10000,
+        "ingredients": [
+            {
+                "goldBar": 5
+            }
+        ]
+      },
+      {
+        "name": "iridiumHoe",
+        "price": 25000,
+        "ingredients": [
+            {
+                "iridiumBar": 5
+            }
+        ]
+      },
+      {
+        "name": "iridiumPickaxe",
+        "price": 25000,
+        "ingredients": [
+            {
+                "iridiumBar": 5
+            }
+        ]
+      },
+      {
+        "name": "iridiumAxe",
+        "price": 25000,
+        "ingredients": [
+            {
+                "iridiumBar": 5
+            }
+        ]
+      },
+      {
+        "name": "iridiumWateringCan",
+        "price": 25000,
+        "ingredients": [
+            {
+                "iridiumBar": 5
+            }
+        ]
       }
     ]
   }

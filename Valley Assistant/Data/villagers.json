@@ -149,5 +149,27 @@
       "emerald",
       "egg"
     ]
+  },
+  {
+    "name": "clint",
+    "birthday": {
+      "season": "spring",
+      "day": 3
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
   }
 ]
