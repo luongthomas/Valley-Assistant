@@ -11,7 +11,8 @@ import Foundation
 class Building: Codable, Hashable {
     var name: BuildingName
     var type: BuildingType
-    var description: String
+    var basicDescription: String
+    var longDescription: String
     
     var occupants: [VillagerName]
     var openTime: Time
@@ -22,7 +23,8 @@ class Building: Codable, Hashable {
         let map = try decoder.container(keyedBy: CodingKeys.self)
         self.name = try map.decode(.name)
         self.type = try map.decode(.type)
-        self.description = try map.decode(.description)
+        self.basicDescription = try map.decode(.basicDescription)
+        self.longDescription = try map.decode(.longDescription)
         
         self.occupants = try map.decode(.occupants)
         self.openTime = try map.decode(.openTime)
@@ -31,26 +33,22 @@ class Building: Codable, Hashable {
     }
     
     private enum CodingKeys: CodingKey {
-        case name, type, description, occupants, openTime, closeTime, purchasable
+        case name, type, basicDescription, longDescription, occupants, openTime, closeTime, purchasable
     }
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(name)
         hasher.combine(type)
-        hasher.combine(description)
         hasher.combine(occupants)
-        hasher.combine(openTime)
-        hasher.combine(closeTime)
-        hasher.combine(purchasable)
     }
     
     static func == (lhs: Building, rhs: Building) -> Bool {
-        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.description == rhs.description && lhs.occupants == rhs.occupants && lhs.openTime == lhs.openTime && rhs.closeTime == rhs.closeTime && lhs.purchasable == rhs.purchasable
+        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.occupants == rhs.occupants
     }
 }
 
 enum BuildingName: String, Codable {
-    case pierresGeneralStore, carpentersShop
+    case pierresGeneralStore, carpentersShop, harveysClinic
 }
 
 enum BuildingType: String, Codable {

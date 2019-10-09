@@ -49,9 +49,7 @@ class Item: Codable, Hashable {
         hasher.combine(name)
         hasher.combine(type)
         hasher.combine(value)
-        hasher.combine(source)
         hasher.combine(basicDescription)
-        hasher.combine(longDescription)
         hasher.combine(recipe)
         hasher.combine(heal)
         hasher.combine(stamina)
@@ -68,6 +66,8 @@ enum ItemName: String, Codable {
     case melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds
     
     case eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds
+    
+    case energyTonic, muscleRemedy
 }
 
 enum ItemType: String, Codable {

@@ -680,6 +680,26 @@
     "longDescription": "A type of seed which grows and produces Grapes when mature. These can be obtained via the Seed Maker or potentially from Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 30g.  It is only available to buy at the General Store or Night Market starting year 2 but can be bought at the Travelling Cart from the start for 100g-1000g.",
     "growthTimeDays": 8,
     "seasonToGrow": ["fall"]
+  },
+  {
+    "name": "energyTonic",
+    "type": "food",
+    "value": 500,
+    "source": "Clinic",
+    "basicDescription": "Restores a lot of energy.",
+    "longDescription": "Restores a lot of energy.  Use it a",
+    "growthTimeDays": 8,
+    "seasonToGrow": ["fall"]
+  },
+  {
+    "name": "muscleRemedy",
+    "type": "food",
+    "value": 500,
+    "source": "Clinic",
+    "basicDescription": "When you've pushed your body too hard, drink this to remove 'Exhaustion'",
+    "longDescription": "Use this when you're tired.  Helpful after a long day of work.",
+    "heal": 22,
+    "stamina": 50
   }
   
   

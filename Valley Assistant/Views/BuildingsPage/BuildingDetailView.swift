@@ -15,7 +15,7 @@ struct BuildingDetailView: View {
         VStack() {
             Text("Type: \(building.type.rawValue.camelCaps)")
             Text("Hours: \(building.openTime.hour) \(building.openTime.ampm.rawValue.capitalized) - \(building.closeTime.hour) \(building.closeTime.ampm.rawValue.capitalized)")
-            Text("Description: \(building.description)")
+            Text("Description: \(building.basicDescription)")
             
             Spacer()
 
@@ -33,6 +33,7 @@ struct BuildingDetailView: View {
             NavigationLink(destination: PurchasableList(building: building)) {
                 Text("Purchasables")
             }
+            .padding()
             .navigationBarTitle("\(building.name.rawValue.camelCaps)")
         }
     }

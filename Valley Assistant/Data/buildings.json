@@ -7,7 +7,8 @@
       "caroline",
       "abigail"
     ],
-    "description": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.  The building is open until 9pm but the store is open only until 5pm. The store is closed on Wednesdays.",
+    "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
+    "longDescription": "After you have 8 hearts of friendship with a marriage candidate, a bouquet of flowers will also be available for purchase. Some products in stock will vary from season to season and others are in-stock year-round. You can sell Pierre foraged items, crops, artisan goods, cooked dishes, and animal products if you need instant gold and don't want to wait overnight for shipping. At first, Pierre's General Store is closed on Wednesday. However, if you finish all of the Community Center bundles, Pierre's General Store will be open 7 days a week. You can enter the building until 9pm, but Pierre leaves the sales counter at 5pm every day, so you cannot purchase or sell goods after 5pm.",
     "openTime": {
       "hour": 9,
       "min": 0,
@@ -272,30 +273,31 @@
     ]
   },
   {
-    "name": "carpentersShop",
+    "name": "harveysClinic",
     "type": "shop",
     "occupants": [
       "josh"
     ],
-    "description": "A place to buy goods for the house and upgrade the farm.",
+    "basicDescription": "Located in the center of Pelican Town next to Pierre's General Store, medical supplies can be purchased here.",
+    "longDescription": "Harvey lives and works at the clinic.  Maru works there on Tuesdays and Thursdays.  Both of them often complain about the lack of patients.  Most villagers will visit the clinic for the annual checkup.  George and Evelyn visit the clinic once per season.  Although you can enter the Clinic most days between 9am and 3pm, you cannot purchase medical supplies unless Maru or Harvey is behind the supplies counter.",
     "openTime": {
-      "hour": 10,
+      "hour": 9,
       "min": 0,
       "ampm": "am"
     },
     "closeTime": {
-      "hour": 5,
+      "hour": 3,
       "min": 0,
       "ampm": "pm"
     },
     "purchasable": [
       {
-        "name": "barn",
-        "price": 5000
+        "name": "energyTonic",
+        "price": 1000
       },
       {
-        "name": "bigBarn",
-        "price": 10000
+        "name": "muscleRemedy",
+        "price": 1000
       }
     ]
   }
