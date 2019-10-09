@@ -860,6 +860,80 @@
     "source": "Blacksmith by upgrading a Gold Watering Can",
     "basicDescription": "The Watering Can is a tool obtained at the beginning of the game that is used to water Crops.",
     "longDescription": "Upgrading to a Iridium Watering Can will have the capacity increased to 100 charges. Also increases maximum area of effect to a 6x3 area (18 corresponding tiles)"
+  },
+  {
+    "name": "jojaCola",
+    "type": "food",
+    "value": 25,
+    "source": "Fishing, JojaMart, Vending Machine, Soda Machine, Garbage Cans",
+    "basicDescription": "The flagship product of Joja Corporation",
+    "longDescription": "Joja Cola is a type of trash. It can be found in all fishing spots during all seasons and in Garbage Cans. It can also be purchased at JojaMart for 75g or from the Vending Machine in The Stardrop Saloon. Players who choose to complete the Joja Warehouse instead of the Community Center will be rewarded with a Soda Machine that produces one Joja Cola per day. It is the only trash item that can be purchased. Along with the Rotten Plant, it cannot be recycled. When caught while fishing, Joja Cola gives 3 Fishing XP.",
+    "heal": 5,
+    "stamina": 13
+  },
+  {
+    "name": "jojaWallpaper",
+    "type": "furniture",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Decorates the walls of one room",
+    "longDescription": "A great way to show your love and support to the Joja corporatation."
+  },
+  {
+    "name": "jColaLight",
+    "type": "furniture",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Can be placed inside your house.",
+    "longDescription": "Another great way to show your love and support to the Joja corporatation."
+  },
+  {
+    "name": "minecarts",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Repairs the minecart system that runs between the bus stop, the mountains, and Pelican Town.",
+    "longDescription": "Repairs the minecart system that runs between the bus stop, the mountains, and Pelican Town."
+  },
+  {
+    "name": "minecarts",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Repairs the minecart system that runs between the bus stop, the mountains, and Pelican Town.",
+    "longDescription": "Destinations available from Town. The Minecart is a method of travel unlocked after completing the Boiler Room Bundles or by purchasing it from the Joja Community Development Form at JojaMart for 15,000g. After the Boiler room bundle is completed the 'minecart' is not usable till the day after because the Junimos fix it that night. Minecarts allow you to travel between four destinations throughout Stardew Valley."
+  },
+  {
+    "name": "panning",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Removes the glimmering boulder near the mine entrance.",
+    "longDescription": "Removes the glimmering boulder near the mine entrance."
+  },
+  {
+    "name": "bridge",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Repairs the broken bridge in the mountains. The broken bridge east of The Mines will be repaired, enabling access to the Quarry.",
+    "longDescription": "Repairs the broken bridge in the mountains. The broken bridge east of The Mines will be repaired, enabling access to the Quarry."
+  },
+  {
+    "name": "greenhouse",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Repairs the old ruins on the farm, turning it into a greenhouse.",
+    "longDescription": "Repairs the old ruins on the farm, turning it into a greenhouse."
+  },
+  {
+    "name": "bus",
+    "type": "unlockable",
+    "value": 0,
+    "source": "JojaMart",
+    "basicDescription": "Repairs the bus that runs to Calico Desert.",
+    "longDescription": "Repairs the bus that runs to Calico Desert."
   }
 ]
 

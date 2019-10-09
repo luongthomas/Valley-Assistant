@@ -485,5 +485,221 @@
         ]
       }
     ]
+  },
+  {
+    "name": "jojamart",
+    "type": "shopWithSeasonalStock",
+    "occupants": [
+      "morris"
+    ],
+    "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
+    "longDescription": "JojaMart is a store owned by the player's previous employer, 'Joja Corporation'. Morris manages the store and handles customer service. He can be found inside the kiosk at the bottom right of the store, where he will offer the player a JojaMart Membership for 5,000g. Purchasing a Joja Membership from Morris causes the Community Center to be destroyed and replaced with a Joja Warehouse. The player can then purchase community development projects through the Joja Community Development Form, rather than through completing bundles in the Community Center.",
+    "openTime": {
+      "hour": 9,
+      "min": 0,
+      "ampm": "am"
+    },
+    "closeTime": {
+      "hour": 11,
+      "min": 0,
+      "ampm": "pm"
+    },
+    "purchasable": [
+      {
+        "name": "minecarts",
+        "availableSeason": ["all"],
+        "price": 15000
+      },
+      {
+        "name": "panning",
+        "availableSeason": ["all"],
+        "price": 20000
+      },
+      {
+        "name": "bridge",
+        "availableSeason": ["all"],
+        "price": 25000
+      },
+      {
+        "name": "greenhouse",
+        "availableSeason": ["all"],
+        "price": 35000
+      },
+      {
+        "name": "bus",
+        "availableSeason": ["all"],
+        "price": 40000
+      },
+      {
+        "name": "jojaCola",
+        "availableSeason": ["all"],
+        "price": 75
+      },
+      {
+        "name": "jojaWallpaper",
+        "availableSeason": ["all"],
+        "price": 20
+      },
+      {
+        "name": "jColaLight",
+        "availableSeason": ["all"],
+        "price": 500
+      },
+      {
+        "name": "grassStarter",
+        "availableSeason": ["all"],
+        "price": 125
+      },
+      {
+        "name": "sugar",
+        "availableSeason": ["all"],
+        "price": 125
+      },
+      {
+        "name": "wheatFlour",
+        "availableSeason": ["all"],
+        "price": 125
+      },
+      {
+        "name": "rice",
+        "availableSeason": ["all"],
+        "price": 250
+      },
+      {
+        "name": "wallpaper",
+        "availableSeason": ["all"],
+        "price": 250
+      },
+      {
+        "name": "flooring",
+        "availableSeason": ["all"],
+        "price": 250
+      },
+      {
+        "name": "parsnipSeeds",
+        "availableSeason": ["spring"],
+        "price": 25
+      },
+      {
+        "name": "beanStarter",
+        "availableSeason": ["spring"],
+        "price": 75
+      },
+      {
+        "name": "cauliflowerSeeds",
+        "availableSeason": ["spring"],
+        "price": 100
+      },
+      {
+        "name": "potatoSeeds",
+        "availableSeason": ["spring"],
+        "price": 62
+      },
+      {
+        "name": "tulipBulb",
+        "availableSeason": ["spring"],
+        "price": 25
+      },
+      {
+        "name": "kaleSeeds",
+        "availableSeason": ["spring"],
+        "price": 87
+      },
+      {
+        "name": "jazzSeeds",
+        "availableSeason": ["spring"],
+        "price": 37
+      },
+      {
+        "name": "melonSeeds",
+        "availableSeason": ["summer"],
+        "price": 100
+      },
+      {
+        "name": "tomatoSeeds",
+        "availableSeason": ["summer"],
+        "price": 62
+      },
+      {
+        "name": "pepperSeeds",
+        "availableSeason": ["summer"],
+        "price": 50
+      },
+      {
+        "name": "wheatSeeds",
+        "availableSeason": ["summer", "fall"],
+        "price": 12
+      },
+      {
+        "name": "radishSeeds",
+        "availableSeason": ["summer"],
+        "price": 50
+      },
+      {
+        "name": "poppySeeds",
+        "availableSeason": ["summer"],
+        "price": 125
+      },
+      {
+        "name": "spangleSeeds",
+        "availableSeason": ["summer"],
+        "price": 62
+      },
+      {
+        "name": "hopsStarter",
+        "availableSeason": ["summer"],
+        "price": 75
+      },
+      {
+        "name": "sunflowerSeeds",
+        "availableSeason": ["summer", "fall"],
+        "price": 125
+      },
+      {
+        "name": "eggplantSeeds",
+        "availableSeason": ["fall"],
+        "price": 25
+      },
+      {
+        "name": "cornSeeds",
+        "availableSeason": ["fall"],
+        "price": 187
+      },
+      {
+        "name": "pumpkinSeeds",
+        "availableSeason": ["fall"],
+        "price": 125
+      },
+      {
+        "name": "bokChoySeeds",
+        "availableSeason": ["fall"],
+        "price": 62
+      },
+      {
+        "name": "yamSeeds",
+        "availableSeason": ["fall"],
+        "price": 75
+      },
+      {
+        "name": "cranberrySeeds",
+        "availableSeason": ["fall"],
+        "price": 300
+      },
+      {
+        "name": "fairySeeds",
+        "availableSeason": ["fall"],
+        "price": 250
+      },
+      {
+        "name": "amaranthSeeds",
+        "availableSeason": ["fall"],
+        "price": 87
+      },
+      {
+        "name": "grapeStarter",
+        "availableSeason": ["fall"],
+        "price": 75
+      }
+    ]
   }
 ]

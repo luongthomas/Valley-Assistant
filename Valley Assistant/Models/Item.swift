@@ -72,10 +72,12 @@ enum ItemName: String, Codable {
     case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar
     
     case copperHoe, copperPickaxe, copperAxe, copperWateringCan, steelHoe, steelPickaxe, steelAxe, steelWateringCan, goldHoe, goldPickaxe, goldAxe, goldWateringCan, iridiumHoe, iridiumPickaxe, iridiumAxe, iridiumWateringCan
+    
+    case jojaCola, jColaLight, jojaWallpaper, minecarts, panning, bridge, greenhouse, bus
 }
 
 enum ItemType: String, Codable {
-    case all, tools, food, minerals, fish, crops, weapons, crafting, building, furniture
+    case all, tools, food, minerals, fish, crops, weapons, crafting, building, furniture, unlockable
 }
 
 class Purchasable: Codable, Hashable {

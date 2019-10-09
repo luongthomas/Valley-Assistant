@@ -48,7 +48,7 @@ class Building: Codable, Hashable {
 }
 
 enum BuildingName: String, Codable {
-    case pierresGeneralStore, carpentersShop, harveysClinic, blacksmith
+    case pierresGeneralStore, carpentersShop, harveysClinic, blacksmith, jojamart
 }
 
 enum BuildingType: String, Codable {

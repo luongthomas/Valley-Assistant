@@ -171,5 +171,27 @@
       "emerald",
       "egg"
     ]
+  },
+  {
+    "name": "morris",
+    "birthday": {
+      "season": "fall",
+      "day": 17
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
   }
 ]
