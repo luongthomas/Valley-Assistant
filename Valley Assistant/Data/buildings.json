@@ -186,7 +186,7 @@
       },
       {
         "name": "wheatSeeds",
-        "availableSeason": ["summer"],
+        "availableSeason": ["summer", "fall"],
         "price": 10
       },
       {
@@ -211,12 +211,12 @@
       },
       {
         "name": "cornSeeds",
-        "availableSeason": ["summer"],
+        "availableSeason": ["summer", "fall"],
         "price": 150
       },
       {
         "name": "sunflowerSeeds",
-        "availableSeason": ["summer"],
+        "availableSeason": ["summer", "fall"],
         "price": 200
       },
       {
@@ -228,11 +228,6 @@
         "name": "eggplantSeeds",
         "availableSeason": ["fall"],
         "price": 20
-      },
-      {
-        "name": "cornSeeds",
-        "availableSeason": ["fall"],
-        "price": 150
       },
       {
         "name": "pumpkinSeeds",

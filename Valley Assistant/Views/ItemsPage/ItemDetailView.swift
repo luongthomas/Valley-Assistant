@@ -24,11 +24,18 @@ struct ItemDetailView: View {
                 Text("Health: \(item.heal!)")
                 Text("Stamina: \(item.stamina!)")
             }
+                
+            item.growthTimeDays.map({
+                Text("Days to full growth: \($0)")
+            })
             
-            // Requirements
-            if item.recipe != nil {
-                RecipeView(recipe: item.recipe!)
-            }
+            item.seasonToGrow.map({
+                Text("Seasons to grow in: \($0.printArray)")
+            })
+            
+            item.recipe.map({
+                RecipeView(recipe: $0)
+            })
             
             // Segmented Control between Loves and Likes
             Picker(selection: $selectedAffinity, label: EmptyView()) {
