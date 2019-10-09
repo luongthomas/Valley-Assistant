@@ -30,13 +30,9 @@ struct BuildingDetailView: View {
             
             Divider()
             
-            Text("Purchasable:").font(.subheadline)
-            List {
-                ForEach(building.purchasable, id: \.self) { purchasable in
-                    PurchasableRow(purchasable: purchasable)
-                }
+            NavigationLink(destination: PurchasableList(building: building)) {
+                Text("Purchasables")
             }
-
             .navigationBarTitle("\(building.name.rawValue.camelCaps)")
         }
     }

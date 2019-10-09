@@ -40,7 +40,7 @@ struct Day: Codable, Equatable, Hashable {
 }
 
 enum Season: String, Codable, CustomStringConvertible, CaseIterable, Hashable {
-    case spring, summer, fall, winter
+    case all, spring, summer, fall, winter
     
     var description: String {
         return self.rawValue
