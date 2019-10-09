@@ -193,5 +193,27 @@
       "emerald",
       "egg"
     ]
+  },
+  {
+    "name": "gus",
+    "birthday": {
+      "season": "fall",
+      "day": 19
+    },
+    "address": "willowLane",
+    "loves": [
+      "aquamarine"
+    ],
+    "likes": [
+      "daffodil",
+      "sapphire",
+      "omelette",
+      "milk"
+    ],
+    "dislikes": [
+      "poppy",
+      "emerald",
+      "egg"
+    ]
   }
 ]

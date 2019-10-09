@@ -59,7 +59,7 @@ class Item: Codable, Hashable {
 }
 
 enum ItemName: String, Codable {
-    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, milk, barn, bigBarn, grassStarter, sugar, wheatFlour, rice, oil, vinegar, basicFertilizer, qualityFertilizer, basicRetainingSoil, qualityRetainingSoil, speedGro, deluxeSpeedGro, wallpaper, flooring, cherrySapling, apricotSapling, orangeSapling, peachSapling, pomegranateSapling, appleSapling, catalogue, bouquet, largePack, deluxePack, sap, anyFish, stone, clay, pineTar, oakResin, coral
+    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, barn, bigBarn, grassStarter, sugar, wheatFlour, rice, oil, vinegar, basicFertilizer, qualityFertilizer, basicRetainingSoil, qualityRetainingSoil, speedGro, deluxeSpeedGro, wallpaper, flooring, cherrySapling, apricotSapling, orangeSapling, peachSapling, pomegranateSapling, appleSapling, catalogue, bouquet, largePack, deluxePack, sap, anyFish, stone, clay, pineTar, oakResin, coral
     
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds
     
@@ -74,6 +74,10 @@ enum ItemName: String, Codable {
     case copperHoe, copperPickaxe, copperAxe, copperWateringCan, steelHoe, steelPickaxe, steelAxe, steelWateringCan, goldHoe, goldPickaxe, goldAxe, goldWateringCan, iridiumHoe, iridiumPickaxe, iridiumAxe, iridiumWateringCan
     
     case jojaCola, jColaLight, jojaWallpaper, minecarts, panning, bridge, greenhouse, bus
+    
+    case beer, salad, bread, spaghetti, pizza, coffee, hashbrownsRecipe, omeletRecipe, pancakesRecipe, breadRecipe, tortillaRecipe, pizzaRecipe, makiRollRecipe
+    
+    case leek, dandelion, cheese, tomato, milk, largeMilk
 }
 
 enum ItemType: String, Codable {

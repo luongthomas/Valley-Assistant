@@ -687,9 +687,9 @@
     "value": 500,
     "source": "Clinic",
     "basicDescription": "Restores a lot of energy.",
-    "longDescription": "Restores a lot of energy.  Use it a",
-    "growthTimeDays": 8,
-    "seasonToGrow": ["fall"]
+    "longDescription": "Restores a lot of energy.  Use it after a long day of work.",
+    "heal": 200,
+    "stamina": 500
   },
   {
     "name": "muscleRemedy",
@@ -934,6 +934,221 @@
     "source": "JojaMart",
     "basicDescription": "Repairs the bus that runs to Calico Desert.",
     "longDescription": "Repairs the bus that runs to Calico Desert."
+  },
+  {
+    "name": "beer",
+    "type": "food",
+    "value": 200,
+    "source": "Artisan Goods, The Saloon",
+    "basicDescription": "Drink in Moderation",
+    "longDescription": "Beer is an Artisan Good made from the Keg using Wheat, taking 1-2 days. It is also available at The Saloon for 400g. It can also be received as a gift at the Feast of the Winter Star. When consumed, Beer causes a Tipsy Buff that decreases Speed by 1. Beer can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Beer.",
+    "heal": 22,
+    "stamina": 50,
+    "recipe": [
+      "wheat"
+    ]
+  },
+  {
+    "name": "salad",
+    "type": "food",
+    "value": 110,
+    "source": "Cooking, The Saloon",
+    "basicDescription": "A healthy garden salad.",
+    "longDescription": "Salad is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available for purchase daily at The Stardrop Saloon for 220g and may randomly appear in Krobus' shop on Saturdays.",
+    "heal": 50,
+    "stamina": 113,
+    "recipe": [
+      "leek",
+      "dandelion",
+      "vinegar"
+    ]
+  },
+  {
+    "name": "bread",
+    "type": "food",
+    "value": 60,
+    "source": "Cooking, The Saloon",
+    "basicDescription": "A crusty baguette.",
+    "longDescription": "Bread is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using Wheat Flour made in the Mill. Bread is available at the Stardrop Saloon every day for 120g, and randomly from Krobus's shop on Saturdays. The recipe can be obtained at Stardrop Saloon for 500g or via The Queen of Sauce (TV) on Year 1, Summer day 28",
+    "heal": 22,
+    "stamina": 50,
+    "recipe": [
+      "wheatFlour"
+    ]
+  },
+  {
+    "name": "spaghetti",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking, The Saloon",
+    "basicDescription": "An old favorite",
+    "longDescription": "Spaghetti is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available every day at The Stardrop Saloon for 240g and may randomly appear in Krobus' shop on Saturdays.  It can be obtained from Lewis via Mail after friendship has at least 3 hearts.",
+    "heal": 75,
+    "stamina": 33,
+    "recipe": [
+      "wheatFlour",
+      "tomato"
+    ]
+  },
+  {
+    "name": "pizza",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking, The Saloon",
+    "basicDescription": "It's popular for all the right reasons.",
+    "longDescription": "Pizza is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available for purchase daily at The Stardrop Saloon for 600g and may randomly appear in Krobus' shop on Saturdays. The recipe can be obtained at Stardrop Saloon for 600g or via The Queen of Sauce (TV) on Year 2, Spring day 7 ",
+    "heal": 67,
+    "stamina": 150,
+    "recipe": [
+      "wheatFlour",
+      "tomato",
+      "cheese"
+    ]
+  },
+  {
+    "name": "coffee",
+    "type": "food",
+    "value": 150,
+    "source": "Artisan Goods, Night Market for free, The Saloon",
+    "basicDescription": "It smells delicious.  This is sure to give you a boost.",
+    "longDescription": "Coffee is an edible Artisan Good made by placing 5 Coffee Beans inside a Keg. It is also available at The Saloon for 300g. When consumed, it grants the player a unique speed boost for 1m 23s that stacks with speed boosts from other food items. The speed of the player’s horse is also increased. If consumed after midnight, Coffee does not give a speed boost until the player wakes up in the morning. Despite being considered an Artisan Good, the sale price of Coffee does not benefit from the Artisan Profession. Note that 5 beans of the same quality (normal, silver, or gold) must be used to make coffee; the keg will not accept beans that are not in one stack of 5.",
+    "heal": 1,
+    "stamina": 3,
+    "recipe": [
+      "coffeeBean",
+      "coffeeBean",
+      "coffeeBean",
+      "coffeeBean",
+      "coffeeBean"
+    ]
+  },
+  {
+    "name": "hashbrownsRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Hashbrowns.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 2 of Spring 14."
+  },
+  {
+    "name": "omeletRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Omelet.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Spring 28."
+  },
+  {
+    "name": "hashbrownsRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Hashbrowns.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 2 of Spring 14."
+  },
+  {
+    "name": "pancakesRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Pancakes.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Summer 14."
+  },
+  {
+    "name": "breadRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Bread.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Summer 28."
+  },
+  {
+    "name": "tortillaRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Tortilla.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Fall 7."
+  },
+  {
+    "name": "pizzaRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Pizza.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 2 of Spring 7."
+  },
+  {
+    "name": "makiRollRecipe",
+    "type": "unlockable",
+    "value": 0,
+    "source": "The Stardrop Saloon or Queen of Sauce",
+    "basicDescription": "Unlocks the ability to create Maki Rolls.",
+    "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Summer 21."
+  },
+  {
+    "name": "leek",
+    "type": "food",
+    "value": 60,
+    "source": "Foraging, Spring Seeds",
+    "basicDescription": "A tasty relative of the onion.",
+    "longDescription": "The Leek is found via foraging in the Spring, or grown from Spring Seeds. On Tuesdays, Evelyn may say that they can be found in the mountains, where they may be more common, but Leeks can be found above ground throughout Stardew Valley.",
+    "heal": 18,
+    "stamina": 40
+  },
+  {
+    "name": "dandelion",
+    "type": "food",
+    "value": 40,
+    "source": "Foraging, Spring Seeds, Flower Dance",
+    "basicDescription": "Not the prettiest flower, but the leaves make a good salad.",
+    "longDescription": "The Dandelion is found via foraging in the Spring, or grown from Spring Seeds. Up to ten can also be purchased from Pierre at the Flower Dance. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
+    "heal": 18,
+    "stamina": 40
+  },
+  {
+    "name": "cheese",
+    "type": "food",
+    "value": 200,
+    "source": "Cheese Press",
+    "basicDescription": "It's your basic cheese.",
+    "longDescription": "Cheese is an Artisan Good made from the Cheese Press, taking 3.3 hours. Using Milk will produce normal quality Cheese, while Large Milk will produce gold quality Cheese. Cheese can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Cheese. Normal, silver, and gold quality Cheese can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "heal": 18,
+    "stamina": 40,
+    "recipe": [
+      "milk",
+      "largeMilk"
+    ]
+  },
+  {
+    "name": "milk",
+    "type": "food",
+    "value": 125,
+    "source": "Cow",
+    "basicDescription": "A jug of cow's milk.",
+    "longDescription": "Milk is an animal product obtained from a Cow by using a Milk Pail. It can also be obtained from Sandy at random, who will comment that the player looks thirsty. When a cow has a sufficient friendship and mood level, it can produce a Large Milk, which is more valuable. Milk can be used to make the following Artisan Goods. Note that regular Milk always produces regular quality Cheese, while Large Milk always produces gold-quality Cheese. The quality of the Milk is not a factor.",
+    "heal": 17,
+    "stamina": 38
+  },
+  {
+    "name": "largeMilk",
+    "type": "food",
+    "value": 190,
+    "source": "Cow",
+    "basicDescription": "A large jug of cow's milk.",
+    "longDescription": "Large Milk is an animal product obtained from a Cow with sufficient friendship and mood. It can also randomly rotate into the Traveling Cart's stock for 570-1,000g. Large Milk can be used to make the following Artisan Goods. Note that regular Milk always produces regular quality Cheese, while Large Milk always produces gold-quality Cheese. The quality of the Milk is not a factor. Cheese may be aged in Casks to increase its quality.",
+    "heal": 22,
+    "stamina": 50
+  },
+  {
+    "name": "tomato",
+    "type": "food",
+    "value": 60,
+    "source": "Tomato Seeds",
+    "basicDescription": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses.",
+    "longDescription": "The Tomato is a vegetable crop that grows from Tomato Seeds after 11 days. When harvested, each Tomato plant gives 1 Tomato every 4 days, with a small random chance for more Tomatoes.",
+    "heal": 9,
+    "stamina": 20
   }
 ]
 

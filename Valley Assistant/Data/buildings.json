@@ -701,5 +701,78 @@
         "price": 75
       }
     ]
+  },
+  {
+    "name": "theStardropSaloon",
+    "type": "shop",
+    "occupants": [
+      "gus"
+    ],
+    "basicDescription": "A meeting place for many villagers and hosts a variety of entertainment.  Food and recipes are for sale here.",
+    "longDescription": "The Stardrop Saloon is owned by Gus, and is located in the center of Pelican Town. It's a meeting place for many villagers, and hosts a variety of entertainment, including fully playable arcade machines, a jukebox, and a Joja Cola soda machine. Gus offers a variety of food and recipes for sale. He also has a rotating supply of cooked dishes. Note: You must interact with the cash register on the counter to shop at the Saloon, rather than Gus. You can shop at the register as long as Gus is anywhere behind the counter.",
+    "openTime": {
+      "hour": 12,
+      "min": 0,
+      "ampm": "pm"
+    },
+    "closeTime": {
+      "hour": 12,
+      "min": 0,
+      "ampm": "am"
+    },
+    "purchasable": [
+      {
+        "name": "beer",
+        "price": 400
+      },
+      {
+        "name": "salad",
+        "price": 220
+      },
+      {
+        "name": "bread",
+        "price": 120
+      },
+      {
+        "name": "spaghetti",
+        "price": 240
+      },
+      {
+        "name": "pizza",
+        "price": 600
+      },
+      {
+        "name": "coffee",
+        "price": 300
+      },
+      {
+        "name": "hashbrownsRecipe",
+        "price": 250
+      },
+      {
+        "name": "omeletRecipe",
+        "price": 500
+      },
+      {
+        "name": "pancakesRecipe",
+        "price": 500
+      },
+      {
+        "name": "breadRecipe",
+        "price": 500
+      },
+      {
+        "name": "tortillaRecipe",
+        "price": 500
+      },
+      {
+        "name": "pizzaRecipe",
+        "price": 750
+      },
+      {
+        "name": "makiRollRecipe",
+        "price": 1500
+      }
+    ]
   }
 ]
