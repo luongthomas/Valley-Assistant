@@ -30,9 +30,12 @@ struct BuildingDetailView: View {
             
             Divider()
             
-            NavigationLink(destination: PurchasableList(building: building)) {
-                Text("Purchasables")
-            }
+            building.purchasable.map({ _ in 
+                NavigationLink(destination: PurchasableList(building: building)) {
+                    Text("Purchasables")
+                }
+            })
+
             .padding()
             .navigationBarTitle("\(building.name.rawValue.camelCaps)")
         }

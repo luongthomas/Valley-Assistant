@@ -17,7 +17,7 @@ class Building: Codable, Hashable {
     var occupants: [VillagerName]
     var openTime: Time
     var closeTime: Time
-    var purchasable: [Purchasable]
+    var purchasable: [Purchasable]?
     
     required init(from decoder: Decoder) throws {
         let map = try decoder.container(keyedBy: CodingKeys.self)
@@ -29,7 +29,7 @@ class Building: Codable, Hashable {
         self.occupants = try map.decode(.occupants)
         self.openTime = try map.decode(.openTime)
         self.closeTime = try map.decode(.closeTime)
-        self.purchasable = try map.decode(.purchasable)
+        self.purchasable = try? map.decode(.purchasable)
     }
     
     private enum CodingKeys: CodingKey {
@@ -48,9 +48,9 @@ class Building: Codable, Hashable {
 }
 
 enum BuildingName: String, Codable {
-    case pierresGeneralStore, carpentersShop, harveysClinic, blacksmith, jojamart, theStardropSaloon
+    case pierresGeneralStore, carpentersShop, harveysClinic, blacksmith, jojamart, theStardropSaloon, oneRiverRoad, trailer, mayorsManor, oneWillowLane, twoWillowLane
 }
 
 enum BuildingType: String, Codable {
-    case all, shop, shopWithSeasonalStock, house, communityCenter, upgradables, museum
+    case all, shop, shopWithSeasonalStock, residence, communityCenter, upgradables, museum
 }

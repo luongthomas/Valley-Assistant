@@ -10,7 +10,7 @@ import Foundation
 
 class Item: Codable, Hashable {
     static func == (lhs: Item, rhs: Item) -> Bool {
-        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.value == rhs.value && lhs.source == rhs.source && lhs.basicDescription == rhs.basicDescription && lhs.longDescription == rhs.longDescription && lhs.recipe == rhs.recipe && lhs.heal == rhs.heal && lhs.stamina == rhs.stamina
+        return lhs.name == rhs.name && lhs.type == rhs.type && lhs.value == rhs.value && lhs.source == rhs.source && lhs.basicDescription == rhs.basicDescription && lhs.longDescription == rhs.longDescription && lhs.recipe == rhs.recipe && lhs.heal == rhs.heal && lhs.energy == rhs.energy
     }
     
     var name: ItemName
@@ -21,7 +21,7 @@ class Item: Codable, Hashable {
     var longDescription: String
     var recipe: [ItemName]?
     var heal: Int?
-    var stamina: Int?
+    var energy: Int?
     var growthTimeDays: Int?
     var seasonToGrow: [Season]?
     
@@ -36,13 +36,13 @@ class Item: Codable, Hashable {
         
         self.recipe = try? map.decode(.recipe)
         self.heal = try? map.decode(.heal)
-        self.stamina = try? map.decode(.stamina)
+        self.energy = try? map.decode(.energy)
         self.growthTimeDays = try? map.decode(.growthTimeDays)
         self.seasonToGrow = try? map.decode(.seasonToGrow)
     }
     
     private enum CodingKeys: CodingKey {
-        case name, type, value, source, basicDescription, longDescription, recipe, heal, stamina, growthTimeDays, seasonToGrow
+        case name, type, value, source, basicDescription, longDescription, recipe, heal, energy, growthTimeDays, seasonToGrow
     }
     
     func hash(into hasher: inout Hasher) {
@@ -52,33 +52,12 @@ class Item: Codable, Hashable {
         hasher.combine(basicDescription)
         hasher.combine(recipe)
         hasher.combine(heal)
-        hasher.combine(stamina)
+        hasher.combine(energy)
         hasher.combine(growthTimeDays)
         hasher.combine(seasonToGrow)
     }
 }
 
-enum ItemName: String, Codable {
-    case daffodil, emerald, aquamarine, poppy, sapphire, ruby, axe, omelette, egg, barn, bigBarn, grassStarter, sugar, wheatFlour, rice, oil, vinegar, basicFertilizer, qualityFertilizer, basicRetainingSoil, qualityRetainingSoil, speedGro, deluxeSpeedGro, wallpaper, flooring, cherrySapling, apricotSapling, orangeSapling, peachSapling, pomegranateSapling, appleSapling, catalogue, bouquet, largePack, deluxePack, sap, anyFish, stone, clay, pineTar, oakResin, coral
-    
-    case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds
-    
-    case melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds
-    
-    case eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds
-    
-    case energyTonic, muscleRemedy
-    
-    case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar
-    
-    case copperHoe, copperPickaxe, copperAxe, copperWateringCan, steelHoe, steelPickaxe, steelAxe, steelWateringCan, goldHoe, goldPickaxe, goldAxe, goldWateringCan, iridiumHoe, iridiumPickaxe, iridiumAxe, iridiumWateringCan
-    
-    case jojaCola, jColaLight, jojaWallpaper, minecarts, panning, bridge, greenhouse, bus
-    
-    case beer, salad, bread, spaghetti, pizza, coffee, hashbrownsRecipe, omeletRecipe, pancakesRecipe, breadRecipe, tortillaRecipe, pizzaRecipe, makiRollRecipe
-    
-    case leek, dandelion, cheese, tomato, milk, largeMilk
-}
 
 enum ItemType: String, Codable {
     case all, tools, food, minerals, fish, crops, weapons, crafting, building, furniture, unlockable

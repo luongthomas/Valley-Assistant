@@ -1,778 +1,1063 @@
 [
-  {
-    "name": "pierresGeneralStore",
-    "type": "shopWithSeasonalStock",
-    "occupants": [
-      "pierre",
-      "caroline",
-      "abigail"
-    ],
-    "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
-    "longDescription": "After you have 8 hearts of friendship with a marriage candidate, a bouquet of flowers will also be available for purchase. Some products in stock will vary from season to season and others are in-stock year-round. You can sell Pierre foraged items, crops, artisan goods, cooked dishes, and animal products if you need instant gold and don't want to wait overnight for shipping. At first, Pierre's General Store is closed on Wednesday. However, if you finish all of the Community Center bundles, Pierre's General Store will be open 7 days a week. You can enter the building until 9pm, but Pierre leaves the sales counter at 5pm every day, so you cannot purchase or sell goods after 5pm.",
-    "openTime": {
-      "hour": 9,
-      "min": 0,
-      "ampm": "am"
+    {
+        "name": "oneRiverRoad",
+        "type": "residence",
+        "occupants": [
+            "george",
+            "evelyn",
+            "alex"
+        ],
+        "basicDescription": "Home to George, Evelyn and Alex.  Southeast of Pierre's General Store and just behind the saloon.",
+        "longDescription": "Three lovely folks live here.",
+        "openTime": {
+            "hour": 8,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 8,
+            "min": 0,
+            "ampm": "pm"
+        }
     },
-    "closeTime": {
-      "hour": 5,
-      "min": 0,
-      "ampm": "pm"
+    {
+        "name": "trailer",
+        "type": "residence",
+        "occupants": [
+            "pam",
+            "penny"
+        ],
+        "basicDescription": "The Trailer is the home of Pam and Penny and is located east of the Saloon and north of the Mayor's Manor.",
+        "longDescription": "It has two rooms in it: Penny's bedroom (which can be accessed when Penny is at two hearts) and the sitting room/kitchen. If the player examines the bin in the lower right corner of the trailer, they will note that it is full of empty beer bottles. Pam can also be found sitting on the couch in the morning complaining about her head. After fully upgrading the Farmhouse and completing the Community Center (or purchasing a JojaMart membership), players are able to purchase a 'Community Upgrade' from Robin at the Carpenter's Shop for 500,000g and 950 Wood. Robin will then build a new house for Pam (and Penny, if the player is not married to Penny). Note that only the host player in a multiplayer game is able to purchase this upgrade. Once the house is built, a cutscene plays during which the player can choose to tell Pam who paid for the home or to remain anonymous. After the house is built, the location on the in-game map changes from 'Trailer' to '2 River Road'.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 8,
+            "min": 0,
+            "ampm": "pm"
+        }
     },
-    "purchasable": [
-      {
-        "name": "grassStarter",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "sugar",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "wheatFlour",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "rice",
-        "availableSeason": ["all"],
-        "price": 200
-      },
-      {
-        "name": "oil",
-        "availableSeason": ["all"],
-        "price": 200
-      },
-      {
-        "name": "vinegar",
-        "availableSeason": ["all"],
-        "price": 200
-      },
-      {
-        "name": "basicFertilizer",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "qualityFertilizer",
-        "availableSeason": ["all"],
-        "price": 150
-      },
-      {
-        "name": "basicRetainingSoil",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "qualityRetainingSoil",
-        "availableSeason": ["all"],
-        "price": 150
-      },
-      {
-        "name": "speedGro",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "deluxeSpeedGro",
-        "availableSeason": ["all"],
-        "price": 150
-      },
-      {
-        "name": "flooring",
-        "availableSeason": ["all"],
-        "price": 100
-      },
-      {
-        "name": "cherrySapling",
-        "availableSeason": ["all"],
-        "price": 3400
-      },
-      {
-        "name": "apricotSapling",
-        "availableSeason": ["all"],
-        "price": 2000
-      },
-      {
-        "name": "orangeSapling",
-        "availableSeason": ["all"],
-        "price": 2000
-      },
-      {
-        "name": "peachSapling",
-        "availableSeason": ["all"],
-        "price": 6000
-      },
-      {
-        "name": "pomegranateSapling",
-        "availableSeason": ["all"],
-        "price": 6000
-      },
-      {
-        "name": "appleSapling",
-        "availableSeason": ["all"],
-        "price": 4000
-      },
-      {
-        "name": "catalogue",
-        "availableSeason": ["all"],
-        "price": 30000
-      },
-      {
-        "name": "bouquet",
-        "availableSeason": ["all"],
-        "price": 200
-      },
-      {
-        "name": "parsnipSeeds",
-        "availableSeason": ["spring"],
-        "price": 20
-      },
-      {
-        "name": "beanStarter",
-        "availableSeason": ["spring"],
-        "price": 60
-      },
-      {
-        "name": "cauliflowerSeeds",
-        "availableSeason": ["spring"],
-        "price": 80
-      },
-      {
-        "name": "potatoSeeds",
-        "availableSeason": ["spring"],
-        "price": 50
-      },
-      {
-        "name": "tulipBulb",
-        "availableSeason": ["spring"],
-        "price": 20
-      },
-      {
-        "name": "kaleSeeds",
-        "availableSeason": ["spring"],
-        "price": 70
-      },
-      {
-        "name": "jazzSeeds",
-        "availableSeason": ["spring"],
-        "price": 30
-      },
-      {
-        "name": "garlicSeeds",
-        "availableSeason": ["spring"],
-        "price": 30
-      },
-      {
-        "name": "melonSeeds",
-        "availableSeason": ["summer"],
-        "price": 80
-      },
-      {
-        "name": "tomatoSeeds",
-        "availableSeason": ["summer"],
-        "price": 50
-      },
-      {
-        "name": "blueberrySeeds",
-        "availableSeason": ["summer"],
-        "price": 80
-      },
-      {
-        "name": "pepperSeeds",
-        "availableSeason": ["summer"],
-        "price": 40
-      },
-      {
-        "name": "wheatSeeds",
-        "availableSeason": ["summer", "fall"],
-        "price": 10
-      },
-      {
-        "name": "radishSeeds",
-        "availableSeason": ["summer"],
-        "price": 40
-      },
-      {
-        "name": "poppySeeds",
-        "availableSeason": ["summer"],
-        "price": 100
-      },
-      {
-        "name": "spangleSeeds",
-        "availableSeason": ["summer"],
-        "price": 50
-      },
-      {
-        "name": "hopsStarter",
-        "availableSeason": ["summer"],
-        "price": 60
-      },
-      {
-        "name": "cornSeeds",
-        "availableSeason": ["summer", "fall"],
-        "price": 150
-      },
-      {
-        "name": "sunflowerSeeds",
-        "availableSeason": ["summer", "fall"],
-        "price": 200
-      },
-      {
-        "name": "redCabbageSeeds",
-        "availableSeason": ["summer"],
-        "price": 100
-      },
-      {
-        "name": "eggplantSeeds",
-        "availableSeason": ["fall"],
-        "price": 20
-      },
-      {
-        "name": "pumpkinSeeds",
-        "availableSeason": ["fall"],
-        "price": 100
-      },
-      {
-        "name": "bokChoySeeds",
-        "availableSeason": ["fall"],
-        "price": 50
-      },
-      {
-        "name": "yamSeeds",
-        "availableSeason": ["fall"],
-        "price": 60
-      },
-      {
-        "name": "cranberrySeeds",
-        "availableSeason": ["fall"],
-        "price": 240
-      },
-      {
-        "name": "fairySeeds",
-        "availableSeason": ["fall"],
-        "price": 200
-      },
-      {
-        "name": "amaranthSeeds",
-        "availableSeason": ["fall"],
-        "price": 70
-      },
-      {
-        "name": "grapeStarter",
-        "availableSeason": ["fall"],
-        "price": 60
-      },
-      {
-        "name": "artichokeSeeds",
-        "availableSeason": ["fall"],
-        "price": 30
-      }
-    ]
-  },
-  {
-    "name": "harveysClinic",
-    "type": "shop",
-    "occupants": [
-      "harvey"
-    ],
-    "basicDescription": "Located in the center of Pelican Town next to Pierre's General Store, medical supplies can be purchased here.",
-    "longDescription": "Harvey lives and works at the clinic.  Maru works there on Tuesdays and Thursdays.  Both of them often complain about the lack of patients.  Most villagers will visit the clinic for the annual checkup.  George and Evelyn visit the clinic once per season.  Although you can enter the Clinic most days between 9am and 3pm, you cannot purchase medical supplies unless Maru or Harvey is behind the supplies counter.",
-    "openTime": {
-      "hour": 9,
-      "min": 0,
-      "ampm": "am"
+    {
+        "name": "mayorsManor",
+        "type": "residence",
+        "occupants": [
+            "lewis"
+        ],
+        "basicDescription": "Mayor's Manor is the home of Lewis. It is located east of the graveyard and south of Pam and Penny's trailer, next to the bridge leading to the museum and Blacksmith.",
+        "longDescription": "Lewis can often be found here either standing at his stove or tending to his garden at the front of the house. The interior of Lewis' home is simple, with an open concept kitchen that connects to his bedroom. Players must gain two hearts friendship before being able to enter Lewis' room. There's a small book inside the house where players have the option to divorce their spouses for 50,000g.",
+        "openTime": {
+            "hour": 8,
+            "min": 30,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 10,
+            "min": 0,
+            "ampm": "pm"
+        }
     },
-    "closeTime": {
-      "hour": 3,
-      "min": 0,
-      "ampm": "pm"
+    {
+        "name": "oneWillowLane",
+        "type": "residence",
+        "occupants": [
+            "jodi",
+            "kent",
+            "sam",
+            "vincent"
+        ],
+        "basicDescription": "1 Willow Lane is the address of Jodi, Kent, Sam and Vincent. It's the house just next to Pelican Town's southwest passage.",
+        "longDescription": "Initially Kent is away, and the only occupants are Jodi, Sam and Vincent. He returns at the start of the second year. Just inside the house to the right is Vincent's bedroom. The larger bedroom beside that belongs to Sam. Jodi and Kent share a bedroom in the back of the house, past the kitchen. They have a single bed, despite other married couples having a double bed. Players must gain two hearts of friendship with each character before being allowed access to their bedroom.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 8,
+            "min": 0,
+            "ampm": "pm"
+        }
     },
-    "purchasable": [
-      {
-        "name": "energyTonic",
-        "price": 1000
-      },
-      {
-        "name": "muscleRemedy",
-        "price": 1000
-      }
-    ]
-  },
-  {
-    "name": "blacksmith",
-    "type": "upgradables",
-    "occupants": [
-      "clint"
-    ],
-    "basicDescription": "The Blacksmith serves as a location for purchasing coal and ores (copper, iron, & gold), upgrading tools, and breaking open geodes. ",
-    "longDescription": "The purchase prices of ore and coal increase in year 2+. The player will receive a letter in the mail on Spring 1 of year 2 saying 'Notice: The price of raw materials at Robin's shop and Clint's shop has increased.' The gold obtained by selling items to Clint (or through the shipping bin) does not increase. Clint can upgrade your tools incrementally. The Pickaxe, Axe, Hoe, and Watering Can can all be upgraded 4 times. It takes 2 days to upgrade a tool. While Clint is upgrading a tool, Blacksmith services are unavailable. The Blacksmith is closed on festival days, except for the Dance of the Moonlight Jellies in the Summer, and the Spirit's Eve festival in the Fall. If you drop a tool off the day before a festival it will be ready the day after the festival. The copper axe allows you to break the large stumps on your farm. It reduces the hits needed to chop down trees. The copper pickaxe allows you to break large rocks in the mine. These give 10 stone. It reduces the hits needed for other rocks. The steel axe allows you to break the logs on your farm. The steel pickaxe allows you to break the large rocks on your farm. The gold pickaxe allows you to break any meteorites that land on your farm. Upgraded versions of the watering can and hoe allow the player to water and till multiple squares of land in a single use.",
-    "openTime": {
-      "hour": 9,
-      "min": 0,
-      "ampm": "am"
+    {
+        "name": "twoWillowLane",
+        "type": "residence",
+        "occupants": [
+            "emily",
+            "haley"
+        ],
+        "basicDescription": "2 Willow Lane is the home of sisters Emily and Haley. It's located along the southern road in Pelican Town, just next to 1 Willow Lane where Jodi, Kent and their sons live.",
+        "longDescription": "The home is owned by Haley and Emily's parents, who have been traveling the world for the past two years with an unknown date of return. Haley and Emily have been caring for the house while they've been away.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 8,
+            "min": 0,
+            "ampm": "pm"
+        }
     },
-    "closeTime": {
-      "hour": 4,
-      "min": 0,
-      "ampm": "pm"
+    {
+        "name": "pierresGeneralStore",
+        "type": "shopWithSeasonalStock",
+        "occupants": [
+            "pierre",
+            "caroline",
+            "abigail"
+        ],
+        "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
+        "longDescription": "After you have 8 hearts of friendship with a marriage candidate, a bouquet of flowers will also be available for purchase. Some products in stock will vary from season to season and others are in-stock year-round. You can sell Pierre foraged items, crops, artisan goods, cooked dishes, and animal products if you need instant gold and don't want to wait overnight for shipping. At first, Pierre's General Store is closed on Wednesday. However, if you finish all of the Community Center bundles, Pierre's General Store will be open 7 days a week. You can enter the building until 9pm, but Pierre leaves the sales counter at 5pm every day, so you cannot purchase or sell goods after 5pm.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 5,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "purchasable": [
+            {
+                "name": "grassStarter",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "sugar",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "wheatFlour",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "rice",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 200
+            },
+            {
+                "name": "oil",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 200
+            },
+            {
+                "name": "vinegar",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 200
+            },
+            {
+                "name": "basicFertilizer",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "qualityFertilizer",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 150
+            },
+            {
+                "name": "basicRetainingSoil",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "qualityRetainingSoil",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 150
+            },
+            {
+                "name": "speedGro",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "deluxeSpeedGro",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 150
+            },
+            {
+                "name": "flooring",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 100
+            },
+            {
+                "name": "cherrySapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 3400
+            },
+            {
+                "name": "apricotSapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 2000
+            },
+            {
+                "name": "orangeSapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 2000
+            },
+            {
+                "name": "peachSapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 6000
+            },
+            {
+                "name": "pomegranateSapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 6000
+            },
+            {
+                "name": "appleSapling",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 4000
+            },
+            {
+                "name": "catalogue",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 30000
+            },
+            {
+                "name": "bouquet",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 200
+            },
+            {
+                "name": "parsnipSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 20
+            },
+            {
+                "name": "beanStarter",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 60
+            },
+            {
+                "name": "cauliflowerSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 80
+            },
+            {
+                "name": "potatoSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 50
+            },
+            {
+                "name": "tulipBulb",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 20
+            },
+            {
+                "name": "kaleSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 70
+            },
+            {
+                "name": "jazzSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 30
+            },
+            {
+                "name": "garlicSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 30
+            },
+            {
+                "name": "melonSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 80
+            },
+            {
+                "name": "tomatoSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 50
+            },
+            {
+                "name": "blueberrySeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 80
+            },
+            {
+                "name": "pepperSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 40
+            },
+            {
+                "name": "wheatSeeds",
+                "availableSeason": [
+                    "summer",
+                    "fall"
+                ],
+                "price": 10
+            },
+            {
+                "name": "radishSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 40
+            },
+            {
+                "name": "poppySeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 100
+            },
+            {
+                "name": "spangleSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 50
+            },
+            {
+                "name": "hopsStarter",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 60
+            },
+            {
+                "name": "cornSeeds",
+                "availableSeason": [
+                    "summer",
+                    "fall"
+                ],
+                "price": 150
+            },
+            {
+                "name": "sunflowerSeeds",
+                "availableSeason": [
+                    "summer",
+                    "fall"
+                ],
+                "price": 200
+            },
+            {
+                "name": "redCabbageSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 100
+            },
+            {
+                "name": "eggplantSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 20
+            },
+            {
+                "name": "pumpkinSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 100
+            },
+            {
+                "name": "bokChoySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 50
+            },
+            {
+                "name": "yamSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 60
+            },
+            {
+                "name": "cranberrySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 240
+            },
+            {
+                "name": "fairySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 200
+            },
+            {
+                "name": "amaranthSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 70
+            },
+            {
+                "name": "grapeStarter",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 60
+            },
+            {
+                "name": "artichokeSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 30
+            }
+        ]
     },
-    "purchasable": [
-      {
-        "name": "copperOre",
-        "price": 75
-      },
-      {
-        "name": "ironOre",
-        "price": 150
-      },
-      {
-        "name": "coal",
-        "price": 150
-      },
-      {
-        "name": "goldOre",
-        "price": 400
-      },
-      {
-        "name": "ironOre",
-        "price": 150
-      },
-      {
-        "name": "copperHoe",
-        "price": 2000,
-        "ingredients": [
+    {
+        "name": "harveysClinic",
+        "type": "shop",
+        "occupants": [
+            "harvey"
+        ],
+        "basicDescription": "Located in the center of Pelican Town next to Pierre's General Store, medical supplies can be purchased here.",
+        "longDescription": "Harvey lives and works at the clinic.  Maru works there on Tuesdays and Thursdays.  Both of them often complain about the lack of patients.  Most villagers will visit the clinic for the annual checkup.  George and Evelyn visit the clinic once per season.  Although you can enter the Clinic most days between 9am and 3pm, you cannot purchase medical supplies unless Maru or Harvey is behind the supplies counter.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 3,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "purchasable": [
             {
-                "copperBar": 5
+                "name": "energyTonic",
+                "price": 1000
+            },
+            {
+                "name": "muscleRemedy",
+                "price": 1000
             }
         ]
-      },
-      {
-        "name": "copperPickaxe",
-        "price": 2000,
-        "ingredients": [
-            {
-                "copperBar": 5
-            }
-        ]
-      },
-      {
-        "name": "copperAxe",
-        "price": 2000,
-        "ingredients": [
-            {
-                "copperBar": 5
-            }
-        ]
-      },
-      {
-        "name": "copperWateringCan",
-        "price": 2000,
-        "ingredients": [
-            {
-                "copperBar": 5
-            }
-        ]
-      },
-      {
-        "name": "steelHoe",
-        "price": 5000,
-        "ingredients": [
-            {
-                "ironBar": 5
-            }
-        ]
-      },
-      {
-        "name": "steelPickaxe",
-        "price": 5000,
-        "ingredients": [
-            {
-                "ironBar": 5
-            }
-        ]
-      },
-      {
-        "name": "steelAxe",
-        "price": 5000,
-        "ingredients": [
-            {
-                "ironBar": 5
-            }
-        ]
-      },
-      {
-        "name": "steelWateringCan",
-        "price": 5000,
-        "ingredients": [
-            {
-                "ironBar": 5
-            }
-        ]
-      },
-      {
-        "name": "goldHoe",
-        "price": 10000,
-        "ingredients": [
-            {
-                "goldBar": 5
-            }
-        ]
-      },
-      {
-        "name": "goldPickaxe",
-        "price": 10000,
-        "ingredients": [
-            {
-                "goldBar": 5
-            }
-        ]
-      },
-      {
-        "name": "goldAxe",
-        "price": 10000,
-        "ingredients": [
-            {
-                "goldBar": 5
-            }
-        ]
-      },
-      {
-        "name": "goldWateringCan",
-        "price": 10000,
-        "ingredients": [
-            {
-                "goldBar": 5
-            }
-        ]
-      },
-      {
-        "name": "iridiumHoe",
-        "price": 25000,
-        "ingredients": [
-            {
-                "iridiumBar": 5
-            }
-        ]
-      },
-      {
-        "name": "iridiumPickaxe",
-        "price": 25000,
-        "ingredients": [
-            {
-                "iridiumBar": 5
-            }
-        ]
-      },
-      {
-        "name": "iridiumAxe",
-        "price": 25000,
-        "ingredients": [
-            {
-                "iridiumBar": 5
-            }
-        ]
-      },
-      {
-        "name": "iridiumWateringCan",
-        "price": 25000,
-        "ingredients": [
-            {
-                "iridiumBar": 5
-            }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "jojamart",
-    "type": "shopWithSeasonalStock",
-    "occupants": [
-      "morris"
-    ],
-    "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
-    "longDescription": "JojaMart is a store owned by the player's previous employer, 'Joja Corporation'. Morris manages the store and handles customer service. He can be found inside the kiosk at the bottom right of the store, where he will offer the player a JojaMart Membership for 5,000g. Purchasing a Joja Membership from Morris causes the Community Center to be destroyed and replaced with a Joja Warehouse. The player can then purchase community development projects through the Joja Community Development Form, rather than through completing bundles in the Community Center.",
-    "openTime": {
-      "hour": 9,
-      "min": 0,
-      "ampm": "am"
     },
-    "closeTime": {
-      "hour": 11,
-      "min": 0,
-      "ampm": "pm"
+    {
+        "name": "blacksmith",
+        "type": "upgradables",
+        "occupants": [
+            "clint"
+        ],
+        "basicDescription": "The Blacksmith serves as a location for purchasing coal and ores (copper, iron, & gold), upgrading tools, and breaking open geodes. ",
+        "longDescription": "The purchase prices of ore and coal increase in year 2+. The player will receive a letter in the mail on Spring 1 of year 2 saying 'Notice: The price of raw materials at Robin's shop and Clint's shop has increased.' The gold obtained by selling items to Clint (or through the shipping bin) does not increase. Clint can upgrade your tools incrementally. The Pickaxe, Axe, Hoe, and Watering Can can all be upgraded 4 times. It takes 2 days to upgrade a tool. While Clint is upgrading a tool, Blacksmith services are unavailable. The Blacksmith is closed on festival days, except for the Dance of the Moonlight Jellies in the Summer, and the Spirit's Eve festival in the Fall. If you drop a tool off the day before a festival it will be ready the day after the festival. The copper axe allows you to break the large stumps on your farm. It reduces the hits needed to chop down trees. The copper pickaxe allows you to break large rocks in the mine. These give 10 stone. It reduces the hits needed for other rocks. The steel axe allows you to break the logs on your farm. The steel pickaxe allows you to break the large rocks on your farm. The gold pickaxe allows you to break any meteorites that land on your farm. Upgraded versions of the watering can and hoe allow the player to water and till multiple squares of land in a single use.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 4,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "purchasable": [
+            {
+                "name": "copperOre",
+                "price": 75
+            },
+            {
+                "name": "ironOre",
+                "price": 150
+            },
+            {
+                "name": "coal",
+                "price": 150
+            },
+            {
+                "name": "goldOre",
+                "price": 400
+            },
+            {
+                "name": "ironOre",
+                "price": 150
+            },
+            {
+                "name": "copperHoe",
+                "price": 2000,
+                "ingredients": [
+                    {
+                        "copperBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "copperPickaxe",
+                "price": 2000,
+                "ingredients": [
+                    {
+                        "copperBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "copperAxe",
+                "price": 2000,
+                "ingredients": [
+                    {
+                        "copperBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "copperWateringCan",
+                "price": 2000,
+                "ingredients": [
+                    {
+                        "copperBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "steelHoe",
+                "price": 5000,
+                "ingredients": [
+                    {
+                        "ironBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "steelPickaxe",
+                "price": 5000,
+                "ingredients": [
+                    {
+                        "ironBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "steelAxe",
+                "price": 5000,
+                "ingredients": [
+                    {
+                        "ironBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "steelWateringCan",
+                "price": 5000,
+                "ingredients": [
+                    {
+                        "ironBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "goldHoe",
+                "price": 10000,
+                "ingredients": [
+                    {
+                        "goldBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "goldPickaxe",
+                "price": 10000,
+                "ingredients": [
+                    {
+                        "goldBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "goldAxe",
+                "price": 10000,
+                "ingredients": [
+                    {
+                        "goldBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "goldWateringCan",
+                "price": 10000,
+                "ingredients": [
+                    {
+                        "goldBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "iridiumHoe",
+                "price": 25000,
+                "ingredients": [
+                    {
+                        "iridiumBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "iridiumPickaxe",
+                "price": 25000,
+                "ingredients": [
+                    {
+                        "iridiumBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "iridiumAxe",
+                "price": 25000,
+                "ingredients": [
+                    {
+                        "iridiumBar": 5
+                    }
+                ]
+            },
+            {
+                "name": "iridiumWateringCan",
+                "price": 25000,
+                "ingredients": [
+                    {
+                        "iridiumBar": 5
+                    }
+                ]
+            }
+        ]
     },
-    "purchasable": [
-      {
-        "name": "minecarts",
-        "availableSeason": ["all"],
-        "price": 15000
-      },
-      {
-        "name": "panning",
-        "availableSeason": ["all"],
-        "price": 20000
-      },
-      {
-        "name": "bridge",
-        "availableSeason": ["all"],
-        "price": 25000
-      },
-      {
-        "name": "greenhouse",
-        "availableSeason": ["all"],
-        "price": 35000
-      },
-      {
-        "name": "bus",
-        "availableSeason": ["all"],
-        "price": 40000
-      },
-      {
-        "name": "jojaCola",
-        "availableSeason": ["all"],
-        "price": 75
-      },
-      {
-        "name": "jojaWallpaper",
-        "availableSeason": ["all"],
-        "price": 20
-      },
-      {
-        "name": "jColaLight",
-        "availableSeason": ["all"],
-        "price": 500
-      },
-      {
-        "name": "grassStarter",
-        "availableSeason": ["all"],
-        "price": 125
-      },
-      {
-        "name": "sugar",
-        "availableSeason": ["all"],
-        "price": 125
-      },
-      {
-        "name": "wheatFlour",
-        "availableSeason": ["all"],
-        "price": 125
-      },
-      {
-        "name": "rice",
-        "availableSeason": ["all"],
-        "price": 250
-      },
-      {
-        "name": "wallpaper",
-        "availableSeason": ["all"],
-        "price": 250
-      },
-      {
-        "name": "flooring",
-        "availableSeason": ["all"],
-        "price": 250
-      },
-      {
-        "name": "parsnipSeeds",
-        "availableSeason": ["spring"],
-        "price": 25
-      },
-      {
-        "name": "beanStarter",
-        "availableSeason": ["spring"],
-        "price": 75
-      },
-      {
-        "name": "cauliflowerSeeds",
-        "availableSeason": ["spring"],
-        "price": 100
-      },
-      {
-        "name": "potatoSeeds",
-        "availableSeason": ["spring"],
-        "price": 62
-      },
-      {
-        "name": "tulipBulb",
-        "availableSeason": ["spring"],
-        "price": 25
-      },
-      {
-        "name": "kaleSeeds",
-        "availableSeason": ["spring"],
-        "price": 87
-      },
-      {
-        "name": "jazzSeeds",
-        "availableSeason": ["spring"],
-        "price": 37
-      },
-      {
-        "name": "melonSeeds",
-        "availableSeason": ["summer"],
-        "price": 100
-      },
-      {
-        "name": "tomatoSeeds",
-        "availableSeason": ["summer"],
-        "price": 62
-      },
-      {
-        "name": "pepperSeeds",
-        "availableSeason": ["summer"],
-        "price": 50
-      },
-      {
-        "name": "wheatSeeds",
-        "availableSeason": ["summer", "fall"],
-        "price": 12
-      },
-      {
-        "name": "radishSeeds",
-        "availableSeason": ["summer"],
-        "price": 50
-      },
-      {
-        "name": "poppySeeds",
-        "availableSeason": ["summer"],
-        "price": 125
-      },
-      {
-        "name": "spangleSeeds",
-        "availableSeason": ["summer"],
-        "price": 62
-      },
-      {
-        "name": "hopsStarter",
-        "availableSeason": ["summer"],
-        "price": 75
-      },
-      {
-        "name": "sunflowerSeeds",
-        "availableSeason": ["summer", "fall"],
-        "price": 125
-      },
-      {
-        "name": "eggplantSeeds",
-        "availableSeason": ["fall"],
-        "price": 25
-      },
-      {
-        "name": "cornSeeds",
-        "availableSeason": ["fall"],
-        "price": 187
-      },
-      {
-        "name": "pumpkinSeeds",
-        "availableSeason": ["fall"],
-        "price": 125
-      },
-      {
-        "name": "bokChoySeeds",
-        "availableSeason": ["fall"],
-        "price": 62
-      },
-      {
-        "name": "yamSeeds",
-        "availableSeason": ["fall"],
-        "price": 75
-      },
-      {
-        "name": "cranberrySeeds",
-        "availableSeason": ["fall"],
-        "price": 300
-      },
-      {
-        "name": "fairySeeds",
-        "availableSeason": ["fall"],
-        "price": 250
-      },
-      {
-        "name": "amaranthSeeds",
-        "availableSeason": ["fall"],
-        "price": 87
-      },
-      {
-        "name": "grapeStarter",
-        "availableSeason": ["fall"],
-        "price": 75
-      }
-    ]
-  },
-  {
-    "name": "theStardropSaloon",
-    "type": "shop",
-    "occupants": [
-      "gus"
-    ],
-    "basicDescription": "A meeting place for many villagers and hosts a variety of entertainment.  Food and recipes are for sale here.",
-    "longDescription": "The Stardrop Saloon is owned by Gus, and is located in the center of Pelican Town. It's a meeting place for many villagers, and hosts a variety of entertainment, including fully playable arcade machines, a jukebox, and a Joja Cola soda machine. Gus offers a variety of food and recipes for sale. He also has a rotating supply of cooked dishes. Note: You must interact with the cash register on the counter to shop at the Saloon, rather than Gus. You can shop at the register as long as Gus is anywhere behind the counter.",
-    "openTime": {
-      "hour": 12,
-      "min": 0,
-      "ampm": "pm"
+    {
+        "name": "jojamart",
+        "type": "shopWithSeasonalStock",
+        "occupants": [
+            "morris"
+        ],
+        "basicDescription": "Various goods can be sold here such as seeds, saplings, fertilizers and other useful items.",
+        "longDescription": "JojaMart is a store owned by the player's previous employer, 'Joja Corporation'. Morris manages the store and handles customer service. He can be found inside the kiosk at the bottom right of the store, where he will offer the player a JojaMart Membership for 5,000g. Purchasing a Joja Membership from Morris causes the Community Center to be destroyed and replaced with a Joja Warehouse. The player can then purchase community development projects through the Joja Community Development Form, rather than through completing bundles in the Community Center.",
+        "openTime": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "closeTime": {
+            "hour": 11,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "purchasable": [
+            {
+                "name": "minecarts",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 15000
+            },
+            {
+                "name": "panning",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 20000
+            },
+            {
+                "name": "bridge",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 25000
+            },
+            {
+                "name": "greenhouse",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 35000
+            },
+            {
+                "name": "bus",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 40000
+            },
+            {
+                "name": "jojaCola",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 75
+            },
+            {
+                "name": "jojaWallpaper",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 20
+            },
+            {
+                "name": "jColaLight",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 500
+            },
+            {
+                "name": "grassStarter",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 125
+            },
+            {
+                "name": "sugar",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 125
+            },
+            {
+                "name": "wheatFlour",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 125
+            },
+            {
+                "name": "rice",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 250
+            },
+            {
+                "name": "wallpaper",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 250
+            },
+            {
+                "name": "flooring",
+                "availableSeason": [
+                    "all"
+                ],
+                "price": 250
+            },
+            {
+                "name": "parsnipSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 25
+            },
+            {
+                "name": "beanStarter",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 75
+            },
+            {
+                "name": "cauliflowerSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 100
+            },
+            {
+                "name": "potatoSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 62
+            },
+            {
+                "name": "tulipBulb",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 25
+            },
+            {
+                "name": "kaleSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 87
+            },
+            {
+                "name": "jazzSeeds",
+                "availableSeason": [
+                    "spring"
+                ],
+                "price": 37
+            },
+            {
+                "name": "melonSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 100
+            },
+            {
+                "name": "tomatoSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 62
+            },
+            {
+                "name": "pepperSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 50
+            },
+            {
+                "name": "wheatSeeds",
+                "availableSeason": [
+                    "summer",
+                    "fall"
+                ],
+                "price": 12
+            },
+            {
+                "name": "radishSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 50
+            },
+            {
+                "name": "poppySeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 125
+            },
+            {
+                "name": "spangleSeeds",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 62
+            },
+            {
+                "name": "hopsStarter",
+                "availableSeason": [
+                    "summer"
+                ],
+                "price": 75
+            },
+            {
+                "name": "sunflowerSeeds",
+                "availableSeason": [
+                    "summer",
+                    "fall"
+                ],
+                "price": 125
+            },
+            {
+                "name": "eggplantSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 25
+            },
+            {
+                "name": "cornSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 187
+            },
+            {
+                "name": "pumpkinSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 125
+            },
+            {
+                "name": "bokChoySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 62
+            },
+            {
+                "name": "yamSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 75
+            },
+            {
+                "name": "cranberrySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 300
+            },
+            {
+                "name": "fairySeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 250
+            },
+            {
+                "name": "amaranthSeeds",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 87
+            },
+            {
+                "name": "grapeStarter",
+                "availableSeason": [
+                    "fall"
+                ],
+                "price": 75
+            }
+        ]
     },
-    "closeTime": {
-      "hour": 12,
-      "min": 0,
-      "ampm": "am"
-    },
-    "purchasable": [
-      {
-        "name": "beer",
-        "price": 400
-      },
-      {
-        "name": "salad",
-        "price": 220
-      },
-      {
-        "name": "bread",
-        "price": 120
-      },
-      {
-        "name": "spaghetti",
-        "price": 240
-      },
-      {
-        "name": "pizza",
-        "price": 600
-      },
-      {
-        "name": "coffee",
-        "price": 300
-      },
-      {
-        "name": "hashbrownsRecipe",
-        "price": 250
-      },
-      {
-        "name": "omeletRecipe",
-        "price": 500
-      },
-      {
-        "name": "pancakesRecipe",
-        "price": 500
-      },
-      {
-        "name": "breadRecipe",
-        "price": 500
-      },
-      {
-        "name": "tortillaRecipe",
-        "price": 500
-      },
-      {
-        "name": "pizzaRecipe",
-        "price": 750
-      },
-      {
-        "name": "makiRollRecipe",
-        "price": 1500
-      }
-    ]
-  }
+    {
+        "name": "theStardropSaloon",
+        "type": "shop",
+        "occupants": [
+            "gus"
+        ],
+        "basicDescription": "A meeting place for many villagers and hosts a variety of entertainment.  Food and recipes are for sale here.",
+        "longDescription": "The Stardrop Saloon is owned by Gus, and is located in the center of Pelican Town. It's a meeting place for many villagers, and hosts a variety of entertainment, including fully playable arcade machines, a jukebox, and a Joja Cola soda machine. Gus offers a variety of food and recipes for sale. He also has a rotating supply of cooked dishes. Note: You must interact with the cash register on the counter to shop at the Saloon, rather than Gus. You can shop at the register as long as Gus is anywhere behind the counter.",
+        "openTime": {
+            "hour": 12,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "closeTime": {
+            "hour": 12,
+            "min": 0,
+            "ampm": "am"
+        },
+        "purchasable": [
+            {
+                "name": "beer",
+                "price": 400
+            },
+            {
+                "name": "salad",
+                "price": 220
+            },
+            {
+                "name": "bread",
+                "price": 120
+            },
+            {
+                "name": "spaghetti",
+                "price": 240
+            },
+            {
+                "name": "pizza",
+                "price": 600
+            },
+            {
+                "name": "coffee",
+                "price": 300
+            },
+            {
+                "name": "hashbrownsRecipe",
+                "price": 250
+            },
+            {
+                "name": "omeletRecipe",
+                "price": 500
+            },
+            {
+                "name": "pancakesRecipe",
+                "price": 500
+            },
+            {
+                "name": "breadRecipe",
+                "price": 500
+            },
+            {
+                "name": "tortillaRecipe",
+                "price": 500
+            },
+            {
+                "name": "pizzaRecipe",
+                "price": 750
+            },
+            {
+                "name": "makiRollRecipe",
+                "price": 1500
+            }
+        ]
+    }
 ]

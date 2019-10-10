@@ -11,7 +11,7 @@ import SwiftUI
 struct VillagerDetailView: View {
     var villager: Villager
 
-    let affinities = ["Loves", "Likes", "Dislikes"]
+    let affinities = ["Loves", "Likes", "Neutrals"]
     
     @State var selectedAffinity = 0
     
@@ -57,7 +57,7 @@ struct VillagerDetailView: View {
         } else if affinity == "Likes" {
             return villager.likes.map({$0})
         } else {
-            return villager.dislikes.map({$0})
+            return villager.neutral.map({$0})
         }
     }
 }

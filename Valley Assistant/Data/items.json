@@ -35,7 +35,7 @@
         "milk"
     ],
     "heal": 50,
-    "stamina": 25
+    "energy": 25
   },
   {
     "name": "emerald",
@@ -68,26 +68,6 @@
     "source": "Fields",
     "basicDescription": "Nice flower ",
     "longDescription": ""
-  },
-  {
-    "name": "egg",
-    "type": "food",
-    "value": 75,
-    "source": "Chicken",
-    "basicDescription": "Nutritious snack",
-    "longDescription": "",
-    "heal": 40,
-    "stamina": 10
-  },
-  {
-    "name": "milk",
-    "type": "food",
-    "value": 95,
-    "source": "Cow",
-    "basicDescription": "Healthy Beverage",
-    "longDescription": "",
-    "heal": 70,
-    "stamina": 30
   },
   {
     "name": "barn",
@@ -144,7 +124,7 @@
     "basicDescription": "Adds sweetness to pastries and candies.  Too much can be unhealthy.",
     "longDescription": "A cooking ingredient used in many recipes. Using a Mill, three Sugars can be crafted from one Beet.  Beets placed inside will appear as Sugar beside the Mill the next morning.  Sugar made this way is profitable when using regular or silver quality Beets at 150g for three Sugars.  However it is better to create Beet Pickles using the preserves jar to sell at 250g.",
     "heal": 11,
-    "stamina": 25
+    "energy": 25
   },
   {
     "name": "wheatFlour",
@@ -154,7 +134,7 @@
     "basicDescription": "A common cooking ingredient made from crushed wheat seeds.",
     "longDescription": "A cooking ingredient that can be consumed by itself.  One Wheat Flour can be crafted from one Wheat using a Mill.  Wheat placed inside the Mill will appear in the box beside the Mill the next morning.  Doing this is profitable at 50g per item.  It can then be cooked into Bread for another 10g profit, but using the Wheat to create Beer is more profitable at 200g per item.",
     "heal": 5,
-    "stamina": 13
+    "energy": 13
   },
   {
     "name": "rice",
@@ -164,7 +144,7 @@
     "basicDescription": "A basic grain often served under vegetables.",
     "longDescription": "A cooking ingredient that can be used in a variety of recipes.  I like to eat it everyday.",
     "heal": 5,
-    "stamina": 13
+    "energy": 13
   },
   {
     "name": "oil",
@@ -174,7 +154,7 @@
     "basicDescription": "All purpose cooking oil.",
     "longDescription": "An Artison Good and common cooking ingredient made from the Oil Maker.  There is no quality rating so its sell price doesn't benefit from quality increeases.  Also it's sell price doesn't benefit from the Artisan Profession.  Oil made from base quality Sunflowers, cultivated sunflower seeds and all qualities of corn is profitable, though corn is more profitable in the Keg or Preserves Jar.  The processing times vary by ingredient.  1 Corn takes 16.66 hours, 1 Sunflower Seeds takes 53.33 hours and 1 Sunflower takes 1 hour.  ",
     "heal": 5,
-    "stamina": 13
+    "energy": 13
   },
   {
     "name": "vinegar",
@@ -184,7 +164,7 @@
     "basicDescription": "An Aged fermented liquid used in many cooking recipes.",
     "longDescription": "Used as a cooking ingredient that can be used in a variety of recipes. ",
     "heal": 5,
-    "stamina": 13
+    "energy": 13
   },
   {
     "name": "basicFertilizer",
@@ -689,7 +669,7 @@
     "basicDescription": "Restores a lot of energy.",
     "longDescription": "Restores a lot of energy.  Use it after a long day of work.",
     "heal": 200,
-    "stamina": 500
+    "energy": 500
   },
   {
     "name": "muscleRemedy",
@@ -699,7 +679,7 @@
     "basicDescription": "When you've pushed your body too hard, drink this to remove 'Exhaustion'",
     "longDescription": "Use this when you're tired.  Helpful after a long day of work.",
     "heal": 22,
-    "stamina": 50
+    "energy": 50
   },
   {
     "name": "copperOre",
@@ -869,7 +849,7 @@
     "basicDescription": "The flagship product of Joja Corporation",
     "longDescription": "Joja Cola is a type of trash. It can be found in all fishing spots during all seasons and in Garbage Cans. It can also be purchased at JojaMart for 75g or from the Vending Machine in The Stardrop Saloon. Players who choose to complete the Joja Warehouse instead of the Community Center will be rewarded with a Soda Machine that produces one Joja Cola per day. It is the only trash item that can be purchased. Along with the Rotten Plant, it cannot be recycled. When caught while fishing, Joja Cola gives 3 Fishing XP.",
     "heal": 5,
-    "stamina": 13
+    "energy": 13
   },
   {
     "name": "jojaWallpaper",
@@ -943,7 +923,7 @@
     "basicDescription": "Drink in Moderation",
     "longDescription": "Beer is an Artisan Good made from the Keg using Wheat, taking 1-2 days. It is also available at The Saloon for 400g. It can also be received as a gift at the Feast of the Winter Star. When consumed, Beer causes a Tipsy Buff that decreases Speed by 1. Beer can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Beer.",
     "heal": 22,
-    "stamina": 50,
+    "energy": 50,
     "recipe": [
       "wheat"
     ]
@@ -956,7 +936,7 @@
     "basicDescription": "A healthy garden salad.",
     "longDescription": "Salad is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available for purchase daily at The Stardrop Saloon for 220g and may randomly appear in Krobus' shop on Saturdays.",
     "heal": 50,
-    "stamina": 113,
+    "energy": 113,
     "recipe": [
       "leek",
       "dandelion",
@@ -971,7 +951,7 @@
     "basicDescription": "A crusty baguette.",
     "longDescription": "Bread is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using Wheat Flour made in the Mill. Bread is available at the Stardrop Saloon every day for 120g, and randomly from Krobus's shop on Saturdays. The recipe can be obtained at Stardrop Saloon for 500g or via The Queen of Sauce (TV) on Year 1, Summer day 28",
     "heal": 22,
-    "stamina": 50,
+    "energy": 50,
     "recipe": [
       "wheatFlour"
     ]
@@ -984,7 +964,7 @@
     "basicDescription": "An old favorite",
     "longDescription": "Spaghetti is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available every day at The Stardrop Saloon for 240g and may randomly appear in Krobus' shop on Saturdays.  It can be obtained from Lewis via Mail after friendship has at least 3 hearts.",
     "heal": 75,
-    "stamina": 33,
+    "energy": 33,
     "recipe": [
       "wheatFlour",
       "tomato"
@@ -998,7 +978,7 @@
     "basicDescription": "It's popular for all the right reasons.",
     "longDescription": "Pizza is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also available for purchase daily at The Stardrop Saloon for 600g and may randomly appear in Krobus' shop on Saturdays. The recipe can be obtained at Stardrop Saloon for 600g or via The Queen of Sauce (TV) on Year 2, Spring day 7 ",
     "heal": 67,
-    "stamina": 150,
+    "energy": 150,
     "recipe": [
       "wheatFlour",
       "tomato",
@@ -1013,7 +993,7 @@
     "basicDescription": "It smells delicious.  This is sure to give you a boost.",
     "longDescription": "Coffee is an edible Artisan Good made by placing 5 Coffee Beans inside a Keg. It is also available at The Saloon for 300g. When consumed, it grants the player a unique speed boost for 1m 23s that stacks with speed boosts from other food items. The speed of the player’s horse is also increased. If consumed after midnight, Coffee does not give a speed boost until the player wakes up in the morning. Despite being considered an Artisan Good, the sale price of Coffee does not benefit from the Artisan Profession. Note that 5 beans of the same quality (normal, silver, or gold) must be used to make coffee; the keg will not accept beans that are not in one stack of 5.",
     "heal": 1,
-    "stamina": 3,
+    "energy": 3,
     "recipe": [
       "coffeeBean",
       "coffeeBean",
@@ -1037,14 +1017,6 @@
     "source": "The Stardrop Saloon or Queen of Sauce",
     "basicDescription": "Unlocks the ability to create Omelet.",
     "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Spring 28."
-  },
-  {
-    "name": "hashbrownsRecipe",
-    "type": "unlockable",
-    "value": 0,
-    "source": "The Stardrop Saloon or Queen of Sauce",
-    "basicDescription": "Unlocks the ability to create Hashbrowns.",
-    "longDescription": "Also obtainable via The Queen of Sauce on Year 2 of Spring 14."
   },
   {
     "name": "pancakesRecipe",
@@ -1094,7 +1066,7 @@
     "basicDescription": "A tasty relative of the onion.",
     "longDescription": "The Leek is found via foraging in the Spring, or grown from Spring Seeds. On Tuesdays, Evelyn may say that they can be found in the mountains, where they may be more common, but Leeks can be found above ground throughout Stardew Valley.",
     "heal": 18,
-    "stamina": 40
+    "energy": 40
   },
   {
     "name": "dandelion",
@@ -1104,7 +1076,7 @@
     "basicDescription": "Not the prettiest flower, but the leaves make a good salad.",
     "longDescription": "The Dandelion is found via foraging in the Spring, or grown from Spring Seeds. Up to ten can also be purchased from Pierre at the Flower Dance. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
     "heal": 18,
-    "stamina": 40
+    "energy": 40
   },
   {
     "name": "cheese",
@@ -1114,7 +1086,7 @@
     "basicDescription": "It's your basic cheese.",
     "longDescription": "Cheese is an Artisan Good made from the Cheese Press, taking 3.3 hours. Using Milk will produce normal quality Cheese, while Large Milk will produce gold quality Cheese. Cheese can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Cheese. Normal, silver, and gold quality Cheese can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
     "heal": 18,
-    "stamina": 40,
+    "energy": 40,
     "recipe": [
       "milk",
       "largeMilk"
@@ -1128,7 +1100,7 @@
     "basicDescription": "A jug of cow's milk.",
     "longDescription": "Milk is an animal product obtained from a Cow by using a Milk Pail. It can also be obtained from Sandy at random, who will comment that the player looks thirsty. When a cow has a sufficient friendship and mood level, it can produce a Large Milk, which is more valuable. Milk can be used to make the following Artisan Goods. Note that regular Milk always produces regular quality Cheese, while Large Milk always produces gold-quality Cheese. The quality of the Milk is not a factor.",
     "heal": 17,
-    "stamina": 38
+    "energy": 38
   },
   {
     "name": "largeMilk",
@@ -1138,7 +1110,7 @@
     "basicDescription": "A large jug of cow's milk.",
     "longDescription": "Large Milk is an animal product obtained from a Cow with sufficient friendship and mood. It can also randomly rotate into the Traveling Cart's stock for 570-1,000g. Large Milk can be used to make the following Artisan Goods. Note that regular Milk always produces regular quality Cheese, while Large Milk always produces gold-quality Cheese. The quality of the Milk is not a factor. Cheese may be aged in Casks to increase its quality.",
     "heal": 22,
-    "stamina": 50
+    "energy": 50
   },
   {
     "name": "tomato",
@@ -1148,12 +1120,129 @@
     "basicDescription": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses.",
     "longDescription": "The Tomato is a vegetable crop that grows from Tomato Seeds after 11 days. When harvested, each Tomato plant gives 1 Tomato every 4 days, with a small random chance for more Tomatoes.",
     "heal": 9,
-    "stamina": 20
+    "energy": 20
+  },
+  {
+    "name": "completeBreakfast",
+    "type": "food",
+    "value": 350,
+    "source": "Cooking",
+    "basicDescription": "You'll feel ready to take on the world!",
+    "longDescription": "Complete Breakfast is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained via the Queen of Sauce on Spring 21 of Year 2.",
+    "heal": 90,
+    "energy": 200,
+    "recipe": [
+        "friedEgg",
+        "milk",
+        "hashbrowns",
+        "pancakes"
+    ],
+  },
+    {
+    "name": "friedEgg",
+    "type": "food",
+    "value": 35,
+    "source": "Cooking",
+    "basicDescription": "Sunny-side up.",
+    "longDescription": "Fried Egg is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse.",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+        "egg"
+    ],
+    },
+    {
+    "name": "egg",
+    "type": "food",
+    "value": 50,
+    "source": "Cooking",
+    "basicDescription": "A regular white/brown chicken egg.",
+    "longDescription": "The Egg and the Brown Egg are animal products obtained from White, Brown, or Blue Chickens. Marnie may also gift you 12 eggs at the Feast of the Winter Star. Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop. Eggs can be used to make the following Artisan Goods. Note that regular eggs always produce regular quality Mayonnaise, while Large Eggs and Dinosaur Eggs always produce gold-quality Mayonnaise. The quality of the egg is not a factor.",
+    "energy": 25,
+    "heal": 1
+    },
+    {
+    "name": "hashbrowns",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "Crispy and golden-brown!",
+    "longDescription": "Hashbrowns are a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained during Year 2 on Spring 14. or at the Saloon for 250g.",
+    "energy": 90,
+    "heal": 40,
+    "recipe": [
+        "potato",
+        "oil"
+    ]
+  },
+  {
+    "name": "potato",
+    "type": "crops",
+    "value": 80,
+    "source": "Potato Seeds",
+    "basicDescription": "A widly cultivated tuber.",
+    "longDescription": "The Potato is a vegetable crop that grows in the Spring from Potato Seeds after 6 days.  When harvested, each Potato plant gives 1 potato, with a random chance to produce extra potatoes, partially based on Daily Luck.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "oil",
+    "type": "food",
+    "value": 80,
+    "source": "Oil Maker",
+    "basicDescription": "All purpose cooking oil.",
+    "longDescription": "Oil is an Artisan Good and common cooking ingredient made from the Oil Maker. It can also be obtained from Pierre's General Store for 200g. Oil is given no quality rating, so its sell price doesn't benefit from quality increases. In addition, despite being labeled an 'Artisan Good' in-game, its sell price does not benefit from the Artisan Profession. Its main benefit lies in its use as a cooking ingredient. However, oil made from base quality sunflowers, cultivated sunflower seeds, and all qualities of corn is profitable, though corn is more profitable in the keg or preserves jar. Using a Sunflower to process Oil will be the fastest way, taking only about 60 in-game minutes.",
+    "ingredients": [
+        "corn",
+        "sunflower",
+        "sunflowerSeeds"
+    ],
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "corn",
+    "type": "food",
+    "value": 50,
+    "source": "Corn Seeds",
+    "basicDescription": "One of the most popular grains. The sweet, fresh cobs are a summer favorite.",
+    "longDescription": "Corn is a vegetable crop that grows from Corn Seeds after 14 days. Can be grown in the Summer and Fall. If a Corn plant (of any growth stage) is in the ground on the 28th of Summer, it will continue growing on the 1st of Fall as though nothing had changed. Fertilizer in the ground underneath a Corn plant on Summer 28 will not disappear on Fall 1.",
+    "ingredients": [
+        "corn",
+        "sunflower",
+        "sunflowerSeeds"
+    ],
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "sunflower",
+    "type": "food",
+    "value": 80,
+    "source": "Sunflower Seeds",
+    "basicDescription": "A common misconception is that the flower turns so it's always facing the sun.",
+    "longDescription": "The Sunflower is a flower crop that grows from Sunflower Seeds after 8 days. Unlike other flowers, they don't affect the type of Honey produced by nearby Bee Houses. Harvesting a sunflower will drop 1 Sunflower, and 0-3 Sunflower Seeds. The total seed drop often numbers around 75% to 90% of the number of sunflowers harvested. Sunflowers may be planted in both Summer and Fall. There is no difference in their behavior in either season. If a Sunflower plant (of any growth stage) is in the ground on the 28th of Summer, it will continue growing on the 1st of Fall as though nothing had changed. Fertilizer in the ground underneath a Sunflower plant on Summer 28 will not disappear on Fall 1.",
+    "ingredients": [
+        "corn",
+        "sunflower",
+        "sunflowerSeeds"
+    ],
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "pancakes",
+    "type": "food",
+    "value": 80,
+    "source": "Cooking",
+    "basicDescription": "A double stack of fluffy, soft pancakes.",
+    "longDescription": "Pancakes are a cooked dish. They are prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained at the Stardrop Saloon for 500g or from the Queen of Sauce TV show on Year 1, Summer 14.",
+    "ingredients": [
+        "corn",
+        "sunflower",
+        "sunflowerSeeds"
+    ],
+    "energy": 25,
+    "heal": 11
   }
 ]
-
-
-
-
-
-

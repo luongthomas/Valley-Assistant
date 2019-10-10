@@ -26,7 +26,7 @@ struct PurchasableList: View {
             List {
                 SearchBar(text: $searchTerm)
                 ForEach(
-                    filterViaSeasonAndSearch(items: building.purchasable, seasonFilter: seasons[purchaseSeason])
+                    filterViaSeasonAndSearch(items: building.purchasable!, seasonFilter: seasons[purchaseSeason])
                 , id: \.self) { purchasable in
                     
                     PurchasableRow(purchasable: purchasable)

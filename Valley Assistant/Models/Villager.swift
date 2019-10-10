@@ -14,23 +14,23 @@ struct Villager: Codable, Hashable {
     var address: Location
     var loves: [ItemName]
     var likes: [ItemName]
-    var dislikes: [ItemName]
+    var neutral: [ItemName]
     
     enum CodingKeys: CodingKey {
-        case name, birthday, address, loves, likes, dislikes
+        case name, birthday, address, loves, likes, neutral
     }
     
-    init(name: VillagerName, birthday: Day, address: Location, loves: [ItemName], likes: [ItemName], dislikes: [ItemName]) {
+    init(name: VillagerName, birthday: Day, address: Location, loves: [ItemName], likes: [ItemName], neutral: [ItemName]) {
         self.name = name
         self.birthday = birthday
         self.address = address
         self.loves = loves
         self.likes = likes
-        self.dislikes = dislikes
+        self.neutral = neutral
     }
     
     static func == (lhs: Villager, rhs: Villager) -> Bool {
-        return lhs.name == rhs.name && lhs.birthday == rhs.birthday && lhs.address == rhs.address && lhs.loves == rhs.loves && lhs.likes == rhs.likes && lhs.dislikes == rhs.dislikes
+        return lhs.name == rhs.name && lhs.birthday == rhs.birthday && lhs.address == rhs.address && lhs.loves == rhs.loves && lhs.likes == rhs.likes && lhs.neutral == rhs.neutral
     }
     
     func hash(into hasher: inout Hasher) {
@@ -39,11 +39,16 @@ struct Villager: Codable, Hashable {
         hasher.combine(address)
         hasher.combine(loves)
         hasher.combine(likes)
-        hasher.combine(dislikes)
+        hasher.combine(neutral)
     }
 }
 
 enum VillagerName: String, Codable {
-    case penny, josh, jake, emily,
-    pierre, caroline, abigail, harvey, clint, morris, gus
+    case alex, elliott, harvey, sam, sebastian, shane
+    
+    case abigail, emily, leah, maru, penny, haley
+    
+    case caroline, clint, demetrius, dwarf, evelyn, george, gus, jas, jodi, kent, krobus, lewis, linus, marnie, pam, pierre, robin, sandy, vincent, willy, wizard
+    
+    case bouncer, gil, governor, grandpa, gunther, henchman, marlon, morris, mrQi
 }

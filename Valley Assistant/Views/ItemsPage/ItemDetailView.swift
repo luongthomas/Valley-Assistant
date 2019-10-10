@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ItemDetailView: View {
     var item: Item
-    let affinities = ["Loves", "Likes", "Dislikes"]
+    let affinities = ["Loves", "Likes", "Neutrals"]
     
     @State var selectedAffinity = 0
     
@@ -22,7 +22,7 @@ struct ItemDetailView: View {
             
             if item.type == .food {
                 Text("Health: \(item.heal!)")
-                Text("Stamina: \(item.stamina!)")
+                Text("Energy: \(item.energy!)")
             }
                 
             item.growthTimeDays.map({

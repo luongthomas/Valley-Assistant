@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct BuildingsView: View {
-    let categories: [BuildingType] = [.all, .shop, .shopWithSeasonalStock, .house, .communityCenter, .upgradables, .museum]
+    let categories: [BuildingType] = [.all, .shop, .shopWithSeasonalStock, .residence, .communityCenter, .upgradables, .museum]
     
     var body: some View {
         NavigationView {
