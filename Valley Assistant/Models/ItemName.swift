@@ -25,9 +25,10 @@ enum ItemName: String, Codable {
     
     case jojaCola, jColaLight, jojaWallpaper, minecarts, panning, bridge, greenhouse, bus
     
-    case beer, salad, bread, spaghetti, pizza, coffee, hashbrownsRecipe, omeletRecipe, pancakesRecipe, breadRecipe, tortillaRecipe, pizzaRecipe, makiRollRecipe
+    case salad, bread, spaghetti, pizza, coffee, hashbrownsRecipe, omeletRecipe, pancakesRecipe, breadRecipe, tortillaRecipe, pizzaRecipe, makiRollRecipe
     
     case leek, dandelion, cheese, tomato, milk, largeMilk
     
-    case goldenPumpkin, pearl, prismaticShard, rabbitsFoot, completeBreakfast, salmonDinner, friedEgg, pancakes, hashbrowns, potato, corn, sunflower
+    case goldenPumpkin, pearl, prismaticShard, rabbitsFoot, completeBreakfast, salmonDinner, friedEgg, pancakes, hashbrowns, potato, corn, sunflower, salmon, amaranth, kale
+    
 }

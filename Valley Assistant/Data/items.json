@@ -1094,7 +1094,7 @@
   },
   {
     "name": "milk",
-    "type": "food",
+    "type": "animalProducts",
     "value": 125,
     "source": "Cow",
     "basicDescription": "A jug of cow's milk.",
@@ -1104,7 +1104,7 @@
   },
   {
     "name": "largeMilk",
-    "type": "food",
+    "type": "animalProducts",
     "value": 190,
     "source": "Cow",
     "basicDescription": "A large jug of cow's milk.",
@@ -1114,7 +1114,7 @@
   },
   {
     "name": "tomato",
-    "type": "food",
+    "type": "crops",
     "value": 60,
     "source": "Tomato Seeds",
     "basicDescription": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses.",
@@ -1136,7 +1136,7 @@
         "milk",
         "hashbrowns",
         "pancakes"
-    ],
+    ]
   },
     {
     "name": "friedEgg",
@@ -1149,11 +1149,11 @@
     "heal": 22,
     "recipe": [
         "egg"
-    ],
+    ]
     },
     {
     "name": "egg",
-    "type": "food",
+    "type": "animalProducts",
     "value": 50,
     "source": "Cooking",
     "basicDescription": "A regular white/brown chicken egg.",
@@ -1244,5 +1244,94 @@
     ],
     "energy": 25,
     "heal": 11
+  },
+  {
+    "name": "salmonDinner",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking",
+    "basicDescription": "The lemon spritz makes it special.",
+    "longDescription": "Salmon Dinner is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Gus through the mail after obtaining three hearts of friendship with him.",
+    "ingredients": [
+        "salmon",
+        "amaranth",
+        "kale"
+    ],
+    "energy": 125,
+    "heal": 56
+  },
+  {
+    "name": "salmon",
+    "type": "fish",
+    "value": 75,
+    "source": "River from 6AM-7PM in the Fall for any weather.",
+    "basicDescription": "Swims upstream to lay its eggs.",
+    "longDescription": "The Salmon is a fish that can be found in the river during the Fall. It may also be purchased from the Traveling Cart for 225-1,000g or found in Garbage Cans during Fall.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "amaranth",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking",
+    "basicDescription": "The lemon spritz makes it special.",
+    "longDescription": "Salmon Dinner is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Gus through the mail after obtaining three hearts of friendship with him.",
+    "ingredients": [
+        "salmon",
+        "amaranth",
+        "kale"
+    ],
+    "energy": 125,
+    "heal": 56
+  },
+  {
+    "name": "kale",
+    "type": "crops",
+    "value": 110,
+    "source": "Kale Seeds",
+    "basicDescription": "The waxy leaves are great in soups and stir frys.",
+    "longDescription": "Kale is a vegetable crop that grows from Kale Seeds after 6 days. Kale is harvested using a Scythe.",
+    "energy": 50,
+    "heal": 22
   }
+  ,
+  {
+    "name": "goldenPumpkin",
+    "type": "all",
+    "value": 2500,
+    "source": "Spirit's Eve Festival in the Fall",
+    "basicDescription": "It's valuable but has no other purpose",
+    "longDescription": "he Golden Pumpkin is obtained during the Spirit's Eve Festival. It can be sold through the Shipping Bin for 2,500g or gifted as a Universally Loved gift (despite its description). To obtain the Golden Pumpkin, head north after arriving at the festival. Make your way through the maze until you reach a sign that contains a question mark. Proceed through the bushes to the left of the sign, then move north into a cave. Continue east and then south until you reach the treasure chest with the Golden Pumpkin. The Golden Pumpkin is a universally hated gift in v1.2, which is the current version for Xbox. For players using computers, Nintendo Switch, PlayStation 4 or mobile devices, the Golden Pumpkin is a universally loved gift."
+  }
+  ,
+  {
+    "name": "pearl",
+    "type": "all",
+    "value": 2500,
+    "source": "Night Market Festival in the Winter",
+    "basicDescription": "A rare treasure from the sea.",
+    "longDescription": "The Pearl is a special item that can be obtained only during the Night Market Festival. There is a 0.4% chance to catch it while fishing in the Fishing Submarine. Otherwise, it can be obtained inside the Mermaid Boat by clicking on the clam shells in the correct sequence. The correct sequence is listed in Secret Note #15. From left to right, 1-5-4-2-3. Only one Pearl may be obtained from the Mermaid Boat per player per save file. A Pearl cannot be replicated in a Crystalarium."
+  }
+  ,
+  {
+    "name": "prismaticShard",
+    "type": "minerals",
+    "value": 2000,
+    "source": "Geodes, various monsters at low drop rates.",
+    "basicDescription": "A very rare and powerful substance with unknown origins.",
+    "longDescription": "It is one of the rarest items in the game. It can be obtained from Omni Geodes (0.4%), Iridium Nodes (4%), Mystic Stones (25%), Gem Nodes and Fishing Treasure Chests. It is also a rare drop from Serpents (0.1%), Mummies (0.1%), Shadow Brutes (0.05%), and Shadow Shaman (0.05%). They have a small chance (0.05%) to be dropped by any monster after the player has reached the bottom of The Mines. Prismatic Shards cannot be duplicated in a Crystalarium. A Prismatic Shard can be used in The Desert to obtain the Galaxy Sword. A bug exists where multiple Prismatic Shards will be removed from the inventory if they are all in the same stack when obtaining the Galaxy Sword. The Dwarvish Headstone in the graveyard contains a riddle explaining how to obtain the Galaxy Sword. A Prismatic Shard can also be offered to the Dark Shrine of Selfishness at the Witch's Hut, in order to turn children into doves (getting rid of them permanently)."
+  }
+  ,
+  {
+    "name": "rabbitsFoot",
+    "type": "animalProducts",
+    "value": 565,
+    "source": "Rabbit, Serpent, Traveling Cart",
+    "basicDescription": "Some say it's lucky.",
+    "longDescription": "The Rabbit's Foot is an animal product obtained from a Rabbit with sufficient friendship, mood, and daily luck. It can also occasionally be purchased from the Traveling Cart for 1,695-2,825g, or dropped by Serpents in the Skull Cavern. Luck buffs do not influence the chances of getting a rabbit's foot. In the Skull Cavern, the Serpent has a very low (0.8%) Chance of dropping a Rabbit's Foot."
+  }
+  
+  
+  
 ]
