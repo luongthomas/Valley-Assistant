@@ -14,12 +14,13 @@ struct ScheduleData {
     
     init(villager: Villager) {
         self.villager = villager
-        let url = Bundle.main.url(forResource: "\(villager.name.rawValue)", withExtension: ".json")!
         do {
-            let json = try Data(contentsOf: url)
-            let scheduleData = try JSONDecoder().decode([String:[TimeLocation]].self, from: json)
-            
-            self.possibleSchedules = scheduleData
+            if let url = Bundle.main.url(forResource: "\(villager.name.rawValue)", withExtension: ".json") {
+                let json = try Data(contentsOf: url)
+                let scheduleData = try JSONDecoder().decode([String:[TimeLocation]].self, from: json)
+                
+                self.possibleSchedules = scheduleData
+            }
             
         } catch {
             print(error)
