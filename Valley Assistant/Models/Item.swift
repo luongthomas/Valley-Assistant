@@ -60,7 +60,7 @@ class Item: Codable, Hashable {
 
 
 enum ItemType: String, Codable {
-    case all, tools, food, minerals, fish, crops, weapons, crafting, building, furniture, unlockable, animalProducts
+    case all, tools, food, minerals, fish, crops, weapons, crafting, building, furniture, unlockable, animalProducts, artisanGoods, forageables
 }
 
 class Purchasable: Codable, Hashable {

@@ -9,12 +9,8 @@
 import Foundation
 
 enum ItemName: String, Codable {
-    case daffodil, axe, barn, bigBarn, basicFertilizer, qualityFertilizer, basicRetainingSoil, qualityRetainingSoil, speedGro, deluxeSpeedGro, wallpaper, flooring, cherrySapling, apricotSapling, orangeSapling, peachSapling, pomegranateSapling, appleSapling, catalogue, bouquet, largePack, deluxePack, sap, anyFish, stone, clay, pineTar, oakResin, coral
-    
-    
-    // Seeds
-    case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter
-    
+    case daffodil, axe, barn, bigBarn, basicFertilizer, qualityFertilizer, basicRetainingSoil, qualityRetainingSoil, speedGro, deluxeSpeedGro, wallpaper, flooring, cherrySapling, apricotSapling, orangeSapling, peachSapling, pomegranateSapling, appleSapling, catalogue, bouquet, largePack, deluxePack, anyFish, stone, clay, pineTar, oakResin
+
     case energyTonic, muscleRemedy
     
     case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar
@@ -27,6 +23,12 @@ enum ItemName: String, Codable {
     
     case goldenPumpkin, pearl, rabbitsFoot
 
+    case pickles, jelly
+    
+    // Seeds
+    case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed
+    
+    
     
     // Recipes
     case friedEgg, omelet, salad, bakedFish, parsnipSoup, vegetableMedley, completeBreakfast, friedCalamari, strangeBun, luckyLunch, friedMushroom, pizza, beanHotpot, glazedYams, carpSurprise, hashbrowns, pancakes, salmonDinner, fishTaco, crispyBass, pepperPoppers, breat, tomKhaSoup, troupSOup, chocolateCake, pinkCake, rhubarbPie, cookie, spaghetti, friedEel, spicyEel, sashimi, makiRoll, tortilla, redPlate, eggParmesan, ricePudding, iceCream, blueberryTart, autumnsBounty, pumpkinSoup, superMeal, cranberrySauce, stuffing, farmersLunch, survivalBurger, dishOTheSea, minersTreat, rootsPlatter, algaeSoup, paleBroth, plumPudding, artichokeDip, stirFry, roastedHazelnuts, pumpkinPie, radishSalad, fruitSalad, blackberryCobbler, cranberryCandy, bruschetta, coleslaw, fiddleheadRisotto, poppyseedMuffin, chowder, lobsterBisque, escargot, fishStew, mapleBar, crabCakes, fieldSnack, lifeElixir, oilOfGarlic
@@ -35,8 +37,8 @@ enum ItemName: String, Codable {
     case parsnip, kale, potato, blueJazz, greenBean, cauliflower, rhubarb, garlic, hotPepper, radish, poppy, tomato, melon, blueberry, corn, redCabage, bokChoy, eggplant, amaranth, cranberries, yam, pumpkin, beet, artichoke
     
     // Foraged Goods
-    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot
-    
+    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, nautilusShell, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, grape, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonBerry, cactusFruit
+
     // Tree Products
     case apple, apricot, mapleSyrup
     
@@ -66,6 +68,6 @@ enum ItemName: String, Codable {
     
     // Forged Minerals
     case earthCrystal, fireQuartz, frozenTear, quartz
-    
+
     
 }

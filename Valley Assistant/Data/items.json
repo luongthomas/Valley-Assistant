@@ -24,20 +24,6 @@
     "longDescription": ""
   },
   {
-    "name": "omelette",
-    "type": "food",
-    "value": 250,
-    "source": "Cooking",
-    "basicDescription": "Eggs that have been cooked together with other various ingredients. ",
-    "longDescription": "",
-    "recipe": [
-        "egg",
-        "milk"
-    ],
-    "heal": 50,
-    "energy": 25
-  },
-  {
     "name": "emerald",
     "type": "minerals",
     "value": 1000,
@@ -51,22 +37,6 @@
     "value": 1200,
     "source": "Mines",
     "basicDescription": "Beautiful light blue rock ",
-    "longDescription": ""
-  },
-  {
-    "name": "daffodil",
-    "type": "crops",
-    "value": 25,
-    "source": "Fields",
-    "basicDescription": "Pretty flower",
-    "longDescription": ""
-  },
-  {
-    "name": "poppy",
-    "type": "crops",
-    "value": 30,
-    "source": "Fields",
-    "basicDescription": "Nice flower ",
     "longDescription": ""
   },
   {
@@ -148,7 +118,7 @@
   },
   {
     "name": "oil",
-    "type": "food",
+    "type": "artisanGoods",
     "value": 100,
     "source": "General Store, Joja Mart",
     "basicDescription": "All purpose cooking oil.",
@@ -389,6 +359,18 @@
     "seasonToGrow": ["spring"]
   },
   {
+    "name": "cactusSeeds",
+    "type": "crops",
+    "value": 0,
+    "source": "Oasis in the Desert",
+    "basicDescription": "Can only be grown indoors. Takes 12 days to mature, and then produces fruit every 3 days.",
+    "longDescription": "ACactus Seeds are a type of seed. Mature plants yield Cactus Fruit. They can be purchased only from Sandy at the Oasis for Gold.png150g. Cactus Seeds can be planted outdoors, but will be either missing or dead the next day. Cactus plants may only be grown in the Greenhouse or inside another building using a Garden Pot. Cactus Fruit harvested from Cactus Seeds will never be iridium quality. Iridium quality Cactus Fruit is obtainable only by Foraging in The Desert after choosing the Botanist Profession. Harvesting Cactus plants gives Farming experience points.",
+    "growthTimeDays": 12,
+    "seasonToGrow": [
+      "all"
+    ]
+  },
+  {
     "name": "tulipBulb",
     "type": "crops",
     "value": 10,
@@ -599,16 +581,6 @@
     "basicDescription": "Plant these in the fall. Takes 10 days to mature.",
     "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
     "growthTimeDays": 10,
-    "seasonToGrow": ["fall"]
-  },
-  {
-    "name": "bokChoySeeds",
-    "type": "crops",
-    "value": 25,
-    "source": "General Store, Traveling Cart",
-    "basicDescription": "Plant these in the fall. Takes 4 days to mature.",
-    "longDescription": "A type of seed which grows and produces Bok Choy when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 50g.",
-    "growthTimeDays": 4,
     "seasonToGrow": ["fall"]
   },
   {
@@ -916,19 +888,6 @@
     "longDescription": "Repairs the bus that runs to Calico Desert."
   },
   {
-    "name": "beer",
-    "type": "food",
-    "value": 200,
-    "source": "Artisan Goods, The Saloon",
-    "basicDescription": "Drink in Moderation",
-    "longDescription": "Beer is an Artisan Good made from the Keg using Wheat, taking 1-2 days. It is also available at The Saloon for 400g. It can also be received as a gift at the Feast of the Winter Star. When consumed, Beer causes a Tipsy Buff that decreases Speed by 1. Beer can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Beer.",
-    "heal": 22,
-    "energy": 50,
-    "recipe": [
-      "wheat"
-    ]
-  },
-  {
     "name": "salad",
     "type": "food",
     "value": 110,
@@ -987,9 +946,9 @@
   },
   {
     "name": "coffee",
-    "type": "food",
+    "type": "artisanGoods",
     "value": 150,
-    "source": "Artisan Goods, Night Market for free, The Saloon",
+    "source": "Keg, Night Market for free, The Saloon",
     "basicDescription": "It smells delicious.  This is sure to give you a boost.",
     "longDescription": "Coffee is an edible Artisan Good made by placing 5 Coffee Beans inside a Keg. It is also available at The Saloon for 300g. When consumed, it grants the player a unique speed boost for 1m 23s that stacks with speed boosts from other food items. The speed of the player’s horse is also increased. If consumed after midnight, Coffee does not give a speed boost until the player wakes up in the morning. Despite being considered an Artisan Good, the sale price of Coffee does not benefit from the Artisan Profession. Note that 5 beans of the same quality (normal, silver, or gold) must be used to make coffee; the keg will not accept beans that are not in one stack of 5.",
     "heal": 1,
@@ -1059,26 +1018,6 @@
     "longDescription": "Also obtainable via The Queen of Sauce on Year 1 of Summer 21."
   },
   {
-    "name": "leek",
-    "type": "food",
-    "value": 60,
-    "source": "Foraging, Spring Seeds",
-    "basicDescription": "A tasty relative of the onion.",
-    "longDescription": "The Leek is found via foraging in the Spring, or grown from Spring Seeds. On Tuesdays, Evelyn may say that they can be found in the mountains, where they may be more common, but Leeks can be found above ground throughout Stardew Valley.",
-    "heal": 18,
-    "energy": 40
-  },
-  {
-    "name": "dandelion",
-    "type": "food",
-    "value": 40,
-    "source": "Foraging, Spring Seeds, Flower Dance",
-    "basicDescription": "Not the prettiest flower, but the leaves make a good salad.",
-    "longDescription": "The Dandelion is found via foraging in the Spring, or grown from Spring Seeds. Up to ten can also be purchased from Pierre at the Flower Dance. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
-    "heal": 18,
-    "energy": 40
-  },
-  {
     "name": "cheese",
     "type": "food",
     "value": 200,
@@ -1111,16 +1050,6 @@
     "longDescription": "Large Milk is an animal product obtained from a Cow with sufficient friendship and mood. It can also randomly rotate into the Traveling Cart's stock for 570-1,000g. Large Milk can be used to make the following Artisan Goods. Note that regular Milk always produces regular quality Cheese, while Large Milk always produces gold-quality Cheese. The quality of the Milk is not a factor. Cheese may be aged in Casks to increase its quality.",
     "heal": 22,
     "energy": 50
-  },
-  {
-    "name": "tomato",
-    "type": "crops",
-    "value": 60,
-    "source": "Tomato Seeds",
-    "basicDescription": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses.",
-    "longDescription": "The Tomato is a vegetable crop that grows from Tomato Seeds after 11 days. When harvested, each Tomato plant gives 1 Tomato every 4 days, with a small random chance for more Tomatoes.",
-    "heal": 9,
-    "energy": 20
   },
   {
     "name": "completeBreakfast",
@@ -1176,16 +1105,6 @@
     ]
   },
   {
-    "name": "potato",
-    "type": "crops",
-    "value": 80,
-    "source": "Potato Seeds",
-    "basicDescription": "A widly cultivated tuber.",
-    "longDescription": "The Potato is a vegetable crop that grows in the Spring from Potato Seeds after 6 days.  When harvested, each Potato plant gives 1 potato, with a random chance to produce extra potatoes, partially based on Daily Luck.",
-    "energy": 25,
-    "heal": 11
-  },
-  {
     "name": "oil",
     "type": "food",
     "value": 80,
@@ -1208,7 +1127,6 @@
     "basicDescription": "One of the most popular grains. The sweet, fresh cobs are a summer favorite.",
     "longDescription": "Corn is a vegetable crop that grows from Corn Seeds after 14 days. Can be grown in the Summer and Fall. If a Corn plant (of any growth stage) is in the ground on the 28th of Summer, it will continue growing on the 1st of Fall as though nothing had changed. Fertilizer in the ground underneath a Corn plant on Summer 28 will not disappear on Fall 1.",
     "ingredients": [
-        "corn",
         "sunflower",
         "sunflowerSeeds"
     ],
@@ -1261,42 +1179,6 @@
     "heal": 56
   },
   {
-    "name": "salmon",
-    "type": "fish",
-    "value": 75,
-    "source": "River from 6AM-7PM in the Fall for any weather.",
-    "basicDescription": "Swims upstream to lay its eggs.",
-    "longDescription": "The Salmon is a fish that can be found in the river during the Fall. It may also be purchased from the Traveling Cart for 225-1,000g or found in Garbage Cans during Fall.",
-    "energy": 38,
-    "heal": 17
-  },
-  {
-    "name": "amaranth",
-    "type": "food",
-    "value": 300,
-    "source": "Cooking",
-    "basicDescription": "The lemon spritz makes it special.",
-    "longDescription": "Salmon Dinner is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Gus through the mail after obtaining three hearts of friendship with him.",
-    "ingredients": [
-        "salmon",
-        "amaranth",
-        "kale"
-    ],
-    "energy": 125,
-    "heal": 56
-  },
-  {
-    "name": "kale",
-    "type": "crops",
-    "value": 110,
-    "source": "Kale Seeds",
-    "basicDescription": "The waxy leaves are great in soups and stir frys.",
-    "longDescription": "Kale is a vegetable crop that grows from Kale Seeds after 6 days. Kale is harvested using a Scythe.",
-    "energy": 50,
-    "heal": 22
-  }
-  ,
-  {
     "name": "goldenPumpkin",
     "type": "all",
     "value": 2500,
@@ -1330,8 +1212,2488 @@
     "source": "Rabbit, Serpent, Traveling Cart",
     "basicDescription": "Some say it's lucky.",
     "longDescription": "The Rabbit's Foot is an animal product obtained from a Rabbit with sufficient friendship, mood, and daily luck. It can also occasionally be purchased from the Traveling Cart for 1,695-2,825g, or dropped by Serpents in the Skull Cavern. Luck buffs do not influence the chances of getting a rabbit's foot. In the Skull Cavern, the Serpent has a very low (0.8%) Chance of dropping a Rabbit's Foot."
+  },
+  {
+    "name": "honey",
+    "type": "artisanGoods",
+    "value": 100,
+    "source": "Bee House or Oasis",
+    "basicDescription": "It's a sweet syrup produced by bees",
+    "longDescription": "Honey is an Artisan Good made from the Bee House, using a variety of flowers. It does this every 4 days in every season other than Winter. It may be purchased from the Oasis on Fridays for Gold.png200g. Only flowers which are fully grown will have an effect on the type of honey produced. Flowers are not used up when a hive produces honey, and multiple hives can make honey from the same flower, so one flower can service a very large number of hives. If a Bee House has produced flower honey, but the flower is harvested before the honey, the honey will become 'Wild Honey.' Similarly, if a Bee House is removed with a tool while it has flower honey ready for harvesting, the honey will go into inventory as 'Honey', which is functionally identical to Wild Honey. Honey purchased from the Oasis or Traveling Cart is called 'Honey', and is also functionally identical to Wild Honey. Honey can be made into mead by placing it inside a keg."
+  },
+  {
+    "name": "wine",
+    "type": "artisanGoods",
+    "value": 400,
+    "source": "Keg",
+    "basicDescription": "Drink in moderation.",
+    "longDescription": "Wine is an Artisan Good made from the Keg, taking 7 days. It can also be received as a gift at the Feast of the Winter Star. The sell price of Wine depends on the fruit used (3 × Base Fruit Value). When consumed, wine causes a Tipsy buff that decreases Speed by 1. The healing effect of Wine is the same no matter what fruit is used to make it. Note: It is possible to acquire Wine that has no base fruit (from the Traveling Cart or a Statue Of Endless Fortune, or as a gift at the Feast of the Winter Star). This item is simply titled 'Wine', and has a selling price of Gold.png400g (or Gold.png560g with the Artisan Profession). Wine can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Wine. Wine takes the longest to age of any item in Casks. It takes 2 seasons of aging to go from basic wine to iridium quality wine. Normal, silver, and gold quality Wine can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe."
+  },
+  {
+    "name": "paleAle",
+    "type": "artisanGoods",
+    "value": 300,
+    "source": "Keg",
+    "basicDescription": "Drink in moderation.",
+    "longDescription": "Pale Ale is an Artisan Good made from the Keg using Hops, taking 1-2 days. It has the second highest profit per day of any crop used in the Keg (after Starfruit, 12 × base Hops value) and takes less time compared to other crops (tied with Wheat). When consumed, Pale Ale causes a Tipsy buff that decreases Speed by 1. Pale Ale can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Pale Ale. Normal, silver, and gold quality Pale Ale can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+        "hops"
+    ]
+  },
+  {
+    "name": "beer",
+    "type": "food",
+    "value": 200,
+    "source": "Keg, The Saloon",
+    "basicDescription": "Drink in Moderation",
+    "longDescription": "Beer is an Artisan Good made from the Keg using Wheat, taking 1-2 days. It is also available at The Saloon for 400g. It can also be received as a gift at the Feast of the Winter Star. When consumed, Beer causes a Tipsy Buff that decreases Speed by 1. Beer can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Beer.",
+    "heal": 22,
+    "energy": 50,
+    "recipe": [
+      "wheat"
+    ]
+  },
+  {
+    "name": "mead",
+    "type": "artisanGoods",
+    "value": 200,
+    "source": "Keg",
+    "basicDescription": "A fermented beverage made from honey. Drink in moderation.",
+    "longDescription": "Mead is an Artisan Good made from placing Honey inside a Keg, taking 10 hours. Unlike Wine and Juice however, the value of the Mead is not affected by the type of honey used. The sell price of Mead is Gold.png200g, and only aging or the Artisan Profession can increase it. Several types of Flower Honey sell for more than Mead, so the player can actually lose money by making Mead. When consumed, Mead causes a Tipsy buff that decreases Speed by 1. Mead can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Mead. Normal, silver, and gold quality Mead can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "heal": 33,
+    "energy": 75,
+    "recipe": [
+      "honey"
+    ]
+  },
+  {
+    "name": "cheese",
+    "type": "artisanGoods",
+    "value": 200,
+    "source": "Cheese Press",
+    "basicDescription": "It's your basic cheese.",
+    "longDescription": "Cheese is an Artisan Good made from the Cheese Press, taking 3.3 hours. Using Milk will produce normal quality Cheese, while Large Milk will produce gold quality Cheese. Cheese can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Cheese. Normal, silver, and gold quality Cheese can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+        "milk",
+        "largeMilk"
+    ]
+  },
+  {
+    "name": "goatCheese",
+    "type": "artisanGoods",
+    "value": 375,
+    "source": "Cheese Press",
+    "basicDescription": "Drink in moderation.",
+    "longDescription": "Goat Cheese is an Artisan Good made by placing Goat Milk in a Cheese Press (takes 3.3 hours). Goat Cheese can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Goat Cheese. Normal, silver, and gold quality Goat Cheese can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "energy": 125,
+    "heal": 56
+  },
+  {
+    "name": "juice",
+    "type": "artisanGoods",
+    "value": 1,
+    "source": "Keg",
+    "basicDescription": "A sweet, nutritious beverage",
+    "longDescription": "Juice is an Artisan Good made from the Keg, taking approximately 4 days. Ignore the selling price on this page.  The selling price depends on the base value of the vegetable input multiplied by 2.25. The healing effect of Juice is the same no matter what vegetable is used to make it. Although Wheat and Hops are classified as vegetables, when used with a Keg, wheat produces Beer and hops produce Pale Ale. ",
+    "energy": "75",
+    "heal": "33"
+  },
+  {
+    "name": "cloth",
+    "type": "artisanGoods",
+    "value": 470,
+    "source": "Loom",
+    "basicDescription": "A bolt of fine wool cloth",
+    "longDescription": "Cloth is an Artisan Good made from the Loom using Wool, taking 4 hours. It can also be made from recycling a Soggy Newspaper using the Recycling Machine, and is an occasional drop from Mummies (5% chance) when slain. Emily may occasionally send you a Cloth in the mail.",
+    "recipe": [
+      "wool"
+    ]
+  },
+  {
+    "name": "wool",
+    "type": "animalProducts",
+    "value": 340,
+    "source": "Rabbit, Sheep",
+    "basicDescription": "Soft, fluffy wool",
+    "longDescription": "Wool is an animal product obtained from a Rabbit or Sheep. Emily may also send you one Wool in the mail as a gift. Wool sells for a base price of Gold.png340g."
+  },
+  {
+    "name": "mayonnaise",
+    "type": "artisanGoods",
+    "value": 190,
+    "source": "Mayonnaise Machine",
+    "basicDescription": "It looks spreadable",
+    "longDescription": "Mayonnaise is an Artisan Good made from the Mayonnaise Machine, taking 3 hours. Large White/Brown or Dinosaur eggs will produce Gold quality mayonnaise. Normal sized White and Brown eggs will produce regular quality Mayonnaise. The quality of the egg is not a factor in determining the quality of the mayonnaise.",
+    "recipe": [
+      "egg",
+      "largeEgg",
+      "dinosaurEgg"
+    ]
+  },
+  {
+    "name": "duckMayonnaise",
+    "type": "artisanGoods",
+    "value": 375,
+    "source": "Mayonnaise Machine",
+    "basicDescription": "It's a rich, yellow mayonnaise",
+    "longDescription": "Duck Mayonnaise is an Artisan Good made by placing a Duck Egg into a Mayonnaise Machine, taking 3 hours.",
+    "recipe": [
+      "duckEgg"
+    ]
+  },
+  {
+    "name": "voidMayonnaise",
+    "type": "artisanGoods",
+    "value": 275,
+    "source": "Mayonnaise Machine",
+    "basicDescription": "A thick, black paste that smells like burnt hair.",
+    "longDescription": "Void Mayonnaise is an Artisan Good made by placing a Void Egg inside the Mayonnaise Machine. It may be also be fished from the Witch's Swamp (25% chance if the player does not have one in inventory). Players may only fish a Void Mayonnaise from the Witch's Swamp while the Henchman is guarding the Witch's Hut. Gifting a Void Mayonnaise to the Henchman outside the Witch's Hut will allow players to pass during the quest Goblin Problem.",
+    "recipe": [
+      "voidEgg"
+    ]
+  },
+  {
+    "name": "truffleOil",
+    "type": "artisanGoods",
+    "value": 1065,
+    "source": "Oil Maker",
+    "basicDescription": "A gourmet cooking ingredient",
+    "longDescription": "Truffle Oil is an Artisan Good made in the Oil Maker from a Truffle. It takes 5 to 6 hours to produce. Despite being listed as 'A gourmet cooking ingredient' there are no cooking recipes that use it, but it is used to make the Rain Totem.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "truffle"
+    ]
+  },
+  {
+    "name": "truffle",
+    "type": "animalProducts",
+    "value": 625,
+    "source": "Pigs",
+    "basicDescription": "A gourmet type of mushroom with a unique taste",
+    "longDescription": "he Truffle is a type of mushroom that can only be spawned by a Pig on The Farm when the pig is outside the Barn. Since pigs do not go out of the barn in winter, they spawn no truffles in that season. Truffles sell for a base price of Gold.png625g. Despite being spawned by pigs, truffles are not considered to be animal produce, like eggs or milk. They do not receive a price increase from the Rancher profession. And despite being mushrooms, they technically are also not considered to be foraged items. They are not among the items included in the foraging category at the Stardew Valley Fair, nor are they labeled as 'Forage' in inventory. They do, however, benefit from the Gatherer and Botanist professions. Truffles not gathered on the 28th day of a season disappear on the following morning, the 1st day of the new season. On rare occasions, a Truffle can be purchased from the Traveling Cart for 1,875-3,125g.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "pickles",
+    "type": "artisanGoods",
+    "value": 1,
+    "source": "Preserves Jar with any vegetable",
+    "basicDescription": "A jar of your home-made pickles",
+    "longDescription": "Jellies and pickles can be produced by inserting either a fruit or a vegetable in a preserves jar, respectively. The value of a single jar of jelly or pickles is equal to (2 * Base Crop Value + 50). Jelly and pickles are unaffected by the quality of the fruit or vegetable used. A preserves jar requires 4000 minutes to produce pickles or jelly. This will take 2-3 days, depending on sleep habits."
+  },
+  {
+    "name": "jelly",
+    "type": "artisanGoods",
+    "value": 1,
+    "source": "Preserves Jar with any fruit",
+    "basicDescription": "Gooey",
+    "longDescription": "Jellies and pickles can be produced by inserting either a fruit or a vegetable in a preserves jar, respectively. The value of a single jar of jelly or pickles is equal to (2 * Base Crop Value + 50). Jelly and pickles are unaffected by the quality of the fruit or vegetable used. A preserves jar requires 4000 minutes to produce pickles or jelly. This will take 2-3 days, depending on sleep habits."
+  },
+  {
+    "name": "cheeseCauliflower",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking.",
+    "basicDescription": "It smells great!",
+    "longDescription": "Cheese Cauliflower is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is shortened to 'Cheese Cauli.' in the stove menu in-game. The recipe can be obtained from Pam thru the mail after 3 hearts of friendship has been earned.",
+    "energy": 138,
+    "heal": 62,
+    "recipe": [
+      "cauliflower",
+      "cheese"
+    ]
+  },
+  {
+    "name": "cauliflower",
+    "type": "crops",
+    "value": 75,
+    "source": "Cauliflower Seeds",
+    "basicDescription": "Valuable, but slow-growing.  Despite its pale color, the florets are packed with nutrients.",
+    "longDescription": "Cauliflower is a vegetable crop that grows from Cauliflower Seeds after 12 days. Cauliflower is one of only three crops that can grow into a giant crop.",
+    "energy": 75,
+    "heal": 33
+  },
+  {
+    "name": "bakedFish",
+    "type": "food",
+    "value": 100,
+    "source": "Cooking",
+    "basicDescription": "Baked fish on a bed of herbs",
+    "longDescription": "Baked Fish is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse.  The recipe can be obtained through The Queen of Sauce on TV during Year 1 Summer 7.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "sunfish",
+      "bream",
+      "wheatFlour"
+    ]
+  },
+  {
+    "name": "sunfish",
+    "type": "food",
+    "value": 30,
+    "source": "River in Spring/Summer from 6am to 7pm during sunny and windy weather.",
+    "basicDescription": "A common river fish.",
+    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for Gold.png100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "pufferfish",
+    "type": "fish",
+    "value": 200,
+    "source": "Ocean",
+    "basicDescription": "Inflates when threatened",
+    "longDescription": "The Pufferfish is a fish that can be caught at the beach, on sunny summer days between 12pm and 4pm. It can also be purchased from the Traveling Cart for Gold.png600-1,000g.",
+    "energy": -100
+  },
+  {
+    "name": "anchovy",
+    "type": "fish",
+    "value": 30,
+    "source": "Ocean",
+    "basicDescription": "A small silver fish found in the ocean.",
+    "longDescription": "he Anchovy is a fish that can be found in the ocean during the Spring and Fall. At higher Fishing skill, it may be easier to catch by casting less than the max distance.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "tuna",
+    "type": "fish",
+    "value": 100,
+    "source": "Ocean",
+    "basicDescription": "A large fish that lives in the ocean",
+    "longDescription": "The Tuna is a fish that can be found in the ocean during the Summer and Winter. Though not common, it can also be found in trash cans.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "sardine",
+    "type": "fish",
+    "value": 40,
+    "source": "Ocean",
+    "basicDescription": "A common ocean fish.",
+    "longDescription": "The Tuna is a fish that can be found in the ocean during the Summer and Winter. Though not common, it can also be found in trash cans.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "bream",
+    "type": "fish",
+    "value": 45,
+    "source": "River",
+    "basicDescription": "A fairly common river fish that becomes active at night.",
+    "longDescription": "The Bream is a fish that can be found in the river during all seasons, after 6PM.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "largemouthBass",
+    "type": "fish",
+    "value": 100,
+    "source": "Mountain Lake, ",
+    "basicDescription": "basicDescription",
+    "longDescription": "longDescription",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "smallmouthBass",
+    "type": "fish",
+    "value": 50,
+    "source": "River and Forest Pond",
+    "basicDescription": "A freshwater fish that is very sensitive to pollution",
+    "longDescription": "The Smallmouth Bass is a fish that can be found in the river and forest pond during the Spring and Fall.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "rainbowTrout",
+    "type": "fish",
+    "value": 65,
+    "source": "River and Mountain Lake",
+    "basicDescription": "A freshwater trout with colorful markings.",
+    "longDescription": "The Rainbow Trout is a fish that can be found in the river and mountain lake during the Summer.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "salmon",
+    "type": "fish",
+    "value": 75,
+    "source": "River from 6AM-7PM in the Fall for any weather.",
+    "basicDescription": "Swims upstream to lay its eggs.",
+    "longDescription": "The Salmon is a fish that can be found in the river during the Fall. It may also be purchased from the Traveling Cart for 225-1,000g or found in Garbage Cans during Fall.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "walleye",
+    "type": "fish",
+    "value": 105,
+    "source": "River, Mountain Lake, Forest Pond, Forest Farm Pond",
+    "basicDescription": "A freshwater fish caught at night",
+    "longDescription": "The Walleye is a fish that can be found in the river, lake, and forest pond during the Fall or Winter when it is raining. (A Rain Totem is required to make it rain in Winter.) It can also be found in Garbage Cans, during Fall and Winter, or it may randomly appear in the Traveling Cart's stock for Gold.png315-1,000g. If the player chooses the Forest Farm, walleye can also be caught in the farm pond.",
+    "energy": 30,
+    "heal": 13
+  },
+  {
+    "name": "perch",
+    "type": "fish",
+    "value": 55,
+    "source": "Mountain Lake, Forest River & Pond",
+    "basicDescription": "A freshwater fish of the winter.",
+    "longDescription": "The Perch is a fish that can be found in the Mountain Lake and river, and the Cindersap Forest river and pond during the Winter. It may also be purchased from the Traveling Cart for Gold.png165-1,000g, or found in Garbage Cans during Winter.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "carp",
+    "type": "fish",
+    "value": 30,
+    "source": "Mountain Lake, Forest Pond, Secret Woods, The Sewers, Mutant Bug Lair",
+    "basicDescription": "A common pond fish.",
+    "longDescription": "The Carp is a fish that can be caught during any season. The best place to try to find one may be from the west side of the mountain lake, near the mines (during Spring, Summer, or Fall). Carp can be found in the pond in Cindersap Forest during Spring, Summer, or Fall as well. It is also available during any season in the pond in the Secret Woods. in The Sewers, or the Mutant Bug Lair.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "catfish",
+    "type": "fish",
+    "value": 200,
+    "source": "Forest Pond, River, Secret Woods, Witch's Swamp",
+    "basicDescription": "An uncommon fish found in streams",
+    "longDescription": "The Catfish is a fish that can be found in the river (Town+Forest) and the pond in Cindersap Forest during the Spring and Fall during rainy weather. It can also be caught in Winter if a Rain Totem is used. In the Summer, it can be found in the Secret Woods or Witch's Swamp. It can also be found in Garbage Cans in Spring, Fall, or Winter. The Catfish can be caught on the Riverlands Farm or Hill-top Farm during rainy weather as well.",
+    "energy": 50,
+    "heal": 22
+  },
+  {
+    "name": "pike",
+    "type": "fish",
+    "value": 100,
+    "source": "River, Forest Pond",
+    "basicDescription": "A freshwater fish that's difficult to catch.",
+    "longDescription": "The Pike is a fish that can be found in the river (Town+Forest) and the pond in Cindersap Forest during the Summer and Winter.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "sunfish",
+    "type": "fish",
+    "value": 30,
+    "source": "River",
+    "basicDescription": "A common river fish.",
+    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for Gold.png100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "redMullet",
+    "type": "fish",
+    "value": 75,
+    "source": "Ocean",
+    "basicDescription": "Long ago these were kept as pets.",
+    "longDescription": "The Red Mullet is a fish that can be found in the ocean during the Summer and Winter.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "herring",
+    "type": "fish",
+    "value": 30,
+    "source": "Ocean",
+    "basicDescription": "A common ocean fish.",
+    "longDescription": "The Herring is a fish that can be found in the ocean during the Spring and Winter.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "eel",
+    "type": "fish",
+    "value": 85,
+    "source": "Ocean",
+    "basicDescription": "A long, slippery little fish",
+    "longDescription": "The Eel is a fish that can be found in the ocean during the Spring and Fall, when it's raining, from 4 PM to 2 AM. It can also rarely be found in Garbage Cans during Spring or Fall.",
+    "energy": 30,
+    "heal": 13
+  },
+  {
+    "name": "octopus",
+    "type": "fish",
+    "value": 150,
+    "source": "Ocean",
+    "basicDescription": "A mysterious and intelligent creature.",
+    "longDescription": "The Octopus is a fish that can be found during Summer in the ocean and (more rarely) in Garbage Cans. It can randomly rotate into daily stock at the Traveling Cart for Gold.png450-1,000g during any season. It can also be caught in the deep-sea submarine ride at the Night Market (≈2% chance). This is one of the most difficult fish to catch in the game, even compared to Legendary Fish. To make it even more demanding, the odds of an octopus biting are very rare, and the window of time available to catch it is comparatively small. The most sure-fire tactic is maxing out your fishing skill, equip the Iridium Rod, eat a Dish o' The Sea, Lobster Bisque, or Fish Stew, and attach a Trap Bobber to your fishing pole. Using a combination of a maxed out fishing skill and the Iridium Rod is often insufficient."
+  },
+  {
+    "name": "redSnapper",
+    "type": "fish",
+    "value": 50,
+    "source": "Ocean",
+    "basicDescription": "A popular fish with a nice red color",
+    "longDescription": "The Red Snapper is a fish that can be found in the ocean during the Summer and Fall during rainy weather. It can also be caught in the ocean during Winter if a Rain Totem is used.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "squid",
+    "type": "fish",
+    "value": 80,
+    "source": "Ocean",
+    "basicDescription": "A deep sea creature that can grow to enormous size",
+    "longDescription": "The Squid is a fish that can be found in the ocean in the evening during the Winter. It can also be found in trash cans.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "seaCucumber",
+    "type": "fish",
+    "value": 75,
+    "source": "Ocean",
+    "basicDescription": "A slippery, slimy creature found on the ocean floor.",
+    "longDescription": "The Sea Cucumber is a fish that can be found in the ocean or (rarely) in Garbage Cans during the Fall and Winter. It can also be purchased from the Traveling Cart for Gold.png225-1,000g. There is a 5% chance to catch a Sea Cucumber during the deep-sea submarine ride at the Night Market during Winter 15-17.",
+    "energy": -25
+  },
+  {
+    "name": "superCucumber",
+    "type": "fish",
+    "value": 250,
+    "source": "Ocean",
+    "basicDescription": "A rare, purple variety of sea cucumber.",
+    "longDescription": "The Super Cucumber is a fish that can be found in the evening from 6pm to 2am, in the ocean during the Summer and Fall or (rarely) in a Garbage Can during the same seasons. It can also be caught during the deep-sea submarine ride at the Night Market (≈4% chance).",
+    "energy": 125,
+    "heal": 56
+  },
+  {
+    "name": "ghostfish",
+    "type": "fish",
+    "value": 45,
+    "source": "The Mines",
+    "basicDescription": "A pale, blind fish found in underground lakes.",
+    "longDescription": "The Ghostfish is a fish that can be found in The Mines on the 20th and 60th floor during all seasons. A Ghost may also drop a Ghostfish (8% chance) when slain.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "stonefish",
+    "type": "fish",
+    "value": 300,
+    "source": "The mines, level 20",
+    "basicDescription": "A bizarre fish that's shaped like a brick.",
+    "longDescription": "The Stonefish is a fish that can be found in The Mines on the 20th floor during all seasons. It requires Fishing level 3, either naturally or using Fishing Buffs. It is the only fish, besides the Ghostfish, that may be caught on the 20th floor of the Mines."
+  },
+  {
+    "name": "icePip",
+    "type": "fish",
+    "value": 500,
+    "source": "The Mines, Level 60",
+    "basicDescription": "A rare fish that thrives in extremely cold conditions",
+    "longDescription": "The Ice Pip is a fish that can be found in the Mines on the 60th floor during all seasons. It requires fishing level 5, either naturally or using fishing Buffs. It is the only fish, besides the Ghostfish, that may be caught on the 60th floor of the Mines.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "lavaEel",
+    "type": "fish",
+    "value": 700,
+    "source": "The Mines, Level 100",
+    "basicDescription": "It can somehow survive in pools of red-hot lava.",
+    "longDescription": "The Lava Eel is a fish that can be found in the Mines on the 100th floor during all seasons. It requires Fishing Level 7, either naturally or using Fishing Buffs. It is the only fish that may be caught on the 100th floor of the Mines and spawns rarely. Other than Legendary Fish, it is the second most difficult fish to catch and the fish with the highest sell price.",
+    "energy": 50,
+    "heal": 22
+  },
+  {
+    "name": "sandfish",
+    "type": "fish",
+    "value": 75,
+    "source": "The Desert",
+    "basicDescription": "It tries to hide using camouflage",
+    "longDescription": "The Sandfish is a fish that can be found in The Desert during all seasons. It may randomly roll into stock at the Traveling Cart for Gold.png225-1,000g. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "scorpionCarp",
+    "type": "fish",
+    "value": 150,
+    "source": "The Desert",
+    "basicDescription": "It's like a regular carp but with a sharp stinger.",
+    "longDescription": "The Scorpion Carp is a fish that can be found in The Desert during all seasons (6am-8pm)and can also randomly be purchased from the Traveling Cart for between Gold.png450-1,000g. It is the only other fish that can be caught in the Desert, besides the Sandfish. Since it is more valuable than the Sandfish, it is also more rare to get a bite from a Scorpion Carp, and the difficulty is significantly greater. Catching the Scorpion Carp requires Fishing level 4, either naturally or by using fishing Buffs. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
+    "energy": -125
+  },
+  {
+    "name": "sturgeon",
+    "type": "fish",
+    "value": 200,
+    "source": "Mountain Lake",
+    "basicDescription": "An ancient bottom-feeder with a dwindling population. Females can live up to 150 years.",
+    "longDescription": "The Sturgeon is a fish that can be found in the mountain lake during the Summer and Winter. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "tigerTrout",
+    "type": "fish",
+    "value": 150,
+    "source": "River",
+    "basicDescription": "A rare hybrid trout that cannot bear offspring of its own.",
+    "longDescription": "The Tiger Trout is a fish that can be found in the river (6am-7pm) in Pelican Town and the Cindersap Forest during the Fall and Winter. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "bullhead",
+    "type": "fish",
+    "value": 75,
+    "source": "Mountain Lake",
+    "basicDescription": "A relative of the catfish that eats a variety of foods off the lake bottom.",
+    "longDescription": "The Bullhead is a fish that can be found in the mountain lake during all seasons. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "tilapia",
+    "type": "fish",
+    "value": 75,
+    "source": "Ocean",
+    "basicDescription": "A primarily vegetarian fish that prefers warm water.",
+    "longDescription": "The Tilapia is a fish that can be found in the ocean during the Summer and Fall. It may also randomly appear in Krobus' shop on Wednesdays or at the Traveling Cart.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "chub",
+    "type": "fish",
+    "value": 50,
+    "source": "Mountain lake, River",
+    "basicDescription": "A common freshwater fish known for its voracious appetite.",
+    "longDescription": "The Chub is a fish that can be found in the mountain lake and river, as well as the Cindersap Forest river, during all seasons. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "dorado",
+    "type": "fish",
+    "value": 100,
+    "source": "Forest River",
+    "basicDescription": "A fierce carnivore with brilliant orange scales.",
+    "longDescription": "The Dorado is a fish that can be found in the forest river during the Summer from 6am to 7pm. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "albacore",
+    "type": "fish",
+    "value": 75,
+    "source": "Ocean",
+    "basicDescription": "Prefers temperature 'edges' where cool and warm water meet.",
+    "longDescription": "The Albacore is a fish that can be found in the ocean during the Fall and Winter in the early morning and at night. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "shad",
+    "type": "fish",
+    "value": 60,
+    "source": "River",
+    "basicDescription": "Lives in a school at sea, but returns to rivers to spawn.",
+    "longDescription": "The Shad is a fish that can be found in the river during the Spring, Summer, and Fall during rainy weather from 9am to 2am. It may also randomly appear in Krobus' shop on Wednesdays.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "lingcod",
+    "type": "fish",
+    "value": 120,
+    "source": "River, Mountain Lake",
+    "basicDescription": "A fearsome predator that will eat almost anything it can cram into its mouth.",
+    "longDescription": "The Lingcod is a fish that can be found in the river or Mountain Lake during the Winter. It may also randomly appear in Krobus' shop on Wednesdays or the Traveling Cart's stock for Gold.png360-1,000g.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "halibut",
+    "type": "fish",
+    "value": 80,
+    "source": "Ocean",
+    "basicDescription": "A flat fish that lives on the ocean floor",
+    "longDescription": "Halibut is a fish that can be found in the ocean during the Spring, Summer, and Winter. It may also randomly appear in Krobus' shop on Wednesdays. from 6am-11am and 7pm-2am.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "woodskip",
+    "type": "fish",
+    "value": 75,
+    "source": "Secret Woods, Forest Farm",
+    "basicDescription": "A very sensitive fish that can only live in pools deep in the forest.",
+    "longDescription": "The Woodskip is a fish that can be found in the Secret Woods in any season. It can also be found on The Farm, provided the player chose the Forest Farm.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "voidSalmon",
+    "type": "fish",
+    "value": 150,
+    "source": "Witch's Swamp",
+    "basicDescription": "A salmon, twisted by void energy. The fresh meat is jet black, but rapidly turns pink when exposed to air.",
+    "longDescription": "The Void Salmon is a fish that can only be found in the Witch's Swamp through the cave beside the train platform. Players must complete the quest Dark Talisman before the passage to the Witch's Swamp will open. The fish can be caught there in any season during any weather at any time. Once the cave passage has been opened, the player can return there whenever they wish.",
+    "energy": 63,
+    "heal": 28
+  },
+  {
+    "name": "slimejack",
+    "type": "fish",
+    "value": 100,
+    "source": "Mutant Bug Lair thru the Sewers.",
+    "basicDescription": "He's coated in a very thick layer of slime. He keeps slipping out of your hands!",
+    "longDescription": "The Slimejack is a fish that can be found only in the Mutant Bug Lair through The Sewers. Players must be on the quest Dark Talisman before the passage to the Mutant Bug Lair will open. The fish can be caught there in any season during any weather at any time. Once the passage has been opened the player can return there whenever they wish. It's challenging to fish for Slimejack, as the Mutant Flies inside the Mutant Bug Lair will continuously spawn and attack the player while fishing.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "midnightSquid",
+    "type": "fish",
+    "value": 100,
+    "source": "Submarine at Night Market",
+    "basicDescription": "A strange and mysterious denizen of the ocean's twilight depths.",
+    "longDescription": "The Midnight Squid is a fish that can be found only in the submarine ride at the Night Market, which takes place at The Beach during Winter 15-17. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the submarine.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "spookFish",
+    "type": "fish",
+    "value": 220,
+    "source": "Submarine at Night Market",
+    "basicDescription": "The huge eyes can detect the faint silhouettes of prey.",
+    "longDescription": "The Spook Fish is a fish that can be found only in the submarine ride at the Night Market, which takes place at The Beach during Winter 15-17. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the submarine.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "blobfish",
+    "type": "fish",
+    "value": 500,
+    "source": "Submarine at Night Market",
+    "basicDescription": "This odd creature floats above the ocean floor, consuming any edible material in its path.",
+    "longDescription": "The Blobfish is a fish that can be found only in the submarine ride at the Night Market, which takes place at The Beach during Winter 15-17. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the submarine.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "crimsonfish",
+    "type": "fish",
+    "value": 1500,
+    "source": "Ocean",
+    "basicDescription": "Lives deep in the ocean but likes to lay its eggs in the warm summer water.",
+    "longDescription": "The Crimsonfish is a fish that can be found in the ocean during Summer on the eastern pier of the beach (on the east side of the small bridge that requires 300 wood to repair). It requires Fishing level 5, either naturally or using Fishing Buffs. It is also known as one of the five Legendary Fish. You can only catch it once per save file.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "angler",
+    "type": "fish",
+    "value": 900,
+    "source": "Pelican Town",
+    "basicDescription": "Uses a bioluminescent dangler to attract prey.",
+    "longDescription": "The Angler is a fish that can be found north of Joja Mart on the wooden plank bridge during the Fall, with a fishing level of at least 3. Stand in the center of the wooden plank and cast north. (Casting south is also possible, if casting 3 or fewer tiles away from the bridge.) It is also known as one of the five Legendary Fish. You can only catch it once per save file.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "legend",
+    "type": "fish",
+    "value": 5000,
+    "source": "Mountain Lake",
+    "basicDescription": "The king of all fish! They said he'd never be caught.",
+    "longDescription": "The Legend is a fish that can be found during Spring in the mountain lake while raining. Deep water. High bite chance near the log. Requires level 10 fishing, either naturally or using a cooking buff. It is known as one of the five Legendary Fish. Unlike the other Legendary Fish which can be caught only once, you can catch as many Legend fish as you are able, within one save file. Of all the items in the game, it has the highest potential sell price per a single item.",
+    "energy": 500,
+    "heal": 225
+  },
+  {
+    "name": "glacierfish",
+    "type": "fish",
+    "value": 1000,
+    "source": "Cindersap Forest",
+    "basicDescription": "Builds a nest on the underside of claciers.",
+    "longDescription": "The Glacierfish is a fish that can be found in Cindersap Forest during the Winter. It requires fishing level 7, either naturally or by using fishing Buffs. It is also known as one of the five Legendary Fish. You can only catch it once per save file.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "mutantCarp",
+    "type": "fish",
+    "value": 1000,
+    "source": "The Sewers",
+    "basicDescription": "The strange waters of the sewer turned this carp into a monstrosity.",
+    "longDescription": "The Mutant Carp is a fish that can be found in the Sewers during all seasons. It is also known as one of the five Legendary Fish. You can only catch it once per save file. A strategy to catch this fish is to stay in the middle of the fishing minigame area until the fish begins resting somewhere else (such as the bottom or top), then stay there. The fish will move up and down continuously to shake you off and staying in the middle will allow for a slow but continuous catch.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "lobster",
+    "type": "fish",
+    "value": 120,
+    "source": "Ocean with a Crab Pot",
+    "basicDescription": "A large ocean-dwelling crustacean with a strong tail.",
+    "longDescription": "The Lobster is a fish that can be found in the ocean during any season using a Crab Pot."
+  },
+  {
+    "name": "clam",
+    "type": "fish",
+    "value": 50,
+    "source": "Crab Pots, Foraging at the Beach",
+    "basicDescription": "Someone lived here once.",
+    "longDescription": "The Clam is a fish that can be found in the ocean during any season using a Crab Pot. It can also be foraged from The Beach."
+  },
+  {
+    "name": "crayfish",
+    "type": "fish",
+    "value": 75,
+    "source": "Farm Ponds, River, Mountain Lake, Forest Pond, all using a Crab Pot",
+    "basicDescription": "A small freshwater relative of the lobster.",
+    "longDescription": "The Crayfish is a fish that can be found in freshwater during any season using a Crab Pot. It may also randomly appear in the Traveling Cart's stock for Gold.png225-1,000g."
+  },
+  {
+    "name": "crab",
+    "type": "fish",
+    "value": 100,
+    "source": "Ocean using a Crab Pot",
+    "basicDescription": "A marine crustacean with two powerful pincers.",
+    "longDescription": "The Crab is a fish that can be found in the ocean during any season using a Crab Pot. It can also be dropped by a Rock Crab (15% chance) or Lava Crab (25% chance) when slain."
+  },
+  {
+    "name": "cockle",
+    "type": "fish",
+    "value": 50,
+    "source": "Ocean, The Beach using a Crab Pot",
+    "basicDescription": "A common saltwater clam.",
+    "longDescription": "The Cockle is a fish that can be found in the ocean during any season using a crab pot. It can also be foraged from the Beach."
+  },
+  {
+    "name": "mussel",
+    "type": "fish",
+    "value": 30,
+    "source": "Ocean, The Beach, using a Crab Pot",
+    "basicDescription": "A common bivalve that often lives in clusters.",
+    "longDescription": "The Mussel is a fish that can be found in the ocean during any season using a Crab Pot. It can also be foraged from the Beach."
+  },
+  {
+    "name": "shrimp",
+    "type": "fish",
+    "value": 60,
+    "source": "Ocean using a Crab Pot",
+    "basicDescription": "A scavenger that feeds off the ocean floor. Widely prized for its meat.",
+    "longDescription": "The Shrimp is a fish that can be found in the ocean during any season using a Crab Pot."
+  },
+  {
+    "name": "snail",
+    "type": "fish",
+    "value": 65,
+    "source": "Farm Ponds, River, Mountain Lake, Forest Pond with a Crab Pot",
+    "basicDescription": "A wide-ranging mollusc that lives in a spiral shell.",
+    "longDescription": "The Snail is a fish that can be found in freshwater in any season by using a Crab Pot."
+  },
+  {
+    "name": "periwinkle",
+    "type": "fish",
+    "value": 20,
+    "source": "Farm Ponds, River, Lake, using a Crab Pot",
+    "basicDescription": "A tiny freshwater snail that lives in a blue shell.",
+    "longDescription": "The Periwinkle is a fish that can be found in freshwater during any season using a Crab Pot."
+  },
+  {
+    "name": "oyster",
+    "type": "fish",
+    "value": 40,
+    "source": "Ocean, The Beach, using a Crab Pot.",
+    "basicDescription": "Constantly filters water to find food. In the process, it removes dangerous toxins from the environment.",
+    "longDescription": "The Oyster is a fish that can be found in the ocean during any season using a crab pot. It can also be foraged from the Beach."
+  },
+  {
+    "name": "seaweed",
+    "type": "fish",
+    "value": 20,
+    "source": "Fishing in the Ocean",
+    "basicDescription": "It can be used in cooking.",
+    "longDescription": "Seaweed is an item that can be found in the ocean by fishing during all seasons. There is a 41% chance to catch Seaweed while fishing in the deep-sea submarine ride at the Night Market. Catching Seaweed gives 3 Fishing XP.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "greenAlgae",
+    "type": "fish",
+    "value": 15,
+    "source": "Fishing, Green Slimes.",
+    "basicDescription": "It's really slimy.",
+    "longDescription": "Green Algae is an item that can be found in all fishing spots during all seasons, with the exception of the Farm Pond of the Standard Farm. When caught while fishing, Green Algae gives 3 Fishing XP. It's also a rare drop from Green Slimes.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "whiteAlgae",
+    "type": "fish",
+    "value": 25,
+    "source": "Fishing, Monster Drops",
+    "basicDescription": "It's super slimy.",
+    "longDescription": "White Algae is an item which can be commonly caught while Fishing in The Mines, The Sewers, The Mutant Bug Lair,The Witch's Swamp or rarely in the Ocean. When caught while fishing, White Algae gives 3 Fishing XP. White Algae can also be dropped by several Monsters: Grubs, Mutant Grubs, Flies, Mutant Flies, Bugs, and Red and Purple Slimes.",
+    "energy": 20,
+    "heal": 9
+  },
+
+  {
+    "name": "amaranth",
+    "type": "crops",
+    "value": 150,
+    "source": "Amaranth Seeds in the Fall",
+    "basicDescription": "A purple grain cultivated by an ancient civilization",
+    "longDescription": "Amaranth is a vegetable crop that grows from Amaranth Seeds after 7 days. Amaranth is harvested using a Scythe.",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+      "amaranthSeeds"
+    ]
+  },
+  {
+    "name": "artichoke",
+    "type": "crops",
+    "value": 160,
+    "source": "Artichoke Seeds in the Fall",
+    "basicDescription": "The bud of a thistle plant. The spiny outer leaves conceal a fleshy, filling interior.",
+    "longDescription": "The Artichoke is a vegetable crop that grows from Artichoke Seeds after 8 days. The seeds are available from Pierre's General Store starting in Year 2.",
+    "energy": 30,
+    "heal": 13,
+    "recipe": [
+      "artichokeSeeds"
+    ]
+  },
+  {
+    "name": "beet",
+    "type": "crops",
+    "value": 100,
+    "source": "Beet Seeds in the Fall",
+    "basicDescription": "A sweet and earthy root vegatable. As a bonus, the leaves make a great salad",
+    "longDescription": "The Beet is a vegetable crop that grows from Beet Seeds after 6 days. Beet Seeds can be purchased from the Oasis. Players have the ability to craft Sugar from Beets by using a Mill. Once placed in the mill, one Beet will make three sugar. Sugar will appear in the box on the right side of the mill the following morning.",
+    "energy": 30,
+    "heal": 13,
+    "recipe": [
+      "beetSeeds"
+    ]
+  },
+  {
+    "name": "bokChoy",
+    "type": "crops",
+    "value": 80,
+    "source": "Bok Choy Seeds in the Fall",
+    "basicDescription": "The leafy greens and fibrous stalks are healthy and delicious",
+    "longDescription": "Bok Choy is a vegetable crop that grows from Bok Choy Seeds after 4 days.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "bokChoySeeds"
+    ]
+  },
+  {
+    "name": "cauliflower",
+    "type": "crops",
+    "value": 175,
+    "source": "Cauliflower Seeds in the Spring",
+    "basicDescription": "Valuable, but slow-growing. Despite its pale color, the florets are packed with nutrients.",
+    "longDescription": "Cauliflower is a vegetable crop that grows from Cauliflower Seeds after 12 days. Cauliflower is one of only three crops that can grow into a giant crop.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "cauliflowerSeeds"
+    ]
+  },
+  {
+    "name": "corn",
+    "type": "crops",
+    "value": 50,
+    "source": "Corn Seeds in the Summer and Fall",
+    "basicDescription": "One of the most popular grains. The sweet, fresh cobs are a summer favorite.",
+    "longDescription": "Corn is a vegetable crop that grows from Corn Seeds after 14 days.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "cornSeeds"
+    ]
+  },
+  {
+    "name": "eggplant",
+    "type": "crops",
+    "value": 60,
+    "source": "Eggplant Seeds in the Fall",
+    "basicDescription": "A rich and wholesome relative of the tomato. Delicious fried or stewed.",
+    "longDescription": "Eggplant is a vegetable crop that grows from Eggplant Seeds after 5 days.",
+    "energy": 20,
+    "heal": 9,
+    "recipe": [
+      "eggplantSeeds"
+    ]
+  },
+  {
+    "name": "fiddleheadFern",
+    "type": "crops",
+    "value": 90,
+    "source": "Foraging in the Secret Woods in the Summer",
+    "basicDescription": "The young shoots are an edible Specialty.",
+    "longDescription": "The Fiddlehead Fern is a foraged vegetable found in the Secret Woods during Summer. Despite being a foraged item, its sell price increases by the Tiller profession bonus amount (10%), even though that profession is associated with skill in farming.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "garlic",
+    "type": "crops",
+    "value": 60,
+    "source": "Garlic Seeds in the Spring",
+    "basicDescription": "Adds a wonderful zestiness to dishes. High quality garlic can be pretty spicy.",
+    "longDescription": "Garlic is a vegetable crop that grows from Garlic Seeds after 4 days. The seeds are available at Pierre's General Store starting in Year 2.",
+    "energy": 20,
+    "heal": 9,
+    "recipe": [
+      "garlicSeeds"
+    ]
+  },
+  {
+    "name": "greenBean",
+    "type": "crops",
+    "value": 40,
+    "source": "Bean Starter in the Spring",
+    "basicDescription": "A juicy little bean with a cool, crist snap.",
+    "longDescription": "The Green Bean is a vegetable crop that grows from Bean Starter after 10 days. This crop uses a trellis, and continues to produce after maturity. Be aware, you cannot move onto a tile with a trellis, but you must be adjacent to a planted tile in order to harvest the plant. You must plan the layout of your plantings in order to guarantee access for harvesting.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "beanStarter"
+    ]
+  },
+    {
+      "name": "hops",
+      "type": "crops",
+      "value": 300,
+      "source": "Hops starter in the Summer",
+      "basicDescription": "A bitter, tangy flower used to flavor beer.",
+      "longDescription": "Hops is a vegetable crop that grows from Hops Starter after 11 days in the Summer. Hops can be put into a Keg to make Pale Ale. Pale Ale has one of the highest returns on investment in the game, surpassed only by Starfruit wine.",
+      "energy": 45,
+      "heal": 20,
+      "recipe": [
+        "hopsStarter"
+      ]
+    },
+  {
+    "name": "kale",
+    "type": "crops",
+    "value": 110,
+    "source": "Kale Seeds in the Spring",
+    "basicDescription": "The waxy leaves are great in soups and stir frys.",
+    "longDescription": "Kale is a vegetable crop that grows from Kale Seeds after 6 days. Kale is harvested using a Scythe.",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+      "kaleSeeds"
+    ]
+  },
+  {
+    "name": "parsnip",
+    "type": "crops",
+    "value": 35,
+    "source": "Parsnip Seeds in the Spring",
+    "basicDescription": "A spring tuber closely related to the carrot. It has an earthy taste and is full of nutrients.",
+    "longDescription": "The Parsnip is a vegetable crop that grows from Parsnip Seeds after 4 days.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "parsnipSeeds"
+    ]
+  },
+  {
+    "name": "potato",
+    "type": "crops",
+    "value": 80,
+    "source": "Potato Seeds in the Spring",
+    "basicDescription": "A widly cultivated tuber.",
+    "longDescription": "The Potato is a vegetable crop that grows in the Spring from Potato Seeds after 6 days.  When harvested, each Potato plant gives 1 potato, with a random chance to produce extra potatoes, partially based on Daily Luck.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "potatoSeeds"
+    ]
+  },
+  {
+    "name": "pumpkin",
+    "type": "crops",
+    "value": 320,
+    "source": "Pumpkin Seeds in the Fall",
+    "basicDescription": "A fall favorite, grown for its crunchy seeds and delicately flavored flesh. As a bonus, the hollow shell can be carved into a festive decoration.",
+    "longDescription": "The Pumpkin is a vegetable crop that grows from Pumpkin Seeds after 13 days. It is one of three crops which might produce a giant crop, along with Cauliflower and Melon. After Starfruit it has the second-highest per unit base price of all the normal crops.",
+    "recipe": [
+      "pumpkinSeeds"
+    ]
+  },
+  {
+    "name": "radish",
+    "type": "crops",
+    "value": 90,
+    "source": "Radish Seeds in the Summer",
+    "basicDescription": "A crisp and refreshing root vegetable with hints of pepper when eaten raw.",
+    "longDescription": "The Radish is a vegetable crop that grows from Radish Seeds after 6 days.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "radishSeeds"
+    ]
+  },
+  {
+    "name": "redCabbage",
+    "type": "crops",
+    "value": 260,
+    "source": "Red Cabbage Seeds in the Summer",
+    "basicDescription": "Often used in salads and coleslaws. The color can range from purple to blue to green-yellow depending on soil conditions.",
+    "longDescription": "Red Cabbage is a vegetable crop that grows from Red Cabbage Seeds after 9 days. The seeds are available starting in Year 2. There is a small chance of buying Red Cabbage or Red Cabbage Seeds from the Traveling Cart.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "redCabbageSeeds"
+    ]
+  },
+  {
+    "name": "tomato",
+    "type": "crops",
+    "value": 60,
+    "source": "Tomato Seeds in the Summer",
+    "basicDescription": "Rich and slightly tangy, the Tomato has a wide variety of culinary uses.",
+    "longDescription": "The Tomato is a vegetable crop that grows from Tomato Seeds after 11 days. When harvested, each Tomato plant gives 1 Tomato every 4 days, with a small random chance for more Tomatoes.",
+    "heal": 9,
+    "energy": 20,
+    "recipe": [
+      "tomatoSeeds"
+    ]
+  },
+  {
+    "name": "wheat",
+    "type": "crops",
+    "value": 25,
+    "source": "Wheat Seeds in the Summer and Fall",
+    "basicDescription": "One of the most widely cultivated grains. Makes a great flour for breads and cakes.",
+    "longDescription": "Wheat is a vegetable crop that grows from Wheat Seeds after 4 days. Wheat is harvested using a Scythe. In addition to Beer, players have the ability to craft Wheat Flour from Wheat by using a Mill. Once placed in the mill, one wheat will make one wheat flour. Wheat flour will appear in the box on the right side of the mill the following morning.",
+    "recipe": [
+      "wheatSeeds"
+    ]
+  },
+  {
+    "name": "yam",
+    "type": "crops",
+    "value": 160,
+    "source": "Yam Seeds in the Fall",
+    "basicDescription": "A starchy tuber with a lot of culinary verstatility",
+    "longDescription": "The Yam is a vegetable crop that grows from Yam Seeds after 10 days. It also has a 3% chance of dropping from Duggies.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "yamSeeds"
+    ]
+  },
+  {
+    "name": "wildHorseradish",
+    "type": "food",
+    "value": 50,
+    "source": "Foraging in Spring",
+    "basicDescription": "A spicy root found in the spring",
+    "longDescription": "Wild Horseradish is found via foraging in the Spring, or grown from Spring Seeds. Putting a Wild Horseradish in a Seed Maker will generate 1-3 Spring Seeds.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "daffodil",
+    "type": "forragables",
+    "value": 30,
+    "source": "Foraging in the Spring or grown from Spring Seeds",
+    "basicDescription": "A traditional spring flower that makes a nice gift.",
+    "longDescription": "The Daffodil is found via foraging in the Spring, or grown from Spring Seeds. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
+    "energy": 0,
+    "heal": 0,
+    "recipe": [
+      "springSeeds"
+    ]
+  },
+  {
+    "name": "leek",
+    "type": "food",
+    "value": 60,
+    "source": "Foraging, Spring Seeds",
+    "basicDescription": "A tasty relative of the onion.",
+    "longDescription": "The Leek is found via foraging in the Spring, or grown from Spring Seeds. On Tuesdays, Evelyn may say that they can be found in the mountains, where they may be more common, but Leeks can be found above ground throughout Stardew Valley.",
+    "heal": 18,
+    "energy": 40
+  },
+  {
+    "name": "dandelion",
+    "type": "food",
+    "value": 40,
+    "source": "Foraging, Spring Seeds, Flower Dance",
+    "basicDescription": "Not the prettiest flower, but the leaves make a good salad.",
+    "longDescription": "The Dandelion is found via foraging in the Spring, or grown from Spring Seeds. Up to ten can also be purchased from Pierre at the Flower Dance. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
+    "heal": 18,
+    "energy": 40
+  },  
+  {
+    "name": "springOnion",
+    "type": "food",
+    "value": 8,
+    "source": "Foraging in Cindersap Forest",
+    "basicDescription": "These grow wild during the spring",
+    "longDescription": "The Spring Onion is found via foraging in Spring in Cindersap Forest in the area north of the Sewer entrance. The Livin' Off The Land Television channel airs a tip about Spring Onions on day 4. Spring Onions also can be purchased from Traveling Cart for Gold.png100-1,000g. Once the player has earned 8 hearts of friendship with Jas and Vincent, Spring Onion Mastery can be obtained, which permanently increases the sell price of Spring Onions by 5×.",
+    "energy": 13,
+    "heal": 5
+  },
+  {
+    "name": "morel",
+    "type": "food",
+    "value": 150,
+    "source": "Foraging in the Secret Woods or grown in The Cave",
+    "basicDescription": "Sought after for its unique nutty flavor",
+    "longDescription": "The Morel is a mushroom found in the Spring via foraging in the Secret Woods or on the Forest Farm. It can also be found in the the Cave after choosing the mushroom option.",
+    "energy": 20,
+    "heal": 9
+  },
+  {
+    "name": "commonMushroom",
+    "type": "food",
+    "value": 40,
+    "source": "Foraging around Stardew Valley, or grown in The Cave",
+    "basicDescription": "Slightly nutty, with a good texture",
+    "longDescription": "The Common Mushroom is a mushroom found via foraging throughout Stardew Valley in the Fall. They can also be found in the Secret Woods during Spring and Fall and on the Forest Farm during Summer. They can be grown from Wild Seeds (Fa) or in mushroom bins in the The Cave if the mushroom option is chosen. They can also be obtained by tapping a Mushroom Tree. Putting a Common Mushroom in a Seed Maker will generate 1-3 Fall Seeds.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "salmonberry",
+    "type": "food",
+    "value": 5,
+    "source": "Foraging in bushes around Stardew Valley",
+    "basicDescription": "A spring-time berry with the flavor of the forest",
+    "longDescription": "The Salmonberry is a foraged fruit found on bushes in Stardew Valley during Salmonberry Season (Spring 15-18). It won't be found in the wild outside those days. It can be found at any time (randomly) in the Farm Cave if the fruit bat option is chosen. At Foraging Skill Level 4, two berries will be harvested from each bush instead of one. At Foraging Skill Level 8, three berries will be harvested from each bush. If Foraging Skill is temporarily increased to 12 or 13 by consuming food, then 4 berries will be harvested from each bush. However, Salmonberries themselves give no foraging experience when harvested. Salmonberry has the lowest sell value of any foraged item, making it one of the few fruits that is worth more as a Jelly than a Wine. It can also make them more useful for gifting or eating than for selling. Salmonberries shaken from bushes during Salmonberry Season will always be regular quality, unless the Botanist Profession is chosen, in which case they will always be iridium quality. Salmonberries found in The Farm Cave can be normal, silver, or gold quality unless the Botanist Profession is chosen, in which case they will always be iridium quality.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "spiceBerry",
+    "type": "food",
+    "value": 80,
+    "source": "Foraging in the Summer, or grown from Summer Seeds",
+    "basicDescription": "It fills the air with a pungent aroma",
+    "longDescription": "The Spice Berry is a fruit found via foraging in the Summer or grown from Summer Seeds. Putting a Spice Berry in a Seed Maker will generate 1-3 Summer Seeds.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "grape",
+    "type": "crops",
+    "value": 80,
+    "source": "Foraging in the Summer or grown in the Fall",
+    "basicDescription": "A sweet cluster of fruit.",
+    "longDescription": "The Grape is a fruit crop that grows from Grape Starter in the Fall, which takes 10 days to grow. They can also be foraged in Pelican Town, in the Summer, or grown from Summer Seeds. The sales price of grapes that are grown as a crop (in Fall) receive the Tiller profession bonus (as do all crops). However, the sales price of grapes foraged (in Summer), do not receive the bonus. (Note: there seems to be a program bug in the price that arises when you sell a mixture of crop and forage grapes at the same time.)",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "grapeStarter",
+      "summerSeeds"
+    ]
+  },
+  {
+    "name": "sweetPea",
+    "type": "crops",
+    "value": 50,
+    "source": "Foraging in the Summer or grown from Summer Wild Seeds",
+    "basicDescription": "A gragrant summer flower",
+    "longDescription": "The Sweet Pea is a flower found via foraging in the Summer or grown from Summer wild seeds.",
+    "energy": 0,
+    "heal": 0,
+    "recipe": [
+      "summerSeeds"
+    ]
+  },
+  {
+    "name": "redMushroom",
+    "type": "food",
+    "value": 75,
+    "source": "Foraging in the Secret Woods in the Summer or grown in The Cave",
+    "basicDescription": "A spotted mushroom sometimes found in caves",
+    "longDescription": "The Red Mushroom is found in The Mines, via foraging in the Secret Woods in the Summer and (more rarely) Fall, grown in the The Farm Cave if the mushroom option is chosen, on the farm in fall if the Forest Farm Map has been chosen, or from a tapped Mushroom Tree. It may also be occasionally found in Garbage Cans or at the Traveling Cart.",
+    "energy": -50
+  },
+  {
+    "name": "wildPlum",
+    "type": "crops",
+    "value": 80,
+    "source": "Foraging in the Fall or grown from Fall Seeds",
+    "basicDescription": "Tart and juicy with a pungent aroma",
+    "longDescription": "The Wild Plum is a fruit found via foraging throughout Stardew Valley in the Fall. It can also be grown from Fall Seeds.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "fallSeeds"
+    ]
+  },  
+  {
+    "name": "hazelnut",
+    "type": "crops",
+    "value": 90,
+    "source": "Foraging in the Fall or grown from Fall Seeds",
+    "basicDescription": "That's one big hazelnut!",
+    "longDescription": "The Hazelnut is found via foraging throughout Stardew Valley in the Fall. It can also be grown from Fall Seeds. Clicking on a Maple Tree during Fall has a chance to cause a hazelnut to drop from the tree.",
+    "energy": 30,
+    "heal": 13,
+    "recipe": [
+      "fallSeeds"
+    ]
+  },
+  {
+    "name": "blackberry",
+    "type": "crops",
+    "value": 20,
+    "source": "Foraging in the Fall or grown from Fall Seeds",
+    "basicDescription": "An early-fall treat.",
+    "longDescription": "The Blackberry is a Fruit found via Foraging throughout Stardew Valley. It can be found on the ground during Fall and on bushes during Blackberry Season (Fall 8-11). It can also be grown from Wild Seeds (Fa) (also known as Fall Seeds). During blackberry season, the number of berries obtained from each blackberry bush increases as Foraging Skill increases. At Level 4, two berries will be harvested from each bush instead of one. At Level 8, three berries will be harvested from each bush. If Foraging Skill is temporarily increased to 12 or 13 by consuming food, then 4 berries will be harvested from each bush. Blackberries shaken from bushes during Blackberry Season will always be regular quality, unless the Botanist Profession is chosen, in which case they will always be iridium quality. Blackberries picked up from the ground or grown from Fall Seeds will be normal, silver, or gold quality unless the Botanist Profession is chosen, in which case they will always be iridium quality.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "fallSeeds"
+    ]
+  },
+  {
+    "name": "chanterelle",
+    "type": "food",
+    "value": 160,
+    "source": "Foraging in the Fall or grown in The Cave",
+    "basicDescription": "A tasty mushroom with a fruity smell and slightly peppery flavor.",
+    "longDescription": "The Chanterelle is found via foraging in the Secret Woods in the Fall or grown in The Farm Cave if the Mushroom option is chosen.",
+    "energy": 75,
+    "heal": 33
+  },
+  {
+    "name": "winterRoot",
+    "type": "food",
+    "value": 70,
+    "source": "Foraging in the Winter or grown from Winter Seeds or from Tilling the soil",
+    "basicDescription": "A starchy tuber",
+    "longDescription": "The Winter Root is a foraging item found only in Winter. Unlike other forage items found on the ground, to obtain a Winter Root, you must dig with the Hoe. It's not necessary to dig at an Artifact Spot, although Winter Root may be found at Artifact Spots. A Winter Root may be found by digging any tillable soil in Stardew Valley outside of The Farm, including The Desert. They may also be grown from Winter Wild Seeds. Occasionally they may be sold at the Traveling Cart or found in Garbage Cans in Winter. They may also be dropped by Blue Slimes (8% chance) in The Mines (floors 40-80) or Secret Woods. Putting a Winter Root in a Seed Maker will generate 1-3 Winter Seeds. Winter Roots give no foraging experience when harvested around town.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "winterSeeds"
+    ]
+  },
+  {
+    "name": "crystalFruit",
+    "type": "crops",
+    "value": 150,
+    "source": "Foraging in the winter or grown from Winter Seeds",
+    "basicDescription": "A delicate fruit that pops up from the snow.",
+    "longDescription": "The Crystal Fruit is found via foraging in the Winter, by killing Dust Sprites in The Mines (floors 40 to 80), or by growing Winter wild seeds.",
+    "energy": 63,
+    "heal": 28,
+    "recipe": [
+      "winterSeeds"
+    ]
+  },
+  {
+    "name": "snowYam",
+    "type": "crops",
+    "value": 100,
+    "source": "Tilling the soil or grown from Winter Seeds or foraging in the Winter",
+    "basicDescription": "This little yam was hiding beneath the snow",
+    "longDescription": "he Snow Yam is a foraging item found only in Winter. Unlike other forage items found on the ground, to obtain a Snow Yam, you must dig with the Hoe. It's not necessary to dig at an Artifact Spot, although Snow Yams may be found at Artifact Spots. Snow Yams may be found by digging any tillable soil in Stardew Valley outside of The Farm (including The Desert). They may also be grown from Winter Wild Seeds. Snow Yams give no foraging experience when harvested around town.",
+    "energy": 30,
+    "heal": 13,
+    "recipe": [
+      "winterSeeds"
+    ]
+  },
+  {
+    "name": "crocus",
+    "type": "crops",
+    "value": 60,
+    "source": "Foraging in the Winter or grown from Winter Seeds",
+    "basicDescription": "A flower that can bloom in the winter",
+    "longDescription": "The Crocus is a flower found via foraging in the Winter, or grown from Winter wild seeds",
+    "energy": 0,
+    "heal": 0,
+    "recipe": [
+      "winterSeeds"
+    ]
+  },
+  {
+    "name": "holly",
+    "type": "food",
+    "value": 80,
+    "source": "Foraging in the winter",
+    "basicDescription": "The leaves and bright red berries make a popular winter decoration.",
+    "longDescription": "Holly is found via foraging in the Winter. Holly can be found throughout Stardew Valley, including in the Secret Woods",
+    "energy": -37,
+    "heal": 0
+  },
+  {
+    "name": "nautilusShell",
+    "type": "forageables",
+    "value": 120,
+    "source": "Foraging on The Beach in the Winter",
+    "basicDescription": "An ancient shell",
+    "longDescription": "The Nautilus Shell is found via foraging at The Beach in winter. The player may randomly receive one in the mail from Demetrius. It can also be received as a gift at the Feast of the Winter Star."
+  },
+  {
+    "name": "coral",
+    "type": "forageables",
+    "value": 80,
+    "source": "The Beach",
+    "basicDescription": "A colony of tiny creatures that clump together to form beautiful structures.",
+    "longDescription": "Coral is found via foraging at The Beach in all seasons."
+  },
+  {
+    "name": "seaUrchin",
+    "type": "forageables",
+    "value": 160,
+    "source": "The Beach",
+    "basicDescription": " A slow-moving spiny creature that some consider a delicacy.",
+    "longDescription": "The Sea Urchin is found via foraging at The Beach in all seasons. They spawn regularly across the broken bridge, which can be repaired with 300 wood (see The Beach). Emily may occasionally send you a Sea Urchin in the mail as a gift."
+  },
+  {
+    "name": "rainbowShell",
+    "type": "forragables",
+    "value": 300,
+    "source": "Foraging the Beach in the Summer",
+    "basicDescription": "It's a very beautiful shell.",
+    "longDescription": "The Rainbow Shell is found via foraging at The Beach in the Summer. During the off-seasons, it can be obtained through the Traveling Cart. It may also be sent in the mail as a gift from Demetrius. It can also be received as a gift from Jas or Vincent at the Feast of the Winter Star."
+  },
+  {
+    "name": "caveCarrot",
+    "type": "forragables",
+    "value": 25,
+    "source": "Foraging The Mines or Garbage Cans",
+    "basicDescription": "A starchy snack found in caves. It helps miners work longer",
+    "longDescription": "The Cave Carrot is found via foraging in The Mines. It can also be found in Garbage Cans. Large quantities can be easily obtained by digging underground patches of dirt in The Mines (on levels 10-20) with the Hoe.",
+    "energy": 30,
+    "heal": 13
+  },
+  {
+    "name": "coconut",
+    "type": "forragables",
+    "value": 100,
+    "source": "Foraging in the Calico Desert or bought at Oasis",
+    "basicDescription": "A seed of the coconut palm. It has many culinary uses",
+    "longDescription": "The Coconut is an inedible Foraged Fruit found only in the Calico Desert. It can also be bought at the Oasis on Mondays for Gold.png200g or may randomly appear in the Traveling Cart's stock for Gold.png300-1,000g. Although it is inedible, it may be put in a Preserves Jar to make Coconut Jelly, or in a Keg to make Coconut Wine. Coconuts can not be planted to create Palm Trees."
+  },
+  {
+    "name": "cactusFruit",
+    "type": "forragables",
+    "value": 75,
+    "source": "Foraging in the Calico Desert or bought in the Oasis or grown from Cactus Seeds",
+    "basicDescription": "The sweet fruit of the prickly pear cactus",
+    "longDescription": "The Cactus Fruit is found via foraging in the Calico Desert. It can also be bought at the Oasis on Tuesdays for Gold.png150g or randomly at the Traveling Cart for Gold.png225-1,000g. Cactus Fruit may also be grown from Cactus Seeds. Cactus Fruit grown from Cactus Seeds benefits from the Tiller Profession bonus.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "cactusSeeds"
+    ]
+  },
+  {
+    "name": "tulip",
+    "type": "crops",
+    "value": 30,
+    "source": "Grown from Tulip Bulbs in the Spring",
+    "basicDescription": "The most popular spring flower.  Has a very faint sweet smell.",
+    "longDescription": "The Tulip is a flower crop that grows from Tulip Bulbs after 6 days. Tulips can be purchased from the Traveling Cart for Gold.png100-1,000g.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "tulipBulb"
+    ]
+  },
+  {
+    "name": "summerSpangle",
+    "type": "crops",
+    "value": 90,
+    "source": "Grown from Spangle Seeds in the Summer",
+    "basicDescription": "A tropical bloom that thrives in the humid summer air. Has a sweet, tangy aroma",
+    "longDescription": "Summer Spangle is a flower crop that grows from Spangle Seeds after 8 days.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "spangleSeeds"
+    ]
+  },
+  {
+    "name": "fairyRose",
+    "type": "crops",
+    "value": 290,
+    "source": "Fairy Seeds grown in the Fall",
+    "basicDescription": "An old folk legend suggests that the sweet smell of this flower attracts fairies.",
+    "longDescription": "The Fairy Rose is a flower crop that grows from Fairy Seeds after 12 days. Although the profit margins on the Fairy Rose are not exceptional, the Honey made from the flowers represents the most profitable honey.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "fairySeeds"
+    ]
+  },
+  {
+    "name": "blueJazz",
+    "type": "crops",
+    "value": 50,
+    "source": "Jazz Seeds grown in the Spring",
+    "basicDescription": "The flower grows in a sphere to invite as many butterflies as possible.",
+    "longDescription": "Blue Jazz is a flower crop that grows from Jazz Seeds after 7 days.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "jazzSeeds"
+    ]
+  },
+  {
+    "name": "rhubarb",
+    "type": "crops",
+    "value": 220,
+    "source": "Rhubarb Seeds grown in the Spring",
+    "basicDescription": "The stalks are extremely tart, but make a great dessert when sweetened.",
+    "longDescription": "Rhubarb is a fruit crop that grows from Rhubarb Seeds after 13 days. Rhubarb seeds can be purchased only from the Oasis, or occasionally from the Traveling Cart.",
+    "recipe": [
+      "rhubarbSeeds"
+    ]
+  },
+  {
+    "name": "hotPepper",
+    "type": "crops",
+    "value": 40,
+    "source": "Pepper Sees grown in the Summer",
+    "basicDescription": "Fiery hot with a hint of sweetness.",
+    "longDescription": "The Hot Pepper is a fruit crop that grows from Pepper Seeds after 5 days. When harvested, each Hot Pepper plant gives 1 Hot Pepper every 3 days, with a small random chance for more Hot Peppers.",
+    "energy": 13,
+    "heal": 5,
+    "recipe": [
+      "pepperSeeds"
+    ]
+  },
+  {
+    "name": "poppy",
+    "type": "crops",
+    "value": 140,
+    "source": "Poppy Seeds grown in the Summer",
+    "basicDescription": "In addition to its colorful flower, the Poppy has culinary and medicinal uses",
+    "longDescription": "The Poppy is a flower crop that grows from Poppy Seeds after 7 days.",
+    "energy": 45,
+    "heal": 20,
+    "recipe": [
+      "poppySeeds"
+    ]
+  },
+  {
+    "name": "melon",
+    "type": "crops",
+    "value": 250,
+    "source": "Melon Seeds grown in the Summer",
+    "basicDescription": "A cool, sweet summer treat.",
+    "longDescription": "The Melon is a fruit crop that grows from Melon Seeds after 12 days. Melon is one of only three crops that can grow into a giant crop.",
+    "energy": 113,
+    "heal": 50,
+    "recipe": [
+      "melonSeeds"
+    ]
+  },
+  {
+    "name": "blueberry",
+    "type": "crops",
+    "value": 50,
+    "source": "Blueberry Seeds grown in the Summer",
+    "basicDescription": "A popular berry reported to have many health benefits. The blue skin has the highest nutrient concentration.",
+    "longDescription": "The Blueberry is a fruit crop that grows from Blueberry Seeds after 13 days. A Preserves Jar can make Blueberries into jelly, and a Keg can make them into wine, which can then be aged in a Cask. When sold, blueberry prices benefit from the Tiller profession, and its jelly and wine prices benefit from the Artisan profession. Each harvest yields 3 Blueberries, with a small random chance for more.",
+    "energy": 25,
+    "heal": 11,
+    "recipe": [
+      "blueberrySeeds"
+    ]
+  },
+  {
+    "name": "cranberries",
+    "type": "crops",
+    "value": 75,
+    "source": "Cranberry Seeds grown in the Fall",
+    "basicDescription": "",
+    "longDescription": "Cranberries are a fruit crop that grows from Cranberry Seeds after 7 days, and keeps producing fruit every 5 days after maturity. When harvested, each Cranberry plant gives 2 Cranberries every 5 days, with a small random chance for more Cranberries.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "cranberrySeeds"
+    ]
+  },
+  {
+    "name": "apple",
+    "type": "crops",
+    "value": 100,
+    "source": "Apple Tree grown from an Apple Tree harvested in the Fall",
+    "basicDescription": "A crisp fruit used for juice and cider.",
+    "longDescription": "The Apple is a fruit grown by planting an Apple Sapling, waiting 28 days for it to grow into an Apple Tree, and harvesting the tree during the Fall. An Apple may be purchased at the Traveling Cart for Gold.png300-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "appleSapling"
+    ]
+  }, 
+  {
+    "name": "apricot",
+    "type": "crops",
+    "value": 50,
+    "source": "Apricot Tree grown from an Apricot Sapling harvested in the Spring",
+    "basicDescription": "A tender little fruit with a rock-hard pit",
+    "longDescription": "The Apricot is a fruit grown by planting an Apricot Sapling, waiting 28 days for it to grow into an Apricot Tree, and harvesting the tree during the Spring. An Apricot may be purchased at the Traveling Cart for Gold.png150-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "apricotSapling"
+    ]
+  },
+  {
+    "name": "mapleSyrup",
+    "type": "crops",
+    "value": 200,
+    "source": "Using a Tapper on a Maple Tree after 7 to 8 days",
+    "basicDescription": "A sweet syrup with a unique flavor.",
+    "longDescription": "Maple Syrup is Tree sap made from the Tapper when it is placed on a Maple Tree, taking Time Icon.png 7 to 8 days. Maple Syrup can be obtained by tapping Maple Trees growing on The Farm or growing naturally in Stardew Valley (e.g., in Cindersap Forest). Although Maple Syrup is labeled 'Artisan Good' in-game, it does not benefit from the Artisan Profession, but instead from the Tapper Profession (+25% sell price).",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+      "mapleSeed"
+    ]
+  },
+  {
+    "name": "mapleSeed",
+    "type": "crops",
+    "value": 5,
+    "source": "Chopping a Maple Tree",
+    "basicDescription": "Place this on your farm to plant a maple tree",
+    "longDescription": "The Maple Seed is a seed that grows into a Maple Tree. It can be obtained by shaking/chopping down a Maple Tree at Foraging level 1, in Garbage Cans, or by using an Axe or Pickaxe to dig up a Maple Seed dropped by a fully grown Maple Tree on The Farm. A maple seed has approximately a 20% chance to grow to the next stage each night during Spring, Summer, or Fall. The median time to maturity is about 18 days, with over 90% of seeds maturing in less than 32 growing days."
+  },
+  {
+    "name": "lifeElixir",
+    "type": "food",
+    "value": 500,
+    "source": "Crafting",
+    "basicDescription": "Restores health to full.",
+    "longDescription": "Life Elixir is an edible crafted item. The recipe is earned at Combat skill level 2. Iridium Bats in the Skull Cavern may drop a Life Elixir when slain (5% chance). Despite the numbers listed on the tooltip, the Life Elixir will fully restore Health to maximum regardless of how low it currently is.",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "redMushroom",
+      "purpleMushroom",
+      "morel",
+      "chanterelle"
+    ]
+  },
+  {
+    "name": "purpleMushroom",
+    "type": "forragables",
+    "value": 250,
+    "source": "The Mines, The Cave",
+    "basicDescription": "A rare mushroom found deep in caves.",
+    "longDescription": "The Purple Mushroom is found via foraging in The Mines (starting at level 81), the Skull Cavern, from a tapped Mushroom Tree (rarely), or grown in the Mushroom Cave (rarely). It can also be received as a gift at the Feast of the Winter Star. Purple Mushrooms can also be found on the Forest Farm Map during the Fall.",
+    "energy": 125,
+    "heal": 56
+  },
+  {
+    "name": "parsnipSoup",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "It's fresh and hearty",
+    "longDescription": "Parsnip Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Parsnip Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained thru the mail after obtaining three friendship hearts with Caroline.",
+    "energy": 85,
+    "heal": 38,
+    "recipe": [
+      "parsnip",
+      "milk",
+      "vinegar"
+    ]
+  },
+  {
+    "name": "vegetableMedley",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "This is very nutritious",
+    "longDescription": "Vegetable Medley (also called 'Vegetable Stew' in the Cooking interface) is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Vegetable Medley may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained thru the mail after gaining 7 friendship hearts with Caroline.",
+    "energy": 165,
+    "heal": 74,
+    "recipe": [
+      "tomato",
+      "beet"
+    ]
+  },
+  {
+    "name": "friedCalamari",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "It's so chewy",
+    "longDescription": "Fried Calamari is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Fried Calamari may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Although a type of squid, Midnight Squid does not count towards the recipe for Fried Calamari",
+    "energy": 80,
+    "heal": 36,
+    "recipe": [
+      "squid",
+      "wheatFlour",
+      "oil" 
+    ]
+  },
+  {
+    "name": "strangeBun",
+    "type": "food",
+    "value": 225,
+    "source": "Cooking, Monster drop, Traveling Cart",
+    "basicDescription": "What's inside?",
+    "longDescription": "The Strange Bun is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Strange Bun may be dropped by a Shadow Brute (4% chance), and may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. It may also randomly rotate into stock at the Traveling Cart for Gold.png675-1,125g. By offering a Strange Bun to the Dark Shrine of Night Terrors in the Witch's Hut, players can toggle monster spawning on or off on their farm.",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "wheatFlour",
+      "periwinkle",
+      "voidMayonnaise"
+    ]
+  },
+  {
+    "name": "luckyLunch",
+    "type": "food",
+    "value": 250,
+    "source": "Cooking",
+    "basicDescription": "A special little meal.",
+    "longDescription": "Lucky Lunch is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Lucky Lunch may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained thru The Queen of Sauce on Year 2, Spring 28",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "seaCucumber",
+      "tortilla",
+      "blueJazz"
+    ]
+  },
+  {
+    "name": "friedMushroom",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "Earthy and aromatic",
+    "longDescription": "Fried Mushroom is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Fried Mushroom may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Recipe obtained from Demetrius thru the mail after gaining 3 friendship hearts.",
+    "energy": 135,
+    "heal": 60,
+    "recipe": [
+      "commonMushroom",
+      "morel",
+      "oil"
+    ]
+  },
+  {
+    "name": "beanHotpot",
+    "type": "food",
+    "value": 100,
+    "source": "Cooking",
+    "basicDescription": "It sure is healthy",
+    "longDescription": "Bean Hotpot is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Bean Hotpot may randomly appear in Krobus' shop on Saturdays or in The Stardrop Saloon's rotating stock. Recipe obtained from Clint thru the mail after gaining 7 hearts of friendship.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "greenBean",
+      "greenBean"
+    ]
+  },
+  {
+    "name": "glazedYams",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "Sweet and satisfying.. The sugar gies it a hint of caramel",
+    "longDescription": "Glazed Yams is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Glazed Yams may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock.",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "yam",
+      "sugar"
+    ]
+  },
+  {
+    "name": "carpSurprise",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "It's bland and oily.",
+    "longDescription": "Carp Surprise is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Turning the Carp into Sashimi will be even more profitable, however. Carp Surprise may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from The Queen of Sauce on Year 2 on Summer 7.",
+    "energy": 90,
+    "heal": 40,
+    "recipe": [
+      "carp",
+      "carp",
+      "carp",
+      "carp"
+    ]
+  },
+  {
+    "name": "fishTaco",
+    "type": "food",
+    "value": 500,
+    "source": "Cooking",
+    "basicDescription": "It smells delicious",
+    "longDescription": "Fish Taco is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Fish Taco may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained from Linus thru the mail after obtaining 7 hearts of friendship.",
+    "energy": 165,
+    "heal": 74,
+    "recipe": [
+      "tuna",
+      "tortilla",
+      "redCabbage",
+      "mayonnaise"
+    ]
+  },
+  {
+    "name": "crispyBass",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "Wow, the breading is perfect.",
+    "longDescription": "Crispy Bass is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Crispy Bass may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained from Kent thru the mail after obtaining 3 hearts of friendship.",
+    "energy": 90,
+    "heal": 40,
+    "recipe": [
+      "largemouthBass",
+      "wheatFlour",
+      "oil"
+    ]
+  },
+  {
+    "name": "pepperPoppers",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "Spicy breaded peppers filled with cheese.",
+    "longDescription": "Pepper Poppers is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Pepper Poppers may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained from Shane thru the mail after obtaining 3 hearts of friendship with him.",
+    "energy": 130,
+    "heal": 58,
+    "recipe": [
+      "hotPepper",
+      "cheese"
+    ]
+  },
+  {
+    "name": "tomKhaSoup",
+    "type": "food",
+    "value": 250,
+    "source": "Cooking",
+    "basicDescription": "These flavors are incredible!",
+    "longDescription": "Tom Kha Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Tom Kha Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Sandy thru the mail after obtaining 7 hearts of friendship.",
+    "energy": 175,
+    "heal": 78,
+    "recipe": [
+      "coconut",
+      "shrimp",
+      "commonMushroom"
+    ]
+  },
+  {
+    "name": "troutSoup",
+    "type": "food",
+    "value": 100,
+    "source": "Cooking or Fish Shop",
+    "basicDescription": "Pretty salty",
+    "longDescription": "Trout Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It may also be purchased at Willy's Fish Shop for Gold.png250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Trout Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from the Queen of Sauce on Year 1, Fall 14",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "rainbowTrout",
+      "greenAlgae"
+    ]
+  },
+  {
+    "name": "chocolateCake",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "Rich and moist with a thick fudge icing.",
+    "longDescription": "Chocolate Cake is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Three Chocolate Cakes are the reward for completing the Bundle Red.png 2,500 Bundle in the Vault. Chocolate Cake may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from The Queen of Sauce on Year 1, Winter 14.",
+    "energy": 150,
+    "heal": 67,
+    "recipe": [
+      "wheatFlour",
+      "sugar",
+      "egg"
+    ]
+  },
+  {
+    "name": "pinkCake",
+    "type": "food",
+    "value": 480,
+    "source": "Cooking",
+    "basicDescription": "There's little heart candies on top.",
+    "longDescription": "Pink Cake is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Three Pink Cakes are the reward for completing the Bundle Red.png Chef's Bundle on the Bulletin Board. Pink Cake can be received as a gift at the Feast of the Winter Star. It may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns Gold.png120,000g he will receive a letter from mom with a Pink Cake enclosed. The recipe can be obtained from The Queen of Sauce on Year 2 of Summer 21.",
+    "energy": 250,
+    "heal": 112,
+    "recipe": [
+      "melon",
+      "wheatFlour",
+      "sugar",
+      "egg"
+    ]
+  },
+  {
+    "name": "rhubarbPie",
+    "type": "food",
+    "value": 400,
+    "source": "Cooking",
+    "basicDescription": "Mmm, tangy and sweet!",
+    "longDescription": "Rhubarb Pie is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality rhubarb as well as wheat flour and sugar from the Mill. Rhubarb Pie may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe is obtained from Marnie thru the mail after obtaining 7 hearts of friendship.",
+    "energy": 215,
+    "heal": 96,
+    "recipe": [
+      "rhubarb",
+      "wheatFlour",
+      "sugar"
+    ]
+  },
+  {
+    "name": "cookie",
+    "type": "food",
+    "value": 140,
+    "source": "Cooking",
+    "basicDescription": "Very chewy.",
+    "longDescription": "Cookie is a cooked dish prepared using the kitchen inside an upgraded farmhouse. Cookies can be received as a gift from Evelyn at the Feast of the Winter Star, and are rarely found in the Garbage Can outside George and Evelyn's home. Cookies may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns Gold.png5,000g he will receive a letter from mom with cookies enclosed. The recipe is obtained from Evelyn after reaching 4 hearts of friendship.",
+    "energy": 90,
+    "heal": 40,
+    "recipe": [
+      "wheatFlour",
+      "sugar",
+      "egg"
+    ]
+  },
+  {
+    "name": "friedEel",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "Greasy but powerful",
+    "longDescription": "Fried Eel is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Fried Eel may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from George in the mail after three hearts of friendship.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "eel",
+      "oil"
+    ]
+  },
+  {
+    "name": "spicyEel",
+    "type": "food",
+    "value": 175,
+    "source": "Cooking",
+    "basicDescription": "It's really spicy! Be careful.",
+    "longDescription": "Spicy Eel is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be dropped by a Serpent in the Skull Cavern (6% chance). Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Spicy Eel may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from George thru the mail after 7 hearts of friendship",
+    "energy": 115,
+    "heal": 51,
+    "recipe": [
+      "eel",
+      "hotPepper"
+    ]
+  },
+  {
+    "name": "sashimi",
+    "type": "food",
+    "value": 75,
+    "source": "75",
+    "basicDescription": "Raw fish sliced into thin pieces.",
+    "longDescription": "Sashimi is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Sashimi may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Note: This recipe can be profitable if using fish worth less than Gold.png75g (see When to turn your fish into sashimi for more info). Saving fish worth less than Gold.png75g for Help Wanted quests may be a better option, though, since these quests generally pay triple the fish's base value. (Periwinkle is an exception -- at Gold.png20g base price it's more profitable to turn into Sashimi than save for quests).",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "anyFish"
+    ]
+  },
+  {
+    "name": "anyFish",
+    "type": "fish",
+    "value": 1,
+    "source": "The water",
+    "basicDescription": "An ingredient that includes any fish available in the game.",
+    "longDescription": "An ingredient that includes any fish available in the game.",
+    "energy": 1,
+    "heal": 1
+  },
+  {
+    "name": "makiRoll",
+    "type": "food",
+    "value": 220,
+    "source": "Cooking",
+    "basicDescription": "Fish and rice wrapped in seaweed",
+    "longDescription": "Maki Roll is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Maki Roll may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from the Saloon or Queen of Sauce on Year 1 of Summer 21",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "anyFish",
+      "seaweed",
+      "rice"
+    ]
+  },
+  {
+    "name": "tortilla",
+    "type": "food",
+    "value": 50,
+    "source": "Cooking",
+    "basicDescription": "Can be used as a vessel for food",
+    "longDescription": "Tortilla is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Tortilla may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained thru the Queen of Sauce on Year 1, Fall 7 or purchased at the Saloon",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+      "corn"
+    ]
+  },
+  {
+    "name": "redPlate",
+    "type": "food",
+    "value": 400,
+    "source": "Cooking",
+    "basicDescription": "Full of antioxidants",
+    "longDescription": "Red Plate is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Red Plate may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Recipe can be obtained from Emily thru the mail after reaching 7 hearts",
+    "energy": 240,
+    "heal": 108,
+    "recipe": [
+      "redCabbage",
+      "radish"
+    ]
+  },
+  {
+    "name": "eggplantParmesan",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "Tangy, cheesy, and wonderful",
+    "longDescription": "Red Plate is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Red Plate may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Lewis after 7 friendship hearts.",
+    "energy": 175,
+    "heal": 78,
+    "recipe": [
+      "eggplant",
+      "tomato"
+    ]
+  },
+  {
+    "name": "ricePudding",
+    "type": "food",
+    "value": 260,
+    "source": "Cooking",
+    "basicDescription": "It's creamy, sweet and fun to eat.",
+    "longDescription": "Rice Pudding is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Rice Pudding may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from evelyn after 7 hearts of friendship",
+    "energy": 115,
+    "heal": 51,
+    "recipe": [
+      "milk",
+      "sugar",
+      "rice"
+    ]
+  },
+  {
+    "name": "iceCream",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "It's hard to find someone who doesn't like this",
+    "longDescription": "Ice Cream is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased from Alex during Summer at the Ice Cream Stand for Gold.png250g, or at the Oasis on Sundays (year-round) for Gold.png240g. Ice Cream may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Jodi after 7 hearts of friendship",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "milk",
+      "sugar"
+    ]
+  },
+  {
+    "name": "blueberryTart",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "It's subtle and refreshing",
+    "longDescription": "Blueberry Tart is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Blueberry Tart may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Pierre after 3 hearts of friendship",
+    "energy": 145,
+    "heal": 56,
+    "recipe": [
+      "blueberry",
+      "wheatFlour",
+      "sugar",
+      "egg"
+    ]
+  },
+  {
+    "name": "autumnsBounty",
+    "type": "food",
+    "value": 350,
+    "source": "Cooking",
+    "basicDescription": "A taste of the season",
+    "longDescription": "Autumn's Bounty is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Five Autumn's Bounties are the reward for completing the Bundle Purple.png Exotic Foraging Bundle in the Crafts Room. Autumn's Bounty may randomly appear in Krobus' shop on Saturdays or in The Stardrop Saloon's rotating stock. The recipe can be obtained from Demetrius thru the mail after 7 hearts of friendship.",
+    "energy": 220,
+    "heal": 99,
+    "recipe": [
+      "yam",
+      "pumpkin"
+    ]
+  },
+  {
+    "name": "pumpkinSoup",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking",
+    "basicDescription": "A seasonal favorite.",
+    "longDescription": "Pumpkin Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Pumpkin Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Robin thru the mail after 7 hearts of friendship.",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "pumpkin",
+      "milk"
+    ]
+  },
+  {
+    "name": "superMeal",
+    "type": "food",
+    "value": 220,
+    "source": "Cooking",
+    "basicDescription": "It's a really energizing meal.",
+    "longDescription": "Super Meal is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Super Meal may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Kent after 7 hearts of friendship.",
+    "energy": 160,
+    "heal": 72,
+    "recipe": [
+      "bokChoy",
+      "cranberries",
+      "artichoke"
+    ]
+  },
+  {
+    "name": "cranberrySauce",
+    "type": "food",
+    "value": 120,
+    "source": "Cooking",
+    "basicDescription": "A festive treat",
+    "longDescription": "Cranberry Sauce is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Cranberry Sauce may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Gus after 7 friendship hearts.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "cranberries",
+      "sugar"
+    ]
+  },
+  {
+    "name": "stuffing",
+    "type": "food",
+    "value": 165,
+    "source": "Cooking",
+    "basicDescription": "Ahh... the smell of warm bread and sage.",
+    "longDescription": "Stuffing is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Stuffing may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Pam after 7 hearts of friendship.",
+    "energy": 170,
+    "heal": 76,
+    "recipe": [
+      "bread",
+      "cranberries",
+      "hazelnut"
+    ]
+  },
+  {
+    "name": "farmersLunch",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "This'll keep you going.",
+    "longDescription": "Farmer's Lunch is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It may also randomly appear in Krobus' shop on Saturdays. The recipe can be obtained after Farming Level 3",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "omelet",
+      "parsnip"
+    ]
+  },
+  {
+    "name": "survivalBurger",
+    "type": "food",
+    "value": 180,
+    "source": "Cooking",
+    "basicDescription": "A convenient snack for the explorer",
+    "longDescription": "The Survival Burger is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It is also cooked by Gus during the Stardew Valley Fair and can be eaten for free. Survival Burger may randomly appear in Krobus' shop on Saturdays. The recipe can be obtained after Foraging Level 2.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "bread",
+      "caveCarrot",
+      "eggplant"
+    ]
+  },
+  {
+    "name": "dishOTheSea",
+    "type": "food",
+    "value": 220,
+    "source": "Cooking",
+    "basicDescription": "This'll keep you warm in the cold sea air.",
+    "longDescription": "Dish O' The Sea is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The reward for completing the Bundle Red.png Specialty Fish Bundle in the Fish Tank is 5 Dish O' The Sea. Dish O' The Sea may randomly appear in Krobus' shop on Saturdays. The recipe is obtained after Fishing level 3.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "sardine",
+      "sardine",
+      "hashbrowns"
+    ]
+  },
+  {
+    "name": "minersTreat",
+    "type": "food",
+    "value": 200,
+    "source": "Cooking",
+    "basicDescription": "This should keep your energy up",
+    "longDescription": "Miner's Treat is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased any day from the Dwarf for Gold.png1,000g or randomly from Krobus' shop on Saturdays. Mummies in the Skull Cavern have a 4% chance of dropping a Miner's Treat. The recipe is obtained at Mining Level 3",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "caveCarrot",
+      "sugar",
+      "milk"
+    ]
+  },
+  {
+    "name": "rootsPlatter",
+    "type": "food",
+    "value": 100,
+    "source": "Cooking",
+    "basicDescription": "This'll get you digging for more.",
+    "longDescription": "Roots Platter is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Roots Platter may randomly appear in Krobus' shop on Saturdays. The recipe is obtained after Combat Level 3.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "caveCarrot",
+      "winterRoot"
+    ]
+  },
+  {
+    "name": "algaeSoup",
+    "type": "food",
+    "value": 100,
+    "source": "Cooking",
+    "basicDescription": "It's a little slimy.",
+    "longDescription": "Algae Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It may also be dropped by a Mutant Grub (10% chance). Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. The recipe is obtained from Clint after 3 friendship hearts.",
+    "energy": 75,
+    "heal": 33,
+    "recipe": [
+      "greenAlgae",
+      "greenAlgae",
+      "greenAlgae",
+      "greenAlgae"
+    ]
+  },
+  {
+    "name": "paleBroth",
+    "type": "food",
+    "value": 150,
+    "source": "Cooking",
+    "basicDescription": "A delicate broth with a hint of sulfur",
+    "longDescription": "Pale Broth is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. The recipe is obtained from Marnie after 3 hearts of friendship.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "whiteAlgae",
+      "whiteAlgae"
+    ]
+  },
+  {
+    "name": "plumPudding",
+    "type": "food",
+    "value": 260,
+    "source": "Cooking",
+    "basicDescription": "A traditional holiday treat.",
+    "longDescription": "Plum Pudding is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce on Year 1, Winter 7.",
+    "energy": 175,
+    "heal": 78,
+    "recipe": [
+      "wildPlum",
+      "wildPlum",
+      "wheatFlour",
+      "sugar"
+    ]
+  },
+  {
+    "name": "artichokeDip",
+    "type": "food",
+    "value": 210,
+    "source": "Cooking",
+    "basicDescription": "It's cool and refreshing",
+    "longDescription": "Artichoke Dip is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce in year 1 Fall 28.",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "artichoke",
+      "milk"
+    ]
+  },
+  {
+    "name": "stirFry",
+    "type": "food",
+    "value": 335,
+    "source": "Cooking",
+    "basicDescription": "Julienned vegetables on a bed of rice.",
+    "longDescription": "Stir Fry is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients and made with homemade Oil. The recipe can be obtained from The Queen of Sauce on Year 1, Spring 7.",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "caveCarrot",
+      "commonMushroom",
+      "kale",
+      "oil"
+    ]
+  },
+  {
+    "name": "roastedHazelnuts",
+    "type": "food",
+    "value": 270,
+    "source": "Cooking",
+    "basicDescription": "The roasting process creates a rich forest flavor.",
+    "longDescription": "Roasted Hazelnuts is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce from Year 2, Summer 28.",
+    "energy": 175,
+    "heal": 78,
+    "recipe": [
+      "hazelnut",
+      "hazelnut",
+      "hazelnut"
+    ]
+  },
+  {
+    "name": "pumpkinPie",
+    "type": "food",
+    "value": 385,
+    "source": "Cooking",
+    "basicDescription": "Silky pumpkin cream in a flakey crust.",
+    "longDescription": "Pumpkin Pie is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be received as a gift at the Feast of the Winter Star. The recipe is obtained from The Queen of Sauce from Year 1, Winter 21.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "pumpkin",
+      "wheatFlour",
+      "milk",
+      "sugar"
+    ]
+  },
+  {  
+    "name": "radishSalad",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking",
+    "basicDescription": "The radishes are so crisp!",
+    "longDescription": "Radish Salad is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce from Year 1, Spring 21.",
+    "energy": 200,
+    "heal": 90,
+    "recipe": [
+      "oil",
+      "vinegar",
+      "radish"
+    ]
+  },
+  {
+    "name": "fruitSalad",
+    "type": "food",
+    "value": 450,
+    "source": "Cooking",
+    "basicDescription": "A delicious combination of summer fruits.",
+    "longDescription": "Fruit Salad is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. The recipe is obtained from The Queen of Sauce from Year 2, Fall 7.",
+    "energy": 263,
+    "heal": 118,
+    "recipe": [
+      "blueberry",
+      "melon",
+      "apricot"
+    ]
+  },
+  {
+    "name": "blackberryCobbler",
+    "type": "food",
+    "value": 260,
+    "source": "Cooking",
+    "basicDescription": "There's quite nothing like it.",
+    "longDescription": "Blackberry Cobbler is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be received as a gift at the Feast of the Winter Star. Note: this recipe can be profitable - it will result in profit when using the lowest quality ingredients without Bear's Knowledge, or if using Wheat Flour and/or Sugar from the Mill. If the player has Bear's Knowledge and purchases Sugar and Wheat Flour from Pierre's General Store, using the lowest quality blackberry will result in the cost being equal to the sell price. The recipe is obtained from The Queen of Sauce from Year 2, Fall 14.",
+    "energy": 175,
+    "heal": 78,
+    "recipe": [
+      "blackberry",
+      "blackberry"
+      "sugar",
+      "wheatFlour"
+    ]
+  },
+  {
+    "name": "cranberryCandy",
+    "type": "food",
+    "value": 175,
+    "source": "Cooking",
+    "basicDescription": "It's sweet enough to mask the bitter fruit",
+    "longDescription": "Cranberry Candy is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce from Year 1, Winter 28.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "cranberries",
+      "apple",
+      "sugar"
+    ]
+  },
+  {
+    "name": "bruschetta",
+    "type": "food",
+    "value": 210,
+    "source": "Cooking",
+    "basicDescription": "Roasted tomatoes on a crisp white bread.",
+    "longDescription": "Bruschetta is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce from Year 2, Winter 21",
+    "energy": 113,
+    "heal": 50,
+    "recipe": [
+      "bread",
+      "oil",
+      "tomato"
+    ]
+  },
+  {
+    "name": "coleslaw",
+    "type": "food",
+    "value": 345,
+    "source": "Cooking",
+    "basicDescription": "It's light, fresh and very healthy",
+    "longDescription": "Coleslaw is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe is obtained from The Queen of Sauce from Year 1, Spring 14.",
+    "energy": 213,
+    "heal": 95,
+    "recipe": [
+      "redCabbage",
+      "vinegar",
+      "mayonnaise"
+    ]
+  },
+  {
+    "name": "fiddleheadRisotto",
+    "type": "food",
+    "value": 350,
+    "source": "Cooking",
+    "basicDescription": "A creamy rice dish served with sauteed fern heads. It's a little bland.",
+    "longDescription": "Fiddlehead Risotto is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients and made with homemade Oil. The recipe is obtained from The Queen of Sauce from Year 2, Fall 28.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "oil",
+      "fiddleheadFern",
+      "garlic"
+    ]
+  },
+  {
+    "name": "poppyseedMuffin",
+    "type": "food",
+    "value": 250,
+    "source": "Cooking",
+    "basicDescription": "It has a soothing effect.",
+    "longDescription": "The Poppyseed Muffin is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be received as a gift at the Feast of the Winter Star or bought at the Traveling Cart for Gold.png750-1,250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality poppies as well as wheat flour and sugar from the Mill. The recipe is obtained from The Queen of Sauce from Year 2, Winter 7.",
+    "energy": 150,
+    "heal": 67,
+    "recipe": [
+      "poppy",
+      "wheatFlour",
+      "sugar"
+    ]
+  },
+  {
+    "name": "chowder",
+    "type": "food",
+    "value": 135,
+    "source": "Cooking",
+    "basicDescription": "A perfect way to warm yourself after a cold night at sea.",
+    "longDescription": "Chowder is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Willy after 3 hearts of friendship.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "clam",
+      "milk"
+    ]
+  },
+  {
+    "name": "lobsterBisque",
+    "type": "food",
+    "value": 205,
+    "source": "Cooking",
+    "basicDescription": "This delicate soup is a secret family recipe of Willy's",
+    "longDescription": "Lobster Bisque is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Willy after 9 hearts of friendship or through the Queen of Sauce of Year 2, Winter 14.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "lobster",
+      "milk"
+    ]
+  },
+  {
+    "name": "escargot",
+    "type": "food",
+    "value": 125,
+    "source": "Cooking",
+    "basicDescription": "Butter-soaked snails cooked to perfection.",
+    "longDescription": "Escargot is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained from Willy after 5 friendship hearts.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "snail",
+      "garlic"
+    ]
+  },
+  {
+    "name": "fishStew",
+    "type": "food",
+    "value": 175,
+    "source": "Cooking",
+    "basicDescription": "It smells alot like the sea. Tastes better, though.",
+    "longDescription": "Fish Stew is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. This recipe can be obtained from Willy after 7 friendship hearts.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "crayfish",
+      "mussel",
+      "periwinkle",
+      "tomato"
+    ]
+  },
+  {
+    "name": "mapleBar",
+    "type": "food",
+    "value": 300,
+    "source": "Cooking",
+    "basicDescription": "It's a sweet doughnut topped with a rich maple glaze.",
+    "longDescription": "Maple Bar is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. The recipe can be obtained through the Queen of Sauce on Year 2, Summer 14.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "mapleSyrup",
+      "sugar",
+      "wheatFlour"
+    ]
+  },
+  {
+    "name": "crabCakes",
+    "type": "food",
+    "value": 275,
+    "source": "Cooking",
+    "basicDescription": "",
+    "longDescription": "Crab Cakes are a cooked dish. They are prepared using the kitchen inside an upgraded farmhouse. Iridium Crabs in the Skull Cavern may drop Crab Cakes when slain (50% chance). Gus will also sell an unlimited number of Crab Cakes at The Stardrop Saloon for Gold.png550g each for approximately 4 days after viewing Willy's 6-heart cutscene. The recipe can be obtained through the Queen of Sauce on Year 2, Fall 21.",
+    "energy": 225,
+    "heal": 101,
+    "recipe": [
+      "crab",
+      "wheatFlour",
+      "egg",
+      "oil"
+    ]
   }
-  
-  
-  
+
+
+
+
+
+
+
+
 ]
+
