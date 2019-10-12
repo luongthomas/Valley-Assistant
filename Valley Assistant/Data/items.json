@@ -1,45 +1,5 @@
 [
   {
-    "name": "ruby",
-    "type": "minerals",
-    "value": 100,
-    "source": "Cave",
-    "basicDescription": "A valuable and red stone",
-    "longDescription": ""
-  },
-  {
-    "name": "axe",
-    "type": "tools",
-    "value": 50,
-    "source": "Obtained from the start of the game.",
-    "basicDescription": "A handy tool to chop down trees",
-    "longDescription": ""
-  },
-  {
-    "name": "sapphire",
-    "type": "minerals",
-    "value": 150,
-    "source": "Cave",
-    "basicDescription": "A valuable and blue stone",
-    "longDescription": ""
-  },
-  {
-    "name": "emerald",
-    "type": "minerals",
-    "value": 1000,
-    "source": "Mines",
-    "basicDescription": "Beautiful green rock ",
-    "longDescription": ""
-  },
-  {
-    "name": "aquamarine",
-    "type": "minerals",
-    "value": 1200,
-    "source": "Mines",
-    "basicDescription": "Beautiful light blue rock ",
-    "longDescription": ""
-  },
-  {
     "name": "barn",
     "type": "building",
     "value": 500,
@@ -159,6 +119,29 @@
       "sap",
       "sap",
       "anyFish"
+    ]
+  },
+  {
+    "name": "sweetGemBerry",
+    "type": "crops",
+    "value": 3000,
+    "source": "Rare Seed grown in the Fall",
+    "basicDescription": "It's by far the sweetest thing you've ever smelled.",
+    "longDescription": "The Sweet Gem Berry is a crop that grows from a Rare Seed after 24 days. It is not considered a Fruit or Vegetable and thus cannot be used in a Keg or Preserves Jar. It also does not benefit from the Tiller profession. It can be purchased from the Traveling Cart for Gold.png9,000-15,000g. Rare Seeds can be purchased from the Traveling Cart for Gold.png1,000g in Spring & Summer, or for Gold.png600-1,000g in any season. Rare Seeds can also be produced from a Sweet Gem Berry using the Seed Maker. Despite its high value, the berry is regarded as a neutral gift by everyone in Stardew Valley. However, if you give one to Old Master Cannoli in the Secret Woods, you will get a Stardrop in return, and your Energy will increase permanently. In multiplayer, only one berry needs to be given for all players to receive a Stardrop.",
+    "recipe": [
+      "rareSeed"
+    ]
+  },
+  {
+    "name": "rareSeed",
+    "type": "crops",
+    "value": 200,
+    "source": "Traveling Cart in Spring and Summer",
+    "basicDescription": "Sow in fall. Takes all season to grow.",
+    "longDescription": "The Rare Seed is a type of seed. A mature plant yields a Sweet Gem Berry. One to five Rare Seeds can be purchased at the Traveling Cart for Gold.png1,000g each during Spring and Summer. During any season, there is also a 1.26% chance that the merchant will be selling 1-5 Rare Seeds for Gold.png600-1,000g each. (You may see Rare Seeds occupying two slots in the merchant's offerings in Spring and Summer). Rare Seeds can also be obtained by using the Seed Maker. Despite the description stating that this seed 'takes all season to grow', it takes only 24 days. If using Speed-Gro or Deluxe Speed-Gro, the player has up to Day 7 of Fall to plant this seed, and it will be harvestable before Winter.",
+    "growthTimeDays": 28,
+    "seasonToGrow": [
+      "fall"
     ]
   },
   {
@@ -3686,9 +3669,455 @@
       "egg",
       "oil"
     ]
+  },
+  {
+    "name": "quartz",
+    "type": "minerals",
+    "value": 25,
+    "source": "The Mines",
+    "basicDescription": "A clear crystal commonly found in caves and mines",
+    "longDescription": "Quartz is a Mineral that can be found by foraging in The Mines. It can also occasionally be found in Garbage Cans. Stone Golems have a 10% chance to drop Quartz when slain. Quartz can be destroyed by bombs. Quartz can be used along with 1 coal in a furnace to produce Refined Quartz, taking 1.5 in-game hours to smelt."
+  },
+  {
+    "name": "earthCrystal",
+    "type": "minerals",
+    "value": 50,
+    "source": "The Mines floors 1-39",
+    "basicDescription": "A resinous substance found near the surface",
+    "longDescription": "An Earth Crystal is a type of Mineral. It can be foraged in The Mines (especially floors 1 - 39), or obtained from Geodes and Omni Geodes, dropped from Duggies in the Mines (floors 1 - 29), or from panning. It can also be found in Fishing Treasure Chests. Wilderness Golems on the Wilderness Farm map have a 0.05% chance of dropping an Earth Crystal when slain. Earth Crystals can be destroyed by bombs."
+  },
+  {
+    "name": "frozenTear",
+    "type": "minerals",
+    "value": 75,
+    "source": "The Mines floors 40-79",
+    "basicDescription": "A crystal fabled to be the frozen tears of a yeti",
+    "longDescription": "The Frozen Tear is a Mineral. It can be foraged in the Mines (floors 40 - 79), or dropped by Dust Sprites (2% drop rate). It can also be found by panning, inside Frozen Geodes and Omni Geodes, or in Fishing Treasure Chests. It may occasionally be found in a Garbage Can after the player reaches level 40 of the mines. It can be destroyed by bombs."
+  },
+  {
+    "name": "emerald",
+    "type": "minerals",
+    "value": 250,
+    "source": "The Mines from an Emerald Node or Gem Node",
+    "basicDescription": "A precious stone with a brilliant green color",
+    "longDescription": "The Emerald is a Mineral. It can be obtained from Emerald Nodes and Gem Nodes in the Mines, from panning, or in Fishing Treasure Chests. It may occasionally be found in a Garbage Can after the player has reached level 81 of the mines. It can also be received as a gift at the Feast of the Winter Star."
+  },
+  {
+    "name": "fireQuartz",
+    "type": "minerals",
+    "value": 100,
+    "source": "The Mines floors 80+",
+    "basicDescription": "A glowing red crystal commonly found near hot lava",
+    "longDescription": "Fire Quartz is a Mineral. It can be foraged in the Mines (floors 80+) or found inside a Magma Geode or Omni Geode. It can also be found by panning or inside Fishing Treasure Chests. It may occasionally be found in a Garbage Can after the player reaches level 81 of the mines. Fire Quartz can be destroyed by bombs. Fire Quartz can be used along with 1 coal in a furnace to produce 3 Refined Quartz, taking 1.5 in-game hours to smelt."
+  },
+  {
+    "name": "aquamarine",
+    "type": "minerals",
+    "value": 180,
+    "source": "The Mines floors 40+",
+    "basicDescription": "A shimmery blue-green gem",
+    "longDescription": "Aquamarine is a Mineral. It can be obtained from Aquamarine Nodes and Gem Nodes in the Mines (floors 40+), from panning, and from Fishing Treasure Chests. It may occasionally be found in a Garbage Can after the player has reached level 41 of the mines."
+  },
+  {
+    "name": "ruby",
+    "type": "minerals",
+    "value": 250,
+    "source": "The Mines floors 80+",
+    "basicDescription": "A precious stone that is sought after for its rich color and beautiful luster.",
+    "longDescription": "The Ruby is a Mineral that can be found in Ruby Nodes and Gem Nodes in the Mines (floors 80+), by panning, in Fishing Treasure Chests, or received as a gift at the Feast of the Winter Star. It may also occasionally be found in a Garbage Can after the player has reached level 81 of the mines."
+  },
+  {
+    "name": "amethyst",
+    "type": "minerals",
+    "value": 100,
+    "source": "The Mines",
+    "basicDescription": "A purple variant of quartz",
+    "longDescription": "Amethyst is a Mineral that can be obtained from Amethyst Nodes and Gem Nodes in the Mines, panning, or as a rare drop from Green Slimes. It may also occasionally be found in Fishing Treasure Chests or in a Garbage Can."
+  },
+  {
+    "name": "topaz",
+    "type": "minerals",
+    "value": 80,
+    "source": "The Mines",
+    "basicDescription": "Fairly common but still prized for its beauty.",
+    "longDescription": "Topaz is a type of Mineral that can be obtained from Topaz Nodes and Gem Nodes in The Mines, from panning, or found in Fishing Treasure Chests. It may occasionally be found in a Garbage Can."
+  },
+  {
+    "name": "jade",
+    "type": "minerals",
+    "value": 200,
+    "source": "The Mines floor 40+",
+    "basicDescription": "A pale green ornamental stone.",
+    "longDescription": "Jade is a Mineral that can be found in Jade Nodes and Gem Nodes in the Mines (floors 40+), dropped by Blue Slimes, in Fishing Treasure Chests, or received as a gift at the Feast of the Winter Star. Jade may also occasionally be found in a Garbage Can after the player has reached level 41 of the mines."
+  },
+  {
+    "name": "diamond",
+    "type": "minerals",
+    "value": 750,
+    "source": "The Mines floors 50+",
+    "basicDescription": "A rare and valuable gem.",
+    "longDescription": "The Diamond is a Mineral that can be obtained from Diamond Nodes and Gem Nodes in the Mines on floors 50+. A diamond may also be dropped by any Monster once you have reached the bottom of the Mines. Before reaching the bottom of the Mines, a Diamond may be dropped by a Red or Purple Slime, or a Duggy. A Wilderness Golem may also rarely drop a diamond (0.1% chance). Diamonds may also be found in Fishing Treasure Chests or by panning. After the player has reached level 40 of the Mines, they may also be found in Garbage Cans. A Diamond is arguably the best gem to duplicate in the Crystalarium, providing the largest source of money as a gem."
+  },
+  {
+    "name": "tigerseye",
+    "type": "minerals",
+    "value": 275,
+    "source": "The Mines",
+    "basicDescription": "A stripe of shimmering gold gives this gem a warm luster.",
+    "longDescription": "Tigerseye is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "opal",
+    "type": "minerals",
+    "value": 150,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "Its internal structure causes it to reflect a rainbow of light.",
+    "longDescription": "Opal is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "fireOpal",
+    "type": "minerals",
+    "value": 350,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "A rare variety of opal, named for its red spots.",
+    "longDescription": "Fire Opal is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "alamite",
+    "type": "minerals",
+    "value": 150,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "ts distinctive fluorescence makes it a favorite among rock collectors.",
+    "longDescription": "Alamite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "bixite",
+    "type": "minerals",
+    "value": 300,
+    "source": "Magma Geode, Omni Geode, Black Slime",
+    "basicDescription": "A dark metallic Mineral sought after for its cubic structure.",
+    "longDescription": "Bixite is a mineral that can be found in the Magma Geode and the Omni Geode. It can also be dropped by Black Slimes."
+  },
+  {
+    "name": "baryte",
+    "type": "minerals",
+    "value": 50,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "The best specimens resemble a desert rose.",
+    "longDescription": "Baryte is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "aerinite",
+    "type": "minerals",
+    "value": 125,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "These crystals are curiously light.",
+    "longDescription": "Aerinite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "calcite",
+    "type": "minerals",
+    "value": 75,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "This yellow crystal is speckled with shimmering nodules.",
+    "longDescription": "Calcite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "dolomite",
+    "type": "minerals",
+    "value": 300,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "It can occur in coral reefs, often near an underwater volcano.",
+    "longDescription": "Dolomite is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "esperite",
+    "type": "minerals",
+    "value": 100,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "The crystals glow bright green when stimulated.",
+    "longDescription": "Esperite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "fluorapatite",
+    "type": "minerals",
+    "value": 200,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "Small amounts are found in human teeth.",
+    "longDescription": "Fluorapatite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "geminite",
+    "type": "minerals",
+    "value": 150,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "Occurs in brilliant clusters.",
+    "longDescription": "Geminite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "helvite",
+    "type": "minerals",
+    "value": 450,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "It grows in a triangular column.",
+    "longDescription": "Helvite is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "jamborite",
+    "type": "minerals",
+    "value": 150,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "The crystals are so tightly packed it almost looks fuzzy.",
+    "longDescription": "Jamborite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "jagoite",
+    "type": "minerals",
+    "value": 115,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A high volume of tiny crystals makes it very glittery.",
+    "longDescription": "Jagoite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "kyanite",
+    "type": "minerals",
+    "value": 250,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "The geometric faces are as smooth as glass.",
+    "longDescription": "Kyanite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "lunarite",
+    "type": "minerals",
+    "value": 200,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "The cratered white orbs form a tight cluster.",
+    "longDescription": "Lunarite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "malachite",
+    "type": "minerals",
+    "value": 100,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A popular ornamental stone, used in sculpture and to make green paint.",
+    "longDescription": "Malachite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "neptunite",
+    "type": "minerals",
+    "value": 400,
+    "source": "Magma Geode, Omni Geode, Black Slime",
+    "basicDescription": "A jet-black crystal that is unusually reflective.",
+    "longDescription": "Neptunite is a mineral that can be found in the Magma Geode and the Omni Geode. It can also be dropped by Black Slimes."
+  },
+  {
+    "name": "lemonStone",
+    "type": "minerals",
+    "value": 200,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "Some claim the powdered crystal is a dwarvish delicacy.",
+    "longDescription": "Lemon Stone is a mineral that can be found in the Magma Geode and the Omni Geode. Despite its description, the dwarf doesn't actually enjoy being gifted one."
+  },
+  {
+    "name": "nekoite",
+    "type": "minerals",
+    "value": 80,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "The delicate shards form a tiny pink meadow.",
+    "longDescription": "Nekoite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "orpiment",
+    "type": "minerals",
+    "value": 80,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "Despite its high toxicity, this Mineral is widely used in manufacturing and folk medicine.",
+    "longDescription": "Orpiment is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "petrifiedSlime",
+    "type": "minerals",
+    "value": 120,
+    "source": "Geode, Omni Geode, Slime Ball",
+    "basicDescription": "This little guy may be 100,000 years old.",
+    "longDescription": "Petrified Slime is a mineral that can be found in the Geode and the Omni Geode. It may also be found inside Slime Balls produced in a Slime Hutch."
+  },
+  {
+    "name": "thunderEgg",
+    "type": "minerals",
+    "value": 100,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "According to legend, angry thunder spirits would throw these stones at one another.",
+    "longDescription": "Thunder Egg is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "pyrite",
+    "type": "minerals",
+    "value": 120,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "Commonly known as 'Fool's Gold'.",
+    "longDescription": "Pyrite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "oceanStone",
+    "type": "minerals",
+    "value": 220,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "An old legend claims these stones are the mosaics of ancient mermaids.",
+    "longDescription": "Ocean Stone is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "ghostCrystal",
+    "type": "minerals",
+    "value": 200,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "There is an aura of coldness around this crystal.",
+    "longDescription": "Ghost Crystal is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "jasper",
+    "type": "minerals",
+    "value": 150,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "When polished, this stone becomes attactively luminous. Prized by ancient peoples for thousands of years.",
+    "longDescription": "Jasper is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "celestine",
+    "type": "minerals",
+    "value": 125,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "Some early life forms had bones made from this.",
+    "longDescription": "Celestine is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "marble",
+    "type": "minerals",
+    "value": 110,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "A very popular material for sculptures and construction.",
+    "longDescription": "Marble is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "sandstone",
+    "type": "minerals",
+    "value": 60,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A common type of stone with red and brown striations.",
+    "longDescription": "Sandstone is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "granite",
+    "type": "minerals",
+    "value": 75,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A speckled Mineral that is commonly used in construction.",
+    "longDescription": "Granite is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "basalt",
+    "type": "minerals",
+    "value": 175,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "Forms near searing hot magma.",
+    "longDescription": "Basalt is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "limestone",
+    "type": "minerals",
+    "value": 15,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A very common type of stone. It's not worth very much.",
+    "longDescription": "Limestone is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "soapstone",
+    "type": "minerals",
+    "value": 120,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "Because of its relatively soft consistency, this stone is very popular for carving.",
+    "longDescription": "Soapstone is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "hematite",
+    "type": "minerals",
+    "value": 150,
+    "source": "Frozen Geode, Omni Geode",
+    "basicDescription": "An iron-based Mineral with interesting magnetic properties.",
+    "longDescription": "Hematite is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "mudstone",
+    "type": "minerals",
+    "value": 25,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "A fine-grained rock made from ancient clay or mud.",
+    "longDescription": "Mudstone is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "obsidian",
+    "type": "minerals",
+    "value": 200,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "A volcanic glass that forms when lava cools rapidly.",
+    "longDescription": "Obsidian is a mineral that can be found in the Magma Geode and the Omni Geode."
+  },
+  {
+    "name": "slate",
+    "type": "minerals",
+    "value": 85,
+    "source": "Geode, Omni Geode",
+    "basicDescription": "t's extremely resistant to water, making it a good roofing material.",
+    "longDescription": "Slate is a mineral that can be found in the Geode and the Omni Geode."
+  },
+  {
+    "name": "fairyStone",
+    "type": "minerals",
+    "value": 250,
+    "source": "Frozen Stone, Omni Geode",
+    "basicDescription": "An old miner's song suggests these are made from the bones of ancient fairies.",
+    "longDescription": "Fairy Stone is a mineral that can be found in the Frozen Geode and the Omni Geode."
+  },
+  {
+    "name": "starShards",
+    "type": "minerals",
+    "value": 500,
+    "source": "Magma Geode, Omni Geode",
+    "basicDescription": "No one knows how these form. Some scientists claim that the microscopic structure displays unnatural regularity.",
+    "longDescription": "Star Shards are a mineral that can be found in the Magma Geode and the Omni Geode."
   }
-
-
+  {
+    "name": "geode",
+    "type": "minerals",
+    "value": 50,
+    "source": "The Mines floors 1-39",
+    "basicDescription": "A blacksmith can break this open for you.",
+    "longDescription": "The Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be obtained from breaking rocks above ground in Stardew Valley and in The Mines (especially floors 1 - 39), or dropped by Duggies. It may also be found in Fishing Treasure Chests or received as a gift at the Feast of the Winter Star. The geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+  },
+  {
+    "name": "frozenGeode",
+    "type": "minerals",
+    "value": 100,
+    "source": "The Mines floors 41-79",
+    "basicDescription": "A blacksmith can break this open for you.",
+    "longDescription": "The Frozen Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 41 to 79 of The Mines, on the farm in the Winter, or inside a Fishing Treasure Chest. It can also be received as a gift at the Feast of the Winter Star. The Frozen Geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+  },
+  {
+    "name": "magmaGeode",
+    "type": "minerals",
+    "value": 150,
+    "source": "The Mines floors 81-119",
+    "basicDescription": " blacksmith can break this open for you.",
+    "longDescription": "The Magma Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 81 to 119 of The Mines or in Fishing Treasure Chests. It can also be received as a gift at the Feast of the Winter Star. It may be additionally be found by breaking boxes and barrels in the Skull Cavern. The Magma Geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+  },
+  {
+    "name": "omniGeode",
+    "type": "minerals",
+    "value": 0,
+    "source": "The Mines from rocks",
+    "basicDescription": "A blacksmith can break this open for you. These geodes contain a wide variety of Minerals.",
+    "longDescription": "The Omni Geode is a Mineral deposit found primarily by breaking rocks in The Mines. It must be broken open at the Blacksmith for Gold.png25g to obtain the items inside. Omni Geodes can contain minerals, artifacts, ores, or basic resources. Omni Geodes can be found while panning, on all levels of The Mines, and on all levels of the Skull Cavern. Carbon Ghosts have a 99% chance to drop one Omni Geode when slain. Omni Geodes can also be purchased from the Oasis on Wednesdays for Gold.png1,000g, and from Krobus on Tuesdays for Gold.png300g. Five Omni Geodes are the reward for completing the Bundle Purple.png Geologist's Bundle in the Boiler Room. Neither daily luck nor luck buffs affect the contents of an Omni Geode."
+  },
 
 
 
