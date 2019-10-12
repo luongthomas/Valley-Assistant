@@ -2296,7 +2296,7 @@
   },
   {
     "name": "daffodil",
-    "type": "forragables",
+    "type": "forageables",
     "value": 30,
     "source": "Foraging in the Spring or grown from Spring Seeds",
     "basicDescription": "A traditional spring flower that makes a nice gift.",
@@ -2326,7 +2326,7 @@
     "longDescription": "The Dandelion is found via foraging in the Spring, or grown from Spring Seeds. Up to ten can also be purchased from Pierre at the Flower Dance. Although it is a flower in its description (and in real life), the game classifies it as 'Forage' and not 'Flower'.",
     "heal": 18,
     "energy": 40
-  },  
+  },
   {
     "name": "springOnion",
     "type": "food",
@@ -2425,7 +2425,7 @@
     "recipe": [
       "fallSeeds"
     ]
-  },  
+  },
   {
     "name": "hazelnut",
     "type": "crops",
@@ -2550,7 +2550,7 @@
   },
   {
     "name": "rainbowShell",
-    "type": "forragables",
+    "type": "forageables",
     "value": 300,
     "source": "Foraging the Beach in the Summer",
     "basicDescription": "It's a very beautiful shell.",
@@ -2558,7 +2558,7 @@
   },
   {
     "name": "caveCarrot",
-    "type": "forragables",
+    "type": "forageables",
     "value": 25,
     "source": "Foraging The Mines or Garbage Cans",
     "basicDescription": "A starchy snack found in caves. It helps miners work longer",
@@ -2568,7 +2568,7 @@
   },
   {
     "name": "coconut",
-    "type": "forragables",
+    "type": "forageables",
     "value": 100,
     "source": "Foraging in the Calico Desert or bought at Oasis",
     "basicDescription": "A seed of the coconut palm. It has many culinary uses",
@@ -2576,7 +2576,7 @@
   },
   {
     "name": "cactusFruit",
-    "type": "forragables",
+    "type": "forageables",
     "value": 75,
     "source": "Foraging in the Calico Desert or bought in the Oasis or grown from Cactus Seeds",
     "basicDescription": "The sweet fruit of the prickly pear cactus",
@@ -2727,7 +2727,7 @@
     "recipe": [
       "appleSapling"
     ]
-  }, 
+  },
   {
     "name": "apricot",
     "type": "crops",
@@ -2780,7 +2780,7 @@
   },
   {
     "name": "purpleMushroom",
-    "type": "forragables",
+    "type": "forageables",
     "value": 250,
     "source": "The Mines, The Cave",
     "basicDescription": "A rare mushroom found deep in caves.",
@@ -2829,7 +2829,7 @@
     "recipe": [
       "squid",
       "wheatFlour",
-      "oil" 
+      "oil"
     ]
   },
   {
@@ -3460,7 +3460,7 @@
       "sugar"
     ]
   },
-  {  
+  {
     "name": "radishSalad",
     "type": "food",
     "value": 300,
@@ -3501,7 +3501,6 @@
     "heal": 78,
     "recipe": [
       "blackberry",
-      "blackberry"
       "sugar",
       "wheatFlour"
     ]
@@ -4085,7 +4084,7 @@
     "source": "Magma Geode, Omni Geode",
     "basicDescription": "No one knows how these form. Some scientists claim that the microscopic structure displays unnatural regularity.",
     "longDescription": "Star Shards are a mineral that can be found in the Magma Geode and the Omni Geode."
-  }
+  },
   {
     "name": "geode",
     "type": "minerals",
@@ -4117,12 +4116,6 @@
     "source": "The Mines from rocks",
     "basicDescription": "A blacksmith can break this open for you. These geodes contain a wide variety of Minerals.",
     "longDescription": "The Omni Geode is a Mineral deposit found primarily by breaking rocks in The Mines. It must be broken open at the Blacksmith for Gold.png25g to obtain the items inside. Omni Geodes can contain minerals, artifacts, ores, or basic resources. Omni Geodes can be found while panning, on all levels of The Mines, and on all levels of the Skull Cavern. Carbon Ghosts have a 99% chance to drop one Omni Geode when slain. Omni Geodes can also be purchased from the Oasis on Wednesdays for Gold.png1,000g, and from Krobus on Tuesdays for Gold.png300g. Five Omni Geodes are the reward for completing the Bundle Purple.png Geologist's Bundle in the Boiler Room. Neither daily luck nor luck buffs affect the contents of an Omni Geode."
-  },
-
-
-
-
-
-
+  }
 ]
 

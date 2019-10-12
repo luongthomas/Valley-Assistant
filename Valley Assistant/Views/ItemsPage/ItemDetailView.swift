@@ -101,7 +101,7 @@ struct ItemDetailView_Previews: PreviewProvider {
     
     static var previews: some View {
         ItemDetailView(item: items.first(where: {
-            $0.name.rawValue == "omelette"
+            $0.name.rawValue == "omelet"
         })!)
     }
 }

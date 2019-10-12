@@ -22,22 +22,21 @@ enum ItemName: String, Codable {
     case hashbrownsRecipe, omeletRecipe, pancakesRecipe, breadRecipe, tortillaRecipe, pizzaRecipe, makiRollRecipe
     
     case goldenPumpkin, pearl, rabbitsFoot
-
-    case pickles, jelly
+    
+    case vinegar
     
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed
     
     
-    
     // Recipes
-    case friedEgg, omelet, salad, bakedFish, parsnipSoup, vegetableMedley, completeBreakfast, friedCalamari, strangeBun, luckyLunch, friedMushroom, pizza, beanHotpot, glazedYams, carpSurprise, hashbrowns, pancakes, salmonDinner, fishTaco, crispyBass, pepperPoppers, breat, tomKhaSoup, troupSOup, chocolateCake, pinkCake, rhubarbPie, cookie, spaghetti, friedEel, spicyEel, sashimi, makiRoll, tortilla, redPlate, eggParmesan, ricePudding, iceCream, blueberryTart, autumnsBounty, pumpkinSoup, superMeal, cranberrySauce, stuffing, farmersLunch, survivalBurger, dishOTheSea, minersTreat, rootsPlatter, algaeSoup, paleBroth, plumPudding, artichokeDip, stirFry, roastedHazelnuts, pumpkinPie, radishSalad, fruitSalad, blackberryCobbler, cranberryCandy, bruschetta, coleslaw, fiddleheadRisotto, poppyseedMuffin, chowder, lobsterBisque, escargot, fishStew, mapleBar, crabCakes, fieldSnack, lifeElixir, oilOfGarlic
+    case friedEgg, omelet, salad, cheeseCauliflower, bakedFish, parsnipSoup, vegetableMedley, completeBreakfast, friedCalamari, strangeBun, luckyLunch, friedMushroom, pizza, beanHotpot, glazedYams, carpSurprise, hashbrowns, pancakes, salmonDinner, fishTaco, crispyBass, pepperPoppers, bread, tomKhaSoup, troutSoup, chocolateCake, pinkCake, rhubarbPie, cookie, spaghetti, friedEel, spicyEel, sashimi, makiRoll, tortilla, redPlate, eggplantParmesan, ricePudding, iceCream, blueberryTart, autumnsBounty, pumpkinSoup, superMeal, cranberrySauce, stuffing, farmersLunch, survivalBurger, dishOTheSea, minersTreat, rootsPlatter, algaeSoup, paleBroth, plumPudding, artichokeDip, stirFry, roastedHazelnuts, pumpkinPie, radishSalad, fruitSalad, blackberryCobbler, cranberryCandy, bruschetta, coleslaw, fiddleheadRisotto,poppyseedMuffin, chowder, lobsterBisque, escargot, fishStew, mapleBar, crabCakes, fieldSnack, lifeElixir, oilOfGarlic
     
     // Crops
-    case parsnip, kale, potato, blueJazz, greenBean, cauliflower, rhubarb, garlic, hotPepper, radish, poppy, tomato, melon, blueberry, corn, redCabage, bokChoy, eggplant, amaranth, cranberries, yam, pumpkin, beet, artichoke, sweetGemBerry
+    case blueJazz, cauliflower, coffeeBean, garlic, greenBean, kale, parsnip, potato, rhubarb, strawberry, tulip, blueberry, corn, hops, hotPepper, melon, poppy, radish, redCabbage, starfruit, summerSpangle, sunflower, tomato, wheat, amaranth, artichoke, beet, bokChoy, cranberries, eggplant, fairyRose, grape, pumpkin, yam, ancientFruit, cactusFruit, sweetGemBerry
     
     // Foraged Goods
-    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, nautilusShell, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, grape, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonBerry, cactusFruit
+    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, nautilusShell, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom
 
     // Tree Products
     case apple, apricot, mapleSyrup
@@ -49,10 +48,10 @@ enum ItemName: String, Codable {
     case honey, wine, paleAle, beer, mead, cheese, goatCheese, juice, coffee, cloth, mayonnaise, duckMayonnaise, voidMayonnaise, truffleOil, oil, pickles, jelly
     
     // Fish
-    case tuna, sardine, bream, largemouthBass, rainbowTrout, salmon, carp, sunfish, eel, squid, seaCucumber, seaweed, greenAlgae, whiteAlgae
+    case pufferfish, anchovy, tuna, sardine, bream, largemouthBass, smallmouthBass, rainbowTrout, salmon, walleye, perch, carp, catfish, pike, sunfish, redMullet, herring, eel, octopus, redSnapper, squid, seaCucumber, superCucumber, ghostfish, stonefish, icePip, lavaEel, sandfish, scorpionCarp, sturgeon, tigerTrout, bullhead, tilapia, chub, dorado, albacore, shad, lingcod, halibut, woodskip, voidSalmon, slimejack, midnightSquid, spookFish, blobfish, crimsonfish, angler, legend, glacierfish, mutantCarp, seaweed, greenAlgae, whiteAlgae
     
     // Crab Pot items
-    case lobster, clam, crayfish, crab, mussel, shrimp, snail, periwinkle
+    case lobster, clam, crayfish, crab, cockle, mussel, shrimp, snail, periwinkle, oyster
     
     // General Store Items
     case sugar, wheatFlour, rice
