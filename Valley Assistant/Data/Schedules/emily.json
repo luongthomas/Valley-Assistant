@@ -147,7 +147,7 @@
         "min": 30,
         "ampm": "am"
       },
-      "location": "harveysClinic",
+      "location": "medicalClinic",
       "description": "Moves to the exam room."
     },
     {
@@ -156,7 +156,7 @@
         "min": 0,
         "ampm": "pm"
       },
-      "location": "harveysClinic",
+      "location": "medicalClinic",
       "description": "Leaves clinic to work at The Stardrop Saloon."
     },
     {

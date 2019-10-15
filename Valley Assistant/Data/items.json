@@ -547,6 +547,20 @@
     "seasonToGrow": ["fall"]
   },
   {
+    "name": "ancientSeeds",
+    "type": "crops",
+    "value": 30,
+    "source": "Traveling Cart",
+    "basicDescription": "Could these still grow?",
+    "longDescription": "Ancient Seeds are a type of seed, not to be confused with an Ancient Seed artifact. Ancient Seeds grow into plants that yield Ancient Fruit when mature. Ancient Seeds can be purchased at the Traveling Cart (1.26% chance to appear). Ancient Seeds can also be obtained from Ancient Fruit by using a Seed Maker. Whenever the Seed Maker is used with any crop other than Ancient Fruit, there is also a very small chance (0.5%) to obtain 1-3 Ancient Seeds instead of the crop's seeds. Once you donate an Ancient Seed artifact to the Museum, you can claim a packet of Ancient Seeds from Gunther as a reward. You will also be given a crafting recipe by which you can craft Ancient Seeds from an Ancient Seed artifact. Ancient Seeds cannot be planted in Garden Pots.",
+    "growthTimeDays": 28,
+    "seasonToGrow": [
+      "fall",
+      "summer",
+      "spring"
+    ]
+  },
+  {
     "name": "bokChoySeeds",
     "type": "crops",
     "value": 25,
@@ -1013,6 +1027,14 @@
       "milk",
       "largeMilk"
     ]
+  },
+  {
+    "name": "duckFeather",
+    "type": "animalProducts",
+    "value": 125,
+    "source": "Duck",
+    "basicDescription": "It's so colorful",
+    "longDescription": "The Duck Feather is an animal product obtained from a Duck with at least 200 friendship, as well as sufficient mood and daily luck. It can also occasionally be purchased from the Traveling Cart for 375-1,000g. Additionally, if the player is married to Emily, she will occasionally gift one to the player. Luck buffs do not influence the chances of getting a duck feather."
   },
   {
     "name": "milk",
@@ -2283,6 +2305,17 @@
     ]
   },
   {
+    "name": "ancientFruit",
+    "type": "crops",
+    "value": 550,
+    "source": "Ancient Seeds grown anytime after planting for 28 days.",
+    "basicDescription": "It's been dormant for eons.",
+    "longDescription": "The Ancient Fruit is a fruit crop that grows from Ancient Seeds after 28 days. Thereafter, the mature plant yields another Ancient Fruit every 7 days. Seeds can be obtained from a variety of sources (see Ancient Seeds). If planted on Day 1 of a season, the first harvest will occur on Day 1 of the following season. Growth fertilizers affect only the first harvest.",
+    "recipe": [
+      "ancientSeeds"
+    ]
+  },
+  {
     "name": "radish",
     "type": "crops",
     "value": 90,
@@ -2777,6 +2810,19 @@
     ]
   },
   {
+    "name": "cherry",
+    "type": "crops",
+    "value": 80,
+    "source": "Cherry Sapling harvested in the Spring",
+    "basicDescription": "It's popular, and ripens sooner than most other fruits.",
+    "longDescription": "The Cherry is a fruit grown by planting a Cherry Sapling, waiting 28 days for it to grow into a Cherry Tree, and harvesting the tree during the Spring. A Cherry may be purchased at the Traveling Cart for 240-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "cherrySapling"
+    ]
+  },
+  {
     "name": "apple",
     "type": "crops",
     "value": 100,
@@ -2790,6 +2836,19 @@
     ]
   },
   {
+    "name": "orange",
+    "type": "crops",
+    "value": 100,
+    "source": "Orange Sapling harvested in the Summer",
+    "basicDescription": "Juicy, tangy, and bursting with sweet summer aroma.",
+    "longDescription": "The Orange is a fruit grown by planting an Orange Sapling, waiting 28 days for it to grow into an Orange Tree, and harvesting the tree during the Summer. An Orange may be purchased at the Traveling Cart for 300-1,000g or found in The Cave on the farm, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "orangeSapling"
+    ]
+  },
+  {
     "name": "apricot",
     "type": "crops",
     "value": 50,
@@ -2800,6 +2859,32 @@
     "heal": 17,
     "recipe": [
       "apricotSapling"
+    ]
+  },
+  {
+    "name": "peach",
+    "type": "crops",
+    "value": 140,
+    "source": "Peach Sapling harvested in the Summer",
+    "basicDescription": "It's almost fuzzy to the touch.",
+    "longDescription": "The Peach is a fruit grown by planting a Peach Sapling, waiting 28 days for it to grow into a Peach Tree, and harvesting the tree during the Summer. A Peach may be purchased at the Traveling Cart for 420-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "peachSapling"
+    ]
+  },
+  {
+    "name": "pomegranate",
+    "type": "crops",
+    "value": 140,
+    "source": "Pomegranate Sapling harvested in the Fall",
+    "basicDescription": "Within the fruit are clusters of juicy seeds.",
+    "longDescription": "The Pomegranate is a fruit grown by planting a Pomegranate Sapling, waiting 28 days for it to grow into a Pomegranate Tree, and harvesting the tree during the Fall. A Pomegranate may be purchased at the Traveling Cart for 420-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "energy": 38,
+    "heal": 17,
+    "recipe": [
+      "pomegranateSapling"
     ]
   },
   {

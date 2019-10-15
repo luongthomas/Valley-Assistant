@@ -11,10 +11,12 @@ import Foundation
 enum Location: String, Codable, CustomStringConvertible {
     case home
     case willowLane
+    case oneWillowLane
     case twoWillowLane
     case stardropSaloon
     case communityCenter
-    case harveysClinic
+    case medicalClinic
+    case elliotsCabin
     case theBeach
     case pierresGeneralStore
     case oneRiverRoad

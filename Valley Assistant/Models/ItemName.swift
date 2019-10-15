@@ -28,7 +28,7 @@ enum ItemName: String, Codable {
     case dinosaurEgg
     
     // Seeds
-    case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed
+    case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed, ancientSeeds
     
     
     // Recipes
@@ -41,7 +41,7 @@ enum ItemName: String, Codable {
     case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, nautilusShell, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom
 
     // Tree Products
-    case apple, apricot, mapleSyrup
+    case apple, apricot, mapleSyrup, cherry, orange, peach, pomegranate
     
     // Animal Products
     case egg, milk, largeMilk, duckFeather, duckEgg, goatMilk, largeEgg, largeGoatMilk, slime, slimeBall, truffle, voidEgg, wool, largeBrownEgg, brownEgg

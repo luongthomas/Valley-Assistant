@@ -478,7 +478,7 @@
         ]
     },
     {
-        "name": "harveysClinic",
+        "name": "medicalClinic",
         "type": "shop",
         "occupants": [
             "harvey"
