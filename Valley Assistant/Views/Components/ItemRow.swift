@@ -14,7 +14,7 @@ struct ItemRow: View {
     var body: some View {
         HStack {
             NavigationLink(destination: ItemDetailView(item: item)) {
-                Text(item.name.rawValue.capitalized)
+                Text(item.name.rawValue.camelCaps)
             }
         }
     }
