@@ -3501,6 +3501,20 @@
     ]
   },
   {
+    "name": "omelet",
+    "type": "food",
+    "value": 125,
+    "source": "Cooking",
+    "basicDescription": "It's super fluffy",
+    "longDescription": "The Omelet is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Omelet may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be bought at the Saloon or obtained via The Queen of Sauce on Year 1 Spring 28.",
+    "energy": 100,
+    "heal": 45,
+    "recipe": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
     "name": "survivalBurger",
     "type": "food",
     "value": 180,
