@@ -1371,6 +1371,16 @@
     "heal": 17
   },
   {
+    "name": "voidEgg",
+    "type": "animalProducts",
+    "value": 65,
+    "source": "Void Chicken, Witch, Traveling Cart, Krobus",
+    "basicDescription": "A jet-black egg with red flecks. It's warm to the touch.",
+    "longDescription": "The Void Egg is an animal product obtained from a Void Chicken. Initially, a Void Egg can be obtained through a random event involving a witch. The random event can occur as long as the player owns a Big or Deluxe Coop that is not full. The witch will fly over the coop during the night and leave a Void Egg inside. A Void Egg can also be purchased from the Traveling Cart for 195-1,000g, or from Krobus for 5,000g. If you are married to Shane, there is a small random chance he may present you with one as a gift. A Void Egg sells for a base of 65g. This is 15g more than a Small Egg, but 30g less than a Large Egg. A Void Egg can hatch a Void Chicken by placing it in a Big or Deluxe Coop's incubator. A Void Egg will be produced by a Void Chicken daily if fed on the prior day, like all other chickens.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
     "name": "egg",
     "type": "animalProducts",
     "value": 50,
