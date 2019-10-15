@@ -25,6 +25,8 @@ enum ItemName: String, Codable {
     
     case vinegar
     
+    case dinosaurEgg
+    
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed
     
@@ -42,7 +44,7 @@ enum ItemName: String, Codable {
     case apple, apricot, mapleSyrup
     
     // Animal Products
-    case egg, milk, largeMilk, duckFeather, dinosaurEgg, duckEgg, goatMilk, largeEgg, largeGoatMilk, slime, slimeBall, truffle, voidEgg, wool
+    case egg, milk, largeMilk, duckFeather, duckEgg, goatMilk, largeEgg, largeGoatMilk, slime, slimeBall, truffle, voidEgg, wool, largeBrownEgg, brownEgg
     
     // Artisan Goods
     case honey, wine, paleAle, beer, mead, cheese, goatCheese, juice, coffee, cloth, mayonnaise, duckMayonnaise, voidMayonnaise, truffleOil, oil, pickles, jelly

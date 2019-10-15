@@ -1064,16 +1064,6 @@
     ]
     },
     {
-    "name": "egg",
-    "type": "animalProducts",
-    "value": 50,
-    "source": "Cooking",
-    "basicDescription": "A regular white/brown chicken egg.",
-    "longDescription": "The Egg and the Brown Egg are animal products obtained from White, Brown, or Blue Chickens. Marnie may also gift you 12 eggs at the Feast of the Winter Star. Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop. Eggs can be used to make the following Artisan Goods. Note that regular eggs always produce regular quality Mayonnaise, while Large Eggs and Dinosaur Eggs always produce gold-quality Mayonnaise. The quality of the egg is not a factor.",
-    "energy": 25,
-    "heal": 1
-    },
-    {
     "name": "hashbrowns",
     "type": "food",
     "value": 120,
@@ -1314,8 +1304,59 @@
     "recipe": [
       "egg",
       "largeEgg",
-      "dinosaurEgg"
+      "brownEgg",
+      "largeBrownEgg"
     ]
+  },
+  {
+    "name": "duckEgg",
+    "type": "animalProducts",
+    "value": 95,
+    "source": "Ducks",
+    "basicDescription": "It's still warm.",
+    "longDescription": "The Duck Egg is an animal product obtained from a Duck. It may be placed in a Big or Deluxe Coop's incubator to create a Duck.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "largeEgg",
+    "type": "animalProducts",
+    "value": 95,
+    "source": "Chicken",
+    "basicDescription": "It's an uncommonly large egg!",
+    "longDescription": "The Large Egg and the Large Brown Egg are animal products obtained from Chickens with sufficient friendship. Large Eggs produce Quality Mayonnaise when used with a Mayonnaise Machine. For cooking, regular and large eggs may be used interchangeably. Large Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "egg",
+    "type": "animalProducts",
+    "value": 50,
+    "source": "Chicken",
+    "basicDescription": "A regular white/brown chicken egg.",
+    "longDescription": "The Egg and the Brown Egg are animal products obtained from White, Brown, or Blue Chickens. Marnie may also gift you 12 eggs at the Feast of the Winter Star. Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop. Eggs can be used to make the following Artisan Goods. Note that regular eggs always produce regular quality Mayonnaise, while Large Eggs and Dinosaur Eggs always produce gold-quality Mayonnaise. The quality of the egg is not a factor.",
+    "energy": 25,
+    "heal": 11
+  },
+  {
+    "name": "largeBrownEgg",
+    "type": "animalProducts",
+    "value": 95,
+    "source": "Chicken",
+    "basicDescription": "It's an uncommonly large brown egg!",
+    "longDescription": "The Large Brown Egg are animal products obtained from Chickens with sufficient friendship. Large Eggs produce Quality Mayonnaise when used with a Mayonnaise Machine. For cooking, regular and large eggs may be used interchangeably. Large Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop.",
+    "energy": 38,
+    "heal": 17
+  },
+  {
+    "name": "brownEgg",
+    "type": "animalProducts",
+    "value": 50,
+    "source": "Chicken",
+    "basicDescription": "A regular brown chicken egg.",
+    "longDescription": "The Egg and the Brown Egg are animal products obtained from White, Brown, or Blue Chickens. Marnie may also gift you 12 eggs at the Feast of the Winter Star. Eggs can be hatched in an incubator, which comes with a Big or Deluxe Coop. Eggs can be used to make the following Artisan Goods. Note that regular eggs always produce regular quality Mayonnaise, while Large Eggs and Dinosaur Eggs always produce gold-quality Mayonnaise. The quality of the egg is not a factor.",
+    "energy": 25,
+    "heal": 11
   },
   {
     "name": "duckMayonnaise",
