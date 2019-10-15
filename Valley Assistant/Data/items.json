@@ -127,7 +127,7 @@
     "value": 3000,
     "source": "Rare Seed grown in the Fall",
     "basicDescription": "It's by far the sweetest thing you've ever smelled.",
-    "longDescription": "The Sweet Gem Berry is a crop that grows from a Rare Seed after 24 days. It is not considered a Fruit or Vegetable and thus cannot be used in a Keg or Preserves Jar. It also does not benefit from the Tiller profession. It can be purchased from the Traveling Cart for Gold.png9,000-15,000g. Rare Seeds can be purchased from the Traveling Cart for Gold.png1,000g in Spring & Summer, or for Gold.png600-1,000g in any season. Rare Seeds can also be produced from a Sweet Gem Berry using the Seed Maker. Despite its high value, the berry is regarded as a neutral gift by everyone in Stardew Valley. However, if you give one to Old Master Cannoli in the Secret Woods, you will get a Stardrop in return, and your Energy will increase permanently. In multiplayer, only one berry needs to be given for all players to receive a Stardrop.",
+    "longDescription": "The Sweet Gem Berry is a crop that grows from a Rare Seed after 24 days. It is not considered a Fruit or Vegetable and thus cannot be used in a Keg or Preserves Jar. It also does not benefit from the Tiller profession. It can be purchased from the Traveling Cart for 9,000-15,000g. Rare Seeds can be purchased from the Traveling Cart for 1,000g in Spring & Summer, or for 600-1,000g in any season. Rare Seeds can also be produced from a Sweet Gem Berry using the Seed Maker. Despite its high value, the berry is regarded as a neutral gift by everyone in Stardew Valley. However, if you give one to Old Master Cannoli in the Secret Woods, you will get a Stardrop in return, and your Energy will increase permanently. In multiplayer, only one berry needs to be given for all players to receive a Stardrop.",
     "recipe": [
       "rareSeed"
     ]
@@ -138,7 +138,7 @@
     "value": 200,
     "source": "Traveling Cart in Spring and Summer",
     "basicDescription": "Sow in fall. Takes all season to grow.",
-    "longDescription": "The Rare Seed is a type of seed. A mature plant yields a Sweet Gem Berry. One to five Rare Seeds can be purchased at the Traveling Cart for Gold.png1,000g each during Spring and Summer. During any season, there is also a 1.26% chance that the merchant will be selling 1-5 Rare Seeds for Gold.png600-1,000g each. (You may see Rare Seeds occupying two slots in the merchant's offerings in Spring and Summer). Rare Seeds can also be obtained by using the Seed Maker. Despite the description stating that this seed 'takes all season to grow', it takes only 24 days. If using Speed-Gro or Deluxe Speed-Gro, the player has up to Day 7 of Fall to plant this seed, and it will be harvestable before Winter.",
+    "longDescription": "The Rare Seed is a type of seed. A mature plant yields a Sweet Gem Berry. One to five Rare Seeds can be purchased at the Traveling Cart for 1,000g each during Spring and Summer. During any season, there is also a 1.26% chance that the merchant will be selling 1-5 Rare Seeds for 600-1,000g each. (You may see Rare Seeds occupying two slots in the merchant's offerings in Spring and Summer). Rare Seeds can also be obtained by using the Seed Maker. Despite the description stating that this seed 'takes all season to grow', it takes only 24 days. If using Speed-Gro or Deluxe Speed-Gro, the player has up to Day 7 of Fall to plant this seed, and it will be harvestable before Winter.",
     "growthTimeDays": 28,
     "seasonToGrow": [
       "fall"
@@ -347,7 +347,7 @@
     "value": 0,
     "source": "Oasis in the Desert",
     "basicDescription": "Can only be grown indoors. Takes 12 days to mature, and then produces fruit every 3 days.",
-    "longDescription": "ACactus Seeds are a type of seed. Mature plants yield Cactus Fruit. They can be purchased only from Sandy at the Oasis for Gold.png150g. Cactus Seeds can be planted outdoors, but will be either missing or dead the next day. Cactus plants may only be grown in the Greenhouse or inside another building using a Garden Pot. Cactus Fruit harvested from Cactus Seeds will never be iridium quality. Iridium quality Cactus Fruit is obtainable only by Foraging in The Desert after choosing the Botanist Profession. Harvesting Cactus plants gives Farming experience points.",
+    "longDescription": "ACactus Seeds are a type of seed. Mature plants yield Cactus Fruit. They can be purchased only from Sandy at the Oasis for 150g. Cactus Seeds can be planted outdoors, but will be either missing or dead the next day. Cactus plants may only be grown in the Greenhouse or inside another building using a Garden Pot. Cactus Fruit harvested from Cactus Seeds will never be iridium quality. Iridium quality Cactus Fruit is obtainable only by Foraging in The Desert after choosing the Botanist Profession. Harvesting Cactus plants gives Farming experience points.",
     "growthTimeDays": 12,
     "seasonToGrow": [
       "all"
@@ -1034,6 +1034,26 @@
     "heal": 22,
     "energy": 50
   },
+    {
+      "name": "goatMilk",
+      "type": "animalProducts",
+      "value": 225,
+      "source": "Goat",
+      "basicDescription": "The milk of a goat",
+      "longDescription": "Goat Milk is an animal product obtained from a Goat by using a Milk Pail. When a goat has a sufficient friendship and mood level, it can produce a Large Goat Milk, which is more valuable. Goat Milk can be used to make the following Artisan Goods. Note that regular Goat Milk always produces regular quality Goat Cheese, while Large Goat Milk always produces gold-quality Goat Cheese. The quality of the milk is not a factor. Goat Cheese may be aged in Casks to increase its quality.",
+      "heal": 63,
+      "energy": 28
+    },
+    {
+      "name": "largeGoatMilk",
+      "type": "animalProducts",
+      "value": 345,
+      "source": "Goat",
+      "basicDescription": "A large jug of cow's milk.",
+      "longDescription": "Large Goat Milk is an animal product obtained from a Goat with sufficient friendship and mood. It can also randomly rotate into the Traveling Cart's stock for 1,035-1,725g. Goat Milk can be used to make the following Artisan Goods. Note that regular Goat Milk always produces regular quality Goat Cheese, while Large Goat Milk always produces gold-quality Goat Cheese. The quality of the milk is not a factor. Goat Cheese may be aged in Casks to increase its quality.",
+      "heal": 88,
+      "energy": 39
+    },
   {
     "name": "completeBreakfast",
     "type": "food",
@@ -1192,7 +1212,7 @@
     "value": 100,
     "source": "Bee House or Oasis",
     "basicDescription": "It's a sweet syrup produced by bees",
-    "longDescription": "Honey is an Artisan Good made from the Bee House, using a variety of flowers. It does this every 4 days in every season other than Winter. It may be purchased from the Oasis on Fridays for Gold.png200g. Only flowers which are fully grown will have an effect on the type of honey produced. Flowers are not used up when a hive produces honey, and multiple hives can make honey from the same flower, so one flower can service a very large number of hives. If a Bee House has produced flower honey, but the flower is harvested before the honey, the honey will become 'Wild Honey.' Similarly, if a Bee House is removed with a tool while it has flower honey ready for harvesting, the honey will go into inventory as 'Honey', which is functionally identical to Wild Honey. Honey purchased from the Oasis or Traveling Cart is called 'Honey', and is also functionally identical to Wild Honey. Honey can be made into mead by placing it inside a keg."
+    "longDescription": "Honey is an Artisan Good made from the Bee House, using a variety of flowers. It does this every 4 days in every season other than Winter. It may be purchased from the Oasis on Fridays for 200g. Only flowers which are fully grown will have an effect on the type of honey produced. Flowers are not used up when a hive produces honey, and multiple hives can make honey from the same flower, so one flower can service a very large number of hives. If a Bee House has produced flower honey, but the flower is harvested before the honey, the honey will become 'Wild Honey.' Similarly, if a Bee House is removed with a tool while it has flower honey ready for harvesting, the honey will go into inventory as 'Honey', which is functionally identical to Wild Honey. Honey purchased from the Oasis or Traveling Cart is called 'Honey', and is also functionally identical to Wild Honey. Honey can be made into mead by placing it inside a keg."
   },
   {
     "name": "wine",
@@ -1200,7 +1220,7 @@
     "value": 400,
     "source": "Keg",
     "basicDescription": "Drink in moderation.",
-    "longDescription": "Wine is an Artisan Good made from the Keg, taking 7 days. It can also be received as a gift at the Feast of the Winter Star. The sell price of Wine depends on the fruit used (3 × Base Fruit Value). When consumed, wine causes a Tipsy buff that decreases Speed by 1. The healing effect of Wine is the same no matter what fruit is used to make it. Note: It is possible to acquire Wine that has no base fruit (from the Traveling Cart or a Statue Of Endless Fortune, or as a gift at the Feast of the Winter Star). This item is simply titled 'Wine', and has a selling price of Gold.png400g (or Gold.png560g with the Artisan Profession). Wine can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Wine. Wine takes the longest to age of any item in Casks. It takes 2 seasons of aging to go from basic wine to iridium quality wine. Normal, silver, and gold quality Wine can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe."
+    "longDescription": "Wine is an Artisan Good made from the Keg, taking 7 days. It can also be received as a gift at the Feast of the Winter Star. The sell price of Wine depends on the fruit used (3 × Base Fruit Value). When consumed, wine causes a Tipsy buff that decreases Speed by 1. The healing effect of Wine is the same no matter what fruit is used to make it. Note: It is possible to acquire Wine that has no base fruit (from the Traveling Cart or a Statue Of Endless Fortune, or as a gift at the Feast of the Winter Star). This item is simply titled 'Wine', and has a selling price of 400g (or 560g with the Artisan Profession). Wine can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Wine. Wine takes the longest to age of any item in Casks. It takes 2 seasons of aging to go from basic wine to iridium quality wine. Normal, silver, and gold quality Wine can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe."
   },
   {
     "name": "paleAle",
@@ -1234,7 +1254,7 @@
     "value": 200,
     "source": "Keg",
     "basicDescription": "A fermented beverage made from honey. Drink in moderation.",
-    "longDescription": "Mead is an Artisan Good made from placing Honey inside a Keg, taking 10 hours. Unlike Wine and Juice however, the value of the Mead is not affected by the type of honey used. The sell price of Mead is Gold.png200g, and only aging or the Artisan Profession can increase it. Several types of Flower Honey sell for more than Mead, so the player can actually lose money by making Mead. When consumed, Mead causes a Tipsy buff that decreases Speed by 1. Mead can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Mead. Normal, silver, and gold quality Mead can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
+    "longDescription": "Mead is an Artisan Good made from placing Honey inside a Keg, taking 10 hours. Unlike Wine and Juice however, the value of the Mead is not affected by the type of honey used. The sell price of Mead is 200g, and only aging or the Artisan Profession can increase it. Several types of Flower Honey sell for more than Mead, so the player can actually lose money by making Mead. When consumed, Mead causes a Tipsy buff that decreases Speed by 1. Mead can be placed inside a Cask to age from normal quality to silver, gold, and eventually iridium quality. Iridium quality doubles the base sell price of Mead. Normal, silver, and gold quality Mead can be prematurely removed from a cask at any time by striking the cask with an Axe, Hoe, or Pickaxe.",
     "heal": 33,
     "energy": 75,
     "recipe": [
@@ -1292,7 +1312,7 @@
     "value": 340,
     "source": "Rabbit, Sheep",
     "basicDescription": "Soft, fluffy wool",
-    "longDescription": "Wool is an animal product obtained from a Rabbit or Sheep. Emily may also send you one Wool in the mail as a gift. Wool sells for a base price of Gold.png340g."
+    "longDescription": "Wool is an animal product obtained from a Rabbit or Sheep. Emily may also send you one Wool in the mail as a gift. Wool sells for a base price of 340g."
   },
   {
     "name": "mayonnaise",
@@ -1399,7 +1419,7 @@
     "value": 625,
     "source": "Pigs",
     "basicDescription": "A gourmet type of mushroom with a unique taste",
-    "longDescription": "he Truffle is a type of mushroom that can only be spawned by a Pig on The Farm when the pig is outside the Barn. Since pigs do not go out of the barn in winter, they spawn no truffles in that season. Truffles sell for a base price of Gold.png625g. Despite being spawned by pigs, truffles are not considered to be animal produce, like eggs or milk. They do not receive a price increase from the Rancher profession. And despite being mushrooms, they technically are also not considered to be foraged items. They are not among the items included in the foraging category at the Stardew Valley Fair, nor are they labeled as 'Forage' in inventory. They do, however, benefit from the Gatherer and Botanist professions. Truffles not gathered on the 28th day of a season disappear on the following morning, the 1st day of the new season. On rare occasions, a Truffle can be purchased from the Traveling Cart for 1,875-3,125g.",
+    "longDescription": "he Truffle is a type of mushroom that can only be spawned by a Pig on The Farm when the pig is outside the Barn. Since pigs do not go out of the barn in winter, they spawn no truffles in that season. Truffles sell for a base price of 625g. Despite being spawned by pigs, truffles are not considered to be animal produce, like eggs or milk. They do not receive a price increase from the Rancher profession. And despite being mushrooms, they technically are also not considered to be foraged items. They are not among the items included in the foraging category at the Stardew Valley Fair, nor are they labeled as 'Forage' in inventory. They do, however, benefit from the Gatherer and Botanist professions. Truffles not gathered on the 28th day of a season disappear on the following morning, the 1st day of the new season. On rare occasions, a Truffle can be purchased from the Traveling Cart for 1,875-3,125g.",
     "energy": 13,
     "heal": 5
   },
@@ -1464,7 +1484,7 @@
     "value": 30,
     "source": "River in Spring/Summer from 6am to 7pm during sunny and windy weather.",
     "basicDescription": "A common river fish.",
-    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for Gold.png100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
+    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for 100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
     "energy": 13,
     "heal": 5
   },
@@ -1474,7 +1494,7 @@
     "value": 200,
     "source": "Ocean",
     "basicDescription": "Inflates when threatened",
-    "longDescription": "The Pufferfish is a fish that can be caught at the beach, on sunny summer days between 12pm and 4pm. It can also be purchased from the Traveling Cart for Gold.png600-1,000g.",
+    "longDescription": "The Pufferfish is a fish that can be caught at the beach, on sunny summer days between 12pm and 4pm. It can also be purchased from the Traveling Cart for 600-1,000g.",
     "energy": -100
   },
   {
@@ -1563,7 +1583,7 @@
     "value": 105,
     "source": "River, Mountain Lake, Forest Pond, Forest Farm Pond",
     "basicDescription": "A freshwater fish caught at night",
-    "longDescription": "The Walleye is a fish that can be found in the river, lake, and forest pond during the Fall or Winter when it is raining. (A Rain Totem is required to make it rain in Winter.) It can also be found in Garbage Cans, during Fall and Winter, or it may randomly appear in the Traveling Cart's stock for Gold.png315-1,000g. If the player chooses the Forest Farm, walleye can also be caught in the farm pond.",
+    "longDescription": "The Walleye is a fish that can be found in the river, lake, and forest pond during the Fall or Winter when it is raining. (A Rain Totem is required to make it rain in Winter.) It can also be found in Garbage Cans, during Fall and Winter, or it may randomly appear in the Traveling Cart's stock for 315-1,000g. If the player chooses the Forest Farm, walleye can also be caught in the farm pond.",
     "energy": 30,
     "heal": 13
   },
@@ -1573,7 +1593,7 @@
     "value": 55,
     "source": "Mountain Lake, Forest River & Pond",
     "basicDescription": "A freshwater fish of the winter.",
-    "longDescription": "The Perch is a fish that can be found in the Mountain Lake and river, and the Cindersap Forest river and pond during the Winter. It may also be purchased from the Traveling Cart for Gold.png165-1,000g, or found in Garbage Cans during Winter.",
+    "longDescription": "The Perch is a fish that can be found in the Mountain Lake and river, and the Cindersap Forest river and pond during the Winter. It may also be purchased from the Traveling Cart for 165-1,000g, or found in Garbage Cans during Winter.",
     "energy": 25,
     "heal": 11
   },
@@ -1613,7 +1633,7 @@
     "value": 30,
     "source": "River",
     "basicDescription": "A common river fish.",
-    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for Gold.png100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
+    "longDescription": "The Sunfish is a fish that can be found in the river during Spring and Summer. It may also be purchased from the Traveling Cart for 100-1,000g, or found in Garbage Cans during Spring and Summer. The Sunfish may also be caught on the Riverlands Farm or on the Hill-top Farm.",
     "energy": 13,
     "heal": 5
   },
@@ -1653,7 +1673,7 @@
     "value": 150,
     "source": "Ocean",
     "basicDescription": "A mysterious and intelligent creature.",
-    "longDescription": "The Octopus is a fish that can be found during Summer in the ocean and (more rarely) in Garbage Cans. It can randomly rotate into daily stock at the Traveling Cart for Gold.png450-1,000g during any season. It can also be caught in the deep-sea submarine ride at the Night Market (≈2% chance). This is one of the most difficult fish to catch in the game, even compared to Legendary Fish. To make it even more demanding, the odds of an octopus biting are very rare, and the window of time available to catch it is comparatively small. The most sure-fire tactic is maxing out your fishing skill, equip the Iridium Rod, eat a Dish o' The Sea, Lobster Bisque, or Fish Stew, and attach a Trap Bobber to your fishing pole. Using a combination of a maxed out fishing skill and the Iridium Rod is often insufficient."
+    "longDescription": "The Octopus is a fish that can be found during Summer in the ocean and (more rarely) in Garbage Cans. It can randomly rotate into daily stock at the Traveling Cart for 450-1,000g during any season. It can also be caught in the deep-sea submarine ride at the Night Market (≈2% chance). This is one of the most difficult fish to catch in the game, even compared to Legendary Fish. To make it even more demanding, the odds of an octopus biting are very rare, and the window of time available to catch it is comparatively small. The most sure-fire tactic is maxing out your fishing skill, equip the Iridium Rod, eat a Dish o' The Sea, Lobster Bisque, or Fish Stew, and attach a Trap Bobber to your fishing pole. Using a combination of a maxed out fishing skill and the Iridium Rod is often insufficient."
   },
   {
     "name": "redSnapper",
@@ -1681,7 +1701,7 @@
     "value": 75,
     "source": "Ocean",
     "basicDescription": "A slippery, slimy creature found on the ocean floor.",
-    "longDescription": "The Sea Cucumber is a fish that can be found in the ocean or (rarely) in Garbage Cans during the Fall and Winter. It can also be purchased from the Traveling Cart for Gold.png225-1,000g. There is a 5% chance to catch a Sea Cucumber during the deep-sea submarine ride at the Night Market during Winter 15-17.",
+    "longDescription": "The Sea Cucumber is a fish that can be found in the ocean or (rarely) in Garbage Cans during the Fall and Winter. It can also be purchased from the Traveling Cart for 225-1,000g. There is a 5% chance to catch a Sea Cucumber during the deep-sea submarine ride at the Night Market during Winter 15-17.",
     "energy": -25
   },
   {
@@ -1738,7 +1758,7 @@
     "value": 75,
     "source": "The Desert",
     "basicDescription": "It tries to hide using camouflage",
-    "longDescription": "The Sandfish is a fish that can be found in The Desert during all seasons. It may randomly roll into stock at the Traveling Cart for Gold.png225-1,000g. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
+    "longDescription": "The Sandfish is a fish that can be found in The Desert during all seasons. It may randomly roll into stock at the Traveling Cart for 225-1,000g. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
     "energy": 13,
     "heal": 5
   },
@@ -1748,7 +1768,7 @@
     "value": 150,
     "source": "The Desert",
     "basicDescription": "It's like a regular carp but with a sharp stinger.",
-    "longDescription": "The Scorpion Carp is a fish that can be found in The Desert during all seasons (6am-8pm)and can also randomly be purchased from the Traveling Cart for between Gold.png450-1,000g. It is the only other fish that can be caught in the Desert, besides the Sandfish. Since it is more valuable than the Sandfish, it is also more rare to get a bite from a Scorpion Carp, and the difficulty is significantly greater. Catching the Scorpion Carp requires Fishing level 4, either naturally or by using fishing Buffs. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
+    "longDescription": "The Scorpion Carp is a fish that can be found in The Desert during all seasons (6am-8pm)and can also randomly be purchased from the Traveling Cart for between 450-1,000g. It is the only other fish that can be caught in the Desert, besides the Sandfish. Since it is more valuable than the Sandfish, it is also more rare to get a bite from a Scorpion Carp, and the difficulty is significantly greater. Catching the Scorpion Carp requires Fishing level 4, either naturally or by using fishing Buffs. Due to the small size of the fishing area, it may be impossible to catch gold quality fish in the desert pond.",
     "energy": -125
   },
   {
@@ -1837,7 +1857,7 @@
     "value": 120,
     "source": "River, Mountain Lake",
     "basicDescription": "A fearsome predator that will eat almost anything it can cram into its mouth.",
-    "longDescription": "The Lingcod is a fish that can be found in the river or Mountain Lake during the Winter. It may also randomly appear in Krobus' shop on Wednesdays or the Traveling Cart's stock for Gold.png360-1,000g.",
+    "longDescription": "The Lingcod is a fish that can be found in the river or Mountain Lake during the Winter. It may also randomly appear in Krobus' shop on Wednesdays or the Traveling Cart's stock for 360-1,000g.",
     "energy": 25,
     "heal": 11
   },
@@ -1983,7 +2003,7 @@
     "value": 75,
     "source": "Farm Ponds, River, Mountain Lake, Forest Pond, all using a Crab Pot",
     "basicDescription": "A small freshwater relative of the lobster.",
-    "longDescription": "The Crayfish is a fish that can be found in freshwater during any season using a Crab Pot. It may also randomly appear in the Traveling Cart's stock for Gold.png225-1,000g."
+    "longDescription": "The Crayfish is a fish that can be found in freshwater during any season using a Crab Pot. It may also randomly appear in the Traveling Cart's stock for 225-1,000g."
   },
   {
     "name": "crab",
@@ -2374,7 +2394,7 @@
     "value": 8,
     "source": "Foraging in Cindersap Forest",
     "basicDescription": "These grow wild during the spring",
-    "longDescription": "The Spring Onion is found via foraging in Spring in Cindersap Forest in the area north of the Sewer entrance. The Livin' Off The Land Television channel airs a tip about Spring Onions on day 4. Spring Onions also can be purchased from Traveling Cart for Gold.png100-1,000g. Once the player has earned 8 hearts of friendship with Jas and Vincent, Spring Onion Mastery can be obtained, which permanently increases the sell price of Spring Onions by 5×.",
+    "longDescription": "The Spring Onion is found via foraging in Spring in Cindersap Forest in the area north of the Sewer entrance. The Livin' Off The Land Television channel airs a tip about Spring Onions on day 4. Spring Onions also can be purchased from Traveling Cart for 100-1,000g. Once the player has earned 8 hearts of friendship with Jas and Vincent, Spring Onion Mastery can be obtained, which permanently increases the sell price of Spring Onions by 5×.",
     "energy": 13,
     "heal": 5
   },
@@ -2613,7 +2633,7 @@
     "value": 100,
     "source": "Foraging in the Calico Desert or bought at Oasis",
     "basicDescription": "A seed of the coconut palm. It has many culinary uses",
-    "longDescription": "The Coconut is an inedible Foraged Fruit found only in the Calico Desert. It can also be bought at the Oasis on Mondays for Gold.png200g or may randomly appear in the Traveling Cart's stock for Gold.png300-1,000g. Although it is inedible, it may be put in a Preserves Jar to make Coconut Jelly, or in a Keg to make Coconut Wine. Coconuts can not be planted to create Palm Trees."
+    "longDescription": "The Coconut is an inedible Foraged Fruit found only in the Calico Desert. It can also be bought at the Oasis on Mondays for 200g or may randomly appear in the Traveling Cart's stock for 300-1,000g. Although it is inedible, it may be put in a Preserves Jar to make Coconut Jelly, or in a Keg to make Coconut Wine. Coconuts can not be planted to create Palm Trees."
   },
   {
     "name": "cactusFruit",
@@ -2621,7 +2641,7 @@
     "value": 75,
     "source": "Foraging in the Calico Desert or bought in the Oasis or grown from Cactus Seeds",
     "basicDescription": "The sweet fruit of the prickly pear cactus",
-    "longDescription": "The Cactus Fruit is found via foraging in the Calico Desert. It can also be bought at the Oasis on Tuesdays for Gold.png150g or randomly at the Traveling Cart for Gold.png225-1,000g. Cactus Fruit may also be grown from Cactus Seeds. Cactus Fruit grown from Cactus Seeds benefits from the Tiller Profession bonus.",
+    "longDescription": "The Cactus Fruit is found via foraging in the Calico Desert. It can also be bought at the Oasis on Tuesdays for 150g or randomly at the Traveling Cart for 225-1,000g. Cactus Fruit may also be grown from Cactus Seeds. Cactus Fruit grown from Cactus Seeds benefits from the Tiller Profession bonus.",
     "energy": 75,
     "heal": 33,
     "recipe": [
@@ -2634,7 +2654,7 @@
     "value": 30,
     "source": "Grown from Tulip Bulbs in the Spring",
     "basicDescription": "The most popular spring flower.  Has a very faint sweet smell.",
-    "longDescription": "The Tulip is a flower crop that grows from Tulip Bulbs after 6 days. Tulips can be purchased from the Traveling Cart for Gold.png100-1,000g.",
+    "longDescription": "The Tulip is a flower crop that grows from Tulip Bulbs after 6 days. Tulips can be purchased from the Traveling Cart for 100-1,000g.",
     "energy": 45,
     "heal": 20,
     "recipe": [
@@ -2762,7 +2782,7 @@
     "value": 100,
     "source": "Apple Tree grown from an Apple Tree harvested in the Fall",
     "basicDescription": "A crisp fruit used for juice and cider.",
-    "longDescription": "The Apple is a fruit grown by planting an Apple Sapling, waiting 28 days for it to grow into an Apple Tree, and harvesting the tree during the Fall. An Apple may be purchased at the Traveling Cart for Gold.png300-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "longDescription": "The Apple is a fruit grown by planting an Apple Sapling, waiting 28 days for it to grow into an Apple Tree, and harvesting the tree during the Fall. An Apple may be purchased at the Traveling Cart for 300-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
     "energy": 38,
     "heal": 17,
     "recipe": [
@@ -2775,7 +2795,7 @@
     "value": 50,
     "source": "Apricot Tree grown from an Apricot Sapling harvested in the Spring",
     "basicDescription": "A tender little fruit with a rock-hard pit",
-    "longDescription": "The Apricot is a fruit grown by planting an Apricot Sapling, waiting 28 days for it to grow into an Apricot Tree, and harvesting the tree during the Spring. An Apricot may be purchased at the Traveling Cart for Gold.png150-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
+    "longDescription": "The Apricot is a fruit grown by planting an Apricot Sapling, waiting 28 days for it to grow into an Apricot Tree, and harvesting the tree during the Spring. An Apricot may be purchased at the Traveling Cart for 150-1,000g or found in The Farm Cave, if the fruit bat option is chosen.",
     "energy": 38,
     "heal": 17,
     "recipe": [
@@ -2879,7 +2899,7 @@
     "value": 225,
     "source": "Cooking, Monster drop, Traveling Cart",
     "basicDescription": "What's inside?",
-    "longDescription": "The Strange Bun is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Strange Bun may be dropped by a Shadow Brute (4% chance), and may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. It may also randomly rotate into stock at the Traveling Cart for Gold.png675-1,125g. By offering a Strange Bun to the Dark Shrine of Night Terrors in the Witch's Hut, players can toggle monster spawning on or off on their farm.",
+    "longDescription": "The Strange Bun is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Strange Bun may be dropped by a Shadow Brute (4% chance), and may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. It may also randomly rotate into stock at the Traveling Cart for 675-1,125g. By offering a Strange Bun to the Dark Shrine of Night Terrors in the Witch's Hut, players can toggle monster spawning on or off on their farm.",
     "energy": 100,
     "heal": 45,
     "recipe": [
@@ -3028,7 +3048,7 @@
     "value": 100,
     "source": "Cooking or Fish Shop",
     "basicDescription": "Pretty salty",
-    "longDescription": "Trout Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It may also be purchased at Willy's Fish Shop for Gold.png250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Trout Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from the Queen of Sauce on Year 1, Fall 14",
+    "longDescription": "Trout Soup is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It may also be purchased at Willy's Fish Shop for 250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality ingredients. Trout Soup may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from the Queen of Sauce on Year 1, Fall 14",
     "energy": 100,
     "heal": 45,
     "recipe": [
@@ -3057,7 +3077,7 @@
     "value": 480,
     "source": "Cooking",
     "basicDescription": "There's little heart candies on top.",
-    "longDescription": "Pink Cake is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Three Pink Cakes are the reward for completing the Bundle Red.png Chef's Bundle on the Bulletin Board. Pink Cake can be received as a gift at the Feast of the Winter Star. It may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns Gold.png120,000g he will receive a letter from mom with a Pink Cake enclosed. The recipe can be obtained from The Queen of Sauce on Year 2 of Summer 21.",
+    "longDescription": "Pink Cake is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Three Pink Cakes are the reward for completing the Bundle Red.png Chef's Bundle on the Bulletin Board. Pink Cake can be received as a gift at the Feast of the Winter Star. It may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns 120,000g he will receive a letter from mom with a Pink Cake enclosed. The recipe can be obtained from The Queen of Sauce on Year 2 of Summer 21.",
     "energy": 250,
     "heal": 112,
     "recipe": [
@@ -3088,7 +3108,7 @@
     "value": 140,
     "source": "Cooking",
     "basicDescription": "Very chewy.",
-    "longDescription": "Cookie is a cooked dish prepared using the kitchen inside an upgraded farmhouse. Cookies can be received as a gift from Evelyn at the Feast of the Winter Star, and are rarely found in the Garbage Can outside George and Evelyn's home. Cookies may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns Gold.png5,000g he will receive a letter from mom with cookies enclosed. The recipe is obtained from Evelyn after reaching 4 hearts of friendship.",
+    "longDescription": "Cookie is a cooked dish prepared using the kitchen inside an upgraded farmhouse. Cookies can be received as a gift from Evelyn at the Feast of the Winter Star, and are rarely found in the Garbage Can outside George and Evelyn's home. Cookies may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. If the player's character is male, after he earns 5,000g he will receive a letter from mom with cookies enclosed. The recipe is obtained from Evelyn after reaching 4 hearts of friendship.",
     "energy": 90,
     "heal": 40,
     "recipe": [
@@ -3131,7 +3151,7 @@
     "value": 75,
     "source": "75",
     "basicDescription": "Raw fish sliced into thin pieces.",
-    "longDescription": "Sashimi is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Sashimi may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Note: This recipe can be profitable if using fish worth less than Gold.png75g (see When to turn your fish into sashimi for more info). Saving fish worth less than Gold.png75g for Help Wanted quests may be a better option, though, since these quests generally pay triple the fish's base value. (Periwinkle is an exception -- at Gold.png20g base price it's more profitable to turn into Sashimi than save for quests).",
+    "longDescription": "Sashimi is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. Sashimi may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. Note: This recipe can be profitable if using fish worth less than 75g (see When to turn your fish into sashimi for more info). Saving fish worth less than 75g for Help Wanted quests may be a better option, though, since these quests generally pay triple the fish's base value. (Periwinkle is an exception -- at 20g base price it's more profitable to turn into Sashimi than save for quests).",
     "energy": 75,
     "heal": 33,
     "recipe": [
@@ -3225,7 +3245,7 @@
     "value": 120,
     "source": "Cooking",
     "basicDescription": "It's hard to find someone who doesn't like this",
-    "longDescription": "Ice Cream is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased from Alex during Summer at the Ice Cream Stand for Gold.png250g, or at the Oasis on Sundays (year-round) for Gold.png240g. Ice Cream may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Jodi after 7 hearts of friendship",
+    "longDescription": "Ice Cream is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased from Alex during Summer at the Ice Cream Stand for 250g, or at the Oasis on Sundays (year-round) for 240g. Ice Cream may randomly appear in Krobus' shop on Saturdays or in the Stardrop Saloon's rotating stock. The recipe can be obtained from Jodi after 7 hearts of friendship",
     "energy": 100,
     "heal": 45,
     "recipe": [
@@ -3371,7 +3391,7 @@
     "value": 200,
     "source": "Cooking",
     "basicDescription": "This should keep your energy up",
-    "longDescription": "Miner's Treat is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased any day from the Dwarf for Gold.png1,000g or randomly from Krobus' shop on Saturdays. Mummies in the Skull Cavern have a 4% chance of dropping a Miner's Treat. The recipe is obtained at Mining Level 3",
+    "longDescription": "Miner's Treat is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be purchased any day from the Dwarf for 1,000g or randomly from Krobus' shop on Saturdays. Mummies in the Skull Cavern have a 4% chance of dropping a Miner's Treat. The recipe is obtained at Mining Level 3",
     "energy": 125,
     "heal": 56,
     "recipe": [
@@ -3612,7 +3632,7 @@
     "value": 250,
     "source": "Cooking",
     "basicDescription": "It has a soothing effect.",
-    "longDescription": "The Poppyseed Muffin is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be received as a gift at the Feast of the Winter Star or bought at the Traveling Cart for Gold.png750-1,250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality poppies as well as wheat flour and sugar from the Mill. The recipe is obtained from The Queen of Sauce from Year 2, Winter 7.",
+    "longDescription": "The Poppyseed Muffin is a cooked dish. It is prepared using the kitchen inside an upgraded farmhouse. It can also be received as a gift at the Feast of the Winter Star or bought at the Traveling Cart for 750-1,250g. Note: this recipe is profitable - it will always result in profit when using the lowest quality poppies as well as wheat flour and sugar from the Mill. The recipe is obtained from The Queen of Sauce from Year 2, Winter 7.",
     "energy": 150,
     "heal": 67,
     "recipe": [
@@ -3700,7 +3720,7 @@
     "value": 275,
     "source": "Cooking",
     "basicDescription": "",
-    "longDescription": "Crab Cakes are a cooked dish. They are prepared using the kitchen inside an upgraded farmhouse. Iridium Crabs in the Skull Cavern may drop Crab Cakes when slain (50% chance). Gus will also sell an unlimited number of Crab Cakes at The Stardrop Saloon for Gold.png550g each for approximately 4 days after viewing Willy's 6-heart cutscene. The recipe can be obtained through the Queen of Sauce on Year 2, Fall 21.",
+    "longDescription": "Crab Cakes are a cooked dish. They are prepared using the kitchen inside an upgraded farmhouse. Iridium Crabs in the Skull Cavern may drop Crab Cakes when slain (50% chance). Gus will also sell an unlimited number of Crab Cakes at The Stardrop Saloon for 550g each for approximately 4 days after viewing Willy's 6-heart cutscene. The recipe can be obtained through the Queen of Sauce on Year 2, Fall 21.",
     "energy": 225,
     "heal": 101,
     "recipe": [
@@ -4132,7 +4152,7 @@
     "value": 50,
     "source": "The Mines floors 1-39",
     "basicDescription": "A blacksmith can break this open for you.",
-    "longDescription": "The Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be obtained from breaking rocks above ground in Stardew Valley and in The Mines (especially floors 1 - 39), or dropped by Duggies. It may also be found in Fishing Treasure Chests or received as a gift at the Feast of the Winter Star. The geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+    "longDescription": "The Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be obtained from breaking rocks above ground in Stardew Valley and in The Mines (especially floors 1 - 39), or dropped by Duggies. It may also be found in Fishing Treasure Chests or received as a gift at the Feast of the Winter Star. The geode can be broken open by Clint in the Blacksmith shop for 25g."
   },
   {
     "name": "frozenGeode",
@@ -4140,7 +4160,7 @@
     "value": 100,
     "source": "The Mines floors 41-79",
     "basicDescription": "A blacksmith can break this open for you.",
-    "longDescription": "The Frozen Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 41 to 79 of The Mines, on the farm in the Winter, or inside a Fishing Treasure Chest. It can also be received as a gift at the Feast of the Winter Star. The Frozen Geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+    "longDescription": "The Frozen Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 41 to 79 of The Mines, on the farm in the Winter, or inside a Fishing Treasure Chest. It can also be received as a gift at the Feast of the Winter Star. The Frozen Geode can be broken open by Clint in the Blacksmith shop for 25g."
   },
   {
     "name": "magmaGeode",
@@ -4148,7 +4168,7 @@
     "value": 150,
     "source": "The Mines floors 81-119",
     "basicDescription": " blacksmith can break this open for you.",
-    "longDescription": "The Magma Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 81 to 119 of The Mines or in Fishing Treasure Chests. It can also be received as a gift at the Feast of the Winter Star. It may be additionally be found by breaking boxes and barrels in the Skull Cavern. The Magma Geode can be broken open by Clint in the Blacksmith shop for Gold.png25g."
+    "longDescription": "The Magma Geode is a Mineral deposit that contains minerals, artifacts, ores, or basic resources. It can be found on levels 81 to 119 of The Mines or in Fishing Treasure Chests. It can also be received as a gift at the Feast of the Winter Star. It may be additionally be found by breaking boxes and barrels in the Skull Cavern. The Magma Geode can be broken open by Clint in the Blacksmith shop for 25g."
   },
   {
     "name": "omniGeode",
@@ -4156,7 +4176,7 @@
     "value": 0,
     "source": "The Mines from rocks",
     "basicDescription": "A blacksmith can break this open for you. These geodes contain a wide variety of Minerals.",
-    "longDescription": "The Omni Geode is a Mineral deposit found primarily by breaking rocks in The Mines. It must be broken open at the Blacksmith for Gold.png25g to obtain the items inside. Omni Geodes can contain minerals, artifacts, ores, or basic resources. Omni Geodes can be found while panning, on all levels of The Mines, and on all levels of the Skull Cavern. Carbon Ghosts have a 99% chance to drop one Omni Geode when slain. Omni Geodes can also be purchased from the Oasis on Wednesdays for Gold.png1,000g, and from Krobus on Tuesdays for Gold.png300g. Five Omni Geodes are the reward for completing the Bundle Purple.png Geologist's Bundle in the Boiler Room. Neither daily luck nor luck buffs affect the contents of an Omni Geode."
+    "longDescription": "The Omni Geode is a Mineral deposit found primarily by breaking rocks in The Mines. It must be broken open at the Blacksmith for 25g to obtain the items inside. Omni Geodes can contain minerals, artifacts, ores, or basic resources. Omni Geodes can be found while panning, on all levels of The Mines, and on all levels of the Skull Cavern. Carbon Ghosts have a 99% chance to drop one Omni Geode when slain. Omni Geodes can also be purchased from the Oasis on Wednesdays for 1,000g, and from Krobus on Tuesdays for 300g. Five Omni Geodes are the reward for completing the Bundle Purple.png Geologist's Bundle in the Boiler Room. Neither daily luck nor luck buffs affect the contents of an Omni Geode."
   }
 ]
 
