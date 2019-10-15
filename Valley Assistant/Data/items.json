@@ -312,14 +312,38 @@
     "seasonToGrow": ["spring"]
   },
   {
-    "name": "beanStarter",
+    "name": "parsnipSeeds",
     "type": "crops",
-    "value": 30,
+    "value": 10,
     "source": "General Store, JojaMart, Traveling Cart",
-    "basicDescription": "Plant these in the spring. Takes 10 days to mature, but keeps producing after that. Yields multiple beans per harvest. Grows on a trellis.",
-    "longDescription": "A type of seed which grows and produces Green Beans when mature. These can be obtained via the Seed Maker. It is cheapest to buy at the General Store or Night Market for 60g.",
-    "growthTimeDays": 10,
-    "seasonToGrow": ["spring"]
+    "basicDescription": "Plant these in the spring. Takes 4 days to mature.",
+    "longDescription": "A type of seed which grows and produces Parsnips when mature. These can be obtained via the Seed Maker as well as having a chance of being planted when using Mixed Seeds. It is cheapest to buy at the General Store or Night Market for 20g.",
+    "growthTimeDays": 4,
+    "seasonToGrow": [
+      "spring"
+    ]
+  },
+  {
+    "name": "starfruitSeeds",
+    "type": "crops",
+    "value": 200,
+    "source": "Sold at the Oasis and Traveling Cart",
+    "basicDescription": "Plant these in the summer. Takes 13 days to mature.",
+    "longDescription": "Starfruit Seeds are a type of seed. Mature plants yield Starfruit. They can be purchased at the Oasis and occasionally from the Traveling Cart. One seed can be obtained from Gunther at the Museum after donating 15 items. They can also be obtained by using the Seed Maker.",
+    "growthTimeDays": 13,
+    "seasonToGrow": ["summer"]
+  },
+  {
+    "name": "strawberrySeeds",
+    "type": "crops",
+    "value": 0,
+    "source": "Sold at the Egg festival for 100g on Spring 13.",
+    "basicDescription": "Plant these in spring. Takes 8 days to mature, and keeps producing strawberries after that.",
+    "longDescription": "Strawberry Seeds are a type of seed. Mature plants yield Strawberries. They can be purchased for Gold.png100g at the Egg Festival. They can also be obtained by using the Seed Maker. When harvested, each Strawberry plant gives 1 Strawberry every 4 days, with a small random chance for more Strawberries.",
+    "growthTimeDays": 8,
+    "seasonToGrow": [
+      "spring"
+    ]
   },
   {
     "name": "cauliflowerSeeds",
@@ -2843,6 +2867,32 @@
     "heal": 17,
     "recipe": [
       "appleSapling"
+    ]
+  },
+  {
+    "name": "strawberry",
+    "type": "crops",
+    "value": 120,
+    "source": "Grown from Strawberry Seeds in the Spring after 8 days.",
+    "basicDescription": "A sweet, juicy favorite with an appealing red color.",
+    "longDescription": "The Strawberry is a fruit crop that grows from Strawberry Seeds after 8 days. When harvested, each Strawberry plant gives 1 Strawberry every 4 days, with a small random chance for more Strawberries.",
+    "energy": 50,
+    "heal": 22,
+    "recipe": [
+      "strawberrySeeds"
+    ]
+  },
+  {
+    "name": "starfruit",
+    "type": "crops",
+    "value": 750,
+    "source": "Apple Tree grown from an Apple Tree harvested in the Fall",
+    "basicDescription": "An extremely juicy fruit that grows in hot, humid weather. Slightly sweet with a sour undertone.",
+    "longDescription": "Starfruit is a fruit crop that grows from Starfruit Seeds after 13 days. Starfruit produces Artisan Goods that have some of the highest sell values in the game.",
+    "energy": 125,
+    "heal": 56,
+    "recipe": [
+      "starfruitSeeds"
     ]
   },
   {
