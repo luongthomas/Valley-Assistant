@@ -22,6 +22,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case oneRiverRoad
     case twentyFourMountainRoad
     case marniesRanch
+    case leahsCottage
     
     var description: String {
         return self.rawValue

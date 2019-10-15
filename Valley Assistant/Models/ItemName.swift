@@ -25,7 +25,7 @@ enum ItemName: String, Codable {
     
     case vinegar
     
-    case dinosaurEgg
+    case dinosaurEgg, driftwood
     
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed, ancientSeeds, starfruitSeeds, strawberrySeeds

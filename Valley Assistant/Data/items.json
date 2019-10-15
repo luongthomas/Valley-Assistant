@@ -34,6 +34,14 @@
     ]
   },
   {
+    "name": "driftwood",
+    "type": "all",
+    "value": 250,
+    "source": "Fishing",
+    "basicDescription": "A piece of wood from the sea",
+    "longDescription": "Driftwood is a type of trash. It can be found in all fishing spots during all seasons. It may be recycled into useful items. When caught while fishing, Driftwood gives 3 Fishing XP. When harvested from a Crab Pot, Driftwood gives 5 Fishing XP."
+  },
+  {
     "name": "grassStarter",
     "type": "crops",
     "value": 50,
