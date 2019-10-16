@@ -4465,6 +4465,78 @@
     "source": "The Mines from rocks",
     "basicDescription": "A blacksmith can break this open for you. These geodes contain a wide variety of Minerals.",
     "longDescription": "The Omni Geode is a Mineral deposit found primarily by breaking rocks in The Mines. It must be broken open at the Blacksmith for 25g to obtain the items inside. Omni Geodes can contain minerals, artifacts, ores, or basic resources. Omni Geodes can be found while panning, on all levels of The Mines, and on all levels of the Skull Cavern. Carbon Ghosts have a 99% chance to drop one Omni Geode when slain. Omni Geodes can also be purchased from the Oasis on Wednesdays for 1,000g, and from Krobus on Tuesdays for 300g. Five Omni Geodes are the reward for completing the Bundle Purple.png Geologist's Bundle in the Boiler Room. Neither daily luck nor luck buffs affect the contents of an Omni Geode."
-  }
+  },
+  {
+    "name": "dwarfGadget",
+    "type": "artifacts",
+    "value": 200,
+    "source": "Digging in the Mines",
+    "basicDescription": "It's a piece of the advanced technology once known to the dwarves. It's still glowing and humming, but you're unable to understand how it works",
+    "longDescription": "The Dwarf Gadget is an Artifact that can be found by digging up soil in the Mines (floors 41-80). It can also be found in a Magma Geode or Omni Geode. Donation of this item contributes to the total count of donations at the Museum. To earn the 'Burnt Offering' reward, you must donate a Rare Disc, a Dwarf Gadget, and 11+ artifacts."
+  },
+  {
+    "name": "dwarfScrollI",
+    "type": "artifacts",
+    "value": 1,
+    "source": "The Mines",
+    "basicDescription": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a red bow.",
+    "longDescription": "The Dwarf Scroll I is an Artifact that can be found in The Mines or Skull Cavern (on any floor) by tilling soil, or as a drop from Bats, Bugs, Cave Flies, Duggies, Green Slimes, Grubs, Rock Crabs, or Stone Golems. Donation of this item contributes to the total count of the donations for the Museum. Donating all 4 Dwarf Scrolls rewards the player with the Dwarvish Translation Guide."
+  },
+  {
+    "name": "dwarfScrollIi",
+    "type": "artifacts",
+    "value": 1,
+    "source": "The Mines",
+    "basicDescription": "The Dwarf Scroll II is an Artifact that can be found by tilling soil in The Mines (floors 1-40), as a drop from a Frost Bat (floors 40-65), as a drop from a Dust Sprite (floors 40-79), or as a drop from Blue Slimes or Ghosts. Donation of this item contributes to the total count of the donations for the Museum. Donating all 4 Dwarf Scrolls rewards the player with the Dwarvish Translation Guide.",
+    "longDescription": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a green ribbon."
+  },
+  {
+    "name": "dwarfScrollIii",
+    "type": "artifacts",
+    "value": 1,
+    "source": "The Mines",
+    "basicDescription": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a blue rope.",
+    "longDescription": "The Dwarf Scroll III is an Artifact that can drop from Lava Bats (mines level 81+), Blue, Purple, or Red Slimes, Lava Crabs, Squid Kids, Shadow Brutes, Shadow Shaman, or Metal Heads. Donation of this item contributes to the total count of the donations for the Museum. Donating all 4 Dwarf Scrolls rewards the player with the Dwarvish Translation Guide."
+  },
+  {
+    "name": "dwarfScrollIv",
+    "type": "artifacts",
+    "value": 1,
+    "source": "The Mines",
+    "basicDescription": "A yellowed scroll of parchment filled with dwarven script. This one's tied with a golden chain.",
+    "longDescription": "The Dwarf Scroll IV is an Artifact that can be found as a drop from any monster (other than the Wilderness Golem, Serpent, and Skeleton), or by using the hoe on dirt in The Mines (floor 80+). Donation of this item contributes to the total count of the donations for the Museum. Donating all 4 Dwarf Scrolls rewards the player with the Dwarvish Translation Guide."
+  },
+  {
+    "name": "dwarvishHelm",
+    "type": "artifacts",
+    "value": 100,
+    "source": "The Mines",
+    "basicDescription": "It's one of the helmets commonly worn by dwarves. The thick metal plating protects them from falling debris and stalactites.",
+    "longDescription": "The Dwarvish Helm is an Artifact that can be found by tilling soil in The Mines (level 1-40), or found inside Geodes or Omni Geodes. Donation of this item contributes to the total count of the donations for the Museum."
+  },
+  {
+    "name": "solarEssence",
+    "type": "monsterDrop",
+    "value": 40,
+    "source": "Monster Drop",
+    "basicDescription": "The glowing face is warm to the touch.",
+    "longDescription": "Solar Essence is a Monster Loot item which is dropped from the Ghost, Iridium Bat, Metal Head, Squid Kid and Mummy. Krobus also sells 10 a day for 80g each."
+  },
+  {
+    "name": "voidEssence",
+    "type": "monsterDrop",
+    "value": 50,
+    "source": "Monster Drop",
+    "basicDescription": "It's quivering with dark energy.",
+    "longDescription": "Void Essence is a Monster Loot item which can drop from Shadow Brutes, Shadow Shaman, and Serpents. Krobus also sells 10 a day for 100g."
+  },
+  {
+    "name": "hardwood",
+    "type": "forageables",
+    "value": 15,
+    "source": "Large Stump",
+    "basicDescription": "A special kind of wood with superior strength and beauty.",
+    "longDescription": "Hardwood is a resource. It is obtained by chopping a Large Stump with a Copper Axe or better, or a Large Log with a Steel Axe or better. Six (6) Large Stumps respawn daily in the Secret Woods, making it possible to obtain 12 Hardwood per day. If you have the Forest Farm map there are eight (8) more stumps at the left side of your farm making for an additional 16 Hardwood that respawns daily. It can also be received as loot by breaking barrels and boxes in the Mines. Normal trees have a chance of dropping Hardwood with the Lumberjack Profession. Robin may also gift you 25 Hardwood at the Feast of the Winter Star."
+  },
 ]
 

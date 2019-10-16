@@ -24,6 +24,12 @@ enum Location: String, Codable, CustomStringConvertible {
     case marniesRanch
     case leahsCottage
     case trailer
+    case theMines
+    case theSewers
+    case mayorsManor
+    case tent
+    case oasis
+    case wizardTower
     
     var description: String {
         return self.rawValue

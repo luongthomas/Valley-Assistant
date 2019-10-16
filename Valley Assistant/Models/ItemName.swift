@@ -23,12 +23,15 @@ enum ItemName: String, Codable {
     
     case goldenPumpkin, pearl, rabbitsFoot
     
-    case vinegar
+    case vinegar, hardwood
     
     case dinosaurEgg, driftwood, batteryPack, lightningRod
     
     // Monster drops
-    case batWing
+    case batWing, voidEssence, solarEssence
+
+    // Artifacts
+    case dwarfGadget, dwarfScrollI, dwarfScrollIi, dwarfScrollIii, dwarfScrollIv, dwarvishHelm
 
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed, ancientSeeds, starfruitSeeds, strawberrySeeds
