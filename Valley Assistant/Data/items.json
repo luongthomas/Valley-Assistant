@@ -202,6 +202,22 @@
     ]
   },
   {
+    "name": "oakResin",
+    "type": "artisanGoods",
+    "value": 150,
+    "source": "Using a Tapper on an Oak tree after 6-7 days.",
+    "basicDescription": "A sticky, fragrant substance derived from oak sap.",
+    "longDescription": "Oak Resin is a Tree sap made from the Tapper when it is placed on an Oak Tree, taking Time  6 to 7 days. Oak Resin can be obtained by tapping Oak Trees growing on The Farm or growing naturally in Stardew Valley (e.g., in Cindersap Forest). Although Oak Resin is labeled 'Artisan Good' in-game, it does not benefit from the Artisan Profession, but instead from the Tapper Profession (+25% value)."
+  },
+  {
+    "name": "pineTar",
+    "type": "artisanGoods",
+    "value": 100,
+    "source": "Using a Tapper on a Pine tree after 6-7 days.",
+    "basicDescription": "A pungent substance derived from pine pine sap.",
+    "longDescription": "Pine Tar is a Tree sap made from a Tapper placed on a Pine Tree. The process takes Time  4-5 days. Pine Tar can be obtained by tapping Pine Trees growing on The Farm or growing naturally in Stardew Valley (e.g., in Cindersap Forest, the Railroad, around the Carpenter's Shop). Although Pine Tar is labeled 'Artisan Good' in-game, it does not benefit from the Artisan Profession, but instead from the Tapper Profession (+25% value)."
+  },
+  {
     "name": "wallpaper",
     "type": "furniture",
     "value": 0,
@@ -347,7 +363,7 @@
     "value": 0,
     "source": "Sold at the Egg festival for 100g on Spring 13.",
     "basicDescription": "Plant these in spring. Takes 8 days to mature, and keeps producing strawberries after that.",
-    "longDescription": "Strawberry Seeds are a type of seed. Mature plants yield Strawberries. They can be purchased for Gold.png100g at the Egg Festival. They can also be obtained by using the Seed Maker. When harvested, each Strawberry plant gives 1 Strawberry every 4 days, with a small random chance for more Strawberries.",
+    "longDescription": "Strawberry Seeds are a type of seed. Mature plants yield Strawberries. They can be purchased for 100g at the Egg Festival. They can also be obtained by using the Seed Maker. When harvested, each Strawberry plant gives 1 Strawberry every 4 days, with a small random chance for more Strawberries.",
     "growthTimeDays": 8,
     "seasonToGrow": [
       "spring"
@@ -2961,7 +2977,7 @@
     "value": 200,
     "source": "Using a Tapper on a Maple Tree after 7 to 8 days",
     "basicDescription": "A sweet syrup with a unique flavor.",
-    "longDescription": "Maple Syrup is Tree sap made from the Tapper when it is placed on a Maple Tree, taking Time Icon.png 7 to 8 days. Maple Syrup can be obtained by tapping Maple Trees growing on The Farm or growing naturally in Stardew Valley (e.g., in Cindersap Forest). Although Maple Syrup is labeled 'Artisan Good' in-game, it does not benefit from the Artisan Profession, but instead from the Tapper Profession (+25% sell price).",
+    "longDescription": "Maple Syrup is Tree sap made from the Tapper when it is placed on a Maple Tree, taking Time  7 to 8 days. Maple Syrup can be obtained by tapping Maple Trees growing on The Farm or growing naturally in Stardew Valley (e.g., in Cindersap Forest). Although Maple Syrup is labeled 'Artisan Good' in-game, it does not benefit from the Artisan Profession, but instead from the Tapper Profession (+25% sell price).",
     "energy": 50,
     "heal": 22,
     "recipe": [
@@ -2977,9 +2993,114 @@
     "longDescription": "The Maple Seed is a seed that grows into a Maple Tree. It can be obtained by shaking/chopping down a Maple Tree at Foraging level 1, in Garbage Cans, or by using an Axe or Pickaxe to dig up a Maple Seed dropped by a fully grown Maple Tree on The Farm. A maple seed has approximately a 20% chance to grow to the next stage each night during Spring, Summer, or Fall. The median time to maturity is about 18 days, with over 90% of seeds maturing in less than 32 growing days."
   },
   {
+    "name": "batteryPack",
+    "type": "crafting",
+    "value": 200,
+    "source": "Created from a Lightning Rod",
+    "basicDescription": "It's fully charged with precious energy.",
+    "longDescription": "The Battery Pack is created in the Lightning Rod during thunderstorms. In order to acquire a battery, during a thunderstorm you'll hear a particular sound, which means that one of your rods is now charged, pulsating with energy. There is no guarantee that your lightning rod(s) will be struck by lightning during a thunderstorm. On the day after the storm, you'll acquire a battery pack from it. Battery packs can sometimes be purchased from the Traveling Cart for 1,500-2,500g and can be sold to Robin at the Carpenter's Shop. Very rarely, a Battery Pack can be dropped by breaking boxes or crates in the Skull Cavern. They may also be dropped by Iridium Bats (5% chance).",
+    "recipe": [
+      "lightningRod"
+    ]
+  },
+  {
+    "name": "lightningRod",
+    "type": "crafting",
+    "value": 0,
+    "source": "Crafting",
+    "basicDescription": "Collects energy from lightning storms and turns it into battery packs.",
+    "longDescription": "The Lightning Rod creates a Battery Pack.png Battery Pack 24 hours after getting hit by lightning during a storm. It is not necessary for the player to be on the farm when the lightning strike happens. Since rods do not protect a specific area, the exact placement of a rod on the farm has no bearing on its chance to intercept a lightning strike. A Lightning Rod has a very good chance of intercepting a lightning bolt if it isn't already processing one. Since each rod only protects the farm from harm if it is not already processing a previous lightning strike, it is advisable to place multiple rods on the farm. The number of lightning strikes during one day is random. A lightning rod is the reward for completing the Bundle Yellow.png 10,000 Bundle in the Vault.",
+    "recipe": [
+      "ironBar",
+      "refinedQuartz",
+      "batWing",
+      "batWing",
+      "batWing",
+      "batWing",
+      "batWing"
+    ]
+  },
+  {
+    "name": "ironBar",
+    "type": "crafting",
+    "value": 120,
+    "source": "Furnace",
+    "basicDescription": "A bar of pure iron.",
+    "longDescription": "An Iron Bar is created by smelting 5 Iron Ore in a furnace with 1 coal for fuel, or by Crafting the 'Transmute (Fe)' recipe (3 Copper Bars into one Iron Bar). Iron Bars may occasionally be found in Garbage Cans after receiving the Furnace blueprints from Clint. An Iron Bar may also drop from a Shadow Brute (2% chance) or Shadow Shaman (2% chance) when slain. Smelting iron ore in a furnace takes 2 in-game hours. The 'Transmute (Fe)' recipe is earned at Mining Level 4. Iron bars are used in a variety of crafting recipes and are used to upgrade tools to tier 3. Each iron bar can be sold for 120g, or 180g with the Blacksmith Profession.",
+    "recipe": [
+      "ironOre",
+      "Coal"
+    ]
+  },
+  {
+    "name": "copperBar",
+    "type": "crafting",
+    "value": 60,
+    "source": "Furnace",
+    "basicDescription": "A bar of pure copper.",
+    "longDescription": "A Copper Bar is created by smelting 5 Copper Ore in a furnace with 1 coal for fuel. Smelting the copper in a furnace takes 30 in-game minutes. Shadow Brutes and Shadow Shaman may also drop a Copper Bar when slain (4% chance). Copper bars are used in a variety of crafting recipes and are used to upgrade tools. They can be sold for 60g, or 90g with the Blacksmith Profession.",
+    "recipe": [
+      "copperOre",
+      "Coal"
+    ]
+  },
+  {
+    "name": "goldBar",
+    "type": "crafting",
+    "value": 120,
+    "source": "Furnace",
+    "basicDescription": "A bar of pure gold.",
+    "longDescription": "A Gold Bar is created by smelting 5 Gold Ore in a furnace with 1 coal for fuel, or by transmuting 2 Iron Bars into one Gold Bar. Smelting Gold Ore in a furnace takes 5 in-game hours. The 'Transmute (Au)' recipe is earned at Mining Level 7. A Gold Bar can be found (rarely) in the Garbage Can next to the Blacksmith, after the player has unlocked the Furnace blueprint. Five Gold Bars are the reward for completing the Bundle Purple.png Enchanter's Bundle on the Bulletin Board. If Clint is your secret gift-giver at the Feast of the Winter Star, he may give you 5 Gold Bars. Gold Bars are also dropped from Dust Sprites (0.1% chance), Squid Kids (5% chance), Shadow Brutes (1% chance), and Shadow Shaman (1% chance). They may be dug up in The Mines at floors 41-80 (0.1% chance). Gold bars are used in a variety of crafting recipes and are used to upgrade tools to tier 4. One Gold Bar can be sold for 250g, or 375g with the Blacksmith Profession.",
+    "recipe": [
+      "ironOre",
+      "Coal"
+    ]
+  },
+  {
+    "name": "iridiumBar",
+    "type": "crafting",
+    "value": 1000,
+    "source": "Furnace",
+    "basicDescription": "A bar of pure iron.",
+    "longDescription": "An Iridium Bar is crafted by smelting 5 Iridium Ore and 1 Coal in a Furnace. Purple Slimes in the Skull Cavern or Slime Hutch have a chance to drop Iridium Bars and Ore when slain. Shadow Shaman and Shadow Brutes can also drop an Iridium Bar when slain (0.2% chance). Iridium Bats may drop one as well (0.8% chance). The Traveling Cart may sell an Iridium Bar for 3,000-5,000g. One Iridium Bar can also be received as a gift from Clint at the Feast of the Winter Star. An Iridium Bar can be shipped or sold to Clint at the Blacksmith Shop for 1,000g, or 1,500g with the Blacksmith Profession.",
+    "recipe": [
+      "iridiumOre",
+      "Coal"
+    ]
+  },
+  {
+    "name": "iridiumOre",
+    "type": "minerals",
+    "value": 120,
+    "source": "The Mines from Geodes",
+    "basicDescription": "An exotic ore with many curious properties. Can be smelted into bars.",
+    "longDescription": "Iridium Ore is a resource found in Iridium Nodes, Mystic Stones, Magma Geodes, and Omni Geodes. It is also a rare drop from high level Monsters, and can be found in Fishing Treasure Chests and meteorites on the farm. Panning may also occasionally yield Iridium Ore. The Statue of Perfection produces 2-8 Iridium Ore per day. The Traveling Cart will occasionally sell it for 300-1000g. The Mines: A fairly reliable source of the ore is through Magma and Omni geodes on lower mine levels. These can be obtained frequently by mining all rocks on the mine levels 115-119. To further enhance geode frequency, choose the Geologist Profession at mining level 5 and the Excavator Profession at mining level 10. A fallen meteorite on The Farm will drop 6 Iridium Ore. Iridium Nodes and Mystic Stones can be found in the Quarry. The Oasis: You may buy large amounts of Omni Geodes from Sandy in The Desert, which Clint can then break open for you. This process is costly, but does not require combat and can potentially be faster than scouring the Skull Cavern. Skull Cavern: The beginning floors of Skull Cavern will yield next to no iridium nodes. You may buy stone from the Carpenter's Shop to craft a staircase. Large amounts of staircases or bombs can get you deep into Skull Cavern quickly. Starting around level 70, iridium ore becomes much more common, yielding roughly one node per floor. Once past level 100, multiple nodes can be found per floor. After level 300, there will be as many iridium nodes as there are common stones."
+  },
+  {
+    "name": "refinedQuartz",
+    "type": "crafting",
+    "value": 50,
+    "source": "Furnace",
+    "basicDescription": "A more pure form of quartz.",
+    "longDescription": "Refined Quartz is created by smelting 1 Quartz in a furnace with 1 coal for fuel. 1 Fire Quartz can also be placed in a furnace with 1 coal to produce 3 Refined Quartz. It can be sold for 50g. Until obtaining the Crystalarium it is a lot faster and easier to obtain Refined Quartz via the Recycling Machine than from quartz itself.",
+    "recipe": [
+      "quartz",
+      "fireQuartz",
+      "coal"
+    ]
+  },
+  {
+    "name": "batWing",
+    "type": "monsterDrop",
+    "value": 15,
+    "source": "Bats",
+    "basicDescription": "The material is surprisingly delicate.",
+    "longDescription": "A Bat Wing is a type of Monster Loot dropped by Bats when slain. It can also be purchased for 30g from Krobus on Sundays."
+  },
+  {
     "name": "lifeElixir",
     "type": "food",
-    "value": 500,
+    "value": 120,
     "source": "Crafting",
     "basicDescription": "Restores health to full.",
     "longDescription": "Life Elixir is an edible crafted item. The recipe is earned at Combat skill level 2. Iridium Bats in the Skull Cavern may drop a Life Elixir when slain (5% chance). Despite the numbers listed on the tooltip, the Life Elixir will fully restore Health to maximum regardless of how low it currently is.",

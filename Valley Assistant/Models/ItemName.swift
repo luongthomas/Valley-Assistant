@@ -13,7 +13,7 @@ enum ItemName: String, Codable {
 
     case energyTonic, muscleRemedy
     
-    case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar
+    case copperOre, ironOre, coal, goldOre, copperBar, ironBar, goldBar, iridiumBar, iridiumOre, refinedQuartz
     
     case copperHoe, copperPickaxe, copperAxe, copperWateringCan, steelHoe, steelPickaxe, steelAxe, steelWateringCan, goldHoe, goldPickaxe, goldAxe, goldWateringCan, iridiumHoe, iridiumPickaxe, iridiumAxe, iridiumWateringCan
     
@@ -25,8 +25,11 @@ enum ItemName: String, Codable {
     
     case vinegar
     
-    case dinosaurEgg, driftwood
+    case dinosaurEgg, driftwood, batteryPack, lightningRod
     
+    // Monster drops
+    case batWing
+
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed, ancientSeeds, starfruitSeeds, strawberrySeeds
     
