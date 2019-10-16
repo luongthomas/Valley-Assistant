@@ -28,6 +28,8 @@ class ScheduleViewModel: ObservableObject {
     func determineSchedule() -> [TimeLocation] {
         let schedule: [TimeLocation] = {
             switch villager.name {
+            case .alex:
+                return getAlexSchedule()
             case .emily:
                 return getEmilySchedule()
             default:
@@ -36,6 +38,40 @@ class ScheduleViewModel: ObservableObject {
         }()
         
         return schedule
+    }
+
+    func getAlexSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+
+        if selectedDate.season == .winter && selectedDate.day == 17 {
+            return possibleSchedules["winter_17"]!
+        }
+
+        if selectedDate.season == .summer && selectedDate.day == 16 {
+            return possibleSchedules["summer_16"]!
+        }
+
+        // Regular schedule is the same as the raining one
+        if params.isRaining {
+            return possibleSchedules["regular_or_raining"]!
+        }
+
+        // TODO: Add hearts condition
+        if selectedDate.getWeekday() == "wednesday" {
+            return possibleSchedules["wednesday_less_6_hearts_haley"]!
+        }
+
+        if selectedDate.season == .summer {
+            return possibleSchedules["summer_regular"]!
+        }
+        
+        if selectedDate.season == .winter {
+            return possibleSchedules["winter_regular"]!
+        }
+
+        // TODO: Add marriage
+
+        return possibleSchedules["regular"]!
     }
     
     func getEmilySchedule() -> [TimeLocation] {

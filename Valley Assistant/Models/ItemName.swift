@@ -25,13 +25,13 @@ enum ItemName: String, Codable {
     
     case vinegar, hardwood
     
-    case dinosaurEgg, driftwood, batteryPack, lightningRod
+    case driftwood, batteryPack, lightningRod
     
     // Monster drops
     case batWing, voidEssence, solarEssence
 
     // Artifacts
-    case dwarfGadget, dwarfScrollI, dwarfScrollIi, dwarfScrollIii, dwarfScrollIv, dwarvishHelm
+    case dwarfGadget, dwarfScrollI, dwarfScrollIi, dwarfScrollIii, dwarfScrollIv, dwarvishHelm, chippedAmphora, arrowhead, ancientDoll, elvishJewelry, chewingStick, ornamentalFan, dinosaurEgg, rareDisc, ancientSword, rustySpoon, rustySpur, rustyCog, chickenStatue, ancientSeed, prehistoricTol, driedStarfish, anchor, glassShards, boneFlute, prehistoricHandaxe, ancientDrum, goldenMask, goldenRelic, strangeDoll, prehistoricScapula, prehistoricTibia, prehistoricSkull, skeletalRib, prehistoricVertebra, skeletalTail, nautilusFossil, amphibianFossil, palmFossil, trilobite
 
     // Seeds
     case parsnipSeeds, beanStarter, cauliflowerSeeds, potatoSeeds, tulipBulb, kaleSeeds, jazzSeeds, garlicSeeds, melonSeeds, tomatoSeeds, blueberrySeeds, pepperSeeds, wheatSeeds, radishSeeds, poppySeeds, spangleSeeds, hopsStarter, cornSeeds, sunflowerSeeds, redCabbageSeeds, eggplantSeeds, pumpkinSeeds, bokChoySeeds, yamSeeds, cranberrySeeds, fairySeeds, amaranthSeeds, grapeStarter, artichokeSeeds, grassStarter, fallSeeds, winterSeeds, summerSeeds, springSeeds, cactusSeeds, mapleSeed, rareSeed, ancientSeeds, starfruitSeeds, strawberrySeeds
@@ -44,7 +44,7 @@ enum ItemName: String, Codable {
     case blueJazz, cauliflower, coffeeBean, garlic, greenBean, kale, parsnip, potato, rhubarb, strawberry, tulip, blueberry, corn, hops, hotPepper, melon, poppy, radish, redCabbage, starfruit, summerSpangle, sunflower, tomato, wheat, amaranth, artichoke, beet, bokChoy, cranberries, eggplant, fairyRose, grape, pumpkin, yam, ancientFruit, cactusFruit, sweetGemBerry
     
     // Foraged Goods
-    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, nautilusShell, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom
+    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom
 
     // Tree Products
     case apple, apricot, mapleSyrup, cherry, orange, peach, pomegranate

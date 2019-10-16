@@ -9,6 +9,7 @@
 import Foundation
 
 enum Location: String, Codable, CustomStringConvertible {
+    case yourFarm
     case home
     case willowLane
     case oneWillowLane
@@ -30,6 +31,8 @@ enum Location: String, Codable, CustomStringConvertible {
     case tent
     case oasis
     case wizardTower
+    case iceCreamStand
+    case spa
     
     var description: String {
         return self.rawValue
