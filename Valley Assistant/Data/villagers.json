@@ -1173,7 +1173,7 @@
             "season": "fall",
             "day": 13
         },
-        "address": "pierresGeneralStore",
+        "address": "generalStore",
         "loves": [
             "goldenPumpkin",
             "pearl",
@@ -2210,7 +2210,7 @@
             "season": "winter",
             "day": 7
         },
-        "address": "pierresGeneralStore",
+        "address": "generalStore",
         "loves": [
             "fishTaco",
             "summerSpangle",
@@ -5119,7 +5119,7 @@
             "season": "spring",
             "day": 26
         },
-        "address": "pierresGeneralStore",
+        "address": "generalStore",
         "loves": [
             "friedCalamari",
             "goldenPumpkin",

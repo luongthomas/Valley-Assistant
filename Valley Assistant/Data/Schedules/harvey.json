@@ -1,0 +1,436 @@
+{
+    "spring_summer_regular": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves his room to go outside and stand beneath nearby tree."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Walks around the park left of the town square"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "Returns to clinic, stands at right side of front desk"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes upstairs to his room, reads in front of bookshelf"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes to bed"
+        }
+    ],
+    "saturday": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "In his room above the clinic all day."
+        }
+    ],
+    "tuesday_thursday": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "In exam room of clinic"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to waiting room"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Returns to exam room"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes up to his room, stands in front of bookshelf"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes to bed"
+        }
+    ],
+    "friday": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Stands in front of refrigerator in his room"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes to Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Returns to his room above the clinic"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes to bed"
+        }
+    ],
+    "rainy": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "In his room"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes upstairs to his room, sits in front of radio"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to bookshelf to read"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Heads to The Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Returns home and goes to bed"
+        }
+    ],
+    "fall_regular": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Stands in front of refrigerator in his room"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Walks into town, stands by tree to left of bridge to beach"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Returns to his room, sits in front of radio"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes to bed"
+        }
+    ],
+    "winter_regular": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "In his room"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes upstairs to his room, sits in front of radio"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to bookshelf to read"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Heads to The Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Returns home and goes to bed"
+        }
+    ],
+    "winter_15": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Stands in front of microwave in his room"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "Works at the clinic's front desk"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Goes upstairs to his room, sits in front of radio"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to bookshelf in his room"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Walks to beach to attend Night Market"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "beach",
+            "description": "Returns home and goes to bed"
+        }
+    ],
+    "married_monday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "yourFarm",
+            "description": "Leaves the farmhouse and heads to Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Walks to fountain left of Community Center."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "communityCenter",
+            "description": "Leaves town and heads home to the farm."
+        }
+    ],
+    "married_tuesday_thursday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "yourFarm",
+            "description": "Leaves the farmhouse and heads to the clinic."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves the clinic to return home to the farm."
+        }
+    ]
+}

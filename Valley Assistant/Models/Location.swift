@@ -19,7 +19,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case medicalClinic
     case elliotsCabin
     case beach
-    case pierresGeneralStore
+    case generalStore
     case oneRiverRoad
     case twentyFourMountainRoad
     case marniesRanch
@@ -35,6 +35,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case spa
     case cindersapForest
     case library
+    case townSquare
     
     var description: String {
         return self.rawValue

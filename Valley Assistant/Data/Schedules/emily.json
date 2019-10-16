@@ -62,7 +62,7 @@
         "min": 0,
         "ampm": "pm"
       },
-      "location": "pierresGeneralStore",
+      "location": "generalStore",
       "description": "Aerobics class begins."
     },
     {
@@ -71,7 +71,7 @@
         "min": 0,
         "ampm": "pm"
       },
-      "location": "pierresGeneralStore",
+      "location": "generalStore",
       "description": "Leaves Pierre's to work at The Stardrop Saloon"
     },
     {

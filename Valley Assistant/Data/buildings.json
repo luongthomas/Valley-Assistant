@@ -102,7 +102,7 @@
         }
     },
     {
-        "name": "pierresGeneralStore",
+        "name": "generalStore",
         "type": "shopWithSeasonalStock",
         "occupants": [
             "pierre",

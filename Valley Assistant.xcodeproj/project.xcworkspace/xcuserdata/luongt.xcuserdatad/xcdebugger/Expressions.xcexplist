@@ -25,7 +25,7 @@
          contextName = "ScheduleData.init(villager:):ScheduleData.swift">
          <PersistentStrings>
             <PersistentString
-               value = "villager.name.rawValue">
+               value = "print(error)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -75,9 +75,6 @@
       </ContextState>
       <ContextState
          contextName = "VillagerData.init():VillagerData.swift">
-      </ContextState>
-      <ContextState
-         contextName = "ScheduleViewModel.getAlexSchedule():ScheduleViewModel.swift">
       </ContextState>
       <ContextState
          contextName = "Time.getPrintableTime():Villager.swift">
