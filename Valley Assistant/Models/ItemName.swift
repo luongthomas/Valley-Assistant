@@ -44,7 +44,7 @@ enum ItemName: String, Codable {
     case blueJazz, cauliflower, coffeeBean, garlic, greenBean, kale, parsnip, potato, rhubarb, strawberry, tulip, blueberry, corn, hops, hotPepper, melon, poppy, radish, redCabbage, starfruit, summerSpangle, sunflower, tomato, wheat, amaranth, artichoke, beet, bokChoy, cranberries, eggplant, fairyRose, grape, pumpkin, yam, ancientFruit, cactusFruit, sweetGemBerry
     
     // Foraged Goods
-    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom
+    case blackberry, caveCarrot, commonMushroom, dandelion, coconut, fiddleheadFern, hazelnut, leek, morel, wildPlum, winterRoot, coral, seaUrchin, rainbowShell, crocus, holly, crystalFruit, snowYam, chanterelle, spiceBerry, sweetPea, sap, wildHorseradish, springOnion, salmonberry, redMushroom, purpleMushroom, nautilusShell
 
     // Tree Products
     case apple, apricot, mapleSyrup, cherry, orange, peach, pomegranate
