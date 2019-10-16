@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct RKMonth: View {
+    
+    let seasons: [Season] = [.spring, .summer, .fall, .winter]
 
     @Binding var isPresented: Bool
     
@@ -24,7 +26,7 @@ struct RKMonth: View {
                 Text(self.rkManager.getPrintableCurrentDate()).font(.largeTitle).padding(.top)
                 
                 Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
-                    ForEach(Season.allCases, id: \.self) { season in
+                    ForEach(self.seasons, id: \.self) { season in
                         Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season))
                     }
                 }.pickerStyle(SegmentedPickerStyle())
@@ -36,7 +38,6 @@ struct RKMonth: View {
                         HStack(spacing: 0) {
                             ForEach(row, id: \.self) { column in
                                 AnyView(
-                                    // TODO: Fix this so it actually recreates the cells depending on the month
                                     RKCell(
                                         rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
                                         cellWidth: CGFloat(UIScreen.main.bounds.width/8),
