@@ -1,0 +1,293 @@
+{
+    "spring_11": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up, concerned about having to go to the doctor. "
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home to travel to the clinic for his annual checkup."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Continues checkup at the clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves the clinic to walk home, once there he plays inside."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed for the night."
+        }
+    ],
+    "rainy": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays inside his home."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Moves around inside his home."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Moves around inside his home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays inside his home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed for the night."
+        }
+    ],
+    "summer": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays inside his home."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his home and heads to The Beach."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves The Beach and walks back home."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed for the night."
+        }
+    ],
+    "tuesday_wednesday_friday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his home and walks to the Museum to be tutored by Penny"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Leaves the Museum, walks back to Pelican Town"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Walks around Pelican Town."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Leaves town to go home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed for the night."
+        }
+    ],
+    "saturday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his home and heads outside to Pelican Town."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads to the town square."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the town square and walks around Pelican Town."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves town to go home to bed for the night."
+        }
+    ],
+    "regular": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays inside his home."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his home and heads outside to the town square."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "Leaves town and walks home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays inside his home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed for the night."
+        }
+    ],
+}
