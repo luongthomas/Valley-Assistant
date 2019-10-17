@@ -1,0 +1,87 @@
+{
+    "spring_25": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "trailer",
+            "description": "Lounges on her couch in the trailer."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "trailer",
+            "description": "Leaves her trailer and heads to the medical clinic for her annual checkup."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Continues her checkup at the clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves the clinic and heads to the saloon."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon and heads home for the night."
+        }
+    ],
+    "regular_no_bus": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "trailer",
+            "description": "Lounges on her couch in the trailer."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "trailer",
+            "description": "Leaves the trailer and heads to JojaMart."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves JojaMart and heads to the saloon."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon and heads home for the night."
+        }
+    ]
+}
