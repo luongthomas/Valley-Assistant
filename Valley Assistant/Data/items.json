@@ -545,6 +545,77 @@
       ]
   },
   {
+    "name": "fallSeeds",
+    "type": "crafting",
+    "value": 45,
+    "source": "Crafting Wild Seeds",
+    "basicDescription": "An assortment of wild fall seeds.",
+    "longDescription": "Fall Seeds are a type of Crafted seed. The crafting recipe is labeled 'Wild Seeds (Fa)', but when crafted, the result is 'Fall Seeds.' Mature plants yield, at random, a Blackberry, Common Mushroom, Hazelnut, or Wild Plum. Fall Seeds are one of the season-specific crafted wild seeds, along with Spring Seeds, Summer Seeds, and Winter Seeds that produce crops normally found as forage. While Farming Skill normally increases the chance to grow a quality crop, Foraging Skill increases the chance to grow a quality crop from Fall Seeds. A mature plant grown from a Fall Seed may leave untilled soil in its place, when harvested. Any fertilizer used will be lost in this case. Crows do not attack crops grown from Fall Seeds, so the use of Scarecrows is unnecessary.",
+    "growthTimeDays": 7,
+    "seasonToGrow": [
+      "fall"
+    ],
+    "recipe": [
+      "blackberry",
+      "commonMushroom",
+      "hazelnut",
+      "wildPlum"
+    ]
+  },
+  {
+    "name": "springSeeds",
+    "type": "crafting",
+    "value": 35,
+    "source": "Crafting Wild Seeds",
+    "basicDescription": "An assortment of wild spring seeds.",
+    "longDescription": "Spring Seeds are a type of Crafted seed. The crafting recipe is labeled 'Wild Seeds (Sp)', but when crafted, the result is 'Spring Seeds.' Mature plants yield, at random, a Wild Horseradish, Daffodil, Leek, or Dandelion. Spring Seeds are one of the season-specific crafted wild seeds, along with Summer Seeds, Fall Seeds, and Winter Seeds that produce crops normally found as forage. While Farming Skill normally increases the chance to grow a quality crop, Foraging Skill increases the chance to grow a quality crop from Spring Seeds. A mature plant grown from a Spring Seed may leave untilled soil in its place, when harvested. Any fertilizer used will be lost in this case. Crows do not attack crops grown from Spring Seeds, so the use of Scarecrows is unnecessary.",
+    "growthTimeDays": 7,
+    "seasonToGrow": [
+      "spring"
+    ],
+    "recipe": [
+      "wildHorseradish",
+      "daffodil",
+      "leek",
+      "dandelion"
+    ]
+  },
+  {
+    "name": "summerSeeds",
+    "type": "crafting",
+    "value": 55,
+    "source": "Crafting Wild Seeds",
+    "basicDescription": "An assortment of wild summer seeds.",
+    "longDescription": "Summer Seeds are a type of Crafted seed. The crafting recipe is labeled 'Wild Seeds (Su)', but when crafted, the result is 'Summer Seeds.' Mature plants yield, at random, a Spice Berry, Grape, or Sweet Pea. Summer Seeds are the only wild seeds that can produce a non-forage crop, the Grape. Summer Seeds are one of the season-specific crafted wild seeds, along with Spring Seeds, Fall Seeds, and Winter Seeds that produce crops normally found as forage. While Farming Skill normally increases the chance to grow a quality crop, Foraging Skill increases the chance to grow a quality crop from Summer Seeds. A mature plant grown from a Summer Seed may leave untilled soil in its place, when harvested. Any fertilizer used will be lost in this case. Crows do not attack crops grown from Summer Seeds, so the use of Scarecrows is unnecessary.",
+    "growthTimeDays": 7,
+    "seasonToGrow": [
+      "summer"
+    ],
+    "recipe": [
+      "spiceBerry",
+      "grape",
+      "sweetPea"
+    ]
+  },
+  {
+    "name": "winterSeeds",
+    "type": "crafting",
+    "value": 30,
+    "source": "Crafting Wild Seeds",
+    "basicDescription": "An assortment of wild winter seeds.",
+    "longDescription": "Winter Seeds are a type of Crafted seed. The crafting recipe is labeled 'Wild Seeds (Wi)', but when crafted, the result is 'Winter Seeds.' Mature plants yield, at random, a Crocus, Crystal Fruit, Snow Yam, or Winter Root. Winter Seeds are the only seed that can grow outdoors during Winter. Winter Seeds are one of the season-specific crafted wild seeds, along with Spring Seeds, Summer Seeds, and Fall Seeds that produce crops normally found as forage. While Farming Skill normally increases the chance to grow a quality crop, Foraging Skill increases the chance to grow a quality crop from Winter Seeds. A mature plant grown from a Winter Seed may leave untilled soil in its place, when harvested. Any fertilizer used will be lost in this case. Crows do not attack crops grown from Winter Seeds, so the use of Scarecrows is unnecessary.",
+    "growthTimeDays": 7,
+    "seasonToGrow": [
+      "winter"
+    ],
+    "recipe": [
+      "crocus",
+      "crystalFruit",
+      "snowYam",
+      "winterRoot"
+    ]
+  },
+  {
     "name": "sunflowerSeeds",
     "type": "crops",
     "value": 20,

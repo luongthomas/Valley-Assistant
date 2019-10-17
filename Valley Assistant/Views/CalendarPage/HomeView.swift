@@ -28,7 +28,7 @@ struct HomeView: View {
                     }
                 }
             }.padding()
-                .navigationBarTitle(Text("\(rkManager.selectedDate.getWeekday()), \(rkManager.getPrintableCurrentDate())"))
+                .navigationBarTitle(Text("\(rkManager.selectedDate.getWeekday().capitalized), \(rkManager.getPrintableCurrentDate())"))
             .navigationBarItems(leading: menuButton, trailing: calendarButton)
         }.onAppear {
             // TODO: Bug where calendar view doesn't show birthdays in list right away

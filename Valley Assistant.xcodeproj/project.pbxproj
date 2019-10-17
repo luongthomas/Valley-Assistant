@@ -63,6 +63,7 @@
 		719158772357F76900F71AE5 /* robin.json in Resources */ = {isa = PBXBuildFile; fileRef = 719158762357F76900F71AE5 /* robin.json */; };
 		71915879235818F600F71AE5 /* pierre.json in Resources */ = {isa = PBXBuildFile; fileRef = 71915878235818F600F71AE5 /* pierre.json */; };
 		7191587B23581BB600F71AE5 /* pam.json in Resources */ = {isa = PBXBuildFile; fileRef = 7191587A23581BB600F71AE5 /* pam.json */; };
+		7191587D2358223D00F71AE5 /* marnie.json in Resources */ = {isa = PBXBuildFile; fileRef = 7191587C2358223D00F71AE5 /* marnie.json */; };
 		71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B75968234BE4F000A0CFFD /* ScheduleData.swift */; };
 		71C267762347CD010018AC58 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267752347CD010018AC58 /* ScheduleView.swift */; };
 		71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267782347CD240018AC58 /* ScheduleViewModel.swift */; };
@@ -137,6 +138,7 @@
 		719158762357F76900F71AE5 /* robin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = robin.json; sourceTree = "<group>"; };
 		71915878235818F600F71AE5 /* pierre.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pierre.json; sourceTree = "<group>"; };
 		7191587A23581BB600F71AE5 /* pam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pam.json; sourceTree = "<group>"; };
+		7191587C2358223D00F71AE5 /* marnie.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = marnie.json; sourceTree = "<group>"; };
 		71B75968234BE4F000A0CFFD /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		71C267752347CD010018AC58 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		71C267782347CD240018AC58 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 			children = (
 				719158622357D14C00F71AE5 /* alex.json */,
 				71915878235818F600F71AE5 /* pierre.json */,
+				7191587C2358223D00F71AE5 /* marnie.json */,
 				719158632357D14C00F71AE5 /* elliott.json */,
 				71799AE72347F293001D8DED /* emily.json */,
 				7191586A2357DBD500F71AE5 /* harvey.json */,
@@ -445,6 +448,7 @@
 				71404405233991EE00C070D3 /* items.json in Resources */,
 				714043AD23348BEF00C070D3 /* Assets.xcassets in Resources */,
 				714043D32338432000C070D3 /* villagers.json in Resources */,
+				7191587D2358223D00F71AE5 /* marnie.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
