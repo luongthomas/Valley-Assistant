@@ -1,0 +1,115 @@
+{
+    "regular": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Wakes up for the day, moves around his home."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Walks to counter to open up his store."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Opens his general store for business for the day."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves the store counter and walks around his home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Continues to walk around his home."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Continues to walk around his home."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Goes to bed for the night."
+        }
+    ],
+    "friday_not_rainy": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Wakes up for the day, moves around his home."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Walks to counter to open up his store."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Opens his general store for business for the day."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves the store and walks to the saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon and walks home for the night."
+        }
+    ]
+    
+}

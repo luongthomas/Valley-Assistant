@@ -38,6 +38,8 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .pierre:
+                return getPierreSchedule()    
             case .robin:
                 return getRobinSchedule()
             case .sandy:
@@ -241,6 +243,16 @@ class ScheduleViewModel: ObservableObject {
         }
 
         // TODO: Add marriage
+
+        return possibleSchedules["regular"]!
+    }
+
+    func getPierreSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+
+        if selectedDate.getWeekday() == "friday" && !params.isRaining {
+            return possibleSchedules["friday_not_rainy"]!
+        }
 
         return possibleSchedules["regular"]!
     }

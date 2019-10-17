@@ -61,6 +61,7 @@
 		719158732357F30D00F71AE5 /* vincent.json in Resources */ = {isa = PBXBuildFile; fileRef = 719158722357F30D00F71AE5 /* vincent.json */; };
 		719158752357F6D200F71AE5 /* sandy.json in Resources */ = {isa = PBXBuildFile; fileRef = 719158742357F6D200F71AE5 /* sandy.json */; };
 		719158772357F76900F71AE5 /* robin.json in Resources */ = {isa = PBXBuildFile; fileRef = 719158762357F76900F71AE5 /* robin.json */; };
+		71915879235818F600F71AE5 /* pierre.json in Resources */ = {isa = PBXBuildFile; fileRef = 71915878235818F600F71AE5 /* pierre.json */; };
 		71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B75968234BE4F000A0CFFD /* ScheduleData.swift */; };
 		71C267762347CD010018AC58 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267752347CD010018AC58 /* ScheduleView.swift */; };
 		71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267782347CD240018AC58 /* ScheduleViewModel.swift */; };
@@ -133,6 +134,7 @@
 		719158722357F30D00F71AE5 /* vincent.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vincent.json; sourceTree = "<group>"; };
 		719158742357F6D200F71AE5 /* sandy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sandy.json; sourceTree = "<group>"; };
 		719158762357F76900F71AE5 /* robin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = robin.json; sourceTree = "<group>"; };
+		71915878235818F600F71AE5 /* pierre.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pierre.json; sourceTree = "<group>"; };
 		71B75968234BE4F000A0CFFD /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		71C267752347CD010018AC58 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		71C267782347CD240018AC58 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
@@ -327,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				719158622357D14C00F71AE5 /* alex.json */,
+				71915878235818F600F71AE5 /* pierre.json */,
 				719158632357D14C00F71AE5 /* elliott.json */,
 				71799AE72347F293001D8DED /* emily.json */,
 				7191586A2357DBD500F71AE5 /* harvey.json */,
@@ -432,6 +435,7 @@
 				7191586D2357DD2A00F71AE5 /* sam.json in Resources */,
 				7191586B2357DBD500F71AE5 /* harvey.json in Resources */,
 				71D4AE6C233C610C00E7E068 /* events.json in Resources */,
+				71915879235818F600F71AE5 /* pierre.json in Resources */,
 				719158712357EE4200F71AE5 /* willy.json in Resources */,
 				719158652357D14D00F71AE5 /* elliott.json in Resources */,
 				71404405233991EE00C070D3 /* items.json in Resources */,
