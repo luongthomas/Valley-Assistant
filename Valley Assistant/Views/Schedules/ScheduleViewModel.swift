@@ -38,6 +38,8 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .sandy:
+                return getSandySchedule()
             case .vincent:
                 return getVincentSchedule()
             case .willy:
@@ -238,6 +240,11 @@ class ScheduleViewModel: ObservableObject {
 
         // TODO: Add marriage
 
+        return possibleSchedules["regular"]!
+    }
+    
+    func getSandySchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
         return possibleSchedules["regular"]!
     }
     

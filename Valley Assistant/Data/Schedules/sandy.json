@@ -1,0 +1,22 @@
+{
+    "regular": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oasis",
+            "description": "Oasis store is open."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "oasis",
+            "description": "Oasis store is closed."
+        }
+    ]
+}
