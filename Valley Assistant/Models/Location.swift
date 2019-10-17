@@ -38,6 +38,8 @@ enum Location: String, Codable, CustomStringConvertible {
     case jojaMart
     case museum
     case wizardsTower
+    case fishShop
+    case pelicanTown
     
     var description: String {
         return self.rawValue

@@ -38,6 +38,10 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .willy:
+                return getWillySchedule()
+            case .wizard:
+                return getWizardSchedule()
             default:
                 return [TimeLocation]()
             }
@@ -232,6 +236,36 @@ class ScheduleViewModel: ObservableObject {
 
         // TODO: Add marriage
 
+        return possibleSchedules["regular"]!
+    }
+    
+    func getWillySchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+
+        let weekday = selectedDate.getWeekday()
+        let season = selectedDate.season
+
+        if season == .spring && selectedDate.day == 9 {
+            return possibleSchedules["spring_9"]!
+        }
+        
+        if params.isRaining {
+            return possibleSchedules["rainy"]!
+        }
+        
+        if season == .winter {
+            return possibleSchedules["rainy_or_winter"]!
+        }
+        
+        if weekday == "saturday" || weekday == "friday" {
+            return possibleSchedules[weekday]!
+        }
+        
+        return possibleSchedules["regular"]!
+    }
+    
+    func getWizardSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
         return possibleSchedules["regular"]!
     }
     

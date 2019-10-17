@@ -1,0 +1,246 @@
+{
+    "spring_9": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Wakes up for the day, goes fishing outside his fish shop."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Goes back inside fish shop from the beach."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Starts working at the counter in the fish shop, goods are available for sale."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Leaves the fish shop, walks over to the Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Continues checkup at the Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves the Harvey's Clinic, walks over to the saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon to head home for the night"
+        }
+    ],
+    "rainy_or_winter": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Wakes up for the day, goes fishing outside his fish shop."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Goes back inside fish shop from the beach."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Starts working at the counter in the fish shop, goods are available for sale."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "fishShop",
+            "description": "Leaves the fish shop, walks over to the saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon to head home for the night"
+        }
+    ],
+    "friday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Wakes up for the day, goes fishing outside his fish shop."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Goes back inside fish shop from the beach."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Starts working at the counter in the fish shop, goods are available for sale."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "fishShop",
+            "description": "Leaves the fish shop, walks over to the saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon to head home for the night"
+        }
+    ],
+    "saturday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Wakes up for the day, walks through town to go fishing at the river outside Leah's cottage."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "leahsCottage",
+            "description": "Leaves the river and heads into Pelican Town for more river fishing."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Walks over to the saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the saloon to head home for the night"
+        }
+    ],
+    "regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Wakes up for the day, goes fishing outside his fish shop."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Goes back inside fish shop from the beach."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Starts working at the counter in the fish shop, goods are available for sale"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "fishShop",
+            "description": "Leaves the fish shop, goes out to fish on the beach."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the beach to head home for the night"
+        }
+    ],
+}
