@@ -38,6 +38,8 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .robin:
+                return getRobinSchedule()
             case .sandy:
                 return getSandySchedule()
             case .vincent:
@@ -229,16 +231,42 @@ class ScheduleViewModel: ObservableObject {
             return possibleSchedules["regular"]!
         }
 
-        if selectedDate.getWeekday() == "Tuesday" {
+        if selectedDate.getWeekday() == "tuesday" {
             return possibleSchedules["tuesday"]!
         }
 
         // TODO: Add community center restored toggle
-        if selectedDate.getWeekday() == "Friday" {
+        if selectedDate.getWeekday() == "friday" {
             return possibleSchedules["friday_community_center_restored"]!
         }
 
         // TODO: Add marriage
+
+        return possibleSchedules["regular"]!
+    }
+    
+    func getRobinSchedule() -> [TimeLocation] {
+        let weekday = selectedDate.getWeekday()
+        let possibleSchedules = scheduleData.possibleSchedules
+
+        if selectedDate.season == .winter && selectedDate.day == 16 {
+            return possibleSchedules["winter_16"]!
+        }
+
+        if selectedDate.season == .summer && selectedDate.day == 18 {
+            return possibleSchedules["summer_18"]!
+        }
+
+        if params.isRaining {
+            return possibleSchedules["rainy"]!
+        }
+
+        if weekday == "tuesday" || weekday == "friday" {
+            return possibleSchedules[weekday]!
+        }
+
+        
+        // TODO: Community Center
 
         return possibleSchedules["regular"]!
     }

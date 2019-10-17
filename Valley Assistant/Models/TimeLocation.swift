@@ -20,21 +20,21 @@ struct Day: Codable, Equatable, Hashable {
         let remainder = day % 7
         switch (remainder) {
             case 0:
-                return "Sunday"
+                return "sunday"
             case 1:
-                return "Monday"
+                return "monday"
             case 2:
-                return "Tuesday"
+                return "tuesday"
             case 3:
-                return "Wednesday"
+                return "wednesday"
             case 4:
-                return "Thursday"
+                return "thursday"
             case 5:
-                return "Friday"
+                return "friday"
             case 6:
-                return "Saturday"
+                return "saturday"
             default:
-                return "Dayday"
+                return "dayday"
         }
     }
 }

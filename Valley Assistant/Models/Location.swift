@@ -39,6 +39,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case museum
     case wizardsTower
     case fishShop
+    case mountainArea
     case pelicanTown
     
     var description: String {

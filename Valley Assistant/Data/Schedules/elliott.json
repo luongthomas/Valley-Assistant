@@ -1,0 +1,272 @@
+{
+    "rainy": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Inside his house all day."
+        }
+    ],
+    "thursday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his room to go outside and stand beneath nearby tree."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves home and heads to Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's and heads home."
+        }
+    ],
+    "spring_regular": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his cabin to stand on the beach south of his house."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the beach and returns to his cabin."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his cabin to stand on the bridge just north of the beach."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the bridge to return home for the night."
+        }
+    ],
+    "summer_9": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his house and goes to the Clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves the clinic and returns home for the night."
+        }
+    ],
+    "non_spring_friday_sunday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his cabin to stand on the beach south of his house."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the beach and returns to his cabin."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves his cabin to stand on the bridge just north of the beach."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the bridge to return home for the night."
+        }
+    ],
+    "summer_regular": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves home, heads to the forest south of Leah's Cottage."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "cindersapForest",
+            "description": "Leaves the forest to return home for the night."
+        }
+    ],
+    "fall_winter_regular": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves home, heads to the Library."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "library",
+            "description": "Leaves the library to return home for the night."
+        }
+    ],
+    "winter_17": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves home, heads to the Museum."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "library",
+            "description": "Leaves the library to attend the Night Market."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "beach",
+            "description": "Leaves the Night Market and returns to his cabin."
+        }
+    ],
+    "married_monday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "elliotsCabin",
+            "description": "Leaves the Farmhouse and heads to the beach."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves the beach and heads home to the farm."
+        }
+    ]
+}

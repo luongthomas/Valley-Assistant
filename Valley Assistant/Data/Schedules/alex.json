@@ -1,0 +1,340 @@
+{
+    "regular_or_rainy": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his room to go outside and stand beneath nearby tree."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves the tree to go back to his room to lift weights."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his room to go stand outside by the dog pen."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes back into his house and stands in the entryway."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to his room and stands by his dresser."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to bed."
+        }
+    ],
+    "summer_regular": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves home to go to beach."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Leaves beach to go work at ice cream stand."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "iceCreamStand",
+            "description": "Heads home to lift weights in his room."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Stands in front entryway of house."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to his room and stands by his dresser."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to bed."
+        }
+    ],
+    "wednesday_less_6_hearts_haley": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his room to go outside and stand beneath nearby tree."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to Haley and Emily's house."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "twoWillowLane",
+            "description": "Leaves Haley and Emily's house to go stand by the dog pen."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes back into his house and stands in the entryway."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to his room and stands by his dresser."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to bed."
+        }
+    ],  
+    "summer_16": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his room to go outside and stand beneath nearby tree."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to clinic."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "medicalClinic",
+            "description": "In clinic waiting room."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Clinic examination room."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Returns home for the night."
+        }
+    ],
+    "winter_17": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his house to go to the Spa."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "spa",
+            "description": "Leaves the gym section of the Spa, heads to the beach to attend the Night Market."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "beach",
+            "description": "Leaves the Night Market and returns home."
+        }
+    ],
+    "winter_regular": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "In his bedroom."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his house to go to the Spa."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "spa",
+            "description": "Leaves the gym section of the Spa, heads home to his room."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Leaves his house to stand by the dog kennel."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes back inside his house and stands in the entryway."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes back to his bedroom and stands by his dresser."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Goes to bed."
+        }
+    ],
+    "married_monday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "yourFarm",
+            "description": "Leaves farm to visit his grandparents."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneRiverRoad",
+            "description": "Heads back to farm."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "yourFarm",
+            "description": "Goes to bed."
+        }
+    ]
+}

@@ -17,7 +17,7 @@ struct RKWeekdayHeader : View {
         GeometryReader { geometry in
             HStack(alignment: .center, spacing: 0) {
                 ForEach(self.getWeekdayHeaders(), id: \.self) { weekday in
-                    Text(weekday)
+                    Text(weekday.uppercased())
                     .font(.system(size: 12))
                     .frame(maxWidth: .infinity)
                     .foregroundColor(self.rkManager.colors.weekdayHeaderColor)
