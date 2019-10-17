@@ -56,6 +56,7 @@
 		719158652357D14D00F71AE5 /* elliott.json in Resources */ = {isa = PBXBuildFile; fileRef = 719158632357D14C00F71AE5 /* elliott.json */; };
 		7191586B2357DBD500F71AE5 /* harvey.json in Resources */ = {isa = PBXBuildFile; fileRef = 7191586A2357DBD500F71AE5 /* harvey.json */; };
 		7191586D2357DD2A00F71AE5 /* sam.json in Resources */ = {isa = PBXBuildFile; fileRef = 7191586C2357DD2A00F71AE5 /* sam.json */; };
+		7191586F2357ECF800F71AE5 /* wizard.json in Resources */ = {isa = PBXBuildFile; fileRef = 7191586E2357ECF800F71AE5 /* wizard.json */; };
 		71B75969234BE4F000A0CFFD /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B75968234BE4F000A0CFFD /* ScheduleData.swift */; };
 		71C267762347CD010018AC58 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267752347CD010018AC58 /* ScheduleView.swift */; };
 		71C267792347CD240018AC58 /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C267782347CD240018AC58 /* ScheduleViewModel.swift */; };
@@ -123,6 +124,7 @@
 		719158632357D14C00F71AE5 /* elliott.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elliott.json; sourceTree = "<group>"; };
 		7191586A2357DBD500F71AE5 /* harvey.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = harvey.json; sourceTree = "<group>"; };
 		7191586C2357DD2A00F71AE5 /* sam.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sam.json; sourceTree = "<group>"; };
+		7191586E2357ECF800F71AE5 /* wizard.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wizard.json; sourceTree = "<group>"; };
 		71B75968234BE4F000A0CFFD /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 		71C267752347CD010018AC58 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		71C267782347CD240018AC58 /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
@@ -321,6 +323,7 @@
 				71799AE72347F293001D8DED /* emily.json */,
 				7191586A2357DBD500F71AE5 /* harvey.json */,
 				7191586C2357DD2A00F71AE5 /* sam.json */,
+				7191586E2357ECF800F71AE5 /* wizard.json */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71E75168234291AD006D7397 /* buildings.json in Resources */,
+				7191586F2357ECF800F71AE5 /* wizard.json in Resources */,
 				714043B323348BEF00C070D3 /* LaunchScreen.storyboard in Resources */,
 				719158642357D14D00F71AE5 /* alex.json in Resources */,
 				71799AE82347F293001D8DED /* emily.json in Resources */,

@@ -30,7 +30,6 @@ enum Location: String, Codable, CustomStringConvertible {
     case mayorsManor
     case tent
     case oasis
-    case wizardTower
     case iceCreamStand
     case spa
     case cindersapForest
@@ -38,6 +37,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case townSquare
     case jojaMart
     case museum
+    case wizardsTower
     
     var description: String {
         return self.rawValue

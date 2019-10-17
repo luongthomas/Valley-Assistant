@@ -1,0 +1,22 @@
+{
+    "regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "wizardsTower",
+            "description": "Wizard's Tower is open."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "wizardsTower",
+            "description": "Wizard's Tower is closed."
+        }
+    ]
+}
