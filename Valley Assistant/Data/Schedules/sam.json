@@ -1,0 +1,658 @@
+{
+    "spring_summer_monday_wednesday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and stands in the middle of his bedroom."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and walks to JojaMart."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Arrives at JojaMart and starts work."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Finshes work at JojaMart and walks home."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in his bedroom and stands in front of his bookshelf."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed"
+        }
+    ],
+    "spring_tuesday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and stands in the middle of his bedroom."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays his guitar in his bedroom."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves house and stands near Mayor's Manor by the river."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Heads back home."
+        }
+    ],
+    "spring_thursday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and stands in front of his dresser."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays his guitar in his bedroom."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and walks to the bush southeast of Lewis' house."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Stands in front of the bush to the southeast of Lewis' house."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Starts walking home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in his bedroom and stands in front of his desk."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed."
+        }
+    ],
+    "spring_friday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and plays guitar inside his bedroom."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and skateboards outside of his house."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Walks to the Stardrop Saloon."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Arrives at the Stardrop Saloon and plays pool near the arcade."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the Stardrop Saloon and walks home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at home."
+        }
+    ],
+    "spring_regular": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays guitar inside his bedroom."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the his bedroom walks into town and stands near Lewis's house by the river."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Returns home from town."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Goes into his bedroom to go to bed."
+        }
+    ],
+    "spring_rainy": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and stands in front of his dresser."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and walks to the bridge near the Museum."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Arrives at the bridge near the Museum."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Leaves the bridge near the Museum and walks to the tree in front of Emily and Haley's house."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "twoWillowLane",
+            "description": "Arrives at the tree outside Emily and Haley's house and plays his handheld video game."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "twoWillowLane",
+            "description": "Walks home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in his bedroom and stands in front of his bookshelf."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed."
+        }
+    ],
+    "summer_regular": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays guitar inside his bedroom."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and walks to the beach by the firepit with his brother Vincent."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Goes into his bedroom to go to bed."
+        }
+    ],
+    "summer_saturday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up and stands in the middle of his bedroom."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Stands with Sebastian in his room."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom with Sebastian and stands by the river in front of his house."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives home and goes to bed."
+        }
+    ],
+    "summer_17_joja_open_or_first_joja_closed_and_not_raining": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves his bedroom and heads to JojaMart with his mother Jodi."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Arrives at JojaMart."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves JojaMart and heads back home."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives home, moves around his bedroom."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed."
+        }
+    ],
+    "summer_17_joja_open_and_raining": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Starts playing his guitar in his room."
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves bedroom, stands in kitchen and plays his handheld video game."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads back to his bedroom, moves around."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed."
+        }
+    ],
+    "fall_11": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day inside his bedroom. 'I gotta go visit Uncle Doctor today... Great.'"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Walks to the clinic for his annual checkup, plays his handheld video game in the waiting room."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Gets medical checkup at the clinic. 'I'm a healthy boy, doc. Can I go now? This is boring.'"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves the clinic to walk into town. 'I just got out of the doctor's office. Completely healthy and vigorous, just as I expected.'"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns to his bedroom to go to bed."
+        }
+    ],
+    "fall_regular": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays his guitar in his bedroom."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the his bedroom walks to The Forest southwest of Leah's Cottage."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "leahsCottage",
+            "description": "Returns home from The Forest."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Heads back home."
+        }
+    ],
+    "winter_regular": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Wakes up for the day, moves around his room."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Plays his guitar in his bedroom."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the his bedroom walks to the Stardrop Saloon."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Returns home from the Stardrop Saloon."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes into his bedroom to go to bed."
+        }
+    ]
+}

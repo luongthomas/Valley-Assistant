@@ -36,6 +36,8 @@ enum Location: String, Codable, CustomStringConvertible {
     case cindersapForest
     case library
     case townSquare
+    case jojaMart
+    case museum
     
     var description: String {
         return self.rawValue

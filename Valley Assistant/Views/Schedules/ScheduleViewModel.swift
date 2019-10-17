@@ -34,6 +34,8 @@ class ScheduleViewModel: ObservableObject {
                 return getElliottSchedule()
             case .harvey:
                 return getHarveySchedule()
+            case .sam:
+                return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
             default:
@@ -155,6 +157,51 @@ class ScheduleViewModel: ObservableObject {
 
         // Should not reach this
         return possibleSchedules["regular"]!
+    }
+    
+    func getSamSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+
+        let weekday = selectedDate.getWeekday()
+        let season = selectedDate.season
+
+        if season == .summer && selectedDate.day == 17 {
+            return possibleSchedules["summer_17_joja_open_or_first_joja_closed_and_not_raining"]!
+        }
+        
+        if season == .summer && selectedDate.day == 17 && params.isRaining {
+            return possibleSchedules["summer_17_joja_open_and_raining"]!
+        }
+        
+        if season == .fall && selectedDate.day == 11 {
+            return possibleSchedules["fall_11"]!
+        }
+
+        if season == .spring && params.isRaining {
+            return possibleSchedules["spring_rainy"]!
+        }
+
+        if season == .spring {
+            if weekday == "tuesday" || weekday == "thusday" || weekday == "friday" {
+                return possibleSchedules["spring_\(weekday)"]!
+            }
+        }
+        
+        if season == .summer || season == .spring {
+            if weekday == "monday" || weekday == "wednesday" {
+                return possibleSchedules["spring_summer_monday_wednesday"]!
+            }
+        }
+        
+        if weekday == "friday" || weekday == "saturday" {
+            return possibleSchedules[weekday]!
+        }
+
+        // TODO: Add marriage
+        
+        // TODO: revisit and add community center and conditional rainings
+
+        return possibleSchedules["\(season.rawValue)_regular"]!
     }
     
     
