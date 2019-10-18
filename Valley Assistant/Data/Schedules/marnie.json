@@ -1,0 +1,385 @@
+{
+    "regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Stands behind the counter of her shop."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Closes her shop and walks to her room."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves her house and walks to The Stardrop Saloon."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the Saloon and walks back to her house to go to bed."
+        }
+    ],
+    "tuesday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Stands behind the counter of her shop."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives at Pierre's General Store to exercise with Caroline, Jodi, Emily, and Robin."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Chats with the other ladies after exercise class."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's General Store and walks back to her house."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives home and stands in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Walks to her room and goes to bed."
+        }
+    ],
+    "monday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves her house and walks to Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's General Store and walks back to her house."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives at home and stands in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Walks to her room and goes to bed."
+        }
+    ],
+    "rainy": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Stands behind the counter of her shop."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Closes her shop and walks to the kitchen."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves the kitchen and walks to her room. Stands in front of her dresser."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Goes to bed."
+        }
+    ],
+    "thursday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Stands behind the counter of her shop."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Closes her shop and walks to the kitchen."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves the kitchen and walks to her room. Stands in front of her dresser."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Goes to bed."
+        }
+    ],
+    "winter_18": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves her house to take Jas to Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Stands in clinic waiting room."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Walks into clinic examination room."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves clinic and walks back to her house."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives at home and stands in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Walks to her room and goes to bed."
+        }
+    ],
+    "fall_18": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "At home in her room."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves her house and walks to Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Arrives at Harvey's Clinic, stands in the waiting room."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Walks into the exam room at Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves clinic and walks back to her house."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives home and stands in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Walks to her room and goes to sleep."
+        }
+    ]
+}

@@ -38,6 +38,8 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .marnie:
+                return getMarnieSchedule()
             case .pam:
                 return getPamSchedule()
             case .pierre:
@@ -249,6 +251,29 @@ class ScheduleViewModel: ObservableObject {
         return possibleSchedules["regular"]!
     }
     
+    func getMarnieSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+        let weekday = selectedDate.getWeekday()
+
+        if selectedDate.season == .fall && selectedDate.day == 18 {
+            return possibleSchedules["fall_18"]!
+        }
+
+        if selectedDate.season == .winter && selectedDate.day == 18 {
+            return possibleSchedules["winter_18"]!
+        }
+
+        if params.isRaining {
+            return possibleSchedules["rainy"]!
+        }
+        
+        if weekday == "tuesday" || weekday == "monday" || weekday == "thursday" {
+            return possibleSchedules[weekday]!
+        }
+
+        return possibleSchedules["regular"]!
+    }
+
     func getPamSchedule() -> [TimeLocation] {
         let possibleSchedules = scheduleData.possibleSchedules
 
