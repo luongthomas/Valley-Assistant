@@ -1,0 +1,302 @@
+{
+    "rainy": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Exits tent, stands behind bush to the left of his tent"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Returns to his tent"
+        },
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Exits tent, stands under tree left of his tent"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Returns to his tent for the night"
+        }
+    ],
+    "spring_regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Exits tent, stands behind bush to the left of his tent"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to left side of lake"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Returns to his tent for the night"
+        }
+    ],
+    "summer_regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to cliff overlooking lake, to right of his tent"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to south of fence, left of lake"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks further south, left of lake"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks behind the bush to the left of his tent"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Returns to his tent for the night"
+        }
+    ],
+    "fall_regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Exits tent, stands behind bush to the left of his tent"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to Spa, stands at right side of building"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "spa",
+            "description": "Walks to left side of lake"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Returns to his tent for the night."
+        }
+    ],
+    "winter_regular": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks to Spa, stands inside entrance"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "spa",
+            "description": "Returns to his tent for the night"
+        }
+    ],
+    "winter_15": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Inside his tent"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "tent",
+            "description": "Walks to left of fireplace in front of his tent"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "tent",
+            "description": "Walks to beach to attend Night Market"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Returns to his tent for the night"
+        }
+    ]
+}

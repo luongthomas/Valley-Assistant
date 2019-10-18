@@ -77,6 +77,7 @@
 		71E75168234291AD006D7397 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = 71E75167234291AD006D7397 /* buildings.json */; };
 		71E7516A2342A329006D7397 /* BuildingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E751692342A329006D7397 /* BuildingData.swift */; };
 		71E7516C2342A65B006D7397 /* BuildingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E7516B2342A65B006D7397 /* BuildingDetailView.swift */; };
+		71F1CF1A235A54B600C22605 /* linus.json in Resources */ = {isa = PBXBuildFile; fileRef = 71F1CF19235A54B600C22605 /* linus.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,6 +153,7 @@
 		71E75167234291AD006D7397 /* buildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
 		71E751692342A329006D7397 /* BuildingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingData.swift; sourceTree = "<group>"; };
 		71E7516B2342A65B006D7397 /* BuildingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingDetailView.swift; sourceTree = "<group>"; };
+		71F1CF19235A54B600C22605 /* linus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = linus.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -345,6 +347,7 @@
 				719158742357F6D200F71AE5 /* sandy.json */,
 				719158762357F76900F71AE5 /* robin.json */,
 				7191587A23581BB600F71AE5 /* pam.json */,
+				71F1CF19235A54B600C22605 /* linus.json */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 				719158642357D14D00F71AE5 /* alex.json in Resources */,
 				71799AE82347F293001D8DED /* emily.json in Resources */,
 				7191587B23581BB600F71AE5 /* pam.json in Resources */,
+				71F1CF1A235A54B600C22605 /* linus.json in Resources */,
 				714043B023348BEF00C070D3 /* Preview Assets.xcassets in Resources */,
 				7191586D2357DD2A00F71AE5 /* sam.json in Resources */,
 				7191586B2357DBD500F71AE5 /* harvey.json in Resources */,
