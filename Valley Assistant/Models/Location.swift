@@ -41,6 +41,8 @@ enum Location: String, Codable, CustomStringConvertible {
     case fishShop
     case mountainArea
     case pelicanTown
+    case blacksmith
+    case carpentersShop
     
     var description: String {
         return self.rawValue

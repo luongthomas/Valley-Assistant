@@ -1,0 +1,1612 @@
+{
+    "rainy": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Mayor's Manor is unlocked. Lewis is in his kitchen."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Departs for the the saloon."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Arrives at the the saloon."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Departs for home."
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives home. Moves to his kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves kitchen to go to bed. Mayor's Manor is locked."
+        }
+    ],
+    "spring_monday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Wakes up and exits Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "pelicanTown",
+            "description": "Walks into random Local Shop (Willy's, Pierre's or Robin's)"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Exits Local Shop"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Manor and stares at stove (presumably cooking)"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Moves from stove to Pelican Town Data Book"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Heads to Bed."
+        }
+    ],
+    "spring_tuesday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Wakes up and exits Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stops gardening and heads towards Pierre's"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 20,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Enters Pierre's"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Manor and stares at stove (presumably cooking)"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Moves from stove to Pelican Town Data Book"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Heads to Bed."
+        }
+    ],
+    "spring_wednesday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Wakes up and exits Manor to go to Marnie's house"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves Marnie's house"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Manor for the rest of the day."
+        }
+    ],
+    "spring_thursday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Standing in his kitchen at home"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Exits Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stops gardening and heads towards Pierre's"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Standing in front of tree to the left of Clinic"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves tree and stands in front of Pierre's"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Heads home"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives home for the night"
+        }
+    ],
+    "spring_friday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Wakes up and exits Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stops gardening and heads towards Pierre's"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Stands outside of Clinic in front of tree"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Moves to fountain"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "In The Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Goes back to Manor"
+        }
+    ],
+    "spring_saturday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stands in the kitchen of the Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves the Manor and heads to the Blacksmith"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives at the Blacksmith"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "blacksmith",
+            "description": "Leaves the Blacksmith and heads to the Museum"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Arrives at the Museum"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves the Museum and heads Home"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Returns to the Manor and heads to bed"
+        }
+    ],
+    "spring_sunday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Manor"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Standing by the tree to the left of Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Home"
+        }
+    ],
+    "summer_monday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Inside home and stands in kitchen."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Inside home and stands in kitchen."
+        }
+    ],
+    "summer_tuesday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Standing in his kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Tends to his garden."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves his garden and heads towards Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Arrives at Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's General Store to go to the Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives The Mayor's Manor and stands in kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Heads to bed."
+        }
+    ],
+    "summer_wednesday": [
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves Marnie's house"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Manor."
+        }
+    ],
+    "summer_thursday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Standing in his kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Tends to his garden."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Walks to town square"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Stands in front of tree beside Harvey's Clinic."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Stands in front of bulletin board at Pierre's."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Walks home to his Manor."
+        }
+    ],
+    "summer_friday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Working in his flower bed."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves the Manor."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Standing in front of tree beside the Clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Standing by water fountain."
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Arrives at The Saloon."
+        }
+    ],
+    "summer_saturday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Manor."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "blacksmith",
+            "description": "Collects business tax from Blacksmith."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Arrives at Museum."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Returns to Manor (presumably cooking)."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Looks at Pelican Town book in his Manor."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Goes to sleep."
+        }
+    ],
+    "summer_sunday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Manor."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of his Manor"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "beach",
+            "description": "Standing on the pier at the The Beach."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters his Manor."
+        }
+    ],
+    "fall_monday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves the Manor; starts walking to the Carpenter's Shop"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "carpentersShop",
+            "description": "Arrives inside the Carpenter's Shop"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "carpentersShop",
+            "description": "Leaves to go home"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At the Manor in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At his desk in the Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Goes to bed"
+        }
+    ],
+    "fall_9": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stands in the dining room of the Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives at Marnie's house"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Enters Clinic."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Leaves Clinic"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Arrives at Marnie's house and stares at microwave (presumably cooking)"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Goes to Marnie's bed"
+        }
+    ],
+    "fall_tuesday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Outside Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves to go home"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "In his bed"
+        }
+    ],
+    "fall_wednesday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of the Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Manor"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "At the tree west of Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Starts walking toward Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "In front of Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's and heads home"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "In the Manor in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At his desk at home"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Goes to bed"
+        }
+    ],
+    "fall_thursday": [
+        {
+            "time": {
+                "hour": 3,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "In front of Pierre's"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Leaves to go home."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives at Manor"
+        }
+    ],
+    "fall_friday": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Standing next to Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Standing by water fountain"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Walks to the Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Arrives at the Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Walks to the Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Arrives at the Manor"
+        }
+    ],
+    "fall_saturday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Manor"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "At the tree west of Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Starts walking toward Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "In front of Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's and heads to the Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At his desk in the Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Goes to bed"
+        }
+    ],
+    "fall_sunday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Gardening in front of Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Manor"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "At the tree west of Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Starts walking toward Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "In front of Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's and heads to the Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At home, in the kitchen"
+        },
+        {
+            "time": {
+                "hour": 8,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "At his desk in the Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Goes to bed"
+        }
+    ],
+    "winter_monday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "fishShop",
+            "description": "Arrives at the Fish Shop"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "fishShop",
+            "description": "Leaves beach on way to the Manor"
+        }
+    ],
+    "winter_tuesday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Wakes up"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Stands in front of Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Moves to front garden"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Starts walking towards Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Enters Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Begins walking towards Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Mayor's Manor"
+        }
+    ],
+    "winter_wednesday": [
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "marniesRanch",
+            "description": "Leaves Marnie's Ranch"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Mayor's Manor"
+        }
+    ],
+    "winter_thursday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Mayor's Manor and tends garden"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Moves to tree next to Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Arrives at tree next to Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to in front of Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Moves to Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Mayor's Manor"
+        }
+    ],
+    "winter_friday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Inside Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Mayor's Manor and tends garden"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Moves to tree next to Harvey's Clinic"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "medicalClinic",
+            "description": "Moves to the fountain"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Moves to the fountain"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Arrives at the fountain"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Moves to Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Enters Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves Stardrop Saloon and goes to Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Mayor's Manor"
+        }
+    ],
+    "winter_saturday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Inside Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "Leaves Mayor's Manor and moves to Blacksmith"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 50,
+                "ampm": "am"
+            },
+            "location": "blacksmith",
+            "description": "Enters Blacksmith"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "blacksmith",
+            "description": "Leaves Blacksmith and moves to Museum"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "museum",
+            "description": "Leaves Museum and returns to Mayor's Manor"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 40,
+                "ampm": "pm"
+            },
+            "location": "mayorsManor",
+            "description": "Enters Mayor's Manor"
+        }
+    ],
+    "winter_sunday": [
+        {
+            "time": {
+                "hour": 8,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "mayorsManor",
+            "description": "At home all day"
+        }
+    ],
+    "spring_7": [
+        {
+            "time": {
+                "hour": 5,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Drinking at the bar"
+        }
+    ],
+}
