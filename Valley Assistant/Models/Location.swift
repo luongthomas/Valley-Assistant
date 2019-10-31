@@ -26,7 +26,7 @@ enum Location: String, Codable, CustomStringConvertible {
     case leahsCottage
     case trailer
     case theMines
-    case theSewers
+    case sewers
     case mayorsManor
     case tent
     case oasis

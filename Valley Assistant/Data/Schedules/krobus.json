@@ -1,0 +1,13 @@
+{
+    "regular": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "sewers",
+            "description": "In the sewers at Krobus's Shop"
+        }
+    ]
+}

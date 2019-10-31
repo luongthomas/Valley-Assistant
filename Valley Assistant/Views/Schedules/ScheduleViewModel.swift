@@ -38,7 +38,10 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
-            
+            case .kent:
+                return getKentSchedule()                
+            case .krobus:
+                return getKrobusSchedule()
             case .lewis:
                 return getLewisSchedule()
             case .linus:
@@ -277,6 +280,29 @@ class ScheduleViewModel: ObservableObject {
         }
 
         return possibleSchedules["regular"]!
+    }
+
+    func getKentSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+        let weekday = selectedDate.getWeekday()
+
+        if params.isRaining {
+            return possibleSchedules["rainy"]!
+        }
+        
+        if weekday == "saturday" || weekday == "sunday" {
+            return possibleSchedules["friday_saturday"]!
+        }
+
+        if weekday == "sunday" {
+            return possibleSchedules["sunday"]!
+        }
+
+        return possibleSchedules["regular"]!
+    }
+
+    func getKrobusSchedule() -> [TimeLocation] {
+        return scheduleData.possibleSchedules["regular"]!
     }
     
     func getLewisSchedule() -> [TimeLocation] {

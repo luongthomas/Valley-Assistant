@@ -1,0 +1,235 @@
+{
+    "rainy": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree north of house"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home, stands in entryway"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads to kitchen"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree in front of house"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home."
+        }
+    ],
+    "friday_saturday": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves house, stands under tree between sewer entrance and bridge to beach."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "pelicanTown",
+            "description": "Returns home"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree north of house"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to The Stardrop Saloon"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "stardropSaloon",
+            "description": "Leaves the Saloon and returns home"
+        }
+    ],
+    "sunday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "At home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, heads to altar room inside Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves altar room, moves to Pierre's counter"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leave Pierre's, heads home, stands in entryway"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads to kitchen"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree in front of house"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home"
+        }
+    ],
+    "regular": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves house, stands under tree between sewer entrance and bridge to beach."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "pelicanTown",
+            "description": "Returns home"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree north of house"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home, stands in entryway"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads to kitchen"
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home, stands under tree in front of house."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home"
+        }
+    ]
+}
