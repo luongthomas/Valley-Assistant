@@ -1,0 +1,902 @@
+{
+    "spring_monday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, in the living room, sitting on the blue sofa."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Meets with Caroline in the north near her house."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes back to her house and stands by the kitchen"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, in the living room."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, inside Vincent's room."
+        }
+    ],
+    "spring_tuesday": [
+    {
+        "time": {
+            "hour": 9,
+            "min": 0,
+            "ampm": "am"
+        },
+        "location": "oneWillowLane",
+        "description": "Inside her house, in the kitchen."
+    },
+    {
+        "time": {
+            "hour": 10,
+            "min": 0,
+            "ampm": "am"
+        },
+        "location": "oneWillowLane",
+        "description": "Leaves house in transition to Pierre's General Store."
+    },
+    {
+        "time": {
+            "hour": 12,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "location": "generalStore",
+        "description": "Arrives at Pierre's General Store, meets up with Marnie, Caroline, Emily, and Robin for exercise"
+    },
+    {
+        "time": {
+            "hour": 6,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "location": "generalStore",
+        "description": "Leaves Pierre's and heads home."
+    }
+    ],
+    "spring_wednesday": [
+    {
+        "time": {
+            "hour": 12,
+            "min": 0,
+            "ampm": "pm"
+        },
+        "location": "jojaMart",
+        "description": "Shopping at Joja Mart"
+    },
+    {
+        "time": {
+            "hour": 6,
+            "min": 40,
+            "ampm": "pm"
+        },
+        "location": "oneWillowLane",
+        "description": "Enters her house."
+    }
+    ],
+    "spring_thursday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 20,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves Kitchen and goes into the living room, to sit on the sofa."
+        }
+    ],
+    "spring_friday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Arrives at Joja Mart"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house."
+        }
+    ],
+    "spring_saturday": [
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house, in the kitchen."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Inside her house. If community center is repaired, she will be on the couch at the top left."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives Home"
+        }
+    ],
+    "spring_sunday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Church at Pierre's shop."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's shop to go home."
+        }
+    ],
+    "summer_monday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "In the kitchen, washing dishes."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Stops washing the dishes and moves around the kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Resumes washing dishes."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to the living room to sit on the blue sofa."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves her house, heading to the Town Square."
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Arrives at the Town Square, stands in the lower left near her house with Caroline."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Leaves the Town Square, heading home."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at her house."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "summer_tuesday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "In the kitchen, washing dishes."
+        },
+        {
+            "time": {
+                "hour": 9,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Stops washing the dishes and moves around the kitchen."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 10,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves her house, heading to Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Enters Pierre's General Store."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 30,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Standing by the fireplace in the back area of Pierre's."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Begins exercising with Marnie, Caroline, Emily, and Robin."
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Exits Pierre's, heading home."
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Enters her house."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "summer_wednesday_friday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "In the kitchen."
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves her house and heads for JojaMart"
+        },
+        {
+            "time": {
+                "hour": 12,
+                "min": 50,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Arrives at JojaMart"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves JojaMart and heads home."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "summer_thursday_saturday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "In the kitche."
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves her house, heading to the Town Square."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Leaves the Town Square, heading home."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at her house."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ], 
+    "summer_sunday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "At church"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Returns home"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Leaves the Town Square, heading home."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at her house."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "fall_monday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's backroom for her house"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves her house, heading to the Town Square."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "pelicanTown",
+            "description": "Leaves the Town Square, heading home."
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at her house."
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "fall_tuesday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves Pierre's backroom for her house"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at her house"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives in her room, goes straight to bed."
+        }
+    ],
+    "fall_wednesday": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives Home"
+        }
+    ],
+    "fall_thursday": [
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "At Home"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the house for the town square"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "Leaves the town square and heads home"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Heads to bed"
+        }
+    ],
+    "fall_friday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives Home"
+        }
+    ],
+    "fall_saturday": [
+        {
+            "time": {
+                "hour": 6,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives Home"
+        }
+    ],
+    "fall_sunday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "At Home"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the house for the Pierre's General Store"
+        },
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Arrives at the General Store and walks into the Chapel in the back"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves the General Store"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "At home"
+        }
+    ],
+    "winter_monday": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "In living room"
+        },
+        {
+            "time": {
+                "hour": 2,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "In Town Square"
+        }
+    ],
+    "winter_tuesday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "generalStore",
+            "description": "Enters Pierre's"
+        },
+        {
+            "time": {
+                "hour": 6,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leave's the store and heads home"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at home"
+        },
+        {
+            "time": {
+                "hour": 10,
+                "min": 20,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Goes to bed"
+        }
+    ],
+    "winter_wednesday": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home for JojaMart"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves JojaMart and heads home"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Standing in kitchen"
+        }
+    ],
+    "winter_thursday": [
+        {
+            "time": {
+                "hour": 9,
+                "min": 40,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "At Home"
+        },
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves the house for the town square"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "Leaves the town square and heads home"
+        }
+    ],
+    "winter_friday": [
+        {
+            "time": {
+                "hour": 12,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home and heads for JojaMart"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "jojaMart",
+            "description": "Leaves JojaMart and heads home"
+        },
+        {
+            "time": {
+                "hour": 7,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "In kitchen"
+        }
+        
+    ],
+    "winter_saturday": [
+        {
+            "time": {
+                "hour": 1,
+                "min": 30,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home for town square"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 10,
+                "ampm": "pm"
+            },
+            "location": "townSquare",
+            "description": "Leaves town square and heads home"
+        }
+    ],
+    "winter_sunday": [
+        {
+            "time": {
+                "hour": 11,
+                "min": 0,
+                "ampm": "am"
+            },
+            "location": "oneWillowLane",
+            "description": "Leaves home and heads towards church"
+        },
+        {
+            "time": {
+                "hour": 4,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "generalStore",
+            "description": "Leaves the General Store and heads home"
+        },
+        {
+            "time": {
+                "hour": 5,
+                "min": 0,
+                "ampm": "pm"
+            },
+            "location": "oneWillowLane",
+            "description": "Arrives at home"
+        }
+    ]
+    
+}

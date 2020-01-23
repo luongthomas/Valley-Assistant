@@ -38,6 +38,8 @@ class ScheduleViewModel: ObservableObject {
                 return getSamSchedule()
             case .emily:
                 return getEmilySchedule()
+            case .jodi:
+                return getJodiSchedule()   
             case .kent:
                 return getKentSchedule()                
             case .krobus:
@@ -277,6 +279,37 @@ class ScheduleViewModel: ObservableObject {
         
         if weekday == "tuesday" || weekday == "monday" || weekday == "thursday" {
             return possibleSchedules[weekday]!
+        }
+
+        return possibleSchedules["regular"]!
+    }
+
+    func getJodiSchedule() -> [TimeLocation] {
+        let possibleSchedules = scheduleData.possibleSchedules
+        let weekday = selectedDate.getWeekday()
+        let season = selectedDate.season
+
+        if season == .spring {
+            return possibleSchedules["summer_\(weekday)"]!
+        }
+
+        if season == .summer {
+            if weekday == "wednesday" || weekday == "friday" {
+                return possibleSchedules["summer_wednesday_friday"]!
+            } else if weekday == "thursday" || weekday == "saturday" {
+                return possibleSchedules["summer_thursday_saturday"]!
+            } else {
+                return possibleSchedules["summer_\(weekday)"]!
+            }
+        }
+
+        // Fall Monday/Saturday is missing
+        if season == .fall {
+            return possibleSchedules["fall_\(weekday)"]!
+        }
+
+        if season == .winter {
+            return possibleSchedules["winter_\(weekday)"]!
         }
 
         return possibleSchedules["regular"]!
