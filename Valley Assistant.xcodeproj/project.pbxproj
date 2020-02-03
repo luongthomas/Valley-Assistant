@@ -72,6 +72,7 @@
 		71D4AE70233C648A00E7E068 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D4AE6F233C648A00E7E068 /* EventData.swift */; };
 		71D6E86D236A574400D2E38B /* krobus.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D6E86C236A574400D2E38B /* krobus.json */; };
 		71D6E86F236A57F700D2E38B /* kent.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D6E86E236A57F700D2E38B /* kent.json */; };
+		71D6E871236A627500D2E38B /* jodi.json in Resources */ = {isa = PBXBuildFile; fileRef = 71D6E870236A627500D2E38B /* jodi.json */; };
 		71E0C351234BF0170005485F /* ScheduleParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C350234BF0170005485F /* ScheduleParameters.swift */; };
 		71E0C353234BF9A40005485F /* TimeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C352234BF9A40005485F /* TimeLocation.swift */; };
 		71E0C355234C04870005485F /* BuildingTypeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0C354234C04870005485F /* BuildingTypeList.swift */; };
@@ -151,6 +152,7 @@
 		71D4AE6F233C648A00E7E068 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		71D6E86C236A574400D2E38B /* krobus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = krobus.json; sourceTree = "<group>"; };
 		71D6E86E236A57F700D2E38B /* kent.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = kent.json; sourceTree = "<group>"; };
+		71D6E870236A627500D2E38B /* jodi.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jodi.json; sourceTree = "<group>"; };
 		71E0C350234BF0170005485F /* ScheduleParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleParameters.swift; sourceTree = "<group>"; };
 		71E0C352234BF9A40005485F /* TimeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLocation.swift; sourceTree = "<group>"; };
 		71E0C354234C04870005485F /* BuildingTypeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingTypeList.swift; sourceTree = "<group>"; };
@@ -357,6 +359,7 @@
 				71F1CF1B235A5CA000C22605 /* lewis.json */,
 				71D6E86C236A574400D2E38B /* krobus.json */,
 				71D6E86E236A57F700D2E38B /* kent.json */,
+				71D6E870236A627500D2E38B /* jodi.json */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -465,6 +468,7 @@
 				714043D32338432000C070D3 /* villagers.json in Resources */,
 				71F1CF1C235A5CA000C22605 /* lewis.json in Resources */,
 				7191587D2358223D00F71AE5 /* marnie.json in Resources */,
+				71D6E871236A627500D2E38B /* jodi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,14 +666,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Valley Assistant/Preview Content\"";
-				DEVELOPMENT_TEAM = C4588H2WW4;
+				DEVELOPMENT_TEAM = 74DW8LJ8TY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Valley Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lithogen.Valley-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lithogen.Valley-Assistant";
 				PRODUCT_NAME = "Valley Assistant";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -682,14 +686,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Valley Assistant/Preview Content\"";
-				DEVELOPMENT_TEAM = G3U6CEW26C;
+				DEVELOPMENT_TEAM = 74DW8LJ8TY;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Valley Assistant/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lithogen.Valley-Assistant";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lithogen.Valley-Assistant";
 				PRODUCT_NAME = "Valley Assistant";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
