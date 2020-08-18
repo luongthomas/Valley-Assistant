@@ -11,6 +11,7 @@ import SwiftUI
 struct HomeView: View {
     @State var isPresented = false
     @EnvironmentObject var eventHolder: EventHolder
+    @ObservedObject var rkManager: RKManager
     
     var body: some View {
         NavigationView {
@@ -39,11 +40,11 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView(rkManager: )
+//    }
+//}
 
 private extension HomeView {
     

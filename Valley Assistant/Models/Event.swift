@@ -88,7 +88,10 @@ extension Event: Hashable {
         return lhs.id == rhs.id && lhs.name == rhs.name && lhs.date == rhs.date
     }
     
-  var hashValue: Int {
-    return name.hashValue ^ id.hashValue ^ date.hashValue ^ type.hashValue
-  }
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(name)
+        hasher.combine(id)
+        hasher.combine(date)
+        hasher.combine(type)
+    }
 }

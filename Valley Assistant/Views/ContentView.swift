@@ -10,13 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 1
+    @ObservedObject var rkManager: RKManager
     
     var body: some View {
         TabView(selection: $selection) {
-            HomeView().tabItem {
+            HomeView(rkManager: rkManager).tabItem {
                 Image(systemName: "calendar")
                 Text("Calendar")
-                
             }.tag(1)
             VillagerView().tabItem {
                 Image(systemName: "person")
@@ -34,8 +34,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
