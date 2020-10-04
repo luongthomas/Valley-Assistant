@@ -18,10 +18,10 @@ struct VillagerDetailView: View {
     var body: some View {
         VStack(alignment: .leading) {
             HStack(alignment: .top) {
-                Text("Birthday: \(villager.birthday.season.description)  \(villager.birthday.day)")
+                Text("Birthday: \(villager.birthday.season.description.capitalized)  \(villager.birthday.day)")
                 .font(.subheadline)
                 Spacer()
-                Text("Address: \(villager.address.description)")
+                Text("Address: \(villager.address.description.camelCaps)")
                     .font(.subheadline)
                 
                 NavigationLink(destination: ScheduleView(villager: villager)) {
@@ -45,10 +45,7 @@ struct VillagerDetailView: View {
             }
         }
         .padding()
-        .navigationBarTitle(
-            Text(villager.name.rawValue.capitalized)
-            .font(.title)
-        )
+        .navigationBarTitle(villager.name.rawValue.capitalized)
     }
     
     private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [ItemName] {
