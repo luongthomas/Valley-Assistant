@@ -59,8 +59,9 @@ struct CalendarEventList: View {
                     if !self.eventHolder.seasonTasks.isEmpty {
                         CalendarEventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
                     }
-                }.frame(minHeight: geometry.size.height/4, maxHeight: geometry.size.height/2)
+                }
             }
+            .padding(.vertical, 10)
         }
     }
 }
