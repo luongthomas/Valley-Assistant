@@ -73,7 +73,10 @@ struct CalendarEventRows: View {
         VStack(alignment: .leading) {
             Text(title).fontWeight(.light)
                 .font(.headline)
-            ForEach(events, id: \.self) { event in
+            
+            ForEach(events.sorted(by: { (left, right) -> Bool in
+                left.date.day < right.date.day
+            }), id: \.self) { event in
                 CalendarEventRow(eventText: event.name, date: event.date)
             }
         }
