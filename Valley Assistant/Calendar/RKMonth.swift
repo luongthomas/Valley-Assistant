@@ -22,9 +22,7 @@ struct RKMonth: View {
     
     var body: some View {
         GeometryReader { geometry in
-            VStack {
-                Text(self.rkManager.getPrintableCurrentDate()).font(.largeTitle).padding(.top)
-                
+            VStack(spacing:0) {                
                 Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
                     ForEach(self.seasons, id: \.self) { season in
                         Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season))
@@ -32,8 +30,10 @@ struct RKMonth: View {
                 }.pickerStyle(SegmentedPickerStyle())
                 .padding(.bottom)
                 
-                VStack(spacing: 0) {
+                VStack(spacing:0) {
                     RKWeekdayHeader(rkManager: self.rkManager)
+                    
+                    // Generate cells representing the calendar days
                     ForEach(self.rkManager.monthArray, id: \.self) { row in
                         HStack(spacing: 0) {
                             ForEach(row, id: \.self) { column in
@@ -43,6 +43,7 @@ struct RKMonth: View {
                                         cellWidth: CGFloat(UIScreen.main.bounds.width/8),
                                         rkManager: self.rkManager
                                     )
+                                    .frame(maxHeight:CGFloat(UIScreen.main.bounds.width/8))
                                     .border(Color.gray, width: 1)
                                 )
                                 .onTapGesture {
@@ -54,8 +55,6 @@ struct RKMonth: View {
                 }
                 .padding(.leading)
                 .padding(.trailing)
-                
-                Spacer()
                 
             }.background(self.rkManager.colors.monthBackColor)
             .frame(width: geometry.size.width)

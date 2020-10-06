@@ -9,28 +9,37 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @State private var selectedSeason : Season = .spring
-    let rkManager: RKManager
+    @ObservedObject var rkManager: RKManager
     @ObservedObject var eventHolder: EventHolder
     
-    init(rkManager: RKManager, eventHolder: EventHolder) {
-        self.rkManager = rkManager
-        self.eventHolder = eventHolder
-    }
+    @Binding var isPresented: Bool
+    @State private var selectedSeason : Season = .spring
+    
 
     var body: some View {
-        GeometryReader { geometry in
-            if geometry.size.height > geometry.size.width {
-                VStack {
-                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
-                    CalendarEventList(eventHolder: self.eventHolder)
-                }
-            } else {
-                HStack {
-                    RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
-                    CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: geometry.size.width / 4)
+        NavigationView {
+            GeometryReader { geometry in
+                if geometry.size.height > geometry.size.width {
+                    VStack {
+                        RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
+                        CalendarEventList(eventHolder: self.eventHolder)
+                    }
+                } else {
+                    HStack {
+                        RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
+                        CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: geometry.size.width / 4)
+                    }
+                    .padding(.vertical, 10)
                 }
             }
+            .navigationBarTitle(
+                Text(self.rkManager.getPrintableCurrentDate())
+            , displayMode: .inline)
+            .navigationBarItems(trailing: Button(action: {
+                self.isPresented = false
+            }) {
+                Text("Done").bold()
+            })
         }
     }
 }

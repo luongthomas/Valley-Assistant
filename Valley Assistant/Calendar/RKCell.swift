@@ -25,16 +25,20 @@ struct RKCell: View {
                             .fontWeight(self.rkDate.getFontWeight())
                             .foregroundColor(self.rkDate.getTextColor())
                         .font(.system(size: 15))
+                        
                         ZStack {
                             Spacer()
                             Color.black.opacity(0.001)
                         }
                     }
+                    
+                    // Used to Push the number to the left
                     ZStack {
                         Spacer()
                         Color.black.opacity(0.001)
                     }
                 }
+                .frame(maxHeight: cellWidth)
                 .background(self.rkDate.getBackgroundColor())
                 
                 // Symbols to appear in the cell representing events

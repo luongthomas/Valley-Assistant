@@ -20,7 +20,6 @@ struct HomeView: View {
                     getTodayList(dateManager: rkManager)
                 }
                 
-                
                 VStack {
                     Spacer()
                     HStack {
@@ -46,27 +45,27 @@ private extension HomeView {
     
     var calendarButton: some View {
         Button(action: {
-            self.isPresented = true
+            self.isPresented.toggle()
         }, label: {
             Image(systemName: "calendar")
             .resizable()
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
         }).sheet(isPresented: $isPresented) {
-            CalendarView(rkManager: rkManager, eventHolder: self.eventHolder)
+            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder, isPresented: self.$isPresented)
         }
     }
     
     var menuButton: some View {
         Button(action: {
-            self.isPresented = true
+            self.isPresented.toggle()
         }, label: {
             Image(systemName: "gear")
             .resizable()
             .frame(width: 30, height: 30)
             .aspectRatio(1, contentMode: .fit)
         }).sheet(isPresented: $isPresented) {
-            CalendarView(rkManager: rkManager, eventHolder: self.eventHolder)
+            CalendarView(rkManager: self.rkManager, eventHolder: self.eventHolder, isPresented: self.$isPresented)
         }
     }
     
