@@ -79,7 +79,13 @@ class EventHolder: ObservableObject {
     init(rkManager: RKManager) {
         self.rkManager = rkManager
         self.previousSeason = rkManager.selectedDate.season
-            
+        
+        // There's probably a better place to initialize this
+        let birthdayEvents = events.generateBirthdayEvents()
+        birthdays.append(contentsOf: birthdayEvents)
+        
+        self.updateEventsWhenDateChanges(intialize: true)
+        
         // `sink`: Attaches a subscriber with closure-based behavior.
        cancellable = rkManager.updatePublisher.sink(receiveValue: { [weak self] _ in
            guard let self = self else { return }
@@ -87,8 +93,8 @@ class EventHolder: ObservableObject {
        })
     }
     
-    func updateEventsWhenDateChanges() {
-        if previousSeason != rkManager.selectedDate.season {
+    func updateEventsWhenDateChanges(intialize: Bool = false) {
+        if (previousSeason != rkManager.selectedDate.season) || intialize {
             var events = [Event]()
             self.clearPreviousEvents()
             

@@ -3,10 +3,18 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "RKManager.selectedDate.willset:RKManager.swift">
+         contextName = "closure #1 in closure #1 in VillagerView.body.getter:VillagerView.swift">
          <PersistentStrings>
             <PersistentString
-               value = "self.selectedDate">
+               value = "VillageData().villagers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "EventHolder.updateEventsWhenDateChanges(intialize:):RKManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "rkManager.selectedDate">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -44,21 +52,21 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ScheduleViewModel.getEmilySchedule():ScheduleViewModel.swift">
+         contextName = "closure #2 in HomeView.body.getter:HomeView.swift">
          <PersistentStrings>
             <PersistentString
-               value = "selectedDate.getWeekday()">
+               value = "events.birthdays.count">
+            </PersistentString>
+            <PersistentString
+               value = "events">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #2 in HomeView.body.getter:HomeView.swift">
+         contextName = "ScheduleViewModel.getEmilySchedule():ScheduleViewModel.swift">
          <PersistentStrings>
             <PersistentString
-               value = "events">
-            </PersistentString>
-            <PersistentString
-               value = "events.birthdays.count">
+               value = "selectedDate.getWeekday()">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -77,9 +85,6 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "VillagerData.init():VillagerData.swift">
-      </ContextState>
-      <ContextState
          contextName = "closure #1 in closure #1 in closure #1 in closure #1 in RecipeView.body.getter:ItemDetailView.swift">
          <PersistentStrings>
             <PersistentString
@@ -89,6 +94,9 @@
                value = "items.first(where:{ $0.name == ingredient })">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VillagerData.init():VillagerData.swift">
       </ContextState>
       <ContextState
          contextName = "Time.getPrintableTime():Villager.swift">
@@ -102,10 +110,10 @@
          contextName = "RKCell.getImageForDay(date:):RKCell.swift">
       </ContextState>
       <ContextState
-         contextName = "closure #1 in closure #1 in VillagerView.body.getter:VillagerView.swift">
+         contextName = "RKManager.selectedDate.willset:RKManager.swift">
          <PersistentStrings>
             <PersistentString
-               value = "VillageData().villagers">
+               value = "self.selectedDate">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
