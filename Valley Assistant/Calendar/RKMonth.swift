@@ -18,47 +18,46 @@ struct RKMonth: View {
     
     @ObservedObject var eventHolder: EventHolder
     
+    let screen = UIScreen.main.bounds
+    
     let daysPerWeek = 7
     
     var body: some View {
-        GeometryReader { geometry in
-            VStack(spacing:0) {                
-                Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
-                    ForEach(self.seasons, id: \.self) { season in
-                        Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season))
-                    }
-                }.pickerStyle(SegmentedPickerStyle())
-                .padding(.bottom)
+        VStack(spacing:0) {
+            Picker(selection: self.$rkManager.selectedDate.season, label: EmptyView()) {
+                ForEach(self.seasons, id: \.self) { season in
+                    Text(season.rawValue.capitalized).tag(Season.allCases.firstIndex(of: season))
+                }
+            }.pickerStyle(SegmentedPickerStyle())
+            .padding(.bottom)
+            
+            VStack(spacing:0) {
+                RKWeekdayHeader(rkManager: self.rkManager)
                 
-                VStack(spacing:0) {
-                    RKWeekdayHeader(rkManager: self.rkManager)
-                    
-                    // Generate cells representing the calendar days
-                    ForEach(self.rkManager.monthArray, id: \.self) { row in
-                        HStack(spacing: 0) {
-                            ForEach(row, id: \.self) { column in
-                                AnyView(
-                                    RKCell(
-                                        rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
-                                        cellWidth: CGFloat(UIScreen.main.bounds.width/8),
-                                        rkManager: self.rkManager
-                                    )
-                                    .frame(maxHeight:CGFloat(UIScreen.main.bounds.width/8))
-                                    .border(Color.gray, width: 1)
+                // Generate cells representing the calendar days
+                ForEach(self.rkManager.monthArray, id: \.self) { row in
+                    HStack(spacing: 0) {
+                        ForEach(row, id: \.self) { column in
+                            AnyView(
+                                RKCell(
+                                    rkDate: RKDate(date: column, rkManager: self.rkManager, isSelected: self.isSelectedDate(date: column)),
+                                    cellWidth: CGFloat(UIScreen.main.bounds.width/8),
+                                    rkManager: self.rkManager
                                 )
-                                .onTapGesture {
-                                    self.dateTapped(selectedDay: column)
-                                }
+                                .frame(maxHeight:CGFloat(UIScreen.main.bounds.width/8))
+                                .border(Color.gray, width: 1)
+                            )
+                            .onTapGesture {
+                                self.dateTapped(selectedDay: column)
                             }
                         }
                     }
                 }
-                .padding(.leading)
-                .padding(.trailing)
-                
-            }.background(self.rkManager.colors.monthBackColor)
-            .frame(width: geometry.size.width)
+            }
+            .padding(.horizontal)
         }
+        .background(self.rkManager.colors.monthBackColor)
+        .frame(width: screen.size.width)
     }
     
     func dateTapped(selectedDay: Day) {

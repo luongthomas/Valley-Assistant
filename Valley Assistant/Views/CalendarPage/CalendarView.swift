@@ -15,11 +15,13 @@ struct CalendarView: View {
     @Binding var isPresented: Bool
     @State private var selectedSeason : Season = .spring
     
+    var screen = UIScreen.main.bounds
 
     var body: some View {
+        
         NavigationView {
-            GeometryReader { geometry in
-                if geometry.size.height > geometry.size.width {
+            Group {
+                if screen.size.height > screen.size.width {
                     VStack {
                         RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
                         CalendarEventList(eventHolder: self.eventHolder)
@@ -27,7 +29,7 @@ struct CalendarView: View {
                 } else {
                     HStack {
                         RKMonth(isPresented: .constant(true), rkManager: self.rkManager, eventHolder: self.eventHolder)
-                        CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: geometry.size.width / 4)
+                        CalendarEventList(eventHolder: self.eventHolder).frame(maxWidth: screen.size.width / 4)
                     }
                     .padding(.vertical, 10)
                 }
@@ -54,24 +56,22 @@ struct CalendarEventList: View {
     @ObservedObject var eventHolder: EventHolder
     
     var body: some View {
-        GeometryReader { geometry in
-            VStack(alignment: .center) {
-                Text("Events").fontWeight(.heavy).font(.headline).underline()
-                
-                List {
-                    if !self.eventHolder.seasonBirthdays.isEmpty {
-                        CalendarEventRows(events: self.eventHolder.seasonBirthdays, title: "Birthdays")
-                    }
-                    if !self.eventHolder.seasonFestivals.isEmpty {
-                        CalendarEventRows(events: self.eventHolder.seasonFestivals, title: "Festivals")
-                    }
-                    if !self.eventHolder.seasonTasks.isEmpty {
-                        CalendarEventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
-                    }
+        VStack(alignment: .center) {
+            Text("Events").fontWeight(.heavy).font(.headline).underline()
+            
+            List {
+                if !self.eventHolder.seasonBirthdays.isEmpty {
+                    CalendarEventRows(events: self.eventHolder.seasonBirthdays, title: "Birthdays")
+                }
+                if !self.eventHolder.seasonFestivals.isEmpty {
+                    CalendarEventRows(events: self.eventHolder.seasonFestivals, title: "Festivals")
+                }
+                if !self.eventHolder.seasonTasks.isEmpty {
+                    CalendarEventRows(events: self.eventHolder.seasonTasks, title: "Tasks")
                 }
             }
-            .padding(.vertical, 10)
         }
+        .padding(.vertical, 10)
     }
 }
 

@@ -17,34 +17,32 @@ struct RKCell: View {
     @ObservedObject var rkManager: RKManager
     
     var body: some View {
-        GeometryReader { geometry in
-            ZStack {
-                HStack(alignment: .top) {
-                    VStack(alignment: .leading) {
-                        Text("\(self.rkDate.date.day)")
-                            .fontWeight(self.rkDate.getFontWeight())
-                            .foregroundColor(self.rkDate.getTextColor())
-                        .font(.system(size: 15))
-                        
-                        ZStack {
-                            Spacer()
-                            Color.black.opacity(0.001)
-                        }
-                    }
+        ZStack {
+            HStack(alignment: .top) {
+                VStack(alignment: .leading) {
+                    Text("\(self.rkDate.date.day)")
+                        .fontWeight(self.rkDate.getFontWeight())
+                        .foregroundColor(self.rkDate.getTextColor())
+                    .font(.system(size: 15))
                     
-                    // Used to Push the number to the left
                     ZStack {
                         Spacer()
                         Color.black.opacity(0.001)
                     }
                 }
-                .frame(maxHeight: cellWidth)
-                .background(self.rkDate.getBackgroundColor())
                 
-                // Symbols to appear in the cell representing events
-                HStack {
-                    self.getImageForDay(date: self.rkDate.date)
+                // Used to Push the number to the left
+                ZStack {
+                    Spacer()
+                    Color.black.opacity(0.001)
                 }
+            }
+            .frame(maxHeight: cellWidth)
+            .background(self.rkDate.getBackgroundColor())
+            
+            // Symbols to appear in the cell representing events
+            HStack {
+                self.getImageForDay(date: self.rkDate.date)
             }
         }
     }
