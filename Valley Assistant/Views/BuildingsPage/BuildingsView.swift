@@ -23,7 +23,9 @@ struct BuildingsView: View {
                 }
             }
             .navigationBarTitle("Buildings")
-        }.environment(\.horizontalSizeClass, .compact)
+        }
+        .environment(\.horizontalSizeClass, .compact)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

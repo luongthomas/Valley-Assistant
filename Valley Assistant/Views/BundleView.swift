@@ -31,8 +31,10 @@ struct BundleView: View {
                 }
                 
             }.navigationBarTitle("Bundles")
-        }.padding()
+        }
+        .padding()
         .environment(\.horizontalSizeClass, .compact)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

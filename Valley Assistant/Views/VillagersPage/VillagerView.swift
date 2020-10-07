@@ -14,7 +14,9 @@ struct VillagerView: View {
             List(villagers, id: \.self) { villager in
                 VillagerRow(villager: villager)
             }.navigationBarTitle("Villagers")
-        }.environment(\.horizontalSizeClass, .compact)
+        }
+        .environment(\.horizontalSizeClass, .compact)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

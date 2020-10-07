@@ -32,6 +32,7 @@ struct HomeView: View {
             .navigationBarItems(leading: menuButton, trailing: calendarButton)
         }
         .environment(\.horizontalSizeClass, .compact)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

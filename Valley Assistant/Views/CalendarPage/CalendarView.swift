@@ -43,6 +43,7 @@ struct CalendarView: View {
                 Text("Done").bold()
             })
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

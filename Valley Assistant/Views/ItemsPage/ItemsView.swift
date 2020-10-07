@@ -23,7 +23,9 @@ struct ItemsView: View {
                 }
             }
             .navigationBarTitle("Items")
-        }.environment(\.horizontalSizeClass, .compact)
+        }
+        .environment(\.horizontalSizeClass, .compact)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
