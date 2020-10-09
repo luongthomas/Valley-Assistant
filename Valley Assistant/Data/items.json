@@ -23,17 +23,6 @@
     ]
   },
   {
-    "name": "bigBarn",
-    "type": "building",
-    "value": 1000,
-    "source": "Carpenter's Shop",
-    "basicDescription": "Huge barn for animals",
-    "longDescription": "",
-    "recipe": [
-        "barn"
-    ]
-  },
-  {
     "name": "driftwood",
     "type": "all",
     "value": 250,
@@ -103,6 +92,15 @@
     "longDescription": "Used as a cooking ingredient that can be used in a variety of recipes. ",
     "heal": 5,
     "energy": 13
+  },
+  {
+    "name": "sap",
+    "type": "crafting",
+    "value": 2,
+    "source": "trees",
+    "basicDescription": "Comes from trees",
+    "longDescription": "Used to create fertilizers",
+    "recipe": []
   },
   {
     "name": "basicFertilizer",
