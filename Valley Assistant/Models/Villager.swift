@@ -43,7 +43,11 @@ struct Villager: Codable, Hashable {
     }
 }
 
-enum VillagerName: String, Codable {
+enum VillagerName: String, Codable, Comparable {
+    static func < (lhs: VillagerName, rhs: VillagerName) -> Bool {
+        lhs.rawValue < rhs.rawValue
+    }
+    
     case alex, elliott, harvey, sam, sebastian, shane
     
     case abigail, emily, leah, maru, penny, haley

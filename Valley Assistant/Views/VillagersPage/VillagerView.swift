@@ -11,7 +11,8 @@ import SwiftUI
 struct VillagerView: View {
     var body: some View {
         NavigationView {
-            List(villagers, id: \.self) { villager in
+            let sortedVillagers = villagers.sorted { $0.name < $1.name }
+            List(sortedVillagers, id: \.self) { villager in
                 VillagerRow(villager: villager)
             }.navigationBarTitle("Villagers")
         }
