@@ -15,8 +15,31 @@ struct VillagerDetailView: View {
     
     @State var selectedAffinity = 0
     
+    
+    
+//    HStack {
+//        if let image = UIImage(named: "\(name)_Icon.png") {
+//            Image(uiImage: image)
+//        } else {
+//            Image(uiImage: UIImage(named: "\(name).png")!)
+//                .resizable()
+//                .frame(width: 32, height: 32)
+//        }
+    
+    
     var body: some View {
+        let name = villager.name.rawValue.capitalized
         VStack(alignment: .leading) {
+
+            HStack(alignment: VerticalAlignment.center) {
+                Text(name)
+                    .fontWeight(.bold)
+                    .font(.title)
+                Spacer()
+                Image(uiImage: UIImage(named: "\(name).png")!)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+            }
             HStack(alignment: .top) {
                 Text("Birthday: \(villager.birthday.season.description.capitalized)  \(villager.birthday.day)")
                 .font(.subheadline)
@@ -45,7 +68,7 @@ struct VillagerDetailView: View {
             }
         }
         .padding()
-        .navigationBarTitle(villager.name.rawValue.capitalized)
+        .navigationBarTitle("", displayMode: .inline)
     }
     
     private func getItemsForAffinityOfVillager(affinity: String, villager: Villager) -> [ItemName] {
