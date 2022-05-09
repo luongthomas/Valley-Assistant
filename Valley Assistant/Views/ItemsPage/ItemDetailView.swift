@@ -39,7 +39,7 @@ struct ItemDetailView: View {
             
             // Segmented Control between Loves and Likes
             Picker(selection: $selectedAffinity, label: EmptyView()) {
-                ForEach(0..<affinities.count) { index in
+                ForEach(0..<affinities.count, id:\.self) { index in
                     Text(self.affinities[index]).tag(index)
                 }
             }.pickerStyle(SegmentedPickerStyle())

@@ -18,7 +18,7 @@ struct PurchasableList: View {
     var body: some View {
         VStack {
             Picker(selection: $purchaseSeason, label: EmptyView()) {
-                ForEach(0..<seasons.count) { index in
+                ForEach(0..<seasons.count, id:\.self) { index in
                     Text(self.seasons[index].rawValue.capitalized).tag(index)
                 }
             }.pickerStyle(SegmentedPickerStyle())

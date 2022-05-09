@@ -19,7 +19,7 @@ struct BundleView: View {
             VStack {
                 ScrollView(.horizontal, showsIndicators: false) {
                     Picker(selection: $selectedArea, label: EmptyView()) {
-                        ForEach(0..<areas.count) { index in
+                        ForEach(0..<areas.count, id:\.self) { index in
                             Text(self.areas[index]).tag(index)
                         }
                     }.pickerStyle(SegmentedPickerStyle())
