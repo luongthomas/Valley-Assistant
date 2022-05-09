@@ -11,8 +11,6 @@ import SwiftUI
 struct VillagerRow: View {
     var villager: Villager
     
-    
-    
     var body: some View {
         let name = villager.name.rawValue.capitalized
         

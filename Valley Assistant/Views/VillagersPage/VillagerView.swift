@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct VillagerView: View {
+    @Binding public var resetNavigationID : UUID
+
     var body: some View {
         NavigationView {
             let sortedVillagers = villagers.sorted { $0.name < $1.name }
@@ -16,13 +18,9 @@ struct VillagerView: View {
                 VillagerRow(villager: villager)
             }.navigationBarTitle("Villagers")
         }
+        .id(self.resetNavigationID)
         .environment(\.horizontalSizeClass, .compact)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
-struct VillagerView_Previews: PreviewProvider {
-    static var previews: some View {
-        VillagerView()
-    }
-}

@@ -9,51 +9,48 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab = Tab.Calendar
+    @State private var selection = 0
     @ObservedObject var rkManager: RKManager
+    @State private var resetNavigationID = UUID()
     
-
     var body: some View {
-        let selection = Binding<Tab> (
-            get: { self.selectedTab },
+        
+        let selectable = Binding(
+            get: { self.selection },
             set: {
-                self.selectedTab = $0
-        })
+                let oldSelection = self.selection
+                
+                // set new ID to recreate NavigationView, so put it
+                // in root state, same as is on change tab and back
+                self.selection = $0
+                
+                if selection == oldSelection {
+                    self.resetNavigationID = UUID()
+                }
+            }
+        )
 
-        return TabView(selection: selection) {
+        return TabView(selection: selectable) {
             HomeView(rkManager: rkManager).tabItem {
                 Image(systemName: "calendar")
                 Text("Calendar")
-            }
-            .tag(Tab.Calendar)
+            }.tag(0)
 
-            VillagerView().tabItem {
+            VillagerView(resetNavigationID: $resetNavigationID).tabItem {
                 Image(systemName: "person")
                 Text("Villagers")
-            }
-            .tag(Tab.Villagers)
+            }.tag(1)
 
-            ItemsView().tabItem {
+            ItemsView(resetNavigationID: $resetNavigationID).tabItem {
                 Image(systemName: "square.on.square")
                 Text("Items")
-            }
-            .tag(Tab.Items)
+            }.tag(2)
 
-            BuildingsView().tabItem {
+            BuildingsView(resetNavigationID: $resetNavigationID).tabItem {
                 Image(systemName: "house")
                 Text("Buildings")
-            }
-            .tag(Tab.Buildings)
+            }.tag(3)
         }
-    }
-}
-
-extension ContentView {
-    enum Tab: Hashable {
-        case Calendar
-        case Villagers
-        case Items
-        case Buildings
     }
 }
 

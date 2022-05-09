@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct BuildingsView: View {
+    @Binding public var resetNavigationID: UUID
+    
     let categories: [BuildingType] = [.all, .shop, .shopWithSeasonalStock, .residence, .communityCenter, .upgradables, .museum]
     
     var body: some View {
@@ -24,13 +26,9 @@ struct BuildingsView: View {
             }
             .navigationBarTitle("Buildings")
         }
+        .id(self.resetNavigationID)
         .environment(\.horizontalSizeClass, .compact)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
-struct BuildingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        BuildingsView()
-    }
-}
